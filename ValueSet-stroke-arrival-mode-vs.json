@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "stroke-arrival-mode-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-arrival-mode-vs</b></p><a name=\"stroke-arrival-mode-vs\"> </a><a name=\"hcstroke-arrival-mode-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-stroke-arrival-mode-cs.html\"><code>http://testSK.org/CodeSystem/stroke-arrival-mode-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://testSK.org/ValueSet/stroke-arrival-mode-vs",
+  "version" : "0.1.0",
+  "name" : "StrokeArrivalModeVS",
+  "title" : "Stroke Arrival Mode ValueSet",
+  "status" : "active",
+  "date" : "2025-10-22T14:41:09+00:00",
+  "publisher" : "UMU",
+  "contact" : [{
+    "name" : "UMU",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://testSK.org/umu"
+    }]
+  }],
+  "description" : "ValueSet specifying the mode and origin of the patient's arrival.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://testSK.org/CodeSystem/stroke-arrival-mode-cs"
+    }]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "initial-care-intensity-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet initial-care-intensity-vs</b></p><a name=\"initial-care-intensity-vs\"> </a><a name=\"hcinitial-care-intensity-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-initial-care-intensity-cs.html\"><code>http://testSK.org/CodeSystem/initial-care-intensity-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://testSK.org/ValueSet/initial-care-intensity-vs",
+  "version" : "0.1.0",
+  "name" : "InitialCareIntensityVS",
+  "title" : "Initial Care Intensity ValueSet",
+  "status" : "active",
+  "date" : "2025-10-22T14:41:09+00:00",
+  "publisher" : "UMU",
+  "contact" : [{
+    "name" : "UMU",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://testSK.org/umu"
+    }]
+  }],
+  "description" : "ValueSet indicating the level of care provided initially.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://testSK.org/CodeSystem/initial-care-intensity-cs"
+    }]
+  }
+}

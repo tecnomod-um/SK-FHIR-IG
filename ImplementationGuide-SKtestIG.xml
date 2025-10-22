@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="SKtestIG"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide SKtestIG</b></p><a name="SKtestIG"> </a><a name="hcSKtestIG"> </a><h2>IGTest</h2><p>The official URL for this implementation guide is: </p><pre>https://alvumu.github.io</pre></div>
+  </text>
+  <url value="https://alvumu.github.io"/>
+  <version value="0.1.0"/>
+  <name value="IGTest"/>
+  <status value="draft"/>
+  <date value="2025-10-22T14:41:09+00:00"/>
+  <publisher value="UMU"/>
+  <contact>
+    <name value="UMU"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://testSK.org/umu"/>
+    </telecom>
+  </contact>
+  <packageId value="SKtestIG"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="5.0.0"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r5"/>
+    <version value="6.5.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r5"/>
+    <version value="5.2.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r5#0.8.0"/>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/admission-source-vs"/>
+      </reference>
+      <name value="Admission Sources ValueSet"/>
+      <description value="Defines the modes of transport or pathways by which the patient arrived."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/age-at-onset-observation-profile"/>
+      </reference>
+      <name value="Age at Stroke Onset Observation Profile (R5)"/>
+      <description value="Profile specifically for recording the patient's age at stroke onset."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/AgeAtOnsetObservationExample"/>
+      </reference>
+      <name value="AgeAtOnsetObservationExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/age-at-onset-observation-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/assessment-context-cs"/>
+      </reference>
+      <name value="Assessment Context Code System"/>
+      <description value="Codes defining the context or timing of a clinical assessment, particularly functional scores."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/assessment-context-vs"/>
+      </reference>
+      <name value="Assessment Context ValueSet"/>
+      <description value="ValueSet for assessment context codes (e.g., timing of functional scores)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/afib-flutter-status-vs"/>
+      </reference>
+      <name value="Atrial Fibrillation or Flutter Status ValueSet"/>
+      <description value="ValueSet for the status of Atrial Fibrillation or Flutter assessment."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/base-stroke-observation"/>
+      </reference>
+      <name value="Base Profile for Stroke-Related Observations"/>
+      <description value="Constraints for observations recorded in the context of stroke care."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/brain-imaging-modality-vs"/>
+      </reference>
+      <name value="Brain Imaging Modality ValueSet"/>
+      <description value="Defines the SNOMED CT codes for individual brain imaging modalities performed as procedures."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/brain-imaging-type-cs"/>
+      </reference>
+      <name value="Brain Imaging Type Code System"/>
+      <description value="Codes specifying the type of brain imaging performed (e.g., CT, MRI)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/carotid-imaging-modality-vs"/>
+      </reference>
+      <name value="Carotid Arteries Imaging Modality ValueSet"/>
+      <description value="Defines codes for different types of carotid artery imaging."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/discharge-dept-cs"/>
+      </reference>
+      <name value="Discharge Department/Service Code System"/>
+      <description value="Code system specifying the type of department or service the patient was discharged or transferred to."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/discharge-department-service-ext"/>
+      </reference>
+      <name value="Discharge Department/Service Extension"/>
+      <description value="Specifies the type of department or service the patient was discharged or transferred to."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/discharge-dept-vs"/>
+      </reference>
+      <name value="Discharge Department/Service ValueSet"/>
+      <description value="ValueSet specifying the type of department or service the patient was discharged or transferred to."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/discharge-destination-vs"/>
+      </reference>
+      <name value="Discharge Destination ValueSet"/>
+      <description value="Defines possible patient discharge destinations."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/discharge-medication-request-profile"/>
+      </reference>
+      <name value="Discharge Medication Request Profile"/>
+      <description value="Represents a medication prescription made as part of the patient's discharge plan, categorized as community administration."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/discharge-medication-request-001"/>
+      </reference>
+      <name value="DischargeMedicationRequest"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/discharge-medication-request-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/ExampleStrokeOrganization"/>
+      </reference>
+      <name value="Example Stroke Registry Organization"/>
+      <description value="Matches build_organization: active=true, name from hospital_name, identifier from mapped_org_id."/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-registry-organization-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/first-hospital-ext"/>
+      </reference>
+      <name value="First Hospital Extension"/>
+      <description value="Indicates if the reporting hospital was the first medical facility to admit the patient for this stroke episode."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/FunctionalScoreObservationExample"/>
+      </reference>
+      <name value="FunctionalScoreObservationExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/functional-score-observation-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/gender-snomed-ext"/>
+      </reference>
+      <name value="Gender (SNOMED CT)"/>
+      <description value="Patient gender represented with SNOMED CT codes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-gender-snomed"/>
+      </reference>
+      <name value="Gender (SNOMED CT)"/>
+      <description value="Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"/>
+      </reference>
+      <name value="Hemorrhagic Stroke Bleeding Reason Code System"/>
+      <description value="Codes indicating the reason for bleeding in hemorrhagic stroke cases."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hemorrhagic-stroke-bleeding-reason-vs"/>
+      </reference>
+      <name value="Hemorrhagic Stroke Bleeding Reason ValueSet"/>
+      <description value="Specifies the identified cause of a hemorrhagic stroke, typically used with an extension."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"/>
+      </reference>
+      <name value="Hemorrhagic Stroke – Bleeding Reason"/>
+      <description value="Captures, as a CodeableConcept bound (required) to HemorrhagicStrokeBleedingReasonVS, the identified cause of intracranial bleeding in hemorrhagic stroke (e.g., aneurysm, vascular malformation, other). Use when coding a definitive hemorrhagic stroke Condition to support analytics and decision support; do not use for non-hemorrhagic etiologies or when the cause is unknown/undetermined."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/stroke-arrival-mode-cs"/>
+      </reference>
+      <name value="Initial Care Intensity Code System"/>
+      <description value="Codes indicating the level of care provided during the patient's initial day(s) in the hospital."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/initial-care-intensity-cs"/>
+      </reference>
+      <name value="Initial Care Intensity Code System"/>
+      <description value="Codes indicating the level of care provided during the patient's initial day(s) in the hospital."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/initial-care-intensity-ext"/>
+      </reference>
+      <name value="Initial Care Intensity Extension"/>
+      <description value="Specifies the level of care provided during the patient's initial day(s) in the hospital (e.g., standard bed, monitored, ICU/Stroke Unit)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/initial-care-intensity-vs"/>
+      </reference>
+      <name value="Initial Care Intensity ValueSet"/>
+      <description value="ValueSet indicating the level of care provided initially."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ischemic-stroke-etiology-ext"/>
+      </reference>
+      <name value="Ischemic Stroke – Etiology"/>
+      <description value="Records the determined ischemic stroke etiology as a CodeableConcept bound (required) to StrokeEtiologyVS (e.g., cardioembolic, large artery atherosclerosis, lacunar, cryptogenic). Apply to definitive ischemic stroke Conditions after diagnostic workup; avoid use for hemorrhagic strokes or provisional hypotheses not yet established."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/discharge-medication-cs"/>
+      </reference>
+      <name value="Medications CodeSystem"/>
+      <description value="Codes for drug products or substances representing the Medications on the patient discharge."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/discharge-medication-vs"/>
+      </reference>
+      <name value="Medications ValueSet"/>
+      <description value="Codes for drug products or substances representing the Medications on the patient discharge."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/medication-statement-cs"/>
+      </reference>
+      <name value="MedicationStatement CodeSystem"/>
+      <description value="Codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medicationStatement-meds-codes-vs"/>
+      </reference>
+      <name value="MedicationStatement Therapy/Finding Codes"/>
+      <description value="ValueSet containing SNOMED CT codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/mrs-score-cs"/>
+      </reference>
+      <name value="modified Rankin Scale (mRS) Score Code System"/>
+      <description value="Codes representing the modified Rankin Scale (mRS) score for functional outcome."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mrs-score-vs"/>
+      </reference>
+      <name value="modified Rankin Scale (mRS) Score ValueSet"/>
+      <description value="ValueSet containing the codes for the modified Rankin Scale (mRS) score."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/mtici-score-cs"/>
+      </reference>
+      <name value="MTICI Score Code System"/>
+      <description value="CodeSystem containing the codes to represent the MTICI score."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/mtici-code-cs"/>
+      </reference>
+      <name value="mTICI Score Codes CodeSystem"/>
+      <description value="Codes representing the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mtici-code-vs"/>
+      </reference>
+      <name value="mTICI Score Codes ValueSet"/>
+      <description value="ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mtici-score-vs"/>
+      </reference>
+      <name value="MTICI Score ValueSet"/>
+      <description value="ValueSet containing the codes to represent the MTICI score used to assess the degree of reperfusion after a thrombectomy procedure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/observation-timing-context-ext"/>
+      </reference>
+      <name value="Observation Timing Context Extension"/>
+      <description value="Specifies the timing context or phase (e.g., pre-stroke, admission, discharge, 3-month) in which an observation or assessment was made."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-age-ext"/>
+      </reference>
+      <name value="Patient Age (integer)"/>
+      <description value="Patient age in years represented as an integer."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-age-gender-snomed-profile"/>
+      </reference>
+      <name value="Patient with SNOMED Gender and Age (extensions)"/>
+      <description value="Profile that adds an integer age extension and a SNOMED-based gender extension."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PatientAgeGenderSnomedExample"/>
+      </reference>
+      <name value="PatientAgeGenderSnomedExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-patient"/>
+      </reference>
+      <name value="PatientExample"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/perforation-procedures-vs"/>
+      </reference>
+      <name value="Perforation Procedures ValueSet"/>
+      <description value="ValueSet containing SNOMED CT codes representing a range of perforation procedures."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/prior-medication-statement-profile"/>
+      </reference>
+      <name value="Prior Medication Statement Profile (R5)"/>
+      <description value="Represents a statement about the patient's medication use *before* the index event."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/PriorMedicationStatementExample"/>
+      </reference>
+      <name value="PriorMedicationStatementExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/prior-medication-statement-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/procedure-timing-context-cs"/>
+      </reference>
+      <name value="Procedure Timing Context Code System"/>
+      <description value="Codes defining the timing phase of a procedure relative to the encounter start (e.g., acute vs. post-acute)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/procedure-timing-context-ext"/>
+      </reference>
+      <name value="Procedure Timing Context Extension"/>
+      <description value="Specifies the timing phase (e.g., acute, post-acute) in which the procedure was performed relative to the start of the encounter."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/procedure-timing-context-vs"/>
+      </reference>
+      <name value="Procedure Timing Context ValueSet"/>
+      <description value="ValueSet for codes defining the timing phase of a procedure relative to the encounter start."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/required-post-acute-care-ext"/>
+      </reference>
+      <name value="Required Post-Acute Care Extension"/>
+      <description value="Indicates whether the patient required hospitalization beyond 24 hours after the designated acute phase of stroke care for this encounter."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/specific-finding-codes-vs"/>
+      </reference>
+      <name value="Specific Stroke Finding Codes ValueSet"/>
+      <description value="Codes for specific clinical findings relevant to stroke (Afib/Flutter status, MTICI score)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-finding-codes-vs"/>
+      </reference>
+      <name value="Specific Stroke Finding Codes ValueSet"/>
+      <description value="ValueSet for specific coded findings like Afib/Flutter status or mTICI score."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/specific-finding-observation-profile"/>
+      </reference>
+      <name value="Specific Stroke Finding Observation Profile (R5)"/>
+      <description value="Profile for specific coded findings like Afib/Flutter status or mTICI score."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SpecificFindingObservationExample"/>
+      </reference>
+      <name value="SpecificFindingObservationExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/specific-finding-observation-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SpecificFindingObservationExampleMTICI"/>
+      </reference>
+      <name value="SpecificFindingObservationExampleMTICI"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/specific-finding-observation-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-arrival-mode-vs"/>
+      </reference>
+      <name value="Stroke Arrival Mode ValueSet"/>
+      <description value="ValueSet specifying the mode and origin of the patient's arrival."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-brain-imaging-procedure-profile"/>
+      </reference>
+      <name value="Stroke Brain Imaging Procedure Profile (R5)"/>
+      <description value="Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-carotid-imaging-procedure-profile"/>
+      </reference>
+      <name value="Stroke Carotid Imaging Procedure Profile (R5)"/>
+      <description value="Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/stroke-circumstance-codes-cs"/>
+      </reference>
+      <name value="Stroke Circumstance Codes CodeSystem"/>
+      <description value="Codes for findings related to the circumstances of stroke onset (In-hospital, Wake-up)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-circumstance-codes-vs"/>
+      </reference>
+      <name value="Stroke Circumstance Codes ValueSet"/>
+      <description value="Codes for findings related to the circumstances of stroke onset (In-hospital, Wake-up)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-circumstance-observation-profile"/>
+      </reference>
+      <name value="Stroke Circumstance Observation Profile (R5)"/>
+      <description value="Profile for recording findings about stroke onset circumstances (In-hospital, Wake-up)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-diagnosis-condition-profile"/>
+      </reference>
+      <name value="Stroke Diagnosis Condition Profile"/>
+      <description value="Defines a Condition profile constrained to represent the definitive diagnosis of the current stroke event during the indexed encounter. The profile fixes category to encounter-diagnosis, binds code (required) to StrokeDiagnosisVS, and prohibits onset[x] to avoid ambiguity with symptom-onset capture via dedicated extensions. Use this profile for final/confirmed stroke diagnoses recorded at discharge or after diagnostic workup; do not use it for history-of conditions, screening findings, or provisional ‘rule-out’ statements. Optional extensions capture hemorrhagic bleeding reason, ischemic etiology, and structured onset date/time when clinically known."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-diagnosis-vs"/>
+      </reference>
+      <name value="Stroke Diagnosis ValueSet"/>
+      <description value="SNOMED CT concepts representing final stroke-related diagnoses intended for use in Condition.code (and similar elements) within this IG. The scope covers ischemic stroke, intracerebral hemorrhage, subarachnoid hemorrhage, cerebral venous thrombosis, and transient ischemic attack (TIA). This value set is designed to support consistent capture, validation, analytics, and decision support. Implementers should expand against a terminology server using the appropriate SNOMED CT edition/version and preferred language(s) for display. Localizations or national derivatives MAY provide additional designations without altering the canonical definition. This value set is not intended for history-of, screening, or procedural concepts."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/stroke-discharge-destination-cs"/>
+      </reference>
+      <name value="Stroke Discharge Destination Code System"/>
+      <description value="Codes indicating the possible destinations of the patient upon discharge from the encounter."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-discharge-destination-vs"/>
+      </reference>
+      <name value="Stroke Discharge Destination ValueSet"/>
+      <description value="Defines the possible destinations of the patient upon discharge from the encounter."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-encounter-profile"/>
+      </reference>
+      <name value="Stroke Encounter Profile"/>
+      <description value="Profile for an Encounter resource representing a patient's hospital admission and stay for a stroke event, including key administrative and workflow details."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/stroke-etiology-cs"/>
+      </reference>
+      <name value="Stroke Etiology Code System"/>
+      <description value="Codes indicating the etiology of strokes."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-etiology-vs"/>
+      </reference>
+      <name value="Stroke Etiology ValueSet"/>
+      <description value="Specifies the determined etiology of an stroke."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/functional-score-codes-vs"/>
+      </reference>
+      <name value="Stroke Functional Score Codes ValueSet"/>
+      <description value="Codes for key functional scores used in stroke (mRS, NIHSS)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/functional-score-observation-profile"/>
+      </reference>
+      <name value="Stroke Functional Score Observation Profile (R5, Timing Ext)"/>
+      <description value="Profile for recording functional scores (mRS, NIHSS), using an extension for timing context."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/onset-date-ext"/>
+      </reference>
+      <name value="Stroke Onset Date"/>
+      <description value="Captures the calendar date (value[x] = date) of symptom onset for the indexed stroke event when known, enabling calculation of onset-to-door metrics and adherence to time-sensitive pathways. Use alongside OnsetTimeExt when hour/minute precision is available; omit if onset is unknown or inapplicable."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/onset-time-ext"/>
+      </reference>
+      <name value="Stroke Onset Time"/>
+      <description value="Captures the clock time (value[x] = time) of symptom onset for the indexed stroke event when available, complementing OnsetDateExt to support precise onset-to-treatment intervals. Use local time of the clinical setting; omit if time is unknown or estimated beyond acceptable precision."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/stroke-proc-not-done-reason-cs"/>
+      </reference>
+      <name value="Stroke Procedure Not Done Reason Code System"/>
+      <description value="Codes specifying the reason principal for not performing a key stroke procedure (Thrombolysis, Thrombectomy)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-proc-not-done-reason-vs"/>
+      </reference>
+      <name value="Stroke Procedure Not Done Reason ValueSet"/>
+      <description value="ValueSet containing specific codes to indicate why thrombolysis or thrombectomy was not performed."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-registry-organization-profile"/>
+      </reference>
+      <name value="Stroke Registry Organization Profile"/>
+      <description value="Organization profile ensuring an active organization with a registry identifier (system=https://stroke.qualityregistry.org) and a required name, aligned with the build_organization() transformation."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-risk-factor-condition-profile"/>
+      </reference>
+      <name value="Stroke Risk Factor Condition Profile"/>
+      <description value="Defines a Condition profile for pre-existing or concurrent conditions that increase stroke risk (e.g., atrial fibrillation/flutter, diabetes, hypertension, coronary disease). The profile fixes category to problem-list-item, binds code (required) to StrokeRiskFactorVS, and supports onset[x] and recordedDate to document chronology and longitudinal tracking. Use this profile to maintain the problem list and to support risk assessment and CDS; do not use it to code the acute stroke event itself."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-risk-factor-snomed-vs"/>
+      </reference>
+      <name value="Stroke Risk Factor ValueSet"/>
+      <description value="Defines the SNOMED CT codes for conditions or risk factors relevant to stroke."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-risk-factor-vs"/>
+      </reference>
+      <name value="Stroke Risk Factor ValueSet"/>
+      <description value="Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-swallow-procedure-profile"/>
+      </reference>
+      <name value="Stroke Swallow Procedure Profile (R5)"/>
+      <description value="Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stroke-mechanical-procedure-profile"/>
+      </reference>
+      <name value="Stroke Thrombolysis Procedure Profile (R5)"/>
+      <description value="Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/timing-metric-codes-vs"/>
+      </reference>
+      <name value="Stroke Timing Metric Codes ValueSet"/>
+      <description value="ValueSet for key process timing metrics in acute stroke care (D2N, D2G)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/timing-metric-codes-cs"/>
+      </reference>
+      <name value="Stroke Timing Metric Codes ValueSet"/>
+      <description value="Codes for key process timing metrics in acute stroke care (D2N, D2G)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/timing-metric-observation-profile"/>
+      </reference>
+      <name value="Stroke Timing Metric Observation Profile (R5)"/>
+      <description value="Profile for recording key process timing metrics (D2N, D2G)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vital-sign-codes-vs"/>
+      </reference>
+      <name value="Stroke Vital Sign Codes ValueSet"/>
+      <description value="Codes for key vital signs relevant to stroke assessment (Systolic, Diastolic BP)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vital-sign-observation-profile"/>
+      </reference>
+      <name value="Stroke Vital Sign Observation Profile (R5)"/>
+      <description value="Profile for recording key vital signs (Systolic/Diastolic BP) in stroke patients."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/StrokeBrainImagingExample"/>
+      </reference>
+      <name value="StrokeBrainImagingExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-brain-imaging-procedure-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/StrokeCarotidImagingExample"/>
+      </reference>
+      <name value="StrokeCarotidImagingExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/StrokeCircumstanceObservationExampleWakeUp"/>
+      </reference>
+      <name value="StrokeCircumstanceObservationExampleWakeUp"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/StrokeDiagnosisConditionAFib"/>
+      </reference>
+      <name value="StrokeDiagnosisConditionAFib"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/StrokeDiagnosisConditionAFlutter"/>
+      </reference>
+      <name value="StrokeDiagnosisConditionAFlutter"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/StrokeDiagnosisConditionExample"/>
+      </reference>
+      <name value="StrokeDiagnosisConditionExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/StrokeEncounterExample"/>
+      </reference>
+      <name value="StrokeEncounterExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-encounter-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/StrokeRiskFactorConditionExample"/>
+      </reference>
+      <name value="StrokeRiskFactorConditionExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/StrokeSwallowingExample"/>
+      </reference>
+      <name value="StrokeSwallowingExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/StrokeThrombolysisExample"/>
+      </reference>
+      <name value="StrokeThrombolysisExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/swallow-procedures-cs"/>
+      </reference>
+      <name value="Swallow Procedures Code System"/>
+      <description value="Codes representing various swallowing assessment procedures."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/swallow-procedures-vs"/>
+      </reference>
+      <name value="Swallow Procedures ValueSet"/>
+      <description value="ValueSet containing SNOMED CT codes representing a range of procedures used in the evaluation and management of stroke patients."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/swallowing-screening-timing-category-ext"/>
+      </reference>
+      <name value="Swallowing Screening Timing Category"/>
+      <description value="Temporal category relative to stroke onset in which the swallowing screening was performed."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/swallow-screen-time-cs"/>
+      </reference>
+      <name value="Swallowing Screening Timing Category Code System"/>
+      <description value="Temporal categories relative to stroke onset for swallowing screening."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/swallowing-screening-timing-category-vs"/>
+      </reference>
+      <name value="Swallowing Screening Timing Category ValueSet"/>
+      <description value="Temporal categories relative to stroke onset for swallowing screening."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/thrombectomy-complication-cs"/>
+      </reference>
+      <name value="Thrombectomy Complication Code System"/>
+      <description value="Codes specifying the specific complications of thrombectomy to record."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/thrombectomy-complication-vs"/>
+      </reference>
+      <name value="Thrombectomy Complication ValueSet"/>
+      <description value="Defines the specific complications of thrombectomy to record."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/TimingMetricObservationExample"/>
+      </reference>
+      <name value="TimingMetricObservationExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/timing-metric-observation-profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VitalSignObservationExample"/>
+      </reference>
+      <name value="VitalSignObservationExample"/>
+      <isExample value="true"/>
+      <profile value="http://testSK.org/StructureDefinition/vital-sign-observation-profile"/>
+    </resource>
+    <page>
+      <sourceUrl value="toc.html"/>
+      <name value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <sourceUrl value="index.html"/>
+        <name value="index.html"/>
+        <title value="Index"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="conformance.html"/>
+        <name value="conformance.html"/>
+        <title value="Conformance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="guidance.html"/>
+        <name value="guidance.html"/>
+        <title value="Guidance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="downloads.html"/>
+        <name value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="history.html"/>
+        <name value="history.html"/>
+        <title value="History"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="profiles.html"/>
+        <name value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="codesystems.html"/>
+        <name value="codesystems.html"/>
+        <title value="Codesystems"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="valuesets.html"/>
+        <name value="valuesets.html"/>
+        <title value="Valuesets"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="examples.html"/>
+        <name value="examples.html"/>
+        <title value="Examples"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="extensions.html"/>
+        <name value="extensions.html"/>
+        <title value="Extensions"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>
+      <value value="2025+"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="5"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="broken-links"/>
+      </code>
+      <value value="warning"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="check-urls"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludettl"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-qa"/>
+      </code>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-temp"/>
+      </code>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-output"/>
+      </code>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-tx-cache"/>
+      </code>
+      <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-suppressed-warnings"/>
+      </code>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-history"/>
+      </code>
+      <value value="history.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-html"/>
+      </code>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-md"/>
+      </code>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-contact"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-context"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-copyright"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-jurisdiction"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-license"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-publisher"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-version"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-wg"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="active-tables"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="fmm-definition"/>
+      </code>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="propagate-status"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludelogbinaryformat"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="tabbed-snapshots"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

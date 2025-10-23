@@ -10,7 +10,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
 
 **status**: Final
 
-**code**: mTICI Score Assessment
+**code**: Modified Thrombolysis in Cerebral Infarction
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown](Patient-example-patient.md)
 
@@ -35,9 +35,9 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
   "code" : {
     "coding" : [
       {
-        "system" : "http://snomed.info/sct",
-        "code" : "1156911000",
-        "display" : "mTICI Score Assessment"
+        "system" : "http://testSK.org/CodeSystem/mtici-code-cs",
+        "code" : "mTICI",
+        "display" : "Modified Thrombolysis in Cerebral Infarction"
       }
     ]
   },

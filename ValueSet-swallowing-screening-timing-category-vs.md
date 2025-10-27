@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/swallowing-screening-timing-category-vs | *Version*:0.1.0 |
-| Active as of 2025-10-23 | *Computable Name*:SwallowingScreeningTimingCategoryVS |
+| Active as of 2025-10-27 | *Computable Name*:SwallowingScreeningTimingCategoryVS |
 
  
 Temporal categories relative to stroke onset for swallowing screening. 
@@ -57,7 +57,7 @@ This value set contains 3 concepts
   "name" : "SwallowingScreeningTimingCategoryVS",
   "title" : "Swallowing Screening Timing Category ValueSet",
   "status" : "active",
-  "date" : "2025-10-23T09:05:48+00:00",
+  "date" : "2025-10-27T10:36:37+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

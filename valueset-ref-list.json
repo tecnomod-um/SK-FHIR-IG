@@ -14,8 +14,8 @@
       },
       "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile (R5)",
       "StructureDefinition-stroke-brain-imaging-procedure-profile.html" : "Stroke Brain Imaging Procedure Profile (R5)",
-      "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallow Procedure Profile (R5)",
-      "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Thrombolysis Procedure Profile (R5)"
+      "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Thrombolysis Procedure Profile (R5)",
+      "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallow Procedure Profile (R5)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-adherence",
@@ -109,18 +109,6 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/discharge-medication-vs",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "DischargeMedicationVS",
-      "title" : "Medications ValueSet",
-      "description" : "Codes for drug products or substances representing the Medications on the patient discharge.",
-      "systems" : ["http://testSK.org/ValueSet/medication-vs"],
-      "uses" : {
-      },
-      "StructureDefinition-discharge-medication-request-profile.html" : "Discharge Medication Request Profile"
-    },
-    {
       "url" : "http://testSK.org/ValueSet/functional-score-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -157,6 +145,21 @@
       "uses" : {
       },
       "StructureDefinition-initial-care-intensity-ext.html" : "Initial Care Intensity Extension"
+    },
+    {
+      "url" : "http://testSK.org/ValueSet/medication-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MedicationVS",
+      "title" : "Medications ValueSet",
+      "description" : "SNOMED CT codes for drug products or substances.",
+      "systems" : [
+        "http://testSK.org/CodeSystem/medication-cs",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-discharge-medication-request-profile.html" : "Discharge Medication Request Profile"
     },
     {
       "url" : "http://testSK.org/ValueSet/medicationStatement-meds-codes-vs",
@@ -337,8 +340,8 @@
       },
       "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile (R5)",
       "StructureDefinition-stroke-brain-imaging-procedure-profile.html" : "Stroke Brain Imaging Procedure Profile (R5)",
-      "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallow Procedure Profile (R5)",
-      "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Thrombolysis Procedure Profile (R5)"
+      "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Thrombolysis Procedure Profile (R5)",
+      "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallow Procedure Profile (R5)"
     },
     {
       "url" : "http://testSK.org/ValueSet/stroke-risk-factor-snomed-vs",

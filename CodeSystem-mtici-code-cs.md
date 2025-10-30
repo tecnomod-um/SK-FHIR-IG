@@ -32,7 +32,7 @@ Codes representing the mTICI score used to assess the degree of reperfusion afte
   "title" : "mTICI Score Codes CodeSystem",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-30T10:02:42+00:00",
+  "date" : "2025-10-30T10:05:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

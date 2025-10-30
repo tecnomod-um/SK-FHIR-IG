@@ -53,7 +53,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "MedicationVS",
   "title" : "Medications ValueSet",
   "status" : "draft",
-  "date" : "2025-10-30T10:02:42+00:00",
+  "date" : "2025-10-30T10:05:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -85,8 +85,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Anticoagulant (substance)"
           },
           {
-            "code" : "1237404009",
-            "display" : "Uses hormone method of contraception (finding)"
+            "code" : "312263009",
+            "display" : "Sex hormone (substance)"
           },
           {
             "code" : "372912004",

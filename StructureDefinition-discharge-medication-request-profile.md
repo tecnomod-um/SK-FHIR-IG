@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
   "name" : "DischargeMedicationRequestProfile",
   "title" : "Discharge Medication Request Profile",
   "status" : "active",
-  "date" : "2025-10-30T10:02:42+00:00",
+  "date" : "2025-10-30T10:05:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

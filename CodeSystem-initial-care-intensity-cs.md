@@ -32,7 +32,7 @@ Codes indicating the level of care provided during the patient's initial day(s) 
   "title" : "Initial Care Intensity Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-30T10:05:12+00:00",
+  "date" : "2025-10-30T11:02:24+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

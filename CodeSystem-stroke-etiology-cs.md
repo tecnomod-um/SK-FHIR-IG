@@ -54,7 +54,7 @@ To provide locally governed codes for classifying ischemic stroke etiology.
   "copyright" : "© Tecnomod. This CodeSystem is provided for use within this Implementation Guide.",
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 3,
+  "count" : 2,
   "concept" : [
     {
       "code" : "atherosclerosis",
@@ -65,11 +65,6 @@ To provide locally governed codes for classifying ischemic stroke etiology.
       "code" : "other",
       "display" : "Stroke Etiology Other",
       "definition" : "Specifies that the stroke etiology falls into a rarer category not covered by the main classifications, such as vasculitis or hypercoagulable states."
-    },
-    {
-      "code" : "lacunar",
-      "display" : "Stroke Etiology Lacunar",
-      "definition" : "Specifies that the stroke is attributed to small vessel disease, often manifesting as a lacunar infarct."
     }
   ]
 }

@@ -94,6 +94,10 @@ This value set contains 5 concepts
           {
             "code" : "413758000",
             "display" : "Cardioembolic stroke (disorder)"
+          },
+          {
+            "code" : "230698000",
+            "display" : "Lacunar infarction (disorder)"
           }
         ]
       }

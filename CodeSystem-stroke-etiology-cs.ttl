@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "stroke-etiology-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-etiology-cs</b></p><a name=\"stroke-etiology-cs\"> </a><a name=\"hcstroke-etiology-cs\"> </a><p>This case-insensitive code system <code>http://testSK.org/CodeSystem/stroke-etiology-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">atherosclerosis<a name=\"stroke-etiology-cs-atherosclerosis\"> </a></td><td>Stroke Etiology Atherosclerosis</td><td>Specifies that large artery atherosclerosis (for example, significant stenosis in the carotid or basilar arteries) was identified as the cause of the stroke.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"stroke-etiology-cs-other\"> </a></td><td>Stroke Etiology Other</td><td>Specifies that the stroke etiology falls into a rarer category not covered by the main classifications, such as vasculitis or hypercoagulable states.</td></tr><tr><td style=\"white-space:nowrap\">lacunar<a name=\"stroke-etiology-cs-lacunar\"> </a></td><td>Stroke Etiology Lacunar</td><td>Specifies that the stroke is attributed to small vessel disease, often manifesting as a lacunar infarct.</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-etiology-cs</b></p><a name=\"stroke-etiology-cs\"> </a><a name=\"hcstroke-etiology-cs\"> </a><p>This case-insensitive code system <code>http://testSK.org/CodeSystem/stroke-etiology-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">atherosclerosis<a name=\"stroke-etiology-cs-atherosclerosis\"> </a></td><td>Stroke Etiology Atherosclerosis</td><td>Specifies that large artery atherosclerosis (for example, significant stenosis in the carotid or basilar arteries) was identified as the cause of the stroke.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"stroke-etiology-cs-other\"> </a></td><td>Stroke Etiology Other</td><td>Specifies that the stroke etiology falls into a rarer category not covered by the main classifications, such as vasculitis or hypercoagulable states.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://testSK.org/CodeSystem/stroke-etiology-cs"^^xsd:anyURI ;
@@ -36,7 +36,7 @@
   fhir:copyright [ fhir:v "© Tecnomod. This CodeSystem is provided for use within this Implementation Guide."] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "atherosclerosis" ] ;
      fhir:display [ fhir:v "Stroke Etiology Atherosclerosis" ] ;
@@ -45,10 +45,6 @@
      fhir:code [ fhir:v "other" ] ;
      fhir:display [ fhir:v "Stroke Etiology Other" ] ;
      fhir:definition [ fhir:v "Specifies that the stroke etiology falls into a rarer category not covered by the main classifications, such as vasculitis or hypercoagulable states." ]
-  ] [
-     fhir:code [ fhir:v "lacunar" ] ;
-     fhir:display [ fhir:v "Stroke Etiology Lacunar" ] ;
-     fhir:definition [ fhir:v "Specifies that the stroke is attributed to small vessel disease, often manifesting as a lacunar infarct." ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

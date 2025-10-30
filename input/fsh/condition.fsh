@@ -212,7 +212,6 @@ Id: stroke-etiology-cs
 * ^content = #complete
 * #atherosclerosis "Stroke Etiology Atherosclerosis" "Specifies that large artery atherosclerosis (for example, significant stenosis in the carotid or basilar arteries) was identified as the cause of the stroke."
 * #other "Stroke Etiology Other" "Specifies that the stroke etiology falls into a rarer category not covered by the main classifications, such as vasculitis or hypercoagulable states."
-* #lacunar "Stroke Etiology Lacunar" "Specifies that the stroke is attributed to small vessel disease, often manifesting as a lacunar infarct."
 
 ValueSet: StrokeEtiologyVS
 Id: stroke-etiology-vs
@@ -234,6 +233,7 @@ Description: "Specifies the determined etiology of an stroke."
 * include codes from system StrokeEtiologyCS_URL
 * include SCT#16891111000119104 "Cryptogenic stroke (disorder)"
 * include SCT#413758000 "Cardioembolic stroke (disorder)"
+* include SCT#230698000 "Lacunar infarction (disorder)"
 
 
 // ------------------ Extensions ---------------------------------

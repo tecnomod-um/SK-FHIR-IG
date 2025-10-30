@@ -91,17 +91,6 @@
       "ValueSet-medication-vs.html" : "Medications ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/medication-statement-cs",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "MedicationStatementCS",
-      "title" : "MedicationStatement CodeSystem",
-      "description" : "Codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use).",
-      "uses" : {
-      },
-      "ValueSet-medicationStatement-meds-codes-vs.html" : "MedicationStatement Therapy/Finding Codes"
-    },
-    {
       "url" : "http://testSK.org/CodeSystem/mrs-score-cs",
       "version" : "0.1.0",
       "status" : "active",

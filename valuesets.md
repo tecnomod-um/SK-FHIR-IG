@@ -20,7 +20,6 @@ The **ValueSets** implemented in this implementation guide are listed below.
 * [ValueSet-hemorrhagic-stroke-bleeding-reason-vs.html](ValueSet-hemorrhagic-stroke-bleeding-reason-vs.md)
 * [ValueSet-initial-care-intensity-vs.html](ValueSet-initial-care-intensity-vs.md)
 * [ValueSet-medication-vs.html](ValueSet-medication-vs.md)
-* [ValueSet-medicationStatement-meds-codes-vs.html](ValueSet-medicationStatement-meds-codes-vs.md)
 * [ValueSet-mrs-score-vs.html](ValueSet-mrs-score-vs.md)
 * [ValueSet-mtici-code-vs.html](ValueSet-mtici-code-vs.md)
 * [ValueSet-mtici-score-vs.html](ValueSet-mtici-score-vs.md)

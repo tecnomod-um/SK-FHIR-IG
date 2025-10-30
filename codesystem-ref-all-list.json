@@ -576,8 +576,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes",
-      "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
+      "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy",
+      "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -680,17 +680,6 @@
       "uses" : {
       },
       "ValueSet-medication-vs.html" : "Medications ValueSet"
-    },
-    {
-      "url" : "http://testSK.org/CodeSystem/medication-statement-cs",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "MedicationStatementCS",
-      "title" : "MedicationStatement CodeSystem",
-      "description" : "Codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use).",
-      "uses" : {
-      },
-      "ValueSet-medicationStatement-meds-codes-vs.html" : "MedicationStatement Therapy/Finding Codes"
     },
     {
       "url" : "http://testSK.org/CodeSystem/mrs-score-cs",
@@ -824,8 +813,8 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
     },
     {
       "url" : "urn:iso:std:iso:11073:10101",

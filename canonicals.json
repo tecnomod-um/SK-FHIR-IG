@@ -42,13 +42,6 @@
     "name" : "MedicationCS"
   },
   {
-    "id" : "medication-statement-cs",
-    "type" : "CodeSystem",
-    "url" : "http://testSK.org/CodeSystem/medication-statement-cs",
-    "version" : "0.1.0",
-    "name" : "MedicationStatementCS"
-  },
-  {
     "id" : "mrs-score-cs",
     "type" : "CodeSystem",
     "url" : "http://testSK.org/CodeSystem/mrs-score-cs",
@@ -432,13 +425,6 @@
     "url" : "http://testSK.org/ValueSet/medication-vs",
     "version" : "0.1.0",
     "name" : "MedicationVS"
-  },
-  {
-    "id" : "medicationStatement-meds-codes-vs",
-    "type" : "ValueSet",
-    "url" : "http://testSK.org/ValueSet/medicationStatement-meds-codes-vs",
-    "version" : "0.1.0",
-    "name" : "MedicationStatementMedsCodes"
   },
   {
     "id" : "mrs-score-vs",

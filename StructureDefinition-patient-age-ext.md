@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/StructureDefinition/patient-age-ext | *Version*:0.1.0 |
-| Draft as of 2025-10-27 | *Computable Name*:PatientAge |
+| Draft as of 2025-10-30 | *Computable Name*:PatientAge |
 
 Patient age in years represented as an integer.
 
@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-ext.csv)
   "name" : "PatientAge",
   "title" : "Patient Age (integer)",
   "status" : "draft",
-  "date" : "2025-10-27T10:36:37+00:00",
+  "date" : "2025-10-30T10:02:42+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

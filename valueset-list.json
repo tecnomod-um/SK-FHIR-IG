@@ -108,18 +108,6 @@
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/medicationStatement-meds-codes-vs",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "MedicationStatementMedsCodes",
-      "title" : "MedicationStatement Therapy/Finding Codes",
-      "description" : "ValueSet containing SNOMED CT codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use).",
-      "systems" : [
-        "http://testSK.org/CodeSystem/medication-statement-cs",
-        "http://snomed.info/sct"
-      ]
-    },
-    {
       "url" : "http://testSK.org/ValueSet/mrs-score-vs",
       "version" : "0.1.0",
       "status" : "active",

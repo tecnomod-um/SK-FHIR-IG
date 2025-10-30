@@ -15,7 +15,6 @@ List of **CodeSystems** defined in this guide:
 * [CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.html](CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.md)
 * [CodeSystem-initial-care-intensity-cs.html](CodeSystem-initial-care-intensity-cs.md)
 * [CodeSystem-medication-cs.html](CodeSystem-medication-cs.md)
-* [CodeSystem-medication-statement-cs.html](CodeSystem-medication-statement-cs.md)
 * [CodeSystem-mrs-score-cs.html](CodeSystem-mrs-score-cs.md)
 * [CodeSystem-mtici-code-cs.html](CodeSystem-mtici-code-cs.md)
 * [CodeSystem-mtici-score-cs.html](CodeSystem-mtici-score-cs.md)

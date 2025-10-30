@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/medication-vs | *Version*:0.1.0 |
-| Draft as of 2025-10-27 | *Computable Name*:MedicationVS |
+| Draft as of 2025-10-30 | *Computable Name*:MedicationVS |
 
  
 SNOMED CT codes for drug products or substances. 
@@ -17,6 +17,7 @@ SNOMED CT codes for drug products or substances.
  **References** 
 
 * [Discharge Medication Request Profile](StructureDefinition-discharge-medication-request-profile.md)
+* [Prior Medication Statement Profile (R5)](StructureDefinition-prior-medication-statement-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -52,7 +53,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "MedicationVS",
   "title" : "Medications ValueSet",
   "status" : "draft",
-  "date" : "2025-10-27T10:36:37+00:00",
+  "date" : "2025-10-30T10:02:42+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

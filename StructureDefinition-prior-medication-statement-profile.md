@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/StructureDefinition/prior-medication-statement-profile | *Version*:0.1.0 |
-| Active as of 2025-10-27 | *Computable Name*:PriorMedicationStatementProfile |
+| Active as of 2025-10-30 | *Computable Name*:PriorMedicationStatementProfile |
 
  
 Represents a statement about the patient's medication use**before**the index event. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
   "title" : "Prior Medication Statement Profile (R5)",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T10:36:37+00:00",
+  "date" : "2025-10-30T10:02:42+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -91,12 +91,17 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
         "path" : "MedicationStatement"
       },
       {
+        "id" : "MedicationStatement.status",
+        "path" : "MedicationStatement.status",
+        "mustSupport" : true
+      },
+      {
         "id" : "MedicationStatement.medication",
         "path" : "MedicationStatement.medication",
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/medicationStatement-meds-codes-vs"
+          "valueSet" : "http://testSK.org/ValueSet/medication-vs"
         }
       },
       {
@@ -108,6 +113,12 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
             "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient"]
           }
         ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "MedicationStatement.encounter",
+        "path" : "MedicationStatement.encounter",
+        "min" : 1,
         "mustSupport" : true
       },
       {

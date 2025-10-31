@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile | *Version*:0.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:StrokeSwallowProcedureProfile |
+| Active as of 2025-10-31 | *Computable Name*:StrokeSwallowProcedureProfile |
 
  
 Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
   "name" : "StrokeSwallowProcedureProfile",
   "title" : "Stroke Swallow Procedure Profile (R5)",
   "status" : "active",
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

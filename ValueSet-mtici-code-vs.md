@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/mtici-code-vs | *Version*:0.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:MTICICodeVS |
+| Active as of 2025-10-31 | *Computable Name*:MTICICodeVS |
 
  
 ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure. 
@@ -20,7 +20,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/mtici-score-cs`](CodeSystem-mtici-score-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://testSK.org/CodeSystem/mtici-code-cs`](CodeSystem-mtici-code-cs.md)version 📦0.1.0
 
  
 
@@ -52,7 +52,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
   "name" : "MTICICodeVS",
   "title" : "mTICI Score Codes ValueSet",
   "status" : "active",
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -69,7 +69,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mtici-score-cs"
+        "system" : "http://testSK.org/CodeSystem/mtici-code-cs"
       }
     ]
   }

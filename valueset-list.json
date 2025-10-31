@@ -123,7 +123,7 @@
       "name" : "MTICICodeVS",
       "title" : "mTICI Score Codes ValueSet",
       "description" : "ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure.",
-      "systems" : ["http://testSK.org/CodeSystem/mtici-score-cs"]
+      "systems" : ["http://testSK.org/CodeSystem/mtici-code-cs"]
     },
     {
       "url" : "http://testSK.org/ValueSet/mtici-score-vs",
@@ -220,7 +220,7 @@
       "title" : "Specific Stroke Finding Codes ValueSet",
       "description" : "ValueSet for specific coded findings like Afib/Flutter status or mTICI score.",
       "systems" : [
-        "http://testSK.org/CodeSystem/mtici-score-cs",
+        "http://testSK.org/CodeSystem/mtici-code-cs",
         "http://snomed.info/sct"
       ]
     },

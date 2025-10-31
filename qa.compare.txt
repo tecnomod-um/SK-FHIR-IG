@@ -1,7 +1,7 @@
 IGTest : Validation Results
 =========================================
 
-err = 187, warn = 130, info = 41
+err = 186, warn = 130, info = 42
 $--
 Generated $--. FHIR version $-- for SKtestIG#$-- (canonical = https://alvumu.github.io)
  Build Errors : 1 / 24 / 0
@@ -81,7 +81,7 @@ Generated $--. FHIR version $-- for SKtestIG#$-- (canonical = https://alvumu.git
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-afib-flutter-status-vs : 2 / 1 / 1
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-assessment-context-vs : 2 / 1 / 1
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-brain-imaging-modality-vs : 2 / 1 / 1
- /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs : 4 / 1 / 1
+ /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs : 3 / 1 / 2
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-discharge-dept-vs : 2 / 1 / 1
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-discharge-destination-vs : 2 / 0 / 1
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-functional-score-codes-vs : 2 / 1 / 1
@@ -466,7 +466,7 @@ WARNING: ValueSet/brain-imaging-modality-vs: ValueSet: Published value sets SHOU
 ERROR: /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-brain-imaging-modality-vs: URL Mismatch https://alvumu.github.io/ValueSet/brain-imaging-modality-vs vs http://testSK.org/ValueSet/brain-imaging-modality-vs
 == fsh-generated/resources/ValueSet-carotid-imaging-modality-vs.json ==
 ERROR: ValueSet.where(url = 'http://testSK.org/ValueSet/carotid-imaging-modality-vs'): Conformance resource /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs.json - the canonical URL (https://alvumu.github.io/ValueSet/carotid-imaging-modality-vs) does not match the URL (http://testSK.org/ValueSet/carotid-imaging-modality-vs). Use the special-url parameter if you really mean for it not to match
-ERROR: ValueSet/carotid-imaging-modality-vs: ValueSet.compose.include[0].concept[1]: The code '416940007' is not valid in the system http://snomed.info/sct (Wrong Display Name 'Doppler ultrasonography of carotid arteries (procedure)' for http://snomed.info/sct#416940007. Valid display is 'Past history of procedure' (en) (for the language(s) 'en, en-US'))
+INFORMATION: ValueSet/carotid-imaging-modality-vs: ValueSet.compose.include[0].concept[1]: The display 'Doppler ultrasonography of carotid arteries (procedure)' is not valid in the Code system 'Doppler ultrasonography of carotid arteries (procedure)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 ERROR: ValueSet/carotid-imaging-modality-vs: ValueSet.compose.include[0].concept[3]: The code '1366357009' is not valid in the system http://snomed.info/sct (Unknown code '1366357009' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201')
 WARNING: ValueSet/carotid-imaging-modality-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 ERROR: /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs: URL Mismatch https://alvumu.github.io/ValueSet/carotid-imaging-modality-vs vs http://testSK.org/ValueSet/carotid-imaging-modality-vs

@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 187, warn = 130, info = 41-->
+<!-- broken links = 0, errors = 186, warn = 130, info = 42-->
 <head>
   <title>IGTest : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,9 +47,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for IGTest</h1>
- <p>Generated Thu Oct 30 11:04:30 UTC 2025, FHIR version 5.0.0 for SKtestIG#0.1.0 (canonical = <a href="https://alvumu.github.io">https://alvumu.github.io</a> (<a href="https://alvumu.github.io/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Fri Oct 31 12:14:27 UTC 2025, FHIR version 5.0.0 for SKtestIG#0.1.0 (canonical = <a href="https://alvumu.github.io">https://alvumu.github.io</a> (<a href="https://alvumu.github.io/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.24</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.25</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = SKtestIG, Canonical = https://alvumu.github.io</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Language Info:</td><td>This IG has no language information</td></tr>
@@ -186,7 +186,7 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 187, warn = 130, info = 41, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 186, warn = 130, info = 42, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -424,7 +424,7 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
      <td><a href="#_home_runner_work_SK-FHIR-IG_SK-FHIR-IG_fsh-generated_resources_ValueSet-brain-imaging-modality-vs"><b>/home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-brain-imaging-modality-vs</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_SK-FHIR-IG_SK-FHIR-IG_fsh-generated_resources_ValueSet-carotid-imaging-modality-vs"><b>/home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_SK-FHIR-IG_SK-FHIR-IG_fsh-generated_resources_ValueSet-carotid-imaging-modality-vs"><b>/home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs</b></a></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_home_runner_work_SK-FHIR-IG_SK-FHIR-IG_fsh-generated_resources_ValueSet-discharge-dept-vs"><b>/home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-discharge-dept-vs</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -1034,12 +1034,12 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Encounter&#8203;.extension[3]&#8203;.value&#8203;.ofType(CodeableConcept) (l66&#8203;/c8)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'Discharge Department/Service ValueSet' (http://testSK.org/ValueSet/discharge-dept-vs|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#309937004)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l71">log</a>, or see <a href="#vmi94" onClick="document.getElementById('vmi94').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi94" style="display:none"><br/><pre>0 0 : start
-0 0: tx-op
-0 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Analysing
-0 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Parameters: disp-lang=en-US, default-to-latest
-0 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: CodeSystem found: "http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs|0.1.0"
-0 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Validate "[http://snomed.info/sct#309937004 ("Neurology department (environment)")]"
-0 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Check "http://snomed.info/sct#309937004"
+15 15: tx-op
+15 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Analysing
+15 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Parameters: disp-lang=en-US, default-to-latest
+15 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: CodeSystem found: "http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs|0.1.0"
+15 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Validate "[http://snomed.info/sct#309937004 ("Neurology department (environment)")]"
+15 0: 0ms http://testSK.org/ValueSet/discharge-dept-vs|0.1.0: Check "http://snomed.info/sct#309937004"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -2124,8 +2124,8 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    <tr style="background-color: #ffcccc">
      <td><b>ValueSet&#8203;.where(url = 'http:&#8203;/&#8203;/testSK&#8203;.org&#8203;/ValueSet&#8203;/carotid-imaging-modality-vs')</b></td><td><b>error</b></td><td><b>Conformance resource /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs.json - the canonical URL (https://alvumu.github.io/ValueSet/carotid-imaging-modality-vs) does not match the URL (http://testSK.org/ValueSet/carotid-imaging-modality-vs). Use the special-url parameter if you really mean for it not to match</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[1] (l1&#8203;/c1937)</b></td><td><b>error</b></td><td><b>The code '416940007' is not valid in the system http://snomed.info/sct (Wrong Display Name 'Doppler ultrasonography of carotid arteries (procedure)' for http://snomed.info/sct#416940007. Valid display is 'Past history of procedure' (en) (for the language(s) 'en, en-US'))</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALUESET_INCLUDE_INVALID_CONCEPT_CODE</span></td>
+   <tr style="background-color: #ffffe6">
+     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[1] (l1&#8203;/c1937)</b></td><td><b>information</b></td><td><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule as of 2025-10-303: "> The display 'Doppler ultrasonography of carotid arteries (procedure)' is not valid in the Code system 'Doppler ultrasonography of carotid arteries (procedure)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALUESET_CODE_CONCEPT_HINT</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[3] (l1&#8203;/c2159)</b></td><td><b>error</b></td><td><b>The code '1366357009' is not valid in the system http://snomed.info/sct (Unknown code '1366357009' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALUESET_INCLUDE_INVALID_CONCEPT_CODE</span></td>
@@ -2286,7 +2286,7 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
      <td><b>ValueSet&#8203;.where(url = 'http:&#8203;/&#8203;/testSK&#8203;.org&#8203;/ValueSet&#8203;/mtici-code-vs')</b></td><td><b>error</b></td><td><b>Conformance resource /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/ValueSet-mtici-code-vs.json - the canonical URL (https://alvumu.github.io/ValueSet/mtici-code-vs) does not match the URL (http://testSK.org/ValueSet/mtici-code-vs). Use the special-url parameter if you really mean for it not to match</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet (l1/c1096)</b></td><td><b>warning</b></td><td><b>Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+     <td><b>ValueSet (l1/c1093)</b></td><td><b>warning</b></td><td><b>Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>fsh-generated&#8203;/resources&#8203;/ValueSet-mtici-code-vs</b></td><td><b>error</b></td><td><b>URL Mismatch https://alvumu.github.io/ValueSet/mtici-code-vs vs http://testSK.org/ValueSet/mtici-code-vs</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
@@ -3323,12 +3323,17 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
 </table>
 <hr/>
+<a name="VALUESET_CODE_CONCEPT_HINT"> </a>
+<h2>VALUESET_CODE_CONCEPT_HINT</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="ValueSet-carotid-imaging-modality-vs.html">fsh-generated/resources/ValueSet-carotid-imaging-modality-vs.json</a></td><td><b>The display 'Doppler ultrasonography of carotid arteries (procedure)' is not valid in the Code system 'Doppler ultrasonography of carotid arteries (procedure)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="VALUESET_INCLUDE_INVALID_CONCEPT_CODE"> </a>
 <h2>VALUESET_INCLUDE_INVALID_CONCEPT_CODE</h2>
  <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="ValueSet-carotid-imaging-modality-vs.html">fsh-generated/resources/ValueSet-carotid-imaging-modality-vs.json</a></td><td><b>The code '416940007' is not valid in the system http://snomed.info/sct (Wrong Display Name 'Doppler ultrasonography of carotid arteries (procedure)' for http://snomed.info/sct#416940007. Valid display is 'Past history of procedure' (en) (for the language(s) 'en, en-US'))</b></td>
-   </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="ValueSet-carotid-imaging-modality-vs.html">fsh-generated/resources/ValueSet-carotid-imaging-modality-vs.json</a></td><td><b>The code '1366357009' is not valid in the system http://snomed.info/sct (Unknown code '1366357009' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201')</b></td>
    </tr>

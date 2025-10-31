@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile | *Version*:0.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:StrokeCarotidImagingProcedureProfile |
+| Active as of 2025-10-31 | *Computable Name*:StrokeCarotidImagingProcedureProfile |
 
  
 Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-imagi
   "name" : "StrokeCarotidImagingProcedureProfile",
   "title" : "Stroke Carotid Imaging Procedure Profile (R5)",
   "status" : "active",
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

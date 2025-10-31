@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="mtici-code-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet mtici-code-vs</b></p><a name="mtici-code-vs"> </a><a name="hcmtici-code-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-mtici-score-cs.html"><code>http://testSK.org/CodeSystem/mtici-score-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet mtici-code-vs</b></p><a name="mtici-code-vs"> </a><a name="hcmtici-code-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-mtici-code-cs.html"><code>http://testSK.org/CodeSystem/mtici-code-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
   </text>
   <url value="http://testSK.org/ValueSet/mtici-code-vs"/>
   <version value="0.1.0"/>
   <name value="MTICICodeVS"/>
   <title value="mTICI Score Codes ValueSet"/>
   <status value="active"/>
-  <date value="2025-10-30T11:02:24+00:00"/>
+  <date value="2025-10-31T12:12:50+00:00"/>
   <publisher value="UMU"/>
   <contact>
     <name value="UMU"/>
@@ -22,7 +22,7 @@
   <description value="ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure."/>
   <compose>
     <include>
-      <system value="http://testSK.org/CodeSystem/mtici-score-cs"/>
+      <system value="http://testSK.org/CodeSystem/mtici-code-cs"/>
     </include>
   </compose>
 </ValueSet>

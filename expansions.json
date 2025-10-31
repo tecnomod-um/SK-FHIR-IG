@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e4a0b60c-70db-477d-9ce7-903521d61ff9",
+  "id" : "c0a0c6d5-a4f5-4cc4-8830-c7aad7fb8259",
   "meta" : {
-    "lastUpdated" : "2025-10-30T11:02:24.454+00:00"
+    "lastUpdated" : "2025-10-31T12:12:50.167+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,8 +22,8 @@
       "date" : "2025-03-31",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:9215b8b7-16c7-40ef-adf1-1d4655b6f62a",
-        "timestamp" : "2025-10-30T11:03:48+00:00",
+        "identifier" : "urn:uuid:f80d5e52-8b50-4503-8e34-2a1db62a6bbd",
+        "timestamp" : "2025-10-31T12:13:51+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -81,10 +81,10 @@
       "name" : "AfibFlutterStatusVS",
       "title" : "Atrial Fibrillation or Flutter Status ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5f1a4c79-5be0-4cc5-82a8-0de7a622360f",
-        "timestamp" : "2025-10-30T11:03:49+00:00",
+        "identifier" : "urn:uuid:aba97d90-4fc5-4282-8684-6c9f668d7088",
+        "timestamp" : "2025-10-31T12:13:51+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -142,10 +142,10 @@
       "name" : "AssessmentContextVS",
       "title" : "Assessment Context ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:21536a82-d497-4551-889b-d858c148a0b6",
-        "timestamp" : "2025-10-30T11:03:49+00:00",
+        "identifier" : "urn:uuid:bb8690ad-6ff4-487c-bed0-d1ac071287e9",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -208,10 +208,10 @@
       "name" : "BrainImagingModalityVS",
       "title" : "Brain Imaging Modality ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9c01ed12-3260-4b73-a758-28b8e82bafb3",
-        "timestamp" : "2025-10-30T11:03:49+00:00",
+        "identifier" : "urn:uuid:a6c797c9-b638-43b4-a24c-8c700c66760f",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -288,10 +288,10 @@
       "name" : "CarotidImagingModalityVS",
       "title" : "Carotid Arteries Imaging Modality ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c006d48f-8bff-4258-aed8-3eea5812030f",
-        "timestamp" : "2025-10-30T11:03:50+00:00",
+        "identifier" : "urn:uuid:c90df65b-bdfa-4f34-a78f-2d7f73e6c013",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -349,10 +349,10 @@
       "name" : "DischargeDeptVS",
       "title" : "Discharge Department/Service ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8b3dacbf-0e33-4bf4-8495-6c5e314bcb18",
-        "timestamp" : "2025-10-30T11:03:50+00:00",
+        "identifier" : "urn:uuid:2ff413ed-db1a-40e4-9789-f247cf791f27",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -415,8 +415,8 @@
       "date" : "2025-03-31",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:0c2ba5cc-d205-410a-85ff-8216df4ff75e",
-        "timestamp" : "2025-10-30T11:03:50+00:00",
+        "identifier" : "urn:uuid:4eb40d75-af20-4cdf-9422-b4444f7bf9a2",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -484,10 +484,10 @@
       "name" : "FunctionalScoreCodesVS",
       "title" : "Stroke Functional Score Codes ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:aaf831bf-1f0e-4609-a1ec-1d932aab23a6",
-        "timestamp" : "2025-10-30T11:03:42+00:00",
+        "identifier" : "urn:uuid:6685eae6-f381-4cb1-a3fd-6e79e700f982",
+        "timestamp" : "2025-10-31T12:13:45+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -544,8 +544,8 @@
       "date" : "2025-09-08",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:1b14337f-25e6-4d01-8e82-63b0bfa570bf",
-        "timestamp" : "2025-10-30T11:03:51+00:00",
+        "identifier" : "urn:uuid:05ee48e0-a043-4571-b7e8-668e531d39ce",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -599,10 +599,10 @@
       "name" : "InitialCareIntensityVS",
       "title" : "Initial Care Intensity ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bd5b9738-cbe1-4ab1-9e0e-05dbfe724d9d",
-        "timestamp" : "2025-10-30T11:03:51+00:00",
+        "identifier" : "urn:uuid:e33b63ea-a6a5-44e7-b09e-31156853f21c",
+        "timestamp" : "2025-10-31T12:13:52+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -660,10 +660,10 @@
       "name" : "MRsScoreVS",
       "title" : "modified Rankin Scale (mRS) Score ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:883b8ac0-1e9f-46cd-8081-4e3d0a56d988",
-        "timestamp" : "2025-10-30T11:03:42+00:00",
+        "identifier" : "urn:uuid:2d63f9b2-4cac-4e28-a355-6eea08ee2284",
+        "timestamp" : "2025-10-31T12:13:46+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -734,18 +734,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-mtici-score-cs.html\">codesystem MTICI Score Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/CodeSystem/mtici-score-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-0\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-0\">0</a></td><td>Grade 0: No perfusion</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;0&quot;, &quot;display&quot;: &quot;Grade 0: No perfusion&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;0&quot;&gt;&lt;display value=&quot;Grade 0: No perfusion&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-1\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-1\">1</a></td><td>Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;1&quot;, &quot;display&quot;: &quot;Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;display value=&quot;Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-2a\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-2a\">2a</a></td><td>Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2a&quot;, &quot;display&quot;: &quot;Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2a&quot;&gt;&lt;display value=&quot;Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-2b\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-2b\">2b</a></td><td>Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2b&quot;, &quot;display&quot;: &quot;Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2b&quot;&gt;&lt;display value=&quot;Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-2c\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-2c\">2c</a></td><td>Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2c&quot;, &quot;display&quot;: &quot;Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2c&quot;&gt;&lt;display value=&quot;Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-3\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-3\">3</a></td><td>Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;3&quot;, &quot;display&quot;: &quot;Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;display value=&quot;Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-mtici-code-cs.html\">codesystem mTICI Score Codes CodeSystem v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/CodeSystem/mtici-code-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-code-cs-mTICI\"> </a><code>http://testSK.org/CodeSystem/mtici-code-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-code-cs.html#mtici-code-cs-mTICI\">mTICI</a></td><td>mTICI</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-code-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;mTICI&quot;, &quot;display&quot;: &quot;mTICI&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-code-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;mTICI&quot;&gt;&lt;display value=&quot;mTICI&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://testSK.org/ValueSet/mtici-code-vs",
       "version" : "0.1.0",
       "name" : "MTICICodeVS",
       "title" : "mTICI Score Codes ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:69efa3f9-950c-45bd-b9bc-c147967d1191",
-        "timestamp" : "2025-10-30T11:03:51+00:00",
-        "total" : 6,
+        "identifier" : "urn:uuid:39d93b4b-2ccf-4916-9787-9dcb4797f067",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
+        "total" : 1,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -765,41 +765,16 @@
         },
         {
           "name" : "warning-experimental",
-          "valueUri" : "http://testSK.org/CodeSystem/mtici-score-cs|0.1.0"
+          "valueUri" : "http://testSK.org/CodeSystem/mtici-code-cs|0.1.0"
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://testSK.org/CodeSystem/mtici-score-cs|0.1.0"
+          "valueUri" : "http://testSK.org/CodeSystem/mtici-code-cs|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "0",
-          "display" : "Grade 0: No perfusion"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "1",
-          "display" : "Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "2a",
-          "display" : "Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "2b",
-          "display" : "Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "2c",
-          "display" : "Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "3",
-          "display" : "Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches"
+          "system" : "http://testSK.org/CodeSystem/mtici-code-cs",
+          "code" : "mTICI",
+          "display" : "mTICI"
         }]
       }
     }
@@ -820,8 +795,8 @@
       "experimental" : true,
       "date" : "2025-03-31",
       "expansion" : {
-        "identifier" : "urn:uuid:c5e60897-92d5-4079-8071-f0303cdf1731",
-        "timestamp" : "2025-10-30T11:03:51+00:00",
+        "identifier" : "urn:uuid:cc14c338-89e0-4c13-a8cf-47881ef81709",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -893,8 +868,8 @@
       "experimental" : true,
       "date" : "2025-03-31",
       "expansion" : {
-        "identifier" : "urn:uuid:69f22668-cfad-49dc-a3bc-a5e27b0a96dd",
-        "timestamp" : "2025-10-30T11:03:51+00:00",
+        "identifier" : "urn:uuid:3c559129-8892-4a6b-9f6b-306b9d505592",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -947,10 +922,10 @@
       "name" : "ProcedureTimingContextVS",
       "title" : "Procedure Timing Context ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0e1dda3f-e586-4c2a-9540-ded325eac708",
-        "timestamp" : "2025-10-30T11:03:52+00:00",
+        "identifier" : "urn:uuid:91250f6d-c305-4954-9658-133003a49ccb",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1008,10 +983,10 @@
       "name" : "SpecificFindingCodesVS",
       "title" : "Specific Stroke Finding Codes ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:46d0a098-f11b-4f59-99a3-df32f5574e49",
-        "timestamp" : "2025-10-30T11:03:52+00:00",
+        "identifier" : "urn:uuid:a049b153-2e0d-4c03-a871-4ccc4d452da2",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1064,10 +1039,10 @@
       "name" : "StrokeArrivalModeVS",
       "title" : "Stroke Arrival Mode ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2ed5f284-2f7f-4594-b952-1649866da5cc",
-        "timestamp" : "2025-10-30T11:03:52+00:00",
+        "identifier" : "urn:uuid:7bcb6fc3-72bb-4a2f-a4d6-39a209ccc153",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1140,10 +1115,10 @@
       "name" : "StrokeCircumstanceCodesVS",
       "title" : "Stroke Circumstance Codes ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:19797308-a263-40e5-9ec9-d033528759f0",
-        "timestamp" : "2025-10-30T11:03:45+00:00",
+        "identifier" : "urn:uuid:ed75b88a-8186-46bb-bed4-6e8043314380",
+        "timestamp" : "2025-10-31T12:13:48+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1196,8 +1171,8 @@
       "date" : "2025-10-07",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:505c5d6b-2d76-4db2-bf71-6e8e1e687b16",
-        "timestamp" : "2025-10-30T11:03:45+00:00",
+        "identifier" : "urn:uuid:710c9bdb-9cb1-42ba-b651-11c53f4d2868",
+        "timestamp" : "2025-10-31T12:13:49+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1265,10 +1240,10 @@
       "name" : "StrokeDischargeDestinationVS",
       "title" : "Stroke Discharge Destination ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:450b888c-01c0-478a-b54a-b151fe30add4",
-        "timestamp" : "2025-10-30T11:03:52+00:00",
+        "identifier" : "urn:uuid:830ee07e-a7b5-4022-a4d0-81f16faeab19",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1348,8 +1323,8 @@
       "date" : "2025-03-31",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:bbe2d508-9cb2-45b1-8dde-4be8664e96d1",
-        "timestamp" : "2025-10-30T11:03:52+00:00",
+        "identifier" : "urn:uuid:ba8575ad-0477-4574-a9e7-54dcff8f2761",
+        "timestamp" : "2025-10-31T12:13:53+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1418,18 +1393,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mtici-score-cs.html\">codesystem MTICI Score Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/CodeSystem/mtici-score-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"ValueSet-mtici-code-vs.html\">valueset mTICI Score Codes ValueSet v0.1.0 (ValueSet)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/ValueSet/mtici-code-vs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"ValueSet-specific-finding-codes-vs.html\">valueset Specific Stroke Finding Codes ValueSet v0.1.0 (ValueSet)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/ValueSet/specific-finding-codes-vs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 8 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-49436004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/49436004\">49436004</a></td><td>Atrial fibrillation</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;49436004&quot;, &quot;display&quot;: &quot;Atrial fibrillation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;49436004&quot;&gt;&lt;display value=&quot;Atrial fibrillation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-5370000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/5370000\">5370000</a></td><td>Atrial flutter</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;5370000&quot;, &quot;display&quot;: &quot;Atrial flutter&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;5370000&quot;&gt;&lt;display value=&quot;Atrial flutter&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-0\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-0\">0</a></td><td>Grade 0: No perfusion</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;0&quot;, &quot;display&quot;: &quot;Grade 0: No perfusion&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;0&quot;&gt;&lt;display value=&quot;Grade 0: No perfusion&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-1\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-1\">1</a></td><td>Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;1&quot;, &quot;display&quot;: &quot;Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;display value=&quot;Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-2a\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-2a\">2a</a></td><td>Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2a&quot;, &quot;display&quot;: &quot;Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2a&quot;&gt;&lt;display value=&quot;Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-2b\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-2b\">2b</a></td><td>Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2b&quot;, &quot;display&quot;: &quot;Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2b&quot;&gt;&lt;display value=&quot;Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-2c\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-2c\">2c</a></td><td>Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2c&quot;, &quot;display&quot;: &quot;Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2c&quot;&gt;&lt;display value=&quot;Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-score-cs-3\"> </a><code>http://testSK.org/CodeSystem/mtici-score-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-score-cs.html#mtici-score-cs-3\">3</a></td><td>Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;3&quot;, &quot;display&quot;: &quot;Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-score-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;display value=&quot;Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mtici-code-cs.html\">codesystem mTICI Score Codes CodeSystem v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/CodeSystem/mtici-code-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"ValueSet-mtici-code-vs.html\">valueset mTICI Score Codes ValueSet v0.1.0 (ValueSet)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/ValueSet/mtici-code-vs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"ValueSet-specific-finding-codes-vs.html\">valueset Specific Stroke Finding Codes ValueSet v0.1.0 (ValueSet)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://testSK.org/ValueSet/specific-finding-codes-vs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-49436004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/49436004\">49436004</a></td><td>Atrial fibrillation</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;49436004&quot;, &quot;display&quot;: &quot;Atrial fibrillation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;49436004&quot;&gt;&lt;display value=&quot;Atrial fibrillation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-5370000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/5370000\">5370000</a></td><td>Atrial flutter</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;5370000&quot;, &quot;display&quot;: &quot;Atrial flutter&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;5370000&quot;&gt;&lt;display value=&quot;Atrial flutter&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://testSK.org/CodeSystem/mtici-code-cs-mTICI\"> </a><code>http://testSK.org/CodeSystem/mtici-code-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-mtici-code-cs.html#mtici-code-cs-mTICI\">mTICI</a></td><td>mTICI</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://testSK.org/CodeSystem/mtici-code-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;mTICI&quot;, &quot;display&quot;: &quot;mTICI&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://testSK.org/CodeSystem/mtici-code-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;mTICI&quot;&gt;&lt;display value=&quot;mTICI&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://testSK.org/ValueSet/stroke-finding-codes-vs",
       "version" : "0.1.0",
       "name" : "StrokeFindingCodesVS",
       "title" : "Specific Stroke Finding Codes ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a4e881f4-290e-437b-955a-49e2bb4ad1e4",
-        "timestamp" : "2025-10-30T11:03:43+00:00",
-        "total" : 8,
+        "identifier" : "urn:uuid:a83a02b4-f282-45df-a912-1708f70ed0ac",
+        "timestamp" : "2025-10-31T12:13:47+00:00",
+        "total" : 3,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1465,11 +1440,11 @@
         },
         {
           "name" : "warning-experimental",
-          "valueUri" : "http://testSK.org/CodeSystem/mtici-score-cs|0.1.0"
+          "valueUri" : "http://testSK.org/CodeSystem/mtici-code-cs|0.1.0"
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://testSK.org/CodeSystem/mtici-score-cs|0.1.0"
+          "valueUri" : "http://testSK.org/CodeSystem/mtici-code-cs|0.1.0"
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
@@ -1482,34 +1457,9 @@
           "display" : "Atrial flutter"
         },
         {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "0",
-          "display" : "Grade 0: No perfusion"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "1",
-          "display" : "Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "2a",
-          "display" : "Grade 2a: Antegrade reperfusion of less than half of the occluded target artery previously ischemic territory"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "2b",
-          "display" : "Grade 2b: Antegrade reperfusion of more than half of the previously occluded target artery ischemic territory"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "2c",
-          "display" : "Grade 2c: Near complete perfusion except for slow flow or distal emboli in a few distal cortical vessels"
-        },
-        {
-          "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
-          "code" : "3",
-          "display" : "Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches"
+          "system" : "http://testSK.org/CodeSystem/mtici-code-cs",
+          "code" : "mTICI",
+          "display" : "mTICI"
         }]
       }
     }
@@ -1527,10 +1477,10 @@
       "name" : "StrokeProcNotDoneReasonVS",
       "title" : "Stroke Procedure Not Done Reason ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4bbe23eb-7c15-4190-a8ba-0668d8b8cd3c",
-        "timestamp" : "2025-10-30T11:03:53+00:00",
+        "identifier" : "urn:uuid:dd763dd2-9531-45c3-98bb-541af0fea870",
+        "timestamp" : "2025-10-31T12:13:54+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -1657,8 +1607,8 @@
       "date" : "2025-10-07",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d7754a77-1d6f-4156-9ff6-4b9a8b68354a",
-        "timestamp" : "2025-10-30T11:03:53+00:00",
+        "identifier" : "urn:uuid:0fbcdef7-cac2-4d01-8a60-d21d68c59965",
+        "timestamp" : "2025-10-31T12:13:54+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -1759,8 +1709,8 @@
       "experimental" : true,
       "date" : "2025-03-31",
       "expansion" : {
-        "identifier" : "urn:uuid:1d4975ad-8a81-481f-8b45-6f2a2b3db075",
-        "timestamp" : "2025-10-30T11:03:53+00:00",
+        "identifier" : "urn:uuid:277bbe24-8368-453e-bd15-2736e98a47d0",
+        "timestamp" : "2025-10-31T12:13:54+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1832,10 +1782,10 @@
       "name" : "SwallowingScreeningTimingCategoryVS",
       "title" : "Swallowing Screening Timing Category ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a6a18873-c16d-45cf-a529-1e26ebf06f1a",
-        "timestamp" : "2025-10-30T11:03:53+00:00",
+        "identifier" : "urn:uuid:c35356c8-3ae8-4d72-b175-be61f27d6110",
+        "timestamp" : "2025-10-31T12:13:54+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1905,10 +1855,10 @@
       "name" : "ThrombectomyComplicationVS",
       "title" : "Thrombectomy Complication ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:668b546a-8843-4177-8af0-f1b64ad842c1",
-        "timestamp" : "2025-10-30T11:03:54+00:00",
+        "identifier" : "urn:uuid:a52d5cc1-d624-4f45-96cb-98408c83113f",
+        "timestamp" : "2025-10-31T12:13:54+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -1956,10 +1906,10 @@
       "name" : "TimingMetricCodesVS",
       "title" : "Stroke Timing Metric Codes ValueSet",
       "status" : "active",
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8c097c5f-131d-471f-9e5e-dcbadcc690bd",
-        "timestamp" : "2025-10-30T11:03:48+00:00",
+        "identifier" : "urn:uuid:2b863dc4-31b8-48bd-9182-648647a8ee91",
+        "timestamp" : "2025-10-31T12:13:51+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2009,10 +1959,10 @@
       "title" : "Stroke Vital Sign Codes ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d3cab6d3-978c-4026-80ca-78596bcf58b0",
-        "timestamp" : "2025-10-30T11:03:54+00:00",
+        "identifier" : "urn:uuid:1c6cb5ac-f7ad-486a-9a52-e94f671baf5f",
+        "timestamp" : "2025-10-31T12:13:55+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2066,10 +2016,10 @@
       "title" : "Gender (SNOMED CT)",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-10-30T11:02:24+00:00",
+      "date" : "2025-10-31T12:12:50+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:46769a27-c97c-4b30-b1c7-e1c75ab86ef1",
-        "timestamp" : "2025-10-30T11:03:55+00:00",
+        "identifier" : "urn:uuid:d1652255-2c3b-4621-88a3-f02f5450f320",
+        "timestamp" : "2025-10-31T12:13:55+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/stroke-finding-codes-vs | *Version*:0.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:StrokeFindingCodesVS |
+| Active as of 2025-10-31 | *Computable Name*:StrokeFindingCodesVS |
 
  
 ValueSet for specific coded findings like Afib/Flutter status or mTICI score. 
@@ -32,11 +32,11 @@ This value set includes codes based on the following rules:
 Expansion from tx.fhir.org based on:
 
 * SNOMED CT International edition 01-Feb 2025
-* [codesystem MTICI Score Code System v0.1.0 (CodeSystem)](CodeSystem-mtici-score-cs.md)
+* [codesystem mTICI Score Codes CodeSystem v0.1.0 (CodeSystem)](CodeSystem-mtici-code-cs.md)
 * [valueset mTICI Score Codes ValueSet v0.1.0 (ValueSet)](ValueSet-mtici-code-vs.md)
 * [valueset Specific Stroke Finding Codes ValueSet v0.1.0 (ValueSet)](ValueSet-specific-finding-codes-vs.md)
 
-This value set contains 8 concepts
+This value set contains 3 concepts
 
 -------
 
@@ -64,7 +64,7 @@ This value set contains 8 concepts
   "name" : "StrokeFindingCodesVS",
   "title" : "Specific Stroke Finding Codes ValueSet",
   "status" : "active",
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/stroke-arrival-mode-vs | *Version*:0.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:StrokeArrivalModeVS |
+| Active as of 2025-10-31 | *Computable Name*:StrokeArrivalModeVS |
 
  
 ValueSet specifying the mode and origin of the patient's arrival. 
@@ -52,7 +52,7 @@ ValueSet specifying the mode and origin of the patient's arrival.
   "name" : "StrokeArrivalModeVS",
   "title" : "Stroke Arrival Mode ValueSet",
   "status" : "active",
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

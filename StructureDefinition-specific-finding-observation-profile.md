@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/StructureDefinition/specific-finding-observation-profile | *Version*:0.1.0 |
-| Draft as of 2025-10-30 | *Computable Name*:SpecificFindingObservationProfile |
+| Draft as of 2025-10-31 | *Computable Name*:SpecificFindingObservationProfile |
 
  
 Profile for specific coded findings like Afib/Flutter status or mTICI score. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
   "name" : "SpecificFindingObservationProfile",
   "title" : "Specific Stroke Finding Observation Profile (R5)",
   "status" : "draft",
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

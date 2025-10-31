@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/CodeSystem/assessment-context-cs | *Version*:0.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:AssessmentContextCS |
+| Active as of 2025-10-31 | *Computable Name*:AssessmentContextCS |
 
  
 Codes defining the context or timing of a clinical assessment, particularly functional scores. 
@@ -32,7 +32,7 @@ Codes defining the context or timing of a clinical assessment, particularly func
   "title" : "Assessment Context Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-30T11:02:24+00:00",
+  "date" : "2025-10-31T12:12:50+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

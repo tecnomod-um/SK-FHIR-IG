@@ -248,7 +248,7 @@ Id: mtici-code-vs
 * ^title = "mTICI Score Codes ValueSet"
 * ^description = "ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure."
 * ^status = #active
-* include codes from system MticiScoreCS_URL
+* include codes from system MticiCodeCS_URL
 
 ValueSet: StrokeFindingCodesVS
 Id: stroke-finding-codes-vs

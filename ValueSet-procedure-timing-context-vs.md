@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/procedure-timing-context-vs | *Version*:0.1.0 |
-| Active as of 2025-10-31 | *Computable Name*:ProcedureTimingContextVS |
+| Active as of 2025-11-03 | *Computable Name*:ProcedureTimingContextVS |
 
  
 ValueSet for codes defining the timing phase of a procedure relative to the encounter start. 
@@ -52,7 +52,7 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
   "name" : "ProcedureTimingContextVS",
   "title" : "Procedure Timing Context ValueSet",
   "status" : "active",
-  "date" : "2025-10-31T12:12:50+00:00",
+  "date" : "2025-11-03T16:51:09+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

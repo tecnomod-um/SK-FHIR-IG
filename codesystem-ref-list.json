@@ -25,17 +25,6 @@
       "http://hl7.org/fhir/R5/valueset-event-status.html" : "EventStatus"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DischargeDeptCS",
-      "title" : "Discharge Department/Service Code System",
-      "description" : "Code system specifying the type of department or service the patient was discharged or transferred to.",
-      "uses" : {
-      },
-      "ValueSet-discharge-dept-vs.html" : "Discharge Department/Service ValueSet"
-    },
-    {
       "url" : "http://testSK.org/CodeSystem/assessment-context-cs",
       "version" : "0.1.0",
       "status" : "active",
@@ -56,6 +45,17 @@
       "uses" : {
       },
       "ValueSet-brain-imaging-modality-vs.html" : "Brain Imaging Modality ValueSet"
+    },
+    {
+      "url" : "http://testSK.org/CodeSystem/discharge-dept-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DischargeDeptCS",
+      "title" : "Discharge Department/Service Code System",
+      "description" : "Code system specifying the type of department or service the patient was discharged or transferred to.",
+      "uses" : {
+      },
+      "ValueSet-discharge-dept-vs.html" : "Discharge Department/Service ValueSet"
     },
     {
       "url" : "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",

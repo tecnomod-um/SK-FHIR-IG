@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/ValueSet/medication-vs | *Version*:0.1.0 |
-| Draft as of 2025-10-31 | *Computable Name*:MedicationVS |
+| Draft as of 2025-11-03 | *Computable Name*:MedicationVS |
 
  
 SNOMED CT codes for drug products or substances. 
@@ -53,7 +53,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "MedicationVS",
   "title" : "Medications ValueSet",
   "status" : "draft",
-  "date" : "2025-10-31T12:12:50+00:00",
+  "date" : "2025-11-03T16:51:09+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

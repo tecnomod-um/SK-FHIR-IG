@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/StructureDefinition/discharge-medication-request-profile | *Version*:0.1.0 |
-| Active as of 2025-10-31 | *Computable Name*:DischargeMedicationRequestProfile |
+| Active as of 2025-11-03 | *Computable Name*:DischargeMedicationRequestProfile |
 
  
 Represents a medication prescription made as part of the patient's discharge plan, categorized as community administration. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
   "name" : "DischargeMedicationRequestProfile",
   "title" : "Discharge Medication Request Profile",
   "status" : "active",
-  "date" : "2025-10-31T12:12:50+00:00",
+  "date" : "2025-11-03T16:51:09+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

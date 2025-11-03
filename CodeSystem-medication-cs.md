@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://testSK.org/CodeSystem/medication-cs | *Version*:0.1.0 |
-| Draft as of 2025-10-31 | *Computable Name*:MedicationCS |
+| Draft as of 2025-11-03 | *Computable Name*:MedicationCS |
 
  
 Codes for drug products or substances representing the Medications on the patient discharge. 
@@ -31,7 +31,7 @@ Codes for drug products or substances representing the Medications on the patien
   "name" : "MedicationCS",
   "title" : "Medications CodeSystem",
   "status" : "draft",
-  "date" : "2025-10-31T12:12:50+00:00",
+  "date" : "2025-11-03T16:51:09+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

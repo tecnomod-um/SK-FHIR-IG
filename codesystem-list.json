@@ -1,14 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DischargeDeptCS",
-      "title" : "Discharge Department/Service Code System",
-      "description" : "Code system specifying the type of department or service the patient was discharged or transferred to."
-    },
-    {
       "url" : "http://testSK.org/CodeSystem/assessment-context-cs",
       "version" : "0.1.0",
       "status" : "active",
@@ -23,6 +15,14 @@
       "name" : "BrainImagingTypeCS",
       "title" : "Brain Imaging Type Code System",
       "description" : "Codes specifying the type of brain imaging performed (e.g., CT, MRI)."
+    },
+    {
+      "url" : "http://testSK.org/CodeSystem/discharge-dept-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DischargeDeptCS",
+      "title" : "Discharge Department/Service Code System",
+      "description" : "Code system specifying the type of department or service the patient was discharged or transferred to."
     },
     {
       "url" : "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",

@@ -55,7 +55,7 @@
       "name" : "DischargeDeptVS",
       "title" : "Discharge Department/Service ValueSet",
       "description" : "ValueSet specifying the type of department or service the patient was discharged or transferred to.",
-      "systems" : ["http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs"]
+      "systems" : ["http://testSK.org/CodeSystem/discharge-dept-cs"]
     },
     {
       "url" : "http://testSK.org/ValueSet/discharge-destination-vs",

@@ -616,17 +616,6 @@
       "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DischargeDeptCS",
-      "title" : "Discharge Department/Service Code System",
-      "description" : "Code system specifying the type of department or service the patient was discharged or transferred to.",
-      "uses" : {
-      },
-      "ValueSet-discharge-dept-vs.html" : "Discharge Department/Service ValueSet"
-    },
-    {
       "url" : "http://testSK.org/CodeSystem/assessment-context-cs",
       "version" : "0.1.0",
       "status" : "active",
@@ -647,6 +636,17 @@
       "uses" : {
       },
       "ValueSet-brain-imaging-modality-vs.html" : "Brain Imaging Modality ValueSet"
+    },
+    {
+      "url" : "http://testSK.org/CodeSystem/discharge-dept-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DischargeDeptCS",
+      "title" : "Discharge Department/Service Code System",
+      "description" : "Code system specifying the type of department or service the patient was discharged or transferred to.",
+      "uses" : {
+      },
+      "ValueSet-discharge-dept-vs.html" : "Discharge Department/Service ValueSet"
     },
     {
       "url" : "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
@@ -823,8 +823,8 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
     },
     {
       "url" : "urn:iso:std:iso:11073:10101",

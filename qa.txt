@@ -3,7 +3,7 @@ IGTest : Validation Results
 
 err = 186, warn = 130, info = 42
 IG Publisher Version: 2.0.25
-Generated Fri Oct 31 12:14:27 UTC 2025. FHIR version 5.0.0 for SKtestIG#0.1.0 (canonical = https://alvumu.github.io)
+Generated Mon Nov 03 16:52:45 UTC 2025. FHIR version 5.0.0 for SKtestIG#0.1.0 (canonical = https://alvumu.github.io)
  Build Errors : 1 / 24 / 0
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 2 / 0 / 1
  /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 2 / 2 / 2
@@ -146,11 +146,11 @@ WARNING: CodeSystem/brain-imaging-type-cs: CodeSystem: Published code systems SH
 WARNING: CodeSystem/brain-imaging-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs: URL Mismatch https://alvumu.github.io/CodeSystem/brain-imaging-type-cs vs http://testSK.org/CodeSystem/brain-imaging-type-cs
 == fsh-generated/resources/CodeSystem-discharge-dept-cs.json ==
-ERROR: CodeSystem.where(url = 'http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs'): Conformance resource /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs.json - the canonical URL (https://alvumu.github.io/CodeSystem/discharge-dept-cs) does not match the URL (http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs). Use the special-url parameter if you really mean for it not to match
+ERROR: CodeSystem.where(url = 'http://testSK.org/CodeSystem/discharge-dept-cs'): Conformance resource /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs.json - the canonical URL (https://alvumu.github.io/CodeSystem/discharge-dept-cs) does not match the URL (http://testSK.org/CodeSystem/discharge-dept-cs). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem/discharge-dept-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/discharge-dept-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/discharge-dept-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-ERROR: /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs: URL Mismatch https://alvumu.github.io/CodeSystem/discharge-dept-cs vs http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs
+ERROR: /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs: URL Mismatch https://alvumu.github.io/CodeSystem/discharge-dept-cs vs http://testSK.org/CodeSystem/discharge-dept-cs
 == fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.json ==
 ERROR: CodeSystem.where(url = 'http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs'): Conformance resource /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.json - the canonical URL (https://alvumu.github.io/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs) does not match the URL (http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs). Use the special-url parameter if you really mean for it not to match
 ERROR: /home/runner/work/SK-FHIR-IG/SK-FHIR-IG/fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs: URL Mismatch https://alvumu.github.io/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs vs http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs

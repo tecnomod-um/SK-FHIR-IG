@@ -7,7 +7,7 @@ Alias: FHIR_Location = http://hl7.org/fhir/StructureDefinition/Location
 
 // URLs for Custom CodeSystems (Defined Below)
 Alias: StrokeArrivalModeCS_URL = http://testSK.org/CodeSystem/stroke-arrival-mode-cs
-Alias: DischargeDeptCS_URL = http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs
+Alias: DischargeDeptCS_URL = http://testSK.org/CodeSystem/discharge-dept-cs
 Alias: InitialCareIntensityCS_URL = http://testSK.org/CodeSystem/initial-care-intensity-cs
 Alias: StrokeDischargeDestinationCS_URL = http://testSK.org/CodeSystem/stroke-discharge-destination-cs
 // URLs for Custom ValueSets (Defined Below - used in bindings)

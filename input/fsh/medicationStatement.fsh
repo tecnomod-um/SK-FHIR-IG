@@ -32,7 +32,7 @@ Parent: MedicationStatement // Base R5 MedicationStatement
 
 // Key fields for prior medication reporting
 * medication 1..1 MS
-* medication from MedicationVS (required)
+* medication from MedicationVS_URL (required)
 * subject 1..1 MS
 * subject only Reference(Patient)
 * encounter 1..1 MS

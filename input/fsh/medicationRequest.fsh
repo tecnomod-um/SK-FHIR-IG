@@ -14,7 +14,7 @@ Alias: AbsentOrUnknownVS = https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknow
 
 // URLs for Medication ValueSets
 Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
-
+Alias: MedicationCS_URL = http://tecnomod-um.org/CodeSystem/medication-cs
 
 CodeSystem: MedicationCS
 Id: medication-cs
@@ -29,7 +29,7 @@ Id: medication-cs
 * #antidiabetic "Any Antidiabetic" "Any antidiabetic medication"
 * #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
 
-Valueset: MedicationVS
+ValueSet: MedicationVS
 Id: discharge-medication-vs
 * ^url = MedicationVS_URL
 * ^version = "1.0.0"

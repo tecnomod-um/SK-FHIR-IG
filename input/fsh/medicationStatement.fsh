@@ -45,6 +45,44 @@ Parent: MedicationStatement // Base R5 MedicationStatement
 * adherence.code 1..1 MS // If adherence block is present, code is mandatory
 * adherence.code from http://hl7.org/fhir/ValueSet/medication-statement-adherence (required) // Bind to the R5 standard VS
 
+
+Instance: PatientExample
+InstanceOf: Patient
+* id = "example-patient"
+
+Instance: StrokeEncounterExample
+InstanceOf: StrokeEncounterProfile
+* status = #completed
+* type = #inpatient "Inpatient Encounter"
+* actualPeriod.start = 2025-03-01T08:00:00Z
+* actualPeriod.end   = 2025-03-10T12:00:00Z
+* subject = Reference(PatientExample)
+* admission.admitSource = StrokeArrivalModeCS_URL#ems-home "EMS from Home"
+* admission.dischargeDisposition = SCT#306689006 "Discharge to home (procedure)"
+* extension[isFirstHospital].valueBoolean = true
+* extension[initialCareIntensity].valueCodeableConcept = InitialCareIntensityCS_URL#icu-stroke "ICU / Stroke Unit"
+* extension[requiredPostAcuteCare].valueBoolean = false
+* extension[dischargeDepartmentService].valueCodeableConcept = SCT#309937004 "Neurology department (environment)"
+
+Instance: DischargeMedicationRequest
+InstanceOf: DischargeMedicationRequestProfile
+* id = "discharge-medication-request-001"
+* status = #active
+* category = MedReqAdminLocCS#community
+* medication = SCT#372756006 "Warfarin (substance)"
+* intent = #order // Intent for discharge medication request
+* subject = Reference(PatientExample) // Reference to the patient
+* encounter = Reference(StrokeEncounterExample) // Reference to the stroke encounter
+
+Instance: StrokeDiagnosisConditionExample
+InstanceOf: StrokeDiagnosisConditionProfile
+* category = CondCat#encounter-diagnosis "Encounter Diagnosis"
+* code = SCT#266257000 "Transient ischemic attack (disorder)"
+* encounter = Reference(StrokeEncounterExample)
+* clinicalStatus = ClinicalStatusCondCS#active 
+* encounter = Reference(StrokeEncounterExample)
+* subject = Reference(PatientExample)
+
 Instance: PriorMedicationStatementExample
 InstanceOf: PriorMedicationStatementProfile
 * medication = SCT#372756006 "Warfarin (substance)"

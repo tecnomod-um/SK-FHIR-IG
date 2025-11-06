@@ -37,6 +37,19 @@ Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
 // * include SCT#771451006 "Platelet aggregation inhibitor (disposition)"
 // * include SCT#372562003 "Enoxaparin (substance)"
 
+CodeSystem: MedicationCS
+Id: medication-cs
+* ^url = MedicationCS_URL
+* ^version = "1.0.0"
+* ^name = "MedicationCS"
+* ^title = "Medications CodeSystem"
+* ^description = "Codes for drug products or substances representing the Medications on the patient discharge."
+* ^status = #draft
+* #other-anticoagulant "Other Anticoagulant" "Any anticoagulant medication"
+* #antiplatelet "Any Antiplatelet" "Any antiplatelet medication"
+* #antidiabetic "Any Antidiabetic" "Any antidiabetic medication"
+* #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
+
 CodeSystem: DischargeMedicationCS
 Id: discharge-medication-cs
 * ^url = MedicationVS_URL
@@ -57,29 +70,6 @@ Id: discharge-medication-cs
 * include codes from valueset AbsentOrUnknownVS
 
 
-CodeSystem: MedicationCS
-Id: medication-cs
-* ^url = MedicationCS_URL
-* ^version = "1.0.0"
-* ^name = "MedicationCS"
-* ^title = "Medications CodeSystem"
-* ^description = "Codes for drug products or substances representing the Medications on the patient discharge."
-* ^status = #draft
-* #other-anticoagulant "Other Anticoagulant" "Any anticoagulant medication"
-* #antiplatelet "Any Antiplatelet" "Any antiplatelet medication"
-* #antidiabetic "Any Antidiabetic" "Any antidiabetic medication"
-* #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
-
-ValueSet: DischargeMedicationVS
-Id: discharge-medication-vs
-* ^url = "http://tecnomod-um.org/ValueSet/discharge-medication-vs"
-* ^version = "1.0.0"
-* ^name = "DischargeMedicationVS"
-* ^title = "Medications ValueSet"
-* ^description = "Codes for drug products or substances representing the Medications on the patient discharge."
-* ^status = #draft
-*   include codes from system MedicationVS_URL
-*   include codes from valueset AbsentOrUnknownVS
 // ------------------ Profile: Discharge Medication Request (Updated) -----------------------
 
 Profile: DischargeMedicationRequestProfile
@@ -101,7 +91,7 @@ Parent: FHIR_MedicationRequest
 * category 1..1 MS 
 
 * medication 1..1 MS
-* medication from MedicationVS (required)
+* medication from MedicationVS_URL (required)
 * subject 1..1 MS
 * subject only Reference(FHIR_Patient)
 
@@ -118,13 +108,9 @@ Instance: StrokeEncounterExample
 InstanceOf: StrokeEncounterProfile
 * status = #completed
 * type = #inpatient "Inpatient Encounter"
-
 * actualPeriod.start = 2025-03-01T08:00:00Z
 * actualPeriod.end   = 2025-03-10T12:00:00Z
-
-
 * subject = Reference(PatientExample)
-
 * admission.admitSource = StrokeArrivalModeCS_URL#ems-home "EMS from Home"
 * admission.dischargeDisposition = SCT#306689006 "Discharge to home (procedure)"
 * extension[isFirstHospital].valueBoolean = true

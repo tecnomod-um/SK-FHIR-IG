@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/Patient/PatientAgeGenderSnomedExample> a fhir:Patient ;
+<https://tecnomod-um.org/Patient/PatientAgeGenderSnomedExample> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PatientAgeGenderSnomedExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile"^^xsd:anyURI ;
-       fhir:l <http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile>
+       fhir:v "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile>
      ] )
   ] ; # 
   fhir:text [
@@ -22,8 +22,8 @@
   ] ; # 
   fhir:extension ( [
      fhir:url [
-       fhir:v "http://testSK.org/StructureDefinition/patient-age-ext"^^xsd:anyURI ;
-       fhir:l <http://testSK.org/StructureDefinition/patient-age-ext>
+       fhir:v "http://tecnomod-um.org/StructureDefinition/patient-age-ext"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/patient-age-ext>
      ] ;
      fhir:value [
        a fhir:Integer ;
@@ -31,8 +31,8 @@
      ]
   ] [
      fhir:url [
-       fhir:v "http://testSK.org/StructureDefinition/gender-snomed-ext"^^xsd:anyURI ;
-       fhir:l <http://testSK.org/StructureDefinition/gender-snomed-ext>
+       fhir:v "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/gender-snomed-ext>
      ] ;
      fhir:value [
        a fhir:CodeableConcept ;

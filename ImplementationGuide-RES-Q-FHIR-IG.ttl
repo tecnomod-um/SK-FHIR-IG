@@ -6,30 +6,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/ImplementationGuide/SKtestIG> a fhir:ImplementationGuide ;
+<https://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "SKtestIG"] ; # 
+  fhir:id [ fhir:v "RES-Q-FHIR-IG"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide SKtestIG</b></p><a name=\"SKtestIG\"> </a><a name=\"hcSKtestIG\"> </a><h2>IGTest</h2><p>The official URL for this implementation guide is: </p><pre>https://alvumu.github.io</pre></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide RES-Q-FHIR-IG</b></p><a name=\"RES-Q-FHIR-IG\"> </a><a name=\"hcRES-Q-FHIR-IG\"> </a><h2>RESQIG</h2><p>The official URL for this implementation guide is: </p><pre>https://tecnomod-um.org</pre></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
-     fhir:v "https://alvumu.github.io"^^xsd:anyURI ;
-     fhir:l <https://alvumu.github.io>
+     fhir:v "https://tecnomod-um.org"^^xsd:anyURI ;
+     fhir:l <https://tecnomod-um.org>
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "IGTest"] ; # 
+  fhir:name [ fhir:v "RESQIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-03T16:51:09+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-06T10:00:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "UMU"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "UMU" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://testSK.org/umu" ]
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "SKtestIG"] ; # 
+  fhir:packageId [ fhir:v "RES-Q-FHIR-IG"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "5.0.0"] ) ; # 
   fhir:dependsOn ( [
@@ -92,7 +92,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/admission-source-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/admission-source-vs> ;
          fhir:reference [ fhir:v "ValueSet/admission-source-vs" ]
        ] ;
        fhir:name [ fhir:v "Admission Sources ValueSet" ] ;
@@ -110,7 +110,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/age-at-onset-observation-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/age-at-onset-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Age at Stroke Onset Observation Profile (R5)" ] ;
@@ -128,14 +128,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/AgeAtOnsetObservationExample> ;
+         fhir:l <https://tecnomod-um.org/Observation/AgeAtOnsetObservationExample> ;
          fhir:reference [ fhir:v "Observation/AgeAtOnsetObservationExample" ]
        ] ;
        fhir:name [ fhir:v "AgeAtOnsetObservationExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/age-at-onset-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/age-at-onset-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -149,7 +149,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/assessment-context-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/assessment-context-cs> ;
          fhir:reference [ fhir:v "CodeSystem/assessment-context-cs" ]
        ] ;
        fhir:name [ fhir:v "Assessment Context Code System" ] ;
@@ -167,7 +167,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/assessment-context-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/assessment-context-vs> ;
          fhir:reference [ fhir:v "ValueSet/assessment-context-vs" ]
        ] ;
        fhir:name [ fhir:v "Assessment Context ValueSet" ] ;
@@ -185,7 +185,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/afib-flutter-status-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/afib-flutter-status-vs> ;
          fhir:reference [ fhir:v "ValueSet/afib-flutter-status-vs" ]
        ] ;
        fhir:name [ fhir:v "Atrial Fibrillation or Flutter Status ValueSet" ] ;
@@ -203,7 +203,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/base-stroke-observation> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/base-stroke-observation> ;
          fhir:reference [ fhir:v "StructureDefinition/base-stroke-observation" ]
        ] ;
        fhir:name [ fhir:v "Base Profile for Stroke-Related Observations" ] ;
@@ -221,7 +221,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/brain-imaging-modality-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/brain-imaging-modality-vs> ;
          fhir:reference [ fhir:v "ValueSet/brain-imaging-modality-vs" ]
        ] ;
        fhir:name [ fhir:v "Brain Imaging Modality ValueSet" ] ;
@@ -239,7 +239,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/brain-imaging-type-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/brain-imaging-type-cs> ;
          fhir:reference [ fhir:v "CodeSystem/brain-imaging-type-cs" ]
        ] ;
        fhir:name [ fhir:v "Brain Imaging Type Code System" ] ;
@@ -257,7 +257,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/carotid-imaging-modality-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/carotid-imaging-modality-vs> ;
          fhir:reference [ fhir:v "ValueSet/carotid-imaging-modality-vs" ]
        ] ;
        fhir:name [ fhir:v "Carotid Arteries Imaging Modality ValueSet" ] ;
@@ -275,7 +275,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/discharge-dept-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/discharge-dept-cs> ;
          fhir:reference [ fhir:v "CodeSystem/discharge-dept-cs" ]
        ] ;
        fhir:name [ fhir:v "Discharge Department/Service Code System" ] ;
@@ -293,7 +293,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/discharge-department-service-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/discharge-department-service-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/discharge-department-service-ext" ]
        ] ;
        fhir:name [ fhir:v "Discharge Department/Service Extension" ] ;
@@ -311,7 +311,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/discharge-dept-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/discharge-dept-vs> ;
          fhir:reference [ fhir:v "ValueSet/discharge-dept-vs" ]
        ] ;
        fhir:name [ fhir:v "Discharge Department/Service ValueSet" ] ;
@@ -329,7 +329,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/discharge-destination-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/discharge-destination-vs> ;
          fhir:reference [ fhir:v "ValueSet/discharge-destination-vs" ]
        ] ;
        fhir:name [ fhir:v "Discharge Destination ValueSet" ] ;
@@ -347,7 +347,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/discharge-medication-request-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/discharge-medication-request-profile" ]
        ] ;
        fhir:name [ fhir:v "Discharge Medication Request Profile" ] ;
@@ -365,14 +365,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/MedicationRequest/discharge-medication-request-001> ;
+         fhir:l <https://tecnomod-um.org/MedicationRequest/discharge-medication-request-001> ;
          fhir:reference [ fhir:v "MedicationRequest/discharge-medication-request-001" ]
        ] ;
        fhir:name [ fhir:v "DischargeMedicationRequest" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/discharge-medication-request-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/discharge-medication-request-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -386,15 +386,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Organization/ExampleStrokeOrganization> ;
+         fhir:l <https://tecnomod-um.org/Organization/ExampleStrokeOrganization> ;
          fhir:reference [ fhir:v "Organization/ExampleStrokeOrganization" ]
        ] ;
        fhir:name [ fhir:v "Example Stroke Registry Organization" ] ;
        fhir:description [ fhir:v "Matches build_organization: active=true, name from hospital_name, identifier from mapped_org_id." ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-registry-organization-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-registry-organization-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -408,7 +408,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/first-hospital-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/first-hospital-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/first-hospital-ext" ]
        ] ;
        fhir:name [ fhir:v "First Hospital Extension" ] ;
@@ -426,14 +426,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/FunctionalScoreObservationExample> ;
+         fhir:l <https://tecnomod-um.org/Observation/FunctionalScoreObservationExample> ;
          fhir:reference [ fhir:v "Observation/FunctionalScoreObservationExample" ]
        ] ;
        fhir:name [ fhir:v "FunctionalScoreObservationExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/functional-score-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/functional-score-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -447,7 +447,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/gender-snomed-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/gender-snomed-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/gender-snomed-ext" ]
        ] ;
        fhir:name [ fhir:v "Gender (SNOMED CT)" ] ;
@@ -465,7 +465,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/vs-gender-snomed> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/vs-gender-snomed> ;
          fhir:reference [ fhir:v "ValueSet/vs-gender-snomed" ]
        ] ;
        fhir:name [ fhir:v "Gender (SNOMED CT)" ] ;
@@ -483,7 +483,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs> ;
          fhir:reference [ fhir:v "CodeSystem/hemorrhagic-stroke-bleeding-reason-cs" ]
        ] ;
        fhir:name [ fhir:v "Hemorrhagic Stroke Bleeding Reason Code System" ] ;
@@ -501,7 +501,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/hemorrhagic-stroke-bleeding-reason-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs> ;
          fhir:reference [ fhir:v "ValueSet/hemorrhagic-stroke-bleeding-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "Hemorrhagic Stroke Bleeding Reason ValueSet" ] ;
@@ -519,7 +519,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext" ]
        ] ;
        fhir:name [ fhir:v "Hemorrhagic Stroke – Bleeding Reason" ] ;
@@ -537,7 +537,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/stroke-arrival-mode-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs> ;
          fhir:reference [ fhir:v "CodeSystem/stroke-arrival-mode-cs" ]
        ] ;
        fhir:name [ fhir:v "Initial Care Intensity Code System" ] ;
@@ -555,7 +555,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/initial-care-intensity-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/initial-care-intensity-cs> ;
          fhir:reference [ fhir:v "CodeSystem/initial-care-intensity-cs" ]
        ] ;
        fhir:name [ fhir:v "Initial Care Intensity Code System" ] ;
@@ -573,7 +573,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/initial-care-intensity-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/initial-care-intensity-ext" ]
        ] ;
        fhir:name [ fhir:v "Initial Care Intensity Extension" ] ;
@@ -591,7 +591,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/initial-care-intensity-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/initial-care-intensity-vs> ;
          fhir:reference [ fhir:v "ValueSet/initial-care-intensity-vs" ]
        ] ;
        fhir:name [ fhir:v "Initial Care Intensity ValueSet" ] ;
@@ -609,7 +609,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/ischemic-stroke-etiology-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/ischemic-stroke-etiology-ext" ]
        ] ;
        fhir:name [ fhir:v "Ischemic Stroke – Etiology" ] ;
@@ -627,7 +627,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/medication-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/medication-cs> ;
          fhir:reference [ fhir:v "CodeSystem/medication-cs" ]
        ] ;
        fhir:name [ fhir:v "Medications CodeSystem" ] ;
@@ -645,8 +645,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/medication-vs> ;
-         fhir:reference [ fhir:v "ValueSet/medication-vs" ]
+         fhir:l <https://tecnomod-um.org/ValueSet/discharge-medication-vs> ;
+         fhir:reference [ fhir:v "ValueSet/discharge-medication-vs" ]
        ] ;
        fhir:name [ fhir:v "Medications ValueSet" ] ;
        fhir:description [ fhir:v "SNOMED CT codes for drug products or substances." ] ;
@@ -663,7 +663,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/mrs-score-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/mrs-score-cs> ;
          fhir:reference [ fhir:v "CodeSystem/mrs-score-cs" ]
        ] ;
        fhir:name [ fhir:v "modified Rankin Scale (mRS) Score Code System" ] ;
@@ -681,7 +681,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/mrs-score-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/mrs-score-vs> ;
          fhir:reference [ fhir:v "ValueSet/mrs-score-vs" ]
        ] ;
        fhir:name [ fhir:v "modified Rankin Scale (mRS) Score ValueSet" ] ;
@@ -699,7 +699,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/mtici-score-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/mtici-score-cs> ;
          fhir:reference [ fhir:v "CodeSystem/mtici-score-cs" ]
        ] ;
        fhir:name [ fhir:v "MTICI Score Code System" ] ;
@@ -717,7 +717,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/mtici-code-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/mtici-code-cs> ;
          fhir:reference [ fhir:v "CodeSystem/mtici-code-cs" ]
        ] ;
        fhir:name [ fhir:v "mTICI Score Codes CodeSystem" ] ;
@@ -735,7 +735,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/mtici-code-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/mtici-code-vs> ;
          fhir:reference [ fhir:v "ValueSet/mtici-code-vs" ]
        ] ;
        fhir:name [ fhir:v "mTICI Score Codes ValueSet" ] ;
@@ -753,7 +753,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/mtici-score-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/mtici-score-vs> ;
          fhir:reference [ fhir:v "ValueSet/mtici-score-vs" ]
        ] ;
        fhir:name [ fhir:v "MTICI Score ValueSet" ] ;
@@ -771,7 +771,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/observation-timing-context-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/observation-timing-context-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/observation-timing-context-ext" ]
        ] ;
        fhir:name [ fhir:v "Observation Timing Context Extension" ] ;
@@ -789,7 +789,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/patient-age-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/patient-age-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/patient-age-ext" ]
        ] ;
        fhir:name [ fhir:v "Patient Age (integer)" ] ;
@@ -807,7 +807,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/patient-age-gender-snomed-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/patient-age-gender-snomed-profile" ]
        ] ;
        fhir:name [ fhir:v "Patient with SNOMED Gender and Age (extensions)" ] ;
@@ -825,14 +825,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Patient/PatientAgeGenderSnomedExample> ;
+         fhir:l <https://tecnomod-um.org/Patient/PatientAgeGenderSnomedExample> ;
          fhir:reference [ fhir:v "Patient/PatientAgeGenderSnomedExample" ]
        ] ;
        fhir:name [ fhir:v "PatientAgeGenderSnomedExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -846,7 +846,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Patient/example-patient> ;
+         fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
          fhir:reference [ fhir:v "Patient/example-patient" ]
        ] ;
        fhir:name [ fhir:v "PatientExample" ] ;
@@ -863,7 +863,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/perforation-procedures-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/perforation-procedures-vs> ;
          fhir:reference [ fhir:v "ValueSet/perforation-procedures-vs" ]
        ] ;
        fhir:name [ fhir:v "Perforation Procedures ValueSet" ] ;
@@ -881,7 +881,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/prior-medication-statement-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/prior-medication-statement-profile" ]
        ] ;
        fhir:name [ fhir:v "Prior Medication Statement Profile (R5)" ] ;
@@ -899,14 +899,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/MedicationStatement/PriorMedicationStatementExample> ;
+         fhir:l <https://tecnomod-um.org/MedicationStatement/PriorMedicationStatementExample> ;
          fhir:reference [ fhir:v "MedicationStatement/PriorMedicationStatementExample" ]
        ] ;
        fhir:name [ fhir:v "PriorMedicationStatementExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/prior-medication-statement-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/prior-medication-statement-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -920,7 +920,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/procedure-timing-context-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/procedure-timing-context-cs> ;
          fhir:reference [ fhir:v "CodeSystem/procedure-timing-context-cs" ]
        ] ;
        fhir:name [ fhir:v "Procedure Timing Context Code System" ] ;
@@ -938,7 +938,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/procedure-timing-context-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/procedure-timing-context-ext" ]
        ] ;
        fhir:name [ fhir:v "Procedure Timing Context Extension" ] ;
@@ -956,7 +956,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/procedure-timing-context-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/procedure-timing-context-vs> ;
          fhir:reference [ fhir:v "ValueSet/procedure-timing-context-vs" ]
        ] ;
        fhir:name [ fhir:v "Procedure Timing Context ValueSet" ] ;
@@ -974,7 +974,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/required-post-acute-care-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/required-post-acute-care-ext" ]
        ] ;
        fhir:name [ fhir:v "Required Post-Acute Care Extension" ] ;
@@ -992,7 +992,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/specific-finding-codes-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/specific-finding-codes-vs> ;
          fhir:reference [ fhir:v "ValueSet/specific-finding-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "Specific Stroke Finding Codes ValueSet" ] ;
@@ -1010,7 +1010,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-finding-codes-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-finding-codes-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-finding-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "Specific Stroke Finding Codes ValueSet" ] ;
@@ -1028,7 +1028,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/specific-finding-observation-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/specific-finding-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Specific Stroke Finding Observation Profile (R5)" ] ;
@@ -1046,14 +1046,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/SpecificFindingObservationExample> ;
+         fhir:l <https://tecnomod-um.org/Observation/SpecificFindingObservationExample> ;
          fhir:reference [ fhir:v "Observation/SpecificFindingObservationExample" ]
        ] ;
        fhir:name [ fhir:v "SpecificFindingObservationExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/specific-finding-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/specific-finding-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1067,14 +1067,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/SpecificFindingObservationExampleMTICI> ;
+         fhir:l <https://tecnomod-um.org/Observation/SpecificFindingObservationExampleMTICI> ;
          fhir:reference [ fhir:v "Observation/SpecificFindingObservationExampleMTICI" ]
        ] ;
        fhir:name [ fhir:v "SpecificFindingObservationExampleMTICI" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/specific-finding-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/specific-finding-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1088,7 +1088,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-arrival-mode-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-arrival-mode-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Arrival Mode ValueSet" ] ;
@@ -1106,7 +1106,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-brain-imaging-procedure-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-brain-imaging-procedure-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-brain-imaging-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Brain Imaging Procedure Profile (R5)" ] ;
@@ -1124,7 +1124,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-carotid-imaging-procedure-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-carotid-imaging-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Carotid Imaging Procedure Profile (R5)" ] ;
@@ -1142,7 +1142,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/stroke-circumstance-codes-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs> ;
          fhir:reference [ fhir:v "CodeSystem/stroke-circumstance-codes-cs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Circumstance Codes CodeSystem" ] ;
@@ -1160,7 +1160,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-circumstance-codes-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-circumstance-codes-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-circumstance-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Circumstance Codes ValueSet" ] ;
@@ -1178,7 +1178,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-circumstance-observation-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-circumstance-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Circumstance Observation Profile (R5)" ] ;
@@ -1196,7 +1196,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-diagnosis-condition-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-diagnosis-condition-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Diagnosis Condition Profile" ] ;
@@ -1214,7 +1214,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-diagnosis-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-diagnosis-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-diagnosis-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Diagnosis ValueSet" ] ;
@@ -1232,7 +1232,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/stroke-discharge-destination-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs> ;
          fhir:reference [ fhir:v "CodeSystem/stroke-discharge-destination-cs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Discharge Destination Code System" ] ;
@@ -1250,7 +1250,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-discharge-destination-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-discharge-destination-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-discharge-destination-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Discharge Destination ValueSet" ] ;
@@ -1268,7 +1268,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-encounter-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-encounter-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-encounter-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Encounter Profile" ] ;
@@ -1286,7 +1286,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/stroke-etiology-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/stroke-etiology-cs> ;
          fhir:reference [ fhir:v "CodeSystem/stroke-etiology-cs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Etiology Code System" ] ;
@@ -1304,7 +1304,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-etiology-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-etiology-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-etiology-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Etiology ValueSet" ] ;
@@ -1322,7 +1322,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/functional-score-codes-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/functional-score-codes-vs> ;
          fhir:reference [ fhir:v "ValueSet/functional-score-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Functional Score Codes ValueSet" ] ;
@@ -1340,7 +1340,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/functional-score-observation-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/functional-score-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/functional-score-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Functional Score Observation Profile (R5, Timing Ext)" ] ;
@@ -1358,7 +1358,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/onset-date-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/onset-date-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/onset-date-ext" ]
        ] ;
        fhir:name [ fhir:v "Stroke Onset Date" ] ;
@@ -1376,7 +1376,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/onset-time-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/onset-time-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/onset-time-ext" ]
        ] ;
        fhir:name [ fhir:v "Stroke Onset Time" ] ;
@@ -1394,7 +1394,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/stroke-proc-not-done-reason-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs> ;
          fhir:reference [ fhir:v "CodeSystem/stroke-proc-not-done-reason-cs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Procedure Not Done Reason Code System" ] ;
@@ -1412,7 +1412,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-proc-not-done-reason-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-proc-not-done-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Procedure Not Done Reason ValueSet" ] ;
@@ -1430,7 +1430,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-registry-organization-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-registry-organization-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Registry Organization Profile" ] ;
@@ -1448,7 +1448,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-risk-factor-condition-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-risk-factor-condition-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Risk Factor Condition Profile" ] ;
@@ -1466,7 +1466,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-risk-factor-snomed-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-risk-factor-snomed-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Risk Factor ValueSet" ] ;
@@ -1484,7 +1484,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/stroke-risk-factor-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/stroke-risk-factor-vs> ;
          fhir:reference [ fhir:v "ValueSet/stroke-risk-factor-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Risk Factor ValueSet" ] ;
@@ -1502,7 +1502,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-swallow-procedure-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-swallow-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Swallow Procedure Profile (R5)" ] ;
@@ -1520,7 +1520,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/stroke-mechanical-procedure-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/stroke-mechanical-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Thrombolysis Procedure Profile (R5)" ] ;
@@ -1538,7 +1538,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/timing-metric-codes-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/timing-metric-codes-vs> ;
          fhir:reference [ fhir:v "ValueSet/timing-metric-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Timing Metric Codes ValueSet" ] ;
@@ -1556,7 +1556,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/timing-metric-codes-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/timing-metric-codes-cs> ;
          fhir:reference [ fhir:v "CodeSystem/timing-metric-codes-cs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Timing Metric Codes ValueSet" ] ;
@@ -1574,7 +1574,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/timing-metric-observation-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/timing-metric-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Timing Metric Observation Profile (R5)" ] ;
@@ -1592,7 +1592,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/vital-sign-codes-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/vital-sign-codes-vs> ;
          fhir:reference [ fhir:v "ValueSet/vital-sign-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "Stroke Vital Sign Codes ValueSet" ] ;
@@ -1610,7 +1610,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/vital-sign-observation-profile> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/vital-sign-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Vital Sign Observation Profile (R5)" ] ;
@@ -1628,14 +1628,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Procedure/StrokeBrainImagingExample> ;
+         fhir:l <https://tecnomod-um.org/Procedure/StrokeBrainImagingExample> ;
          fhir:reference [ fhir:v "Procedure/StrokeBrainImagingExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeBrainImagingExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-brain-imaging-procedure-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-brain-imaging-procedure-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-brain-imaging-procedure-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-brain-imaging-procedure-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1649,14 +1649,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Procedure/StrokeCarotidImagingExample> ;
+         fhir:l <https://tecnomod-um.org/Procedure/StrokeCarotidImagingExample> ;
          fhir:reference [ fhir:v "Procedure/StrokeCarotidImagingExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeCarotidImagingExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1670,14 +1670,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/StrokeCircumstanceObservationExampleWakeUp> ;
+         fhir:l <https://tecnomod-um.org/Observation/StrokeCircumstanceObservationExampleWakeUp> ;
          fhir:reference [ fhir:v "Observation/StrokeCircumstanceObservationExampleWakeUp" ]
        ] ;
        fhir:name [ fhir:v "StrokeCircumstanceObservationExampleWakeUp" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1691,14 +1691,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Condition/StrokeDiagnosisConditionAFib> ;
+         fhir:l <https://tecnomod-um.org/Condition/StrokeDiagnosisConditionAFib> ;
          fhir:reference [ fhir:v "Condition/StrokeDiagnosisConditionAFib" ]
        ] ;
        fhir:name [ fhir:v "StrokeDiagnosisConditionAFib" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1712,14 +1712,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Condition/StrokeDiagnosisConditionAFlutter> ;
+         fhir:l <https://tecnomod-um.org/Condition/StrokeDiagnosisConditionAFlutter> ;
          fhir:reference [ fhir:v "Condition/StrokeDiagnosisConditionAFlutter" ]
        ] ;
        fhir:name [ fhir:v "StrokeDiagnosisConditionAFlutter" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1733,14 +1733,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Condition/StrokeDiagnosisConditionExample> ;
+         fhir:l <https://tecnomod-um.org/Condition/StrokeDiagnosisConditionExample> ;
          fhir:reference [ fhir:v "Condition/StrokeDiagnosisConditionExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeDiagnosisConditionExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1754,14 +1754,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Encounter/StrokeEncounterExample> ;
+         fhir:l <https://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
          fhir:reference [ fhir:v "Encounter/StrokeEncounterExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeEncounterExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-encounter-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1775,14 +1775,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Condition/StrokeRiskFactorConditionExample> ;
+         fhir:l <https://tecnomod-um.org/Condition/StrokeRiskFactorConditionExample> ;
          fhir:reference [ fhir:v "Condition/StrokeRiskFactorConditionExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeRiskFactorConditionExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1796,14 +1796,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Procedure/StrokeSwallowingExample> ;
+         fhir:l <https://tecnomod-um.org/Procedure/StrokeSwallowingExample> ;
          fhir:reference [ fhir:v "Procedure/StrokeSwallowingExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeSwallowingExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1817,14 +1817,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Procedure/StrokeThrombolysisExample> ;
+         fhir:l <https://tecnomod-um.org/Procedure/StrokeThrombolysisExample> ;
          fhir:reference [ fhir:v "Procedure/StrokeThrombolysisExample" ]
        ] ;
        fhir:name [ fhir:v "StrokeThrombolysisExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1838,7 +1838,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/swallow-procedures-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/swallow-procedures-cs> ;
          fhir:reference [ fhir:v "CodeSystem/swallow-procedures-cs" ]
        ] ;
        fhir:name [ fhir:v "Swallow Procedures Code System" ] ;
@@ -1856,7 +1856,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/swallow-procedures-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/swallow-procedures-vs> ;
          fhir:reference [ fhir:v "ValueSet/swallow-procedures-vs" ]
        ] ;
        fhir:name [ fhir:v "Swallow Procedures ValueSet" ] ;
@@ -1874,7 +1874,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/StructureDefinition/swallowing-screening-timing-category-ext> ;
+         fhir:l <https://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext> ;
          fhir:reference [ fhir:v "StructureDefinition/swallowing-screening-timing-category-ext" ]
        ] ;
        fhir:name [ fhir:v "Swallowing Screening Timing Category" ] ;
@@ -1892,7 +1892,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/swallow-screen-time-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/swallow-screen-time-cs> ;
          fhir:reference [ fhir:v "CodeSystem/swallow-screen-time-cs" ]
        ] ;
        fhir:name [ fhir:v "Swallowing Screening Timing Category Code System" ] ;
@@ -1910,7 +1910,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/swallowing-screening-timing-category-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs> ;
          fhir:reference [ fhir:v "ValueSet/swallowing-screening-timing-category-vs" ]
        ] ;
        fhir:name [ fhir:v "Swallowing Screening Timing Category ValueSet" ] ;
@@ -1928,7 +1928,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/CodeSystem/thrombectomy-complication-cs> ;
+         fhir:l <https://tecnomod-um.org/CodeSystem/thrombectomy-complication-cs> ;
          fhir:reference [ fhir:v "CodeSystem/thrombectomy-complication-cs" ]
        ] ;
        fhir:name [ fhir:v "Thrombectomy Complication Code System" ] ;
@@ -1946,7 +1946,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/ValueSet/thrombectomy-complication-vs> ;
+         fhir:l <https://tecnomod-um.org/ValueSet/thrombectomy-complication-vs> ;
          fhir:reference [ fhir:v "ValueSet/thrombectomy-complication-vs" ]
        ] ;
        fhir:name [ fhir:v "Thrombectomy Complication ValueSet" ] ;
@@ -1964,14 +1964,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/TimingMetricObservationExample> ;
+         fhir:l <https://tecnomod-um.org/Observation/TimingMetricObservationExample> ;
          fhir:reference [ fhir:v "Observation/TimingMetricObservationExample" ]
        ] ;
        fhir:name [ fhir:v "TimingMetricObservationExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/timing-metric-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/timing-metric-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1985,14 +1985,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://alvumu.github.io/Observation/VitalSignObservationExample> ;
+         fhir:l <https://tecnomod-um.org/Observation/VitalSignObservationExample> ;
          fhir:reference [ fhir:v "Observation/VitalSignObservationExample" ]
        ] ;
        fhir:name [ fhir:v "VitalSignObservationExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://testSK.org/StructureDefinition/vital-sign-observation-profile"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/StructureDefinition/vital-sign-observation-profile>
+         fhir:v "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile>
        ] )
      ] ) ;
      fhir:page [

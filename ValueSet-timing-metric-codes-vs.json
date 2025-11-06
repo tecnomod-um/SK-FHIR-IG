@@ -3,26 +3,26 @@
   "id" : "timing-metric-codes-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet timing-metric-codes-vs</b></p><a name=\"timing-metric-codes-vs\"> </a><a name=\"hctiming-metric-codes-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-timing-metric-codes-cs.html\"><code>http://testSK.org/CodeSystem/timing-metric-codes-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet timing-metric-codes-vs</b></p><a name=\"timing-metric-codes-vs\"> </a><a name=\"hctiming-metric-codes-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-timing-metric-codes-cs.html\"><code>http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
   },
-  "url" : "http://testSK.org/ValueSet/timing-metric-codes-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/timing-metric-codes-vs",
   "version" : "0.1.0",
   "name" : "TimingMetricCodesVS",
   "title" : "Stroke Timing Metric Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [{
     "name" : "UMU",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://testSK.org/umu"
+      "value" : "http://tecnomod-um.org"
     }]
   }],
   "description" : "ValueSet for key process timing metrics in acute stroke care (D2N, D2G).",
   "compose" : {
     "include" : [{
-      "system" : "http://testSK.org/CodeSystem/timing-metric-codes-cs"
+      "system" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"
     }]
   }
 }

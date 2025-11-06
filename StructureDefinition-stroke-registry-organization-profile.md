@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-registry-organization-profile | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile | *Version*:0.1.0 |
 | Active as of 2025-10-09 | *Computable Name*:StrokeRegistryOrganizationProfile |
 
  
@@ -21,7 +21,7 @@ To ensure a canonical form for Organizations used by the stroke quality registry
 
 * Examples for this Profile: [University Hospital of Boston](Organization-ExampleStrokeOrganization.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-registry-organization-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-registry-organization-profile)
 
 ### Formal Views of Profile Content
 
@@ -39,7 +39,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-registry-orga
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-registry-organization-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-registry-organization-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile",
   "version" : "0.1.0",
   "name" : "StrokeRegistryOrganizationProfile",
   "title" : "Stroke Registry Organization Profile",
@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-registry-orga
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

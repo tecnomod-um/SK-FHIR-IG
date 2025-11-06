@@ -41,20 +41,20 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
   "id" : "StrokeEncounterExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-encounter-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"
     ]
   },
   "extension" : [
     {
-      "url" : "http://testSK.org/StructureDefinition/first-hospital-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
       "valueBoolean" : true
     },
     {
-      "url" : "http://testSK.org/StructureDefinition/initial-care-intensity-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://testSK.org/CodeSystem/initial-care-intensity-cs",
+            "system" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
             "code" : "icu-stroke",
             "display" : "ICU / Stroke Unit"
           }
@@ -62,11 +62,11 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
       }
     },
     {
-      "url" : "http://testSK.org/StructureDefinition/required-post-acute-care-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
       "valueBoolean" : false
     },
     {
-      "url" : "http://testSK.org/StructureDefinition/discharge-department-service-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
@@ -100,7 +100,7 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
     "admitSource" : {
       "coding" : [
         {
-          "system" : "http://testSK.org/CodeSystem/stroke-arrival-mode-cs",
+          "system" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
           "code" : "ems-home",
           "display" : "EMS from Home"
         }

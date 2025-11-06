@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs | *Version*:0.1.0 |
 | Draft as of 2025-09-08 | *Computable Name*:HemorrhagicStrokeBleedingReasonVS |
 | **Copyright/Legal**: © Tecnomod. This value set includes locally defined codes. | |
 
@@ -24,7 +24,7 @@ To enable consistent capture of the underlying cause of bleeding in hemorrhagic 
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs`](CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs`](CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.md)version 📦0.1.0
 
  
 
@@ -51,7 +51,7 @@ To enable consistent capture of the underlying cause of bleeding in hemorrhagic 
 {
   "resourceType" : "ValueSet",
   "id" : "hemorrhagic-stroke-bleeding-reason-vs",
-  "url" : "http://testSK.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs",
   "version" : "0.1.0",
   "name" : "HemorrhagicStrokeBleedingReasonVS",
   "title" : "Hemorrhagic Stroke Bleeding Reason ValueSet",
@@ -65,7 +65,7 @@ To enable consistent capture of the underlying cause of bleeding in hemorrhagic 
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -77,7 +77,7 @@ To enable consistent capture of the underlying cause of bleeding in hemorrhagic 
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
       }
     ]
   }

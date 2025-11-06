@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:SwallowingScreeningTimingCategoryExt |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:SwallowingScreeningTimingCategoryExt |
 
 Temporal category relative to stroke onset in which the swallowing screening was performed.
 
@@ -22,7 +22,7 @@ Temporal category relative to stroke onset in which the swallowing screening was
 * Use this Extension: [Stroke Swallow Procedure Profile (R5)](StructureDefinition-stroke-swallow-procedure-profile.md)
 * Examples for this Extension: [Procedure/StrokeSwallowingExample](Procedure-StrokeSwallowingExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/swallowing-screening-timing-category-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/swallowing-screening-timing-category-ext)
 
 ### Formal Views of Extension Content
 
@@ -50,12 +50,12 @@ Other representations of profile: [CSV](StructureDefinition-swallowing-screening
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext",
   "version" : "0.1.0",
   "name" : "SwallowingScreeningTimingCategoryExt",
   "title" : "Swallowing Screening Timing Category",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-swallowing-screening
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](StructureDefinition-swallowing-screening
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-swallowing-screening
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/swallowing-screening-timing-category-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs"
         }
       }
     ]

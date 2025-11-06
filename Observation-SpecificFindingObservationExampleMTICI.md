@@ -28,14 +28,14 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
   "id" : "SpecificFindingObservationExampleMTICI",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/specific-finding-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
     ]
   },
   "status" : "final",
   "code" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mtici-code-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
         "code" : "mTICI",
         "display" : "Modified Thrombolysis in Cerebral Infarction"
       }
@@ -50,7 +50,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
   "valueCodeableConcept" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mtici-score-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/mtici-score-cs",
         "code" : "3",
         "display" : "Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches"
       }

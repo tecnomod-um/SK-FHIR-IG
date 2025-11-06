@@ -37,16 +37,16 @@ Profile: [Stroke Swallow Procedure Profile (R5)](StructureDefinition-stroke-swal
   "id" : "StrokeSwallowingExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
     ]
   },
   "extension" : [
     {
-      "url" : "http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://testSK.org/CodeSystem/swallow-screen-time-cs",
+            "system" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
             "code" : "T4H",
             "display" : "Within 4 hours"
           }
@@ -54,11 +54,11 @@ Profile: [Stroke Swallow Procedure Profile (R5)](StructureDefinition-stroke-swal
       }
     },
     {
-      "url" : "http://testSK.org/StructureDefinition/procedure-timing-context-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://testSK.org/CodeSystem/procedure-timing-context-cs",
+            "system" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
             "code" : "acute",
             "display" : "Acute Phase (<24h)"
           }

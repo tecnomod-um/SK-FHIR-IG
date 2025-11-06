@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/swallowing-screening-timing-category-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:SwallowingScreeningTimingCategoryVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:SwallowingScreeningTimingCategoryVS |
 
  
 Temporal categories relative to stroke onset for swallowing screening. 
@@ -52,12 +52,12 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "swallowing-screening-timing-category-vs",
-  "url" : "http://testSK.org/ValueSet/swallowing-screening-timing-category-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs",
   "version" : "0.1.0",
   "name" : "SwallowingScreeningTimingCategoryVS",
   "title" : "Swallowing Screening Timing Category ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -65,7 +65,7 @@ This value set contains 3 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -74,7 +74,7 @@ This value set contains 3 concepts
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/swallow-screen-time-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs"
       },
       {
         "system" : "http://snomed.info/sct",

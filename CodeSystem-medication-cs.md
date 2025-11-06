@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/medication-cs | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:MedicationCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/medication-cs | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:MedicationCS |
 
  
 Codes for drug products or substances representing the Medications on the patient discharge. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [MedicationVS](ValueSet-medication-vs.md)
+* [MedicationVS](ValueSet-discharge-medication-vs.md)
 
 
 
@@ -26,12 +26,12 @@ Codes for drug products or substances representing the Medications on the patien
 {
   "resourceType" : "CodeSystem",
   "id" : "medication-cs",
-  "url" : "http://testSK.org/CodeSystem/medication-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
   "version" : "0.1.0",
   "name" : "MedicationCS",
   "title" : "Medications CodeSystem",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -39,14 +39,14 @@ Codes for drug products or substances representing the Medications on the patien
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
   ],
   "description" : "Codes for drug products or substances representing the Medications on the patient discharge.",
   "content" : "complete",
-  "count" : 5,
+  "count" : 4,
   "concept" : [
     {
       "code" : "other-anticoagulant",
@@ -67,11 +67,6 @@ Codes for drug products or substances representing the Medications on the patien
       "code" : "other",
       "display" : "Other Medication",
       "definition" : "A medication other than those specifically listed was prescribed at discharge"
-    },
-    {
-      "code" : "other-antiplatelet",
-      "display" : "Other Antiplatelet",
-      "definition" : "Other Antiplatelet"
     }
   ]
 }

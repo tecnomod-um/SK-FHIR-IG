@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:HemorrhagicStrokeBleedingReasonExt |
 
 Captures, as a CodeableConcept bound (required) to HemorrhagicStrokeBleedingReasonVS, the identified cause of intracranial bleeding in hemorrhagic stroke (e.g., aneurysm, vascular malformation, other). Use when coding a definitive hemorrhagic stroke Condition to support analytics and decision support; do not use for non-hemorrhagic etiologies or when the cause is unknown/undetermined.
@@ -23,7 +23,7 @@ To standardize capture of the bleeding cause in hemorrhagic stroke conditions fo
 
 * Use this Extension: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext)
 
 ### Formal Views of Extension Content
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-hemorrhagic-stroke-b
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
   "version" : "0.1.0",
   "name" : "HemorrhagicStrokeBleedingReasonExt",
   "title" : "Hemorrhagic Stroke – Bleeding Reason",
@@ -65,7 +65,7 @@ Other representations of profile: [CSV](StructureDefinition-hemorrhagic-stroke-b
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -107,7 +107,7 @@ Other representations of profile: [CSV](StructureDefinition-hemorrhagic-stroke-b
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -119,7 +119,7 @@ Other representations of profile: [CSV](StructureDefinition-hemorrhagic-stroke-b
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs"
         }
       }
     ]

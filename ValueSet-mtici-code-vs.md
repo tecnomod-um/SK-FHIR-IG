@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/mtici-code-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:MTICICodeVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/mtici-code-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:MTICICodeVS |
 
  
 ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure. 
@@ -20,7 +20,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/mtici-code-cs`](CodeSystem-mtici-code-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/mtici-code-cs`](CodeSystem-mtici-code-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
 {
   "resourceType" : "ValueSet",
   "id" : "mtici-code-vs",
-  "url" : "http://testSK.org/ValueSet/mtici-code-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/mtici-code-vs",
   "version" : "0.1.0",
   "name" : "MTICICodeVS",
   "title" : "mTICI Score Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mtici-code-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs"
       }
     ]
   }

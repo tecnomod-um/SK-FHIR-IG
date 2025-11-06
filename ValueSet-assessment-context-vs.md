@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/assessment-context-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:AssessmentContextVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/assessment-context-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:AssessmentContextVS |
 
  
 ValueSet for assessment context codes (e.g., timing of functional scores). 
@@ -20,7 +20,7 @@ ValueSet for assessment context codes (e.g., timing of functional scores).
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/assessment-context-cs`](CodeSystem-assessment-context-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/assessment-context-cs`](CodeSystem-assessment-context-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet for assessment context codes (e.g., timing of functional scores).
 {
   "resourceType" : "ValueSet",
   "id" : "assessment-context-vs",
-  "url" : "http://testSK.org/ValueSet/assessment-context-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/assessment-context-vs",
   "version" : "0.1.0",
   "name" : "AssessmentContextVS",
   "title" : "Assessment Context ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet for assessment context codes (e.g., timing of functional scores).
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet for assessment context codes (e.g., timing of functional scores).
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/assessment-context-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs"
       }
     ]
   }

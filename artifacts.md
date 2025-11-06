@@ -69,7 +69,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Hemorrhagic Stroke Bleeding Reason ValueSet](ValueSet-hemorrhagic-stroke-bleeding-reason-vs.md) | Specifies the identified cause of a hemorrhagic stroke, typically used with an extension. |
 | [Initial Care Intensity ValueSet](ValueSet-initial-care-intensity-vs.md) | ValueSet indicating the level of care provided initially. |
 | [MTICI Score ValueSet](ValueSet-mtici-score-vs.md) | ValueSet containing the codes to represent the MTICI score used to assess the degree of reperfusion after a thrombectomy procedure. |
-| [Medications ValueSet](ValueSet-medication-vs.md) | SNOMED CT codes for drug products or substances. |
+| [Medications ValueSet](ValueSet-discharge-medication-vs.md) | SNOMED CT codes for drug products or substances. |
 | [Perforation Procedures ValueSet](ValueSet-perforation-procedures-vs.md) | ValueSet containing SNOMED CT codes representing a range of perforation procedures. |
 | [Procedure Timing Context ValueSet](ValueSet-procedure-timing-context-vs.md) | ValueSet for codes defining the timing phase of a procedure relative to the encounter start. |
 | [Specific Stroke Finding Codes ValueSet](ValueSet-specific-finding-codes-vs.md) | Codes for specific clinical findings relevant to stroke (Afib/Flutter status, MTICI score). |

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/vs-gender-snomed | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:GenderSNOMEDVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/vs-gender-snomed | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:GenderSNOMEDVS |
 
  
 Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender. 
@@ -49,13 +49,13 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "vs-gender-snomed",
-  "url" : "http://testSK.org/ValueSet/vs-gender-snomed",
+  "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
   "version" : "0.1.0",
   "name" : "GenderSNOMEDVS",
   "title" : "Gender (SNOMED CT)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ This value set contains 3 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

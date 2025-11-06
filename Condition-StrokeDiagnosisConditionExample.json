@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "StrokeDiagnosisConditionExample",
   "meta" : {
-    "profile" : ["http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"]
+    "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"]
   },
   "text" : {
     "status" : "generated",

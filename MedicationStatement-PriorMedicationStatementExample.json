@@ -2,7 +2,7 @@
   "resourceType" : "MedicationStatement",
   "id" : "PriorMedicationStatementExample",
   "meta" : {
-    "profile" : ["http://testSK.org/StructureDefinition/prior-medication-statement-profile"]
+    "profile" : ["http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"]
   },
   "text" : {
     "status" : "generated",

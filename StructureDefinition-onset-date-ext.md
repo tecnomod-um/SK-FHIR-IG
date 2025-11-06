@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/onset-date-ext | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/onset-date-ext | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:OnsetDateExt |
 
 Captures the calendar date (value[x] = date) of symptom onset for the indexed stroke event when known, enabling calculation of onset-to-door metrics and adherence to time-sensitive pathways. Use alongside OnsetTimeExt when hour/minute precision is available; omit if onset is unknown or inapplicable.
@@ -23,7 +23,7 @@ To record stroke onset date for clinical decision making and quality metrics.
 
 * Use this Extension: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/onset-date-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/onset-date-ext)
 
 ### Formal Views of Extension Content
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-onset-date-ext.csv),
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/onset-date-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/onset-date-ext",
   "version" : "0.1.0",
   "name" : "OnsetDateExt",
   "title" : "Stroke Onset Date",
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-onset-date-ext.csv),
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-onset-date-ext.csv),
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/onset-date-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/onset-date-ext"
       },
       {
         "id" : "Extension.value[x]",

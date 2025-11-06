@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/stroke-finding-codes-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeFindingCodesVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeFindingCodesVS |
 
  
 ValueSet for specific coded findings like Afib/Flutter status or mTICI score. 
@@ -59,12 +59,12 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-finding-codes-vs",
-  "url" : "http://testSK.org/ValueSet/stroke-finding-codes-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs",
   "version" : "0.1.0",
   "name" : "StrokeFindingCodesVS",
   "title" : "Specific Stroke Finding Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -72,7 +72,7 @@ This value set contains 3 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -81,10 +81,10 @@ This value set contains 3 concepts
   "compose" : {
     "include" : [
       {
-        "valueSet" : ["http://testSK.org/ValueSet/specific-finding-codes-vs"]
+        "valueSet" : ["http://tecnomod-um.org/ValueSet/specific-finding-codes-vs"]
       },
       {
-        "valueSet" : ["http://testSK.org/ValueSet/mtici-code-vs"]
+        "valueSet" : ["http://tecnomod-um.org/ValueSet/mtici-code-vs"]
       }
     ]
   }

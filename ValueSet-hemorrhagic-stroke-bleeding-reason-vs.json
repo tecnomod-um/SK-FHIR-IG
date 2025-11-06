@@ -3,9 +3,9 @@
   "id" : "hemorrhagic-stroke-bleeding-reason-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hemorrhagic-stroke-bleeding-reason-vs</b></p><a name=\"hemorrhagic-stroke-bleeding-reason-vs\"> </a><a name=\"hchemorrhagic-stroke-bleeding-reason-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.html\"><code>http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hemorrhagic-stroke-bleeding-reason-vs</b></p><a name=\"hemorrhagic-stroke-bleeding-reason-vs\"> </a><a name=\"hchemorrhagic-stroke-bleeding-reason-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.html\"><code>http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
   },
-  "url" : "http://testSK.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs",
   "version" : "0.1.0",
   "name" : "HemorrhagicStrokeBleedingReasonVS",
   "title" : "Hemorrhagic Stroke Bleeding Reason ValueSet",
@@ -17,7 +17,7 @@
     "name" : "UMU",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://testSK.org/umu"
+      "value" : "http://tecnomod-um.org"
     }]
   }],
   "description" : "Specifies the identified cause of a hemorrhagic stroke, typically used with an extension.",
@@ -26,7 +26,7 @@
   "copyright" : "© Tecnomod. This value set includes locally defined codes.",
   "compose" : {
     "include" : [{
-      "system" : "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
+      "system" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
     }]
   }
 }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/vital-sign-codes-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:VitalSignCodesVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/vital-sign-codes-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:VitalSignCodesVS |
 
  
 Codes for key vital signs relevant to stroke assessment (Systolic, Diastolic BP). 
@@ -49,13 +49,13 @@ This value set contains 2 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "vital-sign-codes-vs",
-  "url" : "http://testSK.org/ValueSet/vital-sign-codes-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/vital-sign-codes-vs",
   "version" : "0.1.0",
   "name" : "VitalSignCodesVS",
   "title" : "Stroke Vital Sign Codes ValueSet",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ This value set contains 2 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

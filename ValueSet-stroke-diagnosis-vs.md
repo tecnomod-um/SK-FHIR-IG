@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/stroke-diagnosis-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:StrokeDiagnosisVS |
 | **Copyright/Legal**: This value set includes SNOMED CT® content. SNOMED CT® is distributed by SNOMED International. | |
 
@@ -53,7 +53,7 @@ This value set contains 5 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-diagnosis-vs",
-  "url" : "http://testSK.org/ValueSet/stroke-diagnosis-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs",
   "version" : "0.1.0",
   "name" : "StrokeDiagnosisVS",
   "title" : "Stroke Diagnosis ValueSet",
@@ -67,7 +67,7 @@ This value set contains 5 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

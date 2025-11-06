@@ -28,16 +28,16 @@ Profile: [Stroke Thrombolysis Procedure Profile (R5)](StructureDefinition-stroke
   "id" : "StrokeThrombolysisExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile"
     ]
   },
   "extension" : [
     {
-      "url" : "http://testSK.org/StructureDefinition/procedure-timing-context-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://testSK.org/CodeSystem/procedure-timing-context-cs",
+            "system" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
             "code" : "unknown",
             "display" : "Unknown/Not Applicable"
           }

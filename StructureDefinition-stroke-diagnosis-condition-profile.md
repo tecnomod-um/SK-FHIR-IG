@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:StrokeDiagnosisConditionProfile |
 | **Copyright/Legal**: © Tecnomod. This profile is provided for use within this Implementation Guide. | |
 
@@ -22,7 +22,7 @@ To standardize the representation of definitive stroke diagnoses to support inte
 
 * Examples for this Profile: [Condition/StrokeDiagnosisConditionExample](Condition-StrokeDiagnosisConditionExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-diagnosis-condition-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-diagnosis-condition-profile)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-diagnosis-condition-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile",
   "version" : "0.1.0",
   "name" : "StrokeDiagnosisConditionProfile",
   "title" : "Stroke Diagnosis Condition Profile",
@@ -54,7 +54,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"
+              "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"
             ]
           }
         ],
@@ -141,7 +141,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext"
+              "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext"
             ]
           }
         ],
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://testSK.org/StructureDefinition/onset-date-ext"]
+            "profile" : ["http://tecnomod-um.org/StructureDefinition/onset-date-ext"]
           }
         ],
         "mustSupport" : true
@@ -170,7 +170,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://testSK.org/StructureDefinition/onset-time-ext"]
+            "profile" : ["http://tecnomod-um.org/StructureDefinition/onset-time-ext"]
           }
         ],
         "mustSupport" : true
@@ -206,7 +206,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-diagnosis-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs"
         }
       },
       {

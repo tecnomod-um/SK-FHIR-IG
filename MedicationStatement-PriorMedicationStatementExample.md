@@ -45,7 +45,7 @@ Profile: [Prior Medication Statement Profile (R5)](StructureDefinition-prior-med
   "id" : "PriorMedicationStatementExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/prior-medication-statement-profile"
+      "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"
     ]
   },
   "status" : "recorded",

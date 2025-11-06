@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/mrs-score-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:MRsScoreCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/mrs-score-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:MRsScoreCS |
 
  
 Codes representing the modified Rankin Scale (mRS) score for functional outcome. 
@@ -26,13 +26,13 @@ Codes representing the modified Rankin Scale (mRS) score for functional outcome.
 {
   "resourceType" : "CodeSystem",
   "id" : "mrs-score-cs",
-  "url" : "http://testSK.org/CodeSystem/mrs-score-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
   "version" : "0.1.0",
   "name" : "MRsScoreCS",
   "title" : "modified Rankin Scale (mRS) Score Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -40,7 +40,7 @@ Codes representing the modified Rankin Scale (mRS) score for functional outcome.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/stroke-arrival-mode-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeArrivalModeCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeArrivalModeCS |
 
  
 Codes indicating the level of care provided during the patient's initial day(s) in the hospital. 
@@ -26,13 +26,13 @@ Codes indicating the level of care provided during the patient's initial day(s) 
 {
   "resourceType" : "CodeSystem",
   "id" : "stroke-arrival-mode-cs",
-  "url" : "http://testSK.org/CodeSystem/stroke-arrival-mode-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
   "version" : "0.1.0",
   "name" : "StrokeArrivalModeCS",
   "title" : "Initial Care Intensity Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -40,7 +40,7 @@ Codes indicating the level of care provided during the patient's initial day(s) 
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

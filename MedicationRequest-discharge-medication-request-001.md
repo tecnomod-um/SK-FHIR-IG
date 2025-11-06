@@ -35,7 +35,7 @@ Profile: [Discharge Medication Request Profile](StructureDefinition-discharge-me
   "id" : "discharge-medication-request-001",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/discharge-medication-request-profile"
+      "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile"
     ]
   },
   "status" : "active",

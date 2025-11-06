@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:PatientAgeGenderSNOMEDProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:PatientAgeGenderSNOMEDProfile |
 
  
 Profile that adds an integer age extension and a SNOMED-based gender extension. 
@@ -18,7 +18,7 @@ Profile that adds an integer age extension and a SNOMED-based gender extension.
 
 * Examples for this Profile: [Patient/PatientAgeGenderSnomedExample](Patient-PatientAgeGenderSnomedExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/patient-age-gender-snomed-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/patient-age-gender-snomed-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
 {
   "resourceType" : "StructureDefinition",
   "id" : "patient-age-gender-snomed-profile",
-  "url" : "http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile",
   "version" : "0.1.0",
   "name" : "PatientAgeGenderSNOMEDProfile",
   "title" : "Patient with SNOMED Gender and Age (extensions)",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -123,7 +123,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://testSK.org/StructureDefinition/patient-age-ext"]
+            "profile" : ["http://tecnomod-um.org/StructureDefinition/patient-age-ext"]
           }
         ],
         "mustSupport" : true
@@ -137,7 +137,9 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://testSK.org/StructureDefinition/gender-snomed-ext"]
+            "profile" : [
+              "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext"
+            ]
           }
         ],
         "mustSupport" : true

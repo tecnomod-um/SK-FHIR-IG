@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/ValueSet/stroke-risk-factor-vs> a fhir:ValueSet ;
+<https://tecnomod-um.org/ValueSet/stroke-risk-factor-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "stroke-risk-factor-vs"] ; # 
   fhir:text [
@@ -14,8 +14,8 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-risk-factor-vs</b></p><a name=\"stroke-risk-factor-vs\"> </a><a name=\"hcstroke-risk-factor-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-stroke-risk-factor-snomed-vs.html\">Stroke Risk Factor ValueSet</a></li><li>Import all the codes that are contained in http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
-     fhir:v "http://testSK.org/ValueSet/stroke-risk-factor-vs"^^xsd:anyURI ;
-     fhir:l <http://testSK.org/ValueSet/stroke-risk-factor-vs>
+     fhir:v "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs>
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "StrokeRiskFactorValueSet"] ; # 
@@ -28,7 +28,7 @@
      fhir:name [ fhir:v "UMU" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://testSK.org/umu" ]
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."] ; # 
@@ -38,8 +38,8 @@
   fhir:compose [
      fhir:include ( [
        fhir:valueSet ( [
-         fhir:v "http://testSK.org/ValueSet/stroke-risk-factor-snomed-vs"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/ValueSet/stroke-risk-factor-snomed-vs>
+         fhir:v "http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs>
        ] )
      ] [
        fhir:valueSet ( [

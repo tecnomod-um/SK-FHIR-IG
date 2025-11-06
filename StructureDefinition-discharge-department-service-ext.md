@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/discharge-department-service-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:DischargeDepartmentServiceExtension |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:DischargeDepartmentServiceExtension |
 
 Specifies the type of department or service the patient was discharged or transferred to.
 
@@ -22,7 +22,7 @@ Specifies the type of department or service the patient was discharged or transf
 * Use this Extension: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
 * Examples for this Extension: [Encounter/StrokeEncounterExample](Encounter-StrokeEncounterExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/discharge-department-service-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/discharge-department-service-ext)
 
 ### Formal Views of Extension Content
 
@@ -50,12 +50,12 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/discharge-department-service-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext",
   "version" : "0.1.0",
   "name" : "DischargeDepartmentServiceExtension",
   "title" : "Discharge Department/Service Extension",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/discharge-department-service-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -115,7 +115,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/discharge-dept-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/discharge-dept-vs"
         }
       }
     ]

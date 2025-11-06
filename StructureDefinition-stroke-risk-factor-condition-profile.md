@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:StrokeRiskFactorConditionProfile |
 | **Copyright/Legal**: © Tecnomod. This profile is provided for use within this Implementation Guide. | |
 
@@ -22,7 +22,7 @@ To standardize capture of stroke-related risk factor conditions for longitudinal
 
 * Examples for this Profile: [Condition/StrokeDiagnosisConditionAFib](Condition-StrokeDiagnosisConditionAFib.md), [Condition/StrokeDiagnosisConditionAFlutter](Condition-StrokeDiagnosisConditionAFlutter.md) and [Condition/StrokeRiskFactorConditionExample](Condition-StrokeRiskFactorConditionExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-risk-factor-condition-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-risk-factor-condition-profile)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-risk-factor-condition-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile",
   "version" : "0.1.0",
   "name" : "StrokeRiskFactorConditionProfile",
   "title" : "Stroke Risk Factor Condition Profile",
@@ -54,7 +54,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -132,7 +132,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-risk-factor-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs"
         }
       },
       {

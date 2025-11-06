@@ -24,7 +24,7 @@ Profile: [Stroke Registry Organization Profile](StructureDefinition-stroke-regis
   "id" : "ExampleStrokeOrganization",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-registry-organization-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile"
     ]
   },
   "identifier" : [

@@ -1,4 +1,4 @@
-# SKtestIG#0.1.0: null
+# RES-Q-FHIR-IG#0.1.0: null
 
 ## Pages
 
@@ -47,10 +47,10 @@
 * [Carotid Arteries Imaging Modality ValueSet](ValueSet-carotid-imaging-modality-vs.md)
 * [Discharge Department/Service ValueSet](ValueSet-discharge-dept-vs.md)
 * [Discharge Destination ValueSet](ValueSet-discharge-destination-vs.md)
+* [Medications ValueSet](ValueSet-discharge-medication-vs.md)
 * [Stroke Functional Score Codes ValueSet](ValueSet-functional-score-codes-vs.md)
 * [Hemorrhagic Stroke Bleeding Reason ValueSet](ValueSet-hemorrhagic-stroke-bleeding-reason-vs.md)
 * [Initial Care Intensity ValueSet](ValueSet-initial-care-intensity-vs.md)
-* [Medications ValueSet](ValueSet-medication-vs.md)
 * [modified Rankin Scale (mRS) Score ValueSet](ValueSet-mrs-score-vs.md)
 * [mTICI Score Codes ValueSet](ValueSet-mtici-code-vs.md)
 * [MTICI Score ValueSet](ValueSet-mtici-score-vs.md)
@@ -112,7 +112,7 @@
 
 ### ImplementationGuides
 
-* [IGTest](index.md)
+* [RESQIG](index.md)
 
 ### Examples
 

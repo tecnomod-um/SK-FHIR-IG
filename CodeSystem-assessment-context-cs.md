@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/assessment-context-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:AssessmentContextCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/assessment-context-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:AssessmentContextCS |
 
  
 Codes defining the context or timing of a clinical assessment, particularly functional scores. 
@@ -26,13 +26,13 @@ Codes defining the context or timing of a clinical assessment, particularly func
 {
   "resourceType" : "CodeSystem",
   "id" : "assessment-context-cs",
-  "url" : "http://testSK.org/CodeSystem/assessment-context-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
   "version" : "0.1.0",
   "name" : "AssessmentContextCS",
   "title" : "Assessment Context Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -40,7 +40,7 @@ Codes defining the context or timing of a clinical assessment, particularly func
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/initial-care-intensity-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:InitialCareIntensityVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/initial-care-intensity-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:InitialCareIntensityVS |
 
  
 ValueSet indicating the level of care provided initially. 
@@ -20,7 +20,7 @@ ValueSet indicating the level of care provided initially.
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/initial-care-intensity-cs`](CodeSystem-initial-care-intensity-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs`](CodeSystem-initial-care-intensity-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet indicating the level of care provided initially.
 {
   "resourceType" : "ValueSet",
   "id" : "initial-care-intensity-vs",
-  "url" : "http://testSK.org/ValueSet/initial-care-intensity-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/initial-care-intensity-vs",
   "version" : "0.1.0",
   "name" : "InitialCareIntensityVS",
   "title" : "Initial Care Intensity ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet indicating the level of care provided initially.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet indicating the level of care provided initially.
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/initial-care-intensity-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"
       }
     ]
   }

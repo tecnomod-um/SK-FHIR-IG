@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/initial-care-intensity-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:InitialCareIntensityExtension |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:InitialCareIntensityExtension |
 
 Specifies the level of care provided during the patient's initial day(s) in the hospital (e.g., standard bed, monitored, ICU/Stroke Unit).
 
@@ -22,7 +22,7 @@ Specifies the level of care provided during the patient's initial day(s) in the 
 * Use this Extension: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
 * Examples for this Extension: [Encounter/StrokeEncounterExample](Encounter-StrokeEncounterExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/initial-care-intensity-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/initial-care-intensity-ext)
 
 ### Formal Views of Extension Content
 
@@ -50,12 +50,12 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/initial-care-intensity-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
   "version" : "0.1.0",
   "name" : "InitialCareIntensityExtension",
   "title" : "Initial Care Intensity Extension",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/initial-care-intensity-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -115,7 +115,7 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/initial-care-intensity-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/initial-care-intensity-vs"
         }
       }
     ]

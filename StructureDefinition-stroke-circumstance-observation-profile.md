@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:StrokeCircumstanceObservationProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:StrokeCircumstanceObservationProfile |
 
  
 Profile for recording findings about stroke onset circumstances (In-hospital, Wake-up). 
@@ -18,7 +18,7 @@ Profile for recording findings about stroke onset circumstances (In-hospital, Wa
 
 * Examples for this Profile: [Observation/StrokeCircumstanceObservationExampleWakeUp](Observation-StrokeCircumstanceObservationExampleWakeUp.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-circumstance-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-circumstance-observation-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-circumstance-
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-circumstance-observation-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile",
   "version" : "0.1.0",
   "name" : "StrokeCircumstanceObservationProfile",
   "title" : "Stroke Circumstance Observation Profile (R5)",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-circumstance-
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -91,7 +91,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-circumstance-
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://testSK.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-circumstance-
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-circumstance-codes-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-codes-vs"
         }
       },
       {

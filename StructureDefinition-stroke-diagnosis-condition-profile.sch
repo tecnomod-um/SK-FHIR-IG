@@ -12,10 +12,10 @@
   <sch:pattern>
     <sch:title>f:Condition</sch:title>
     <sch:rule context="f:Condition">
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/onset-date-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/onset-date-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/onset-time-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/onset-time-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/onset-date-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/onset-date-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/onset-time-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/onset-time-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
       <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>
       <sch:assert test="count(f:onset[x]) &lt;= 0">onset[x]: maximum cardinality of 'onset[x]' is 0</sch:assert>

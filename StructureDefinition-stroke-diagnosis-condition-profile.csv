@@ -26,16 +26,16 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.extension:bleedingReason","Condition.extension","bleedingReason","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext]]} {[]}
+"Condition.extension:bleedingReason","Condition.extension","bleedingReason","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext]]} {[]}
 ","Hemorrhagic Stroke – Bleeding Reason","Captures, as a CodeableConcept bound (required) to HemorrhagicStrokeBleedingReasonVS, the identified cause of intracranial bleeding in hemorrhagic stroke (e.g., aneurysm, vascular malformation, other). Use when coding a definitive hemorrhagic stroke Condition to support analytics and decision support; do not use for non-hemorrhagic etiologies or when the cause is unknown/undetermined.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.extension:ischemicEtiology","Condition.extension","ischemicEtiology","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext]]} {[]}
+"Condition.extension:ischemicEtiology","Condition.extension","ischemicEtiology","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext]]} {[]}
 ","Ischemic Stroke – Etiology","Records the determined ischemic stroke etiology as a CodeableConcept bound (required) to StrokeEtiologyVS (e.g., cardioembolic, large artery atherosclerosis, lacunar, cryptogenic). Apply to definitive ischemic stroke Conditions after diagnostic workup; avoid use for hemorrhagic strokes or provisional hypotheses not yet established.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.extension:onsetDate","Condition.extension","onsetDate","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/onset-date-ext]]} {[]}
+"Condition.extension:onsetDate","Condition.extension","onsetDate","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/onset-date-ext]]} {[]}
 ","Stroke Onset Date","Captures the calendar date (value[x] = date) of symptom onset for the indexed stroke event when known, enabling calculation of onset-to-door metrics and adherence to time-sensitive pathways. Use alongside OnsetTimeExt when hour/minute precision is available; omit if onset is unknown or inapplicable.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.extension:onsetTime","Condition.extension","onsetTime","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/onset-time-ext]]} {[]}
+"Condition.extension:onsetTime","Condition.extension","onsetTime","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/onset-time-ext]]} {[]}
 ","Stroke Onset Time","Captures the clock time (value[x] = time) of symptom onset for the indexed stroke event when available, complementing OnsetDateExt to support precise onset-to-treatment intervals. Use local time of the clinical setting; omit if time is unknown or estimated beyond acceptable precision.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Condition.modifierExtension","Condition.modifierExtension","","extensions
@@ -72,7 +72,7 @@ The data type is CodeableConcept because verificationStatus has some clinical ju
 ","FiveWs.grade","< 272141005 |Severities|","PRB-26 / ABS-3","Can be pre/post-coordinated into value.  Or ./inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=""severity""].value","246112005"
 "Condition.code","Condition.code","","type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Identification of the condition, problem or diagnosis","Identification of the condition, problem or diagnosis.","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://testSK.org/ValueSet/stroke-diagnosis-vs","",,,,"Condition.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Identification of the condition, problem or diagnosis","Identification of the condition, problem or diagnosis.","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs","",,,,"Condition.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.what[x]","(< 404684003 |Clinical finding| MINUS (
 << 420134006 |Propensity to adverse reactions| OR 
 << 473010000 |Hypersensitivity condition| OR 

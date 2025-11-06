@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/brain-imaging-modality-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:BrainImagingModalityVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/brain-imaging-modality-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:BrainImagingModalityVS |
 
  
 Defines the SNOMED CT codes for individual brain imaging modalities performed as procedures. 
@@ -52,12 +52,12 @@ This value set contains 6 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "brain-imaging-modality-vs",
-  "url" : "http://testSK.org/ValueSet/brain-imaging-modality-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/brain-imaging-modality-vs",
   "version" : "0.1.0",
   "name" : "BrainImagingModalityVS",
   "title" : "Brain Imaging Modality ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -65,7 +65,7 @@ This value set contains 6 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -83,7 +83,7 @@ This value set contains 6 concepts
         ]
       },
       {
-        "system" : "http://testSK.org/CodeSystem/brain-imaging-type-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs"
       }
     ]
   }

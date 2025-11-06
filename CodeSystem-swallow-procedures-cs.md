@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/swallow-procedures-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:SwallowProceduresCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/swallow-procedures-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:SwallowProceduresCS |
 
  
 Codes representing various swallowing assessment procedures. 
@@ -26,12 +26,12 @@ Codes representing various swallowing assessment procedures.
 {
   "resourceType" : "CodeSystem",
   "id" : "swallow-procedures-cs",
-  "url" : "http://testSK.org/CodeSystem/swallow-procedures-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
   "version" : "0.1.0",
   "name" : "SwallowProceduresCS",
   "title" : "Swallow Procedures Code System",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -39,7 +39,7 @@ Codes representing various swallowing assessment procedures.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

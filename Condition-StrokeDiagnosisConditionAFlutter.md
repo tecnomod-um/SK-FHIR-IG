@@ -30,7 +30,7 @@ Profile: [Stroke Risk Factor Condition Profile](StructureDefinition-stroke-risk-
   "id" : "StrokeDiagnosisConditionAFlutter",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"
     ]
   },
   "clinicalStatus" : {

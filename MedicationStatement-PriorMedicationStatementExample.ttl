@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/MedicationStatement/PriorMedicationStatementExample> a fhir:MedicationStatement ;
+<https://tecnomod-um.org/MedicationStatement/PriorMedicationStatementExample> a fhir:MedicationStatement ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PriorMedicationStatementExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://testSK.org/StructureDefinition/prior-medication-statement-profile"^^xsd:anyURI ;
-       fhir:l <http://testSK.org/StructureDefinition/prior-medication-statement-profile>
+       fhir:v "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile>
      ] )
   ] ; # 
   fhir:text [
@@ -35,7 +35,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:l <https://alvumu.github.io/Patient/example-patient> ;
+     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:encounter [
@@ -44,7 +44,7 @@
   ] ; # 
   fhir:reason ( [
      fhir:reference [
-       fhir:l <https://alvumu.github.io/Condition/StrokeDiagnosisConditionExample> ;
+       fhir:l <https://tecnomod-um.org/Condition/StrokeDiagnosisConditionExample> ;
        fhir:reference [ fhir:v "Condition/StrokeDiagnosisConditionExample" ]
      ]
   ] ) ; # 

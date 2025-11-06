@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeThrombolysisProcedureProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeThrombolysisProcedureProfile |
 
  
 Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context. 
@@ -18,7 +18,7 @@ Procedure profile to record key stroke procedures, including status, timing, com
 
 * Examples for this Profile: [Procedure/StrokeThrombolysisExample](Procedure-StrokeThrombolysisExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-mechanical-procedure-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-mechanical-procedure-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-mechanical-procedure-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile",
   "version" : "0.1.0",
   "name" : "StrokeThrombolysisProcedureProfile",
   "title" : "Stroke Thrombolysis Procedure Profile (R5)",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -113,7 +113,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/procedure-timing-context-ext"
+              "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"
             ]
           }
         ],
@@ -134,7 +134,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs"
         }
       },
       {
@@ -142,7 +142,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
         "path" : "Procedure.code",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/perforation-procedures-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs"
         }
       },
       {

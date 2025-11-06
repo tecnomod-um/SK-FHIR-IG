@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/observation-timing-context-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:ObservationTimingContextExtension |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:ObservationTimingContextExtension |
 
 Specifies the timing context or phase (e.g., pre-stroke, admission, discharge, 3-month) in which an observation or assessment was made.
 
@@ -22,7 +22,7 @@ Specifies the timing context or phase (e.g., pre-stroke, admission, discharge, 3
 * Use this Extension: [Stroke Functional Score Observation Profile (R5, Timing Ext)](StructureDefinition-functional-score-observation-profile.md)
 * Examples for this Extension: [Observation/FunctionalScoreObservationExample](Observation-FunctionalScoreObservationExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/observation-timing-context-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/observation-timing-context-ext)
 
 ### Formal Views of Extension Content
 
@@ -50,12 +50,12 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/observation-timing-context-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext",
   "version" : "0.1.0",
   "name" : "ObservationTimingContextExtension",
   "title" : "Observation Timing Context Extension",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/observation-timing-context-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/assessment-context-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/assessment-context-vs"
         }
       }
     ]

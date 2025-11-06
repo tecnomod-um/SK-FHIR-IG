@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/prior-medication-statement-profile | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:PriorMedicationStatementProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:PriorMedicationStatementProfile |
 
  
 Represents a statement about the patient's medication use**before**the index event. 
@@ -18,7 +18,7 @@ Represents a statement about the patient's medication use**before**the index eve
 
 * Examples for this Profile: [MedicationStatement/PriorMedicationStatementExample](MedicationStatement-PriorMedicationStatementExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/prior-medication-statement-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/prior-medication-statement-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
 {
   "resourceType" : "StructureDefinition",
   "id" : "prior-medication-statement-profile",
-  "url" : "http://testSK.org/StructureDefinition/prior-medication-statement-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile",
   "version" : "0.1.0",
   "name" : "PriorMedicationStatementProfile",
   "title" : "Prior Medication Statement Profile (R5)",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -101,7 +101,7 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/medication-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/medication-vs"
         }
       },
       {

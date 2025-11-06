@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeProcNotDoneReasonCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeProcNotDoneReasonCS |
 
  
 Codes specifying the reason principal for not performing a key stroke procedure (Thrombolysis, Thrombectomy). 
@@ -26,13 +26,13 @@ Codes specifying the reason principal for not performing a key stroke procedure 
 {
   "resourceType" : "CodeSystem",
   "id" : "stroke-proc-not-done-reason-cs",
-  "url" : "http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
   "version" : "0.1.0",
   "name" : "StrokeProcNotDoneReasonCS",
   "title" : "Stroke Procedure Not Done Reason Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -40,7 +40,7 @@ Codes specifying the reason principal for not performing a key stroke procedure 
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

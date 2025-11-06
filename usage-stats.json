@@ -1,94 +1,94 @@
 {
-  "package": "SKtestIG",
+  "package": "RES-Q-FHIR-IG",
   "version": "0.1.0",
   "fhirVersion": "5.0.0",
   "extensions": [
     {
-      "url": "http://testSK.org/StructureDefinition/discharge-department-service-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext",
       "title": "Discharge Department/Service Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/first-hospital-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
       "title": "First Hospital Extension",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/gender-snomed-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
       "title": "Gender (SNOMED CT)",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
       "title": "Hemorrhagic Stroke – Bleeding Reason",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/initial-care-intensity-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
       "title": "Initial Care Intensity Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext",
       "title": "Ischemic Stroke – Etiology",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/observation-timing-context-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext",
       "title": "Observation Timing Context Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/onset-date-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/onset-date-ext",
       "title": "Stroke Onset Date",
       "types": [
         "date"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/onset-time-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/onset-time-ext",
       "title": "Stroke Onset Time",
       "types": [
         "time"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/patient-age-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/patient-age-ext",
       "title": "Patient Age (integer)",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/procedure-timing-context-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
       "title": "Procedure Timing Context Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/required-post-acute-care-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
       "title": "Required Post-Acute Care Extension",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext",
+      "url": "http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext",
       "title": "Swallowing Screening Timing Category",
       "types": [
         "CodeableConcept"
@@ -98,53 +98,53 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://testSK.org/StructureDefinition/timing-metric-observation-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile",
         "title": "Stroke Timing Metric Observation Profile (R5)"
       },
       {
-        "url": "http://testSK.org/StructureDefinition/vital-sign-observation-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile",
         "title": "Stroke Vital Sign Observation Profile (R5)"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://testSK.org/StructureDefinition/discharge-medication-request-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
         "title": "Discharge Medication Request Profile"
       }
     ],
     "Patient": [
       {
-        "url": "http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile",
         "title": "Patient with SNOMED Gender and Age (extensions)"
       }
     ],
     "MedicationStatement": [
       {
-        "url": "http://testSK.org/StructureDefinition/prior-medication-statement-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile",
         "title": "Prior Medication Statement Profile (R5)"
       }
     ],
     "Procedure": [
       {
-        "url": "http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile",
         "title": "Stroke Swallow Procedure Profile (R5)"
       }
     ],
     "Condition": [
       {
-        "url": "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile",
         "title": "Stroke Risk Factor Condition Profile"
       }
     ],
     "Encounter": [
       {
-        "url": "http://testSK.org/StructureDefinition/stroke-encounter-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
         "title": "Stroke Encounter Profile"
       }
     ],
     "Organization": [
       {
-        "url": "http://testSK.org/StructureDefinition/stroke-registry-organization-profile",
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile",
         "title": "Stroke Registry Organization Profile"
       }
     ]
@@ -186,43 +186,43 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://testSK.org/StructureDefinition/discharge-department-service-ext": [
+    "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext": [
       "Encounter"
     ],
-    "http://testSK.org/StructureDefinition/first-hospital-ext": [
+    "http://tecnomod-um.org/StructureDefinition/first-hospital-ext": [
       "Encounter"
     ],
-    "http://testSK.org/StructureDefinition/gender-snomed-ext": [
+    "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext": [
       "Patient"
     ],
-    "http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
+    "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
       "Condition"
     ],
-    "http://testSK.org/StructureDefinition/initial-care-intensity-ext": [
+    "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext": [
       "Encounter"
     ],
-    "http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext": [
+    "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext": [
       "Condition"
     ],
-    "http://testSK.org/StructureDefinition/observation-timing-context-ext": [
+    "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext": [
       "Observation"
     ],
-    "http://testSK.org/StructureDefinition/onset-date-ext": [
+    "http://tecnomod-um.org/StructureDefinition/onset-date-ext": [
       "Condition"
     ],
-    "http://testSK.org/StructureDefinition/onset-time-ext": [
+    "http://tecnomod-um.org/StructureDefinition/onset-time-ext": [
       "Condition"
     ],
-    "http://testSK.org/StructureDefinition/patient-age-ext": [
+    "http://tecnomod-um.org/StructureDefinition/patient-age-ext": [
       "Patient"
     ],
-    "http://testSK.org/StructureDefinition/procedure-timing-context-ext": [
+    "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext": [
       "Procedure"
     ],
-    "http://testSK.org/StructureDefinition/required-post-acute-care-ext": [
+    "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext": [
       "Encounter"
     ],
-    "http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext": [
+    "http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext": [
       "Procedure"
     ]
   }

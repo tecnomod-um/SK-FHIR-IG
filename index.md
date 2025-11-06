@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://alvumu.github.io | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:IGTest |
+| *Official URL*:https://tecnomod-um.org | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:RESQIG |
 
 The [RES-Q Stroke Registry](https://stroke.qualityregistry.org/) mission is to empower hospitals and healthcare providers to monitor, evaluate, and enhance the quality of health care. Today, more than 2,000 hospitals across 89 countries actively contribute data to RES-Q, making it one of the largest international stroke quality registries. The RES-Q platform provides hospitals with interactive dashboards and customizable reports, enabling them to benchmark performance, identify gaps, and implement targeted improvements in clinical practice. Within RES-Q, stroke-related data is systematically collected using a dedicated [data collection form](https://stroke.qualityregistry.org/useful-information/data-collection-form) which ensures consistency in reporting across participating institutions. However, integrating data from external systems into RES-Q can be complex and often requires manual work or bespoke ETL pipelines. This implementation guide addresses that challenge by describing how to model your data using HL7 FHIR, following the RES-Q profiles and value sets. By adopting this standardized approach, registries and hospitals can align their data with RES-Q requirements, reduce integration effort, and benefit from a uniform interface for exchanging information. Ultimately, this not only simplifies participation in RES-Q but also strengthens interoperability with other health information systems.
 
@@ -38,12 +38,12 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
 ```json
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "SKtestIG",
-  "url" : "https://alvumu.github.io",
+  "id" : "RES-Q-FHIR-IG",
+  "url" : "https://tecnomod-um.org",
   "version" : "0.1.0",
-  "name" : "IGTest",
+  "name" : "RESQIG",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -51,12 +51,12 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
   ],
-  "packageId" : "SKtestIG",
+  "packageId" : "RES-Q-FHIR-IG",
   "license" : "CC0-1.0",
   "fhirVersion" : ["5.0.0"],
   "dependsOn" : [
@@ -134,7 +134,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "AgeAtOnsetObservationExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/age-at-onset-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile"
         ]
       },
       {
@@ -318,7 +318,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "DischargeMedicationRequest",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/discharge-medication-request-profile"
+          "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile"
         ]
       },
       {
@@ -335,7 +335,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "description" : "Matches build_organization: active=true, name from hospital_name, identifier from mapped_org_id.",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-registry-organization-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile"
         ]
       },
       {
@@ -365,7 +365,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "FunctionalScoreObservationExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/functional-score-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile"
         ]
       },
       {
@@ -530,7 +530,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
           }
         ],
         "reference" : {
-          "reference" : "ValueSet/medication-vs"
+          "reference" : "ValueSet/discharge-medication-vs"
         },
         "name" : "Medications ValueSet",
         "description" : "SNOMED CT codes for drug products or substances.",
@@ -675,7 +675,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "PatientAgeGenderSnomedExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile"
+          "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile"
         ]
       },
       {
@@ -732,7 +732,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "PriorMedicationStatementExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/prior-medication-statement-profile"
+          "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"
         ]
       },
       {
@@ -846,7 +846,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "SpecificFindingObservationExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/specific-finding-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
         ]
       },
       {
@@ -862,7 +862,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "SpecificFindingObservationExampleMTICI",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/specific-finding-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
         ]
       },
       {
@@ -1298,7 +1298,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeBrainImagingExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-brain-imaging-procedure-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-brain-imaging-procedure-profile"
         ]
       },
       {
@@ -1314,7 +1314,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeCarotidImagingExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"
         ]
       },
       {
@@ -1330,7 +1330,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeCircumstanceObservationExampleWakeUp",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile"
         ]
       },
       {
@@ -1346,7 +1346,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeDiagnosisConditionAFib",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"
         ]
       },
       {
@@ -1362,7 +1362,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeDiagnosisConditionAFlutter",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"
         ]
       },
       {
@@ -1378,7 +1378,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeDiagnosisConditionExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
         ]
       },
       {
@@ -1394,7 +1394,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeEncounterExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-encounter-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"
         ]
       },
       {
@@ -1410,7 +1410,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeRiskFactorConditionExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"
         ]
       },
       {
@@ -1426,7 +1426,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeSwallowingExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
         ]
       },
       {
@@ -1442,7 +1442,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "StrokeThrombolysisExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile"
+          "http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile"
         ]
       },
       {
@@ -1556,7 +1556,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "TimingMetricObservationExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/timing-metric-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"
         ]
       },
       {
@@ -1572,7 +1572,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         "name" : "VitalSignObservationExample",
         "isExample" : true,
         "profile" : [
-          "http://testSK.org/StructureDefinition/vital-sign-observation-profile"
+          "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"
         ]
       }
     ],

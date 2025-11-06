@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:Procedure</sch:title>
     <sch:rule context="f:Procedure">
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/procedure-timing-context-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/procedure-timing-context-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

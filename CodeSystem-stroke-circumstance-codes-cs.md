@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/stroke-circumstance-codes-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeCircumstanceCodesCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeCircumstanceCodesCS |
 
  
 Codes for findings related to the circumstances of stroke onset (In-hospital, Wake-up). 
@@ -26,12 +26,12 @@ Codes for findings related to the circumstances of stroke onset (In-hospital, Wa
 {
   "resourceType" : "CodeSystem",
   "id" : "stroke-circumstance-codes-cs",
-  "url" : "http://testSK.org/CodeSystem/stroke-circumstance-codes-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs",
   "version" : "0.1.0",
   "name" : "StrokeCircumstanceCodesCS",
   "title" : "Stroke Circumstance Codes CodeSystem",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -39,7 +39,7 @@ Codes for findings related to the circumstances of stroke onset (In-hospital, Wa
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

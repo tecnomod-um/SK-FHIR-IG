@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/stroke-etiology-cs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-etiology-cs | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:StrokeEtiologyCS |
 | **Copyright/Legal**: © Tecnomod. This CodeSystem is provided for use within this Implementation Guide. | |
 
@@ -30,7 +30,7 @@ To provide locally governed codes for classifying ischemic stroke etiology.
 {
   "resourceType" : "CodeSystem",
   "id" : "stroke-etiology-cs",
-  "url" : "http://testSK.org/CodeSystem/stroke-etiology-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
   "version" : "0.1.0",
   "name" : "StrokeEtiologyCS",
   "title" : "Stroke Etiology Code System",
@@ -44,7 +44,7 @@ To provide locally governed codes for classifying ischemic stroke etiology.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

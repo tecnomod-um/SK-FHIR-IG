@@ -28,7 +28,7 @@ Profile: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnos
   "id" : "StrokeDiagnosisConditionExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
     ]
   },
   "clinicalStatus" : {

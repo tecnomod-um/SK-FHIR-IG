@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:Observation</sch:title>
     <sch:rule context="f:Observation">
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/observation-timing-context-ext']) &gt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/observation-timing-context-ext': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://testSK.org/StructureDefinition/observation-timing-context-ext']) &lt;= 1">extension with URL = 'http://testSK.org/StructureDefinition/observation-timing-context-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext']) &gt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:category) &gt;= 1">category: minimum cardinality of 'category' is 1</sch:assert>
       <sch:assert test="count(f:category) &lt;= 1">category: maximum cardinality of 'category' is 1</sch:assert>
     </sch:rule>

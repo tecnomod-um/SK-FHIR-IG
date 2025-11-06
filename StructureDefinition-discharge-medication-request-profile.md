@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/discharge-medication-request-profile | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:DischargeMedicationRequestProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:DischargeMedicationRequestProfile |
 
  
 Represents a medication prescription made as part of the patient's discharge plan, categorized as community administration. 
@@ -18,7 +18,7 @@ Represents a medication prescription made as part of the patient's discharge pla
 
 * Examples for this Profile: [MedicationRequest/discharge-medication-request-001](MedicationRequest-discharge-medication-request-001.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/discharge-medication-request-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/discharge-medication-request-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
 {
   "resourceType" : "StructureDefinition",
   "id" : "discharge-medication-request-profile",
-  "url" : "http://testSK.org/StructureDefinition/discharge-medication-request-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
   "version" : "0.1.0",
   "name" : "DischargeMedicationRequestProfile",
   "title" : "Discharge Medication Request Profile",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/medication-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/medication-vs"
         }
       },
       {

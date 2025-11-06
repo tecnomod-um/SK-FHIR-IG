@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:StrokeStrokeEtiologyExt |
 
 Records the determined ischemic stroke etiology as a CodeableConcept bound (required) to StrokeEtiologyVS (e.g., cardioembolic, large artery atherosclerosis, lacunar, cryptogenic). Apply to definitive ischemic stroke Conditions after diagnostic workup; avoid use for hemorrhagic strokes or provisional hypotheses not yet established.
@@ -23,7 +23,7 @@ To enable consistent categorization of ischemic stroke etiology for interoperabi
 
 * Use this Extension: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/ischemic-stroke-etiology-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/ischemic-stroke-etiology-ext)
 
 ### Formal Views of Extension Content
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext",
   "version" : "0.1.0",
   "name" : "StrokeStrokeEtiologyExt",
   "title" : "Ischemic Stroke – Etiology",
@@ -65,7 +65,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -107,7 +107,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -119,7 +119,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-etiology-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-etiology-vs"
         }
       }
     ]

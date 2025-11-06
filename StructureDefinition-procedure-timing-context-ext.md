@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/procedure-timing-context-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:ProcedureTimingContextExtension |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:ProcedureTimingContextExtension |
 
 Specifies the timing phase (e.g., acute, post-acute) in which the procedure was performed relative to the start of the encounter.
 
@@ -22,7 +22,7 @@ Specifies the timing phase (e.g., acute, post-acute) in which the procedure was 
 * Use this Extension: [Stroke Brain Imaging Procedure Profile (R5)](StructureDefinition-stroke-brain-imaging-procedure-profile.md), [Stroke Carotid Imaging Procedure Profile (R5)](StructureDefinition-stroke-carotid-imaging-procedure-profile.md), [Stroke Thrombolysis Procedure Profile (R5)](StructureDefinition-stroke-mechanical-procedure-profile.md) and [Stroke Swallow Procedure Profile (R5)](StructureDefinition-stroke-swallow-procedure-profile.md)
 * Examples for this Extension: [Procedure/StrokeBrainImagingExample](Procedure-StrokeBrainImagingExample.md), [Procedure/StrokeCarotidImagingExample](Procedure-StrokeCarotidImagingExample.md), [Procedure/StrokeSwallowingExample](Procedure-StrokeSwallowingExample.md) and [Procedure/StrokeThrombolysisExample](Procedure-StrokeThrombolysisExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/procedure-timing-context-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/procedure-timing-context-ext)
 
 ### Formal Views of Extension Content
 
@@ -50,12 +50,12 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/procedure-timing-context-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
   "version" : "0.1.0",
   "name" : "ProcedureTimingContextExtension",
   "title" : "Procedure Timing Context Extension",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/procedure-timing-context-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -115,7 +115,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/procedure-timing-context-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs"
         }
       }
     ]

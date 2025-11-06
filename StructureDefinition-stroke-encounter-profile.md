@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-encounter-profile | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeEncounterProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeEncounterProfile |
 
  
 Profile for an Encounter resource representing a patient's hospital admission and stay for a stroke event, including key administrative and workflow details. 
@@ -18,7 +18,7 @@ Profile for an Encounter resource representing a patient's hospital admission an
 
 * Examples for this Profile: [Encounter/StrokeEncounterExample](Encounter-StrokeEncounterExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-encounter-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-encounter-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-encounter-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-encounter-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
   "version" : "0.1.0",
   "name" : "StrokeEncounterProfile",
   "title" : "Stroke Encounter Profile",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -113,7 +113,9 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://testSK.org/StructureDefinition/first-hospital-ext"]
+            "profile" : [
+              "http://tecnomod-um.org/StructureDefinition/first-hospital-ext"
+            ]
           }
         ],
         "mustSupport" : true
@@ -128,7 +130,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/initial-care-intensity-ext"
+              "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext"
             ]
           }
         ],
@@ -144,7 +146,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/required-post-acute-care-ext"
+              "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"
             ]
           }
         ],
@@ -160,7 +162,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/discharge-department-service-ext"
+              "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext"
             ]
           }
         ],
@@ -230,7 +232,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-arrival-mode-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs"
         }
       },
       {
@@ -240,7 +242,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-discharge-destination-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-discharge-destination-vs"
         }
       }
     ]

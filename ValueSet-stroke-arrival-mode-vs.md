@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/stroke-arrival-mode-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeArrivalModeVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeArrivalModeVS |
 
  
 ValueSet specifying the mode and origin of the patient's arrival. 
@@ -20,7 +20,7 @@ ValueSet specifying the mode and origin of the patient's arrival.
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/stroke-arrival-mode-cs`](CodeSystem-stroke-arrival-mode-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs`](CodeSystem-stroke-arrival-mode-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet specifying the mode and origin of the patient's arrival.
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-arrival-mode-vs",
-  "url" : "http://testSK.org/ValueSet/stroke-arrival-mode-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs",
   "version" : "0.1.0",
   "name" : "StrokeArrivalModeVS",
   "title" : "Stroke Arrival Mode ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet specifying the mode and origin of the patient's arrival.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet specifying the mode and origin of the patient's arrival.
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/stroke-arrival-mode-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"
       }
     ]
   }

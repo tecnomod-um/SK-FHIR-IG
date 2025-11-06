@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/mrs-score-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:MRsScoreVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/mrs-score-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:MRsScoreVS |
 
  
 ValueSet containing the codes for the modified Rankin Scale (mRS) score. 
@@ -20,7 +20,7 @@ ValueSet containing the codes for the modified Rankin Scale (mRS) score.
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/mrs-score-cs`](CodeSystem-mrs-score-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/mrs-score-cs`](CodeSystem-mrs-score-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet containing the codes for the modified Rankin Scale (mRS) score.
 {
   "resourceType" : "ValueSet",
   "id" : "mrs-score-vs",
-  "url" : "http://testSK.org/ValueSet/mrs-score-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/mrs-score-vs",
   "version" : "0.1.0",
   "name" : "MRsScoreVS",
   "title" : "modified Rankin Scale (mRS) Score ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet containing the codes for the modified Rankin Scale (mRS) score.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet containing the codes for the modified Rankin Scale (mRS) score.
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mrs-score-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs"
       }
     ]
   }

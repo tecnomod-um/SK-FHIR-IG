@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/specific-finding-observation-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:SpecificFindingObservationProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:SpecificFindingObservationProfile |
 
  
 Profile for specific coded findings like Afib/Flutter status or mTICI score. 
@@ -18,7 +18,7 @@ Profile for specific coded findings like Afib/Flutter status or mTICI score.
 
 * Examples for this Profile: [Observation/SpecificFindingObservationExample](Observation-SpecificFindingObservationExample.md) and [Observation/SpecificFindingObservationExampleMTICI](Observation-SpecificFindingObservationExampleMTICI.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/specific-finding-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/specific-finding-observation-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
 {
   "resourceType" : "StructureDefinition",
   "id" : "specific-finding-observation-profile",
-  "url" : "http://testSK.org/StructureDefinition/specific-finding-observation-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile",
   "version" : "0.1.0",
   "name" : "SpecificFindingObservationProfile",
   "title" : "Specific Stroke Finding Observation Profile (R5)",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -91,7 +91,7 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://testSK.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-finding-codes-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs"
         }
       },
       {

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/timing-metric-codes-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:TimingMetricCodesVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/timing-metric-codes-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:TimingMetricCodesVS |
 
  
 ValueSet for key process timing metrics in acute stroke care (D2N, D2G). 
@@ -20,7 +20,7 @@ ValueSet for key process timing metrics in acute stroke care (D2N, D2G).
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/timing-metric-codes-cs`](CodeSystem-timing-metric-codes-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs`](CodeSystem-timing-metric-codes-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet for key process timing metrics in acute stroke care (D2N, D2G).
 {
   "resourceType" : "ValueSet",
   "id" : "timing-metric-codes-vs",
-  "url" : "http://testSK.org/ValueSet/timing-metric-codes-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/timing-metric-codes-vs",
   "version" : "0.1.0",
   "name" : "TimingMetricCodesVS",
   "title" : "Stroke Timing Metric Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet for key process timing metrics in acute stroke care (D2N, D2G).
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet for key process timing metrics in acute stroke care (D2N, D2G).
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/timing-metric-codes-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"
       }
     ]
   }

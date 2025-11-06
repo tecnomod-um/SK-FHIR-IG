@@ -30,16 +30,16 @@ Profile: [Stroke Carotid Imaging Procedure Profile (R5)](StructureDefinition-str
   "id" : "StrokeCarotidImagingExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"
     ]
   },
   "extension" : [
     {
-      "url" : "http://testSK.org/StructureDefinition/procedure-timing-context-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://testSK.org/CodeSystem/procedure-timing-context-cs",
+            "system" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
             "code" : "post-acute",
             "display" : "Post-Acute Phase (>=24h)"
           }
@@ -51,7 +51,7 @@ Profile: [Stroke Carotid Imaging Procedure Profile (R5)](StructureDefinition-str
   "statusReason" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
         "code" : "unknown",
         "display" : "Reason Unknown"
       }

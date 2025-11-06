@@ -25,29 +25,7 @@
       "http://hl7.org/fhir/R5/valueset-event-status.html" : "EventStatus"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/assessment-context-cs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "AssessmentContextCS",
-      "title" : "Assessment Context Code System",
-      "description" : "Codes defining the context or timing of a clinical assessment, particularly functional scores.",
-      "uses" : {
-      },
-      "ValueSet-assessment-context-vs.html" : "Assessment Context ValueSet"
-    },
-    {
-      "url" : "http://testSK.org/CodeSystem/brain-imaging-type-cs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BrainImagingTypeCS",
-      "title" : "Brain Imaging Type Code System",
-      "description" : "Codes specifying the type of brain imaging performed (e.g., CT, MRI).",
-      "uses" : {
-      },
-      "ValueSet-brain-imaging-modality-vs.html" : "Brain Imaging Modality ValueSet"
-    },
-    {
-      "url" : "http://testSK.org/CodeSystem/discharge-dept-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "DischargeDeptCS",
@@ -58,7 +36,29 @@
       "ValueSet-discharge-dept-vs.html" : "Discharge Department/Service ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AssessmentContextCS",
+      "title" : "Assessment Context Code System",
+      "description" : "Codes defining the context or timing of a clinical assessment, particularly functional scores.",
+      "uses" : {
+      },
+      "ValueSet-assessment-context-vs.html" : "Assessment Context ValueSet"
+    },
+    {
+      "url" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BrainImagingTypeCS",
+      "title" : "Brain Imaging Type Code System",
+      "description" : "Codes specifying the type of brain imaging performed (e.g., CT, MRI).",
+      "uses" : {
+      },
+      "ValueSet-brain-imaging-modality-vs.html" : "Brain Imaging Modality ValueSet"
+    },
+    {
+      "url" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "HemorrhagicStrokeBleedingReasonCS",
@@ -69,7 +69,7 @@
       "ValueSet-hemorrhagic-stroke-bleeding-reason-vs.html" : "Hemorrhagic Stroke Bleeding Reason ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/initial-care-intensity-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "InitialCareIntensityCS",
@@ -80,7 +80,7 @@
       "ValueSet-initial-care-intensity-vs.html" : "Initial Care Intensity ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/medication-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "MedicationCS",
@@ -88,10 +88,10 @@
       "description" : "Codes for drug products or substances representing the Medications on the patient discharge.",
       "uses" : {
       },
-      "ValueSet-medication-vs.html" : "Medications ValueSet"
+      "ValueSet-discharge-medication-vs.html" : "Medications ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/mrs-score-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "MRsScoreCS",
@@ -102,7 +102,7 @@
       "ValueSet-mrs-score-vs.html" : "modified Rankin Scale (mRS) Score ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/mtici-code-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "MTICICodeCS",
@@ -113,7 +113,7 @@
       "ValueSet-mtici-code-vs.html" : "mTICI Score Codes ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/mtici-score-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/mtici-score-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "MticiScoreCS",
@@ -124,7 +124,7 @@
       "ValueSet-mtici-score-vs.html" : "MTICI Score ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/procedure-timing-context-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "ProcedureTimingContextCS",
@@ -135,7 +135,7 @@
       "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/stroke-arrival-mode-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeArrivalModeCS",
@@ -146,7 +146,7 @@
       "ValueSet-stroke-arrival-mode-vs.html" : "Stroke Arrival Mode ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/stroke-circumstance-codes-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeCircumstanceCodesCS",
@@ -157,7 +157,7 @@
       "ValueSet-stroke-circumstance-codes-vs.html" : "Stroke Circumstance Codes ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/stroke-discharge-destination-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeDischargeDestinationCS",
@@ -168,7 +168,7 @@
       "ValueSet-stroke-discharge-destination-vs.html" : "Stroke Discharge Destination ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/stroke-etiology-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeEtiologyCS",
@@ -179,7 +179,7 @@
       "ValueSet-stroke-etiology-vs.html" : "Stroke Etiology ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeProcNotDoneReasonCS",
@@ -190,7 +190,7 @@
       "ValueSet-stroke-proc-not-done-reason-vs.html" : "Stroke Procedure Not Done Reason ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/swallow-procedures-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "SwallowProceduresCS",
@@ -201,7 +201,7 @@
       "ValueSet-swallow-procedures-vs.html" : "Swallow Procedures ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/swallow-screen-time-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "SwallowScreenTimeCS",
@@ -212,7 +212,7 @@
       "ValueSet-swallowing-screening-timing-category-vs.html" : "Swallowing Screening Timing Category ValueSet"
     },
     {
-      "url" : "http://testSK.org/CodeSystem/timing-metric-codes-cs",
+      "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "TimingMetricCodesCS",

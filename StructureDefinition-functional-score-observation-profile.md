@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/functional-score-observation-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:FunctionalScoreObservationProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:FunctionalScoreObservationProfile |
 
  
 Profile for recording functional scores (mRS, NIHSS), using an extension for timing context. 
@@ -18,7 +18,7 @@ Profile for recording functional scores (mRS, NIHSS), using an extension for tim
 
 * Examples for this Profile: [Observation/FunctionalScoreObservationExample](Observation-FunctionalScoreObservationExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/functional-score-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/functional-score-observation-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
 {
   "resourceType" : "StructureDefinition",
   "id" : "functional-score-observation-profile",
-  "url" : "http://testSK.org/StructureDefinition/functional-score-observation-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile",
   "version" : "0.1.0",
   "name" : "FunctionalScoreObservationProfile",
   "title" : "Stroke Functional Score Observation Profile (R5, Timing Ext)",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -91,7 +91,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://testSK.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/observation-timing-context-ext"
+              "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"
             ]
           }
         ],
@@ -151,7 +151,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/functional-score-codes-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/functional-score-codes-vs"
         }
       },
       {
@@ -198,7 +198,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/mrs-score-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/mrs-score-vs"
         }
       },
       {

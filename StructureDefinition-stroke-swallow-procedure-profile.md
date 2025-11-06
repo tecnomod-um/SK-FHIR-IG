@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeSwallowProcedureProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeSwallowProcedureProfile |
 
  
 Procedure profile to record key stroke procedures, including status, timing, complications, reasons, and context. 
@@ -18,7 +18,7 @@ Procedure profile to record key stroke procedures, including status, timing, com
 
 * Examples for this Profile: [Procedure/StrokeSwallowingExample](Procedure-StrokeSwallowingExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/stroke-swallow-procedure-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/stroke-swallow-procedure-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-swallow-procedure-profile",
-  "url" : "http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile",
   "version" : "0.1.0",
   "name" : "StrokeSwallowProcedureProfile",
   "title" : "Stroke Swallow Procedure Profile (R5)",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -113,7 +113,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext"
+              "http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext"
             ]
           }
         ],
@@ -129,7 +129,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
           {
             "code" : "Extension",
             "profile" : [
-              "http://testSK.org/StructureDefinition/procedure-timing-context-ext"
+              "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"
             ]
           }
         ],
@@ -150,7 +150,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs"
         }
       },
       {
@@ -158,7 +158,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
         "path" : "Procedure.code",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/swallow-procedures-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/swallow-procedures-vs"
         }
       }
     ]

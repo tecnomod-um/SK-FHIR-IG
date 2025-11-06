@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/onset-time-ext | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/onset-time-ext | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:OnsetTimeExt |
 
 Captures the clock time (value[x] = time) of symptom onset for the indexed stroke event when available, complementing OnsetDateExt to support precise onset-to-treatment intervals. Use local time of the clinical setting; omit if time is unknown or estimated beyond acceptable precision.
@@ -23,7 +23,7 @@ To record stroke onset time for adherence to time-sensitive treatment pathways.
 
 * Use this Extension: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/onset-time-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/onset-time-ext)
 
 ### Formal Views of Extension Content
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-onset-time-ext.csv),
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/onset-time-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/onset-time-ext",
   "version" : "0.1.0",
   "name" : "OnsetTimeExt",
   "title" : "Stroke Onset Time",
@@ -63,7 +63,7 @@ Other representations of profile: [CSV](StructureDefinition-onset-time-ext.csv),
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-onset-time-ext.csv),
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/onset-time-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/onset-time-ext"
       },
       {
         "id" : "Extension.value[x]",

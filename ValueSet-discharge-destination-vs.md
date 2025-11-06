@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/discharge-destination-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/discharge-destination-vs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:DischargeDestinationValueSet |
 | **Copyright/Legal**: This value set includes SNOMED CT® content. SNOMED CT® is distributed by SNOMED International. | |
 
@@ -53,7 +53,7 @@ This value set contains 5 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "discharge-destination-vs",
-  "url" : "http://testSK.org/ValueSet/discharge-destination-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
   "version" : "0.1.0",
   "name" : "DischargeDestinationValueSet",
   "title" : "Discharge Destination ValueSet",
@@ -67,7 +67,7 @@ This value set contains 5 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

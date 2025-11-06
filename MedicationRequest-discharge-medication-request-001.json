@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "discharge-medication-request-001",
   "meta" : {
-    "profile" : ["http://testSK.org/StructureDefinition/discharge-medication-request-profile"]
+    "profile" : ["http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile"]
   },
   "text" : {
     "status" : "generated",

@@ -28,7 +28,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
   "id" : "SpecificFindingObservationExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/specific-finding-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
     ]
   },
   "status" : "final",
@@ -50,7 +50,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
   "valueCodeableConcept" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/afib-flutter-status-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/afib-flutter-status-cs",
         "code" : "detected",
         "display" : "Detected"
       }

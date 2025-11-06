@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "StrokeDiagnosisConditionAFib",
   "meta" : {
-    "profile" : ["http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"]
+    "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"]
   },
   "text" : {
     "status" : "generated",

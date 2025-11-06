@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/Organization/ExampleStrokeOrganization> a fhir:Organization ;
+<https://tecnomod-um.org/Organization/ExampleStrokeOrganization> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ExampleStrokeOrganization"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://testSK.org/StructureDefinition/stroke-registry-organization-profile"^^xsd:anyURI ;
-       fhir:l <http://testSK.org/StructureDefinition/stroke-registry-organization-profile>
+       fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile>
      ] )
   ] ; # 
   fhir:text [

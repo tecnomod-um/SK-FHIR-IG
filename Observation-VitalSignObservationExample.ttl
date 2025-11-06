@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/Observation/VitalSignObservationExample> a fhir:Observation ;
+<https://tecnomod-um.org/Observation/VitalSignObservationExample> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "VitalSignObservationExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://testSK.org/StructureDefinition/vital-sign-observation-profile"^^xsd:anyURI ;
-       fhir:l <http://testSK.org/StructureDefinition/vital-sign-observation-profile>
+       fhir:v "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile>
      ] )
   ] ; # 
   fhir:text [
@@ -42,11 +42,11 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://alvumu.github.io/Patient/example-patient> ;
+     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:l <https://alvumu.github.io/Encounter/StrokeEncounterExample> ;
+     fhir:l <https://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
      fhir:reference [ fhir:v "Encounter/StrokeEncounterExample" ]
   ] ; # 
   fhir:component ( [

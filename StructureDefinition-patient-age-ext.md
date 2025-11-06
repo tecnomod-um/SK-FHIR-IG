@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/patient-age-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:PatientAge |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/patient-age-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:PatientAge |
 
 Patient age in years represented as an integer.
 
@@ -22,7 +22,7 @@ Patient age in years represented as an integer.
 * Use this Extension: [Patient with SNOMED Gender and Age (extensions)](StructureDefinition-patient-age-gender-snomed-profile.md)
 * Examples for this Extension: [Patient/PatientAgeGenderSnomedExample](Patient-PatientAgeGenderSnomedExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/patient-age-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/patient-age-ext)
 
 ### Formal Views of Extension Content
 
@@ -48,12 +48,12 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-ext.csv)
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/patient-age-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-ext",
   "version" : "0.1.0",
   "name" : "PatientAge",
   "title" : "Patient Age (integer)",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-ext.csv)
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-ext.csv)
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/patient-age-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/patient-age-ext"
       },
       {
         "id" : "Extension.value[x]",

@@ -32,16 +32,16 @@ Profile: [Stroke Functional Score Observation Profile (R5, Timing Ext)](Structur
   "id" : "FunctionalScoreObservationExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/functional-score-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile"
     ]
   },
   "extension" : [
     {
-      "url" : "http://testSK.org/StructureDefinition/observation-timing-context-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://testSK.org/CodeSystem/assessment-context-cs",
+            "system" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
             "code" : "pre-stroke",
             "display" : "Pre-stroke"
           }
@@ -78,7 +78,7 @@ Profile: [Stroke Functional Score Observation Profile (R5, Timing Ext)](Structur
   "valueCodeableConcept" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mrs-score-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
         "code" : "0",
         "display" : "No symptoms"
       }

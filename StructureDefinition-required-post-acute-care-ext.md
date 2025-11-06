@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/required-post-acute-care-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:RequiredPostAcuteCareExtension |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:RequiredPostAcuteCareExtension |
 
 Indicates whether the patient required hospitalization beyond 24 hours after the designated acute phase of stroke care for this encounter.
 
@@ -22,7 +22,7 @@ Indicates whether the patient required hospitalization beyond 24 hours after the
 * Use this Extension: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
 * Examples for this Extension: [Encounter/StrokeEncounterExample](Encounter-StrokeEncounterExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/required-post-acute-care-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/required-post-acute-care-ext)
 
 ### Formal Views of Extension Content
 
@@ -48,12 +48,12 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://testSK.org/StructureDefinition/required-post-acute-care-ext",
+  "url" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
   "version" : "0.1.0",
   "name" : "RequiredPostAcuteCareExtension",
   "title" : "Required Post-Acute Care Extension",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -100,7 +100,7 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://testSK.org/StructureDefinition/required-post-acute-care-ext"
+        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"
       },
       {
         "id" : "Extension.value[x]",

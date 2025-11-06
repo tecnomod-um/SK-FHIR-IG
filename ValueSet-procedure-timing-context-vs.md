@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/procedure-timing-context-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:ProcedureTimingContextVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/procedure-timing-context-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:ProcedureTimingContextVS |
 
  
 ValueSet for codes defining the timing phase of a procedure relative to the encounter start. 
@@ -20,7 +20,7 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/procedure-timing-context-cs`](CodeSystem-procedure-timing-context-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs`](CodeSystem-procedure-timing-context-cs.md)version 📦0.1.0
 
  
 
@@ -47,12 +47,12 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
 {
   "resourceType" : "ValueSet",
   "id" : "procedure-timing-context-vs",
-  "url" : "http://testSK.org/ValueSet/procedure-timing-context-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
   "version" : "0.1.0",
   "name" : "ProcedureTimingContextVS",
   "title" : "Procedure Timing Context ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -60,7 +60,7 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -69,7 +69,7 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/procedure-timing-context-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"
       }
     ]
   }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/thrombectomy-complication-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:ThrombectomyComplicationVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/thrombectomy-complication-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:ThrombectomyComplicationVS |
 
  
 Defines the specific complications of thrombectomy to record. 
@@ -49,12 +49,12 @@ This value set contains 1 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "thrombectomy-complication-vs",
-  "url" : "http://testSK.org/ValueSet/thrombectomy-complication-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complication-vs",
   "version" : "0.1.0",
   "name" : "ThrombectomyComplicationVS",
   "title" : "Thrombectomy Complication ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -62,7 +62,7 @@ This value set contains 1 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

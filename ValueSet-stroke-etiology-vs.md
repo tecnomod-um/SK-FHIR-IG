@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/stroke-etiology-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-etiology-vs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:StrokeEtiologyVS |
 | **Copyright/Legal**: This value set includes locally governed concepts and SNOMED CT® content. SNOMED CT® is distributed by SNOMED International. | |
 
@@ -56,7 +56,7 @@ This value set contains 5 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-etiology-vs",
-  "url" : "http://testSK.org/ValueSet/stroke-etiology-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-vs",
   "version" : "0.1.0",
   "name" : "StrokeEtiologyVS",
   "title" : "Stroke Etiology ValueSet",
@@ -70,7 +70,7 @@ This value set contains 5 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -82,7 +82,7 @@ This value set contains 5 concepts
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/stroke-etiology-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"
       },
       {
         "system" : "http://snomed.info/sct",

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/StructureDefinition/vital-sign-observation-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:VitalSignObservationProfile |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:VitalSignObservationProfile |
 
  
 Profile for recording key vital signs (Systolic/Diastolic BP) in stroke patients. 
@@ -18,7 +18,7 @@ Profile for recording key vital signs (Systolic/Diastolic BP) in stroke patients
 
 * Examples for this Profile: [Observation/VitalSignObservationExample](Observation-VitalSignObservationExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/SKtestIG|current/StructureDefinition/vital-sign-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RES-Q-FHIR-IG|current/StructureDefinition/vital-sign-observation-profile)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
 {
   "resourceType" : "StructureDefinition",
   "id" : "vital-sign-observation-profile",
-  "url" : "http://testSK.org/StructureDefinition/vital-sign-observation-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile",
   "version" : "0.1.0",
   "name" : "VitalSignObservationProfile",
   "title" : "Stroke Vital Sign Observation Profile (R5)",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -91,7 +91,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://testSK.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -139,7 +139,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
         "mustSupport" : true,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://testSK.org/ValueSet/vital-sign-codes-vs"
+          "valueSet" : "http://tecnomod-um.org/ValueSet/vital-sign-codes-vs"
         }
       },
       {

@@ -1,24 +1,24 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "SKtestIG",
+  "id" : "RES-Q-FHIR-IG",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide SKtestIG</b></p><a name=\"SKtestIG\"> </a><a name=\"hcSKtestIG\"> </a><h2>IGTest</h2><p>The official URL for this implementation guide is: </p><pre>https://alvumu.github.io</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide RES-Q-FHIR-IG</b></p><a name=\"RES-Q-FHIR-IG\"> </a><a name=\"hcRES-Q-FHIR-IG\"> </a><h2>RESQIG</h2><p>The official URL for this implementation guide is: </p><pre>https://tecnomod-um.org</pre></div>"
   },
-  "url" : "https://alvumu.github.io",
+  "url" : "https://tecnomod-um.org",
   "version" : "0.1.0",
-  "name" : "IGTest",
+  "name" : "RESQIG",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [{
     "name" : "UMU",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://testSK.org/umu"
+      "value" : "http://tecnomod-um.org"
     }]
   }],
-  "packageId" : "SKtestIG",
+  "packageId" : "RES-Q-FHIR-IG",
   "license" : "CC0-1.0",
   "fhirVersion" : ["5.0.0"],
   "dependsOn" : [{
@@ -80,7 +80,7 @@
       },
       "name" : "AgeAtOnsetObservationExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/age-at-onset-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile"]
     },
     {
       "extension" : [{
@@ -236,7 +236,7 @@
       },
       "name" : "DischargeMedicationRequest",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/discharge-medication-request-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile"]
     },
     {
       "extension" : [{
@@ -249,7 +249,7 @@
       "name" : "Example Stroke Registry Organization",
       "description" : "Matches build_organization: active=true, name from hospital_name, identifier from mapped_org_id.",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-registry-organization-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile"]
     },
     {
       "extension" : [{
@@ -273,7 +273,7 @@
       },
       "name" : "FunctionalScoreObservationExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/functional-score-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile"]
     },
     {
       "extension" : [{
@@ -413,7 +413,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/medication-vs"
+        "reference" : "ValueSet/discharge-medication-vs"
       },
       "name" : "Medications ValueSet",
       "description" : "SNOMED CT codes for drug products or substances.",
@@ -537,7 +537,7 @@
       },
       "name" : "PatientAgeGenderSnomedExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/patient-age-gender-snomed-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile"]
     },
     {
       "extension" : [{
@@ -584,7 +584,7 @@
       },
       "name" : "PriorMedicationStatementExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/prior-medication-statement-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"]
     },
     {
       "extension" : [{
@@ -680,7 +680,7 @@
       },
       "name" : "SpecificFindingObservationExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/specific-finding-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"]
     },
     {
       "extension" : [{
@@ -692,7 +692,7 @@
       },
       "name" : "SpecificFindingObservationExampleMTICI",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/specific-finding-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"]
     },
     {
       "extension" : [{
@@ -1064,7 +1064,7 @@
       },
       "name" : "StrokeBrainImagingExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-brain-imaging-procedure-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-brain-imaging-procedure-profile"]
     },
     {
       "extension" : [{
@@ -1076,7 +1076,7 @@
       },
       "name" : "StrokeCarotidImagingExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"]
     },
     {
       "extension" : [{
@@ -1088,7 +1088,7 @@
       },
       "name" : "StrokeCircumstanceObservationExampleWakeUp",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile"]
     },
     {
       "extension" : [{
@@ -1100,7 +1100,7 @@
       },
       "name" : "StrokeDiagnosisConditionAFib",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"]
     },
     {
       "extension" : [{
@@ -1112,7 +1112,7 @@
       },
       "name" : "StrokeDiagnosisConditionAFlutter",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"]
     },
     {
       "extension" : [{
@@ -1124,7 +1124,7 @@
       },
       "name" : "StrokeDiagnosisConditionExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"]
     },
     {
       "extension" : [{
@@ -1136,7 +1136,7 @@
       },
       "name" : "StrokeEncounterExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-encounter-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
     },
     {
       "extension" : [{
@@ -1148,7 +1148,7 @@
       },
       "name" : "StrokeRiskFactorConditionExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"]
     },
     {
       "extension" : [{
@@ -1160,7 +1160,7 @@
       },
       "name" : "StrokeSwallowingExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"]
     },
     {
       "extension" : [{
@@ -1172,7 +1172,7 @@
       },
       "name" : "StrokeThrombolysisExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile"]
     },
     {
       "extension" : [{
@@ -1268,7 +1268,7 @@
       },
       "name" : "TimingMetricObservationExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/timing-metric-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"]
     },
     {
       "extension" : [{
@@ -1280,7 +1280,7 @@
       },
       "name" : "VitalSignObservationExample",
       "isExample" : true,
-      "profile" : ["http://testSK.org/StructureDefinition/vital-sign-observation-profile"]
+      "profile" : ["http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"]
     }],
     "page" : {
       "sourceUrl" : "toc.html",

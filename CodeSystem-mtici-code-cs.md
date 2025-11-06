@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/mtici-code-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:MTICICodeCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/mtici-code-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:MTICICodeCS |
 
  
 Codes representing the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure. 
@@ -26,13 +26,13 @@ Codes representing the mTICI score used to assess the degree of reperfusion afte
 {
   "resourceType" : "CodeSystem",
   "id" : "mtici-code-cs",
-  "url" : "http://testSK.org/CodeSystem/mtici-code-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
   "version" : "0.1.0",
   "name" : "MTICICodeCS",
   "title" : "mTICI Score Codes CodeSystem",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -40,7 +40,7 @@ Codes representing the mTICI score used to assess the degree of reperfusion afte
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

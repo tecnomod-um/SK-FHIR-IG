@@ -30,7 +30,7 @@ Profile: [Stroke Timing Metric Observation Profile (R5)](StructureDefinition-tim
   "id" : "TimingMetricObservationExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/timing-metric-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"
     ]
   },
   "status" : "final",
@@ -47,7 +47,7 @@ Profile: [Stroke Timing Metric Observation Profile (R5)](StructureDefinition-tim
   "code" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/timing-metric-codes-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
         "code" : "D2N",
         "display" : "Door to Needle"
       }

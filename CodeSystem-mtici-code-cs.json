@@ -3,21 +3,21 @@
   "id" : "mtici-code-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mtici-code-cs</b></p><a name=\"mtici-code-cs\"> </a><a name=\"hcmtici-code-cs\"> </a><p>This case-insensitive code system <code>http://testSK.org/CodeSystem/mtici-code-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">mTICI<a name=\"mtici-code-cs-mTICI\"> </a></td><td>Modified Thrombolysis in Cerebral Infarction</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mtici-code-cs</b></p><a name=\"mtici-code-cs\"> </a><a name=\"hcmtici-code-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/mtici-code-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">mTICI<a name=\"mtici-code-cs-mTICI\"> </a></td><td>Modified Thrombolysis in Cerebral Infarction</td></tr></table></div>"
   },
-  "url" : "http://testSK.org/CodeSystem/mtici-code-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
   "version" : "0.1.0",
   "name" : "MTICICodeCS",
   "title" : "mTICI Score Codes CodeSystem",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [{
     "name" : "UMU",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://testSK.org/umu"
+      "value" : "http://tecnomod-um.org"
     }]
   }],
   "description" : "Codes representing the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure.",

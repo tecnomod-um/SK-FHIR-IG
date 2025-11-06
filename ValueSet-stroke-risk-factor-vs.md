@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/stroke-risk-factor-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs | *Version*:0.1.0 |
 | Active as of 2025-10-07 | *Computable Name*:StrokeRiskFactorValueSet |
 | **Copyright/Legal**: This value set includes SNOMED CT® content and may include HL7 IPS value set content. SNOMED CT® is distributed by SNOMED International. | |
 
@@ -56,7 +56,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-risk-factor-vs",
-  "url" : "http://testSK.org/ValueSet/stroke-risk-factor-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs",
   "version" : "0.1.0",
   "name" : "StrokeRiskFactorValueSet",
   "title" : "Stroke Risk Factor ValueSet",
@@ -70,7 +70,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -82,7 +82,9 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "compose" : {
     "include" : [
       {
-        "valueSet" : ["http://testSK.org/ValueSet/stroke-risk-factor-snomed-vs"]
+        "valueSet" : [
+          "http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs"
+        ]
       },
       {
         "valueSet" : [

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/afib-flutter-status-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:AfibFlutterStatusVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/afib-flutter-status-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:AfibFlutterStatusVS |
 
  
 ValueSet for the status of Atrial Fibrillation or Flutter assessment. 
@@ -49,12 +49,12 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "afib-flutter-status-vs",
-  "url" : "http://testSK.org/ValueSet/afib-flutter-status-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/afib-flutter-status-vs",
   "version" : "0.1.0",
   "name" : "AfibFlutterStatusVS",
   "title" : "Atrial Fibrillation or Flutter Status ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -62,7 +62,7 @@ This value set contains 3 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/specific-finding-codes-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:SpecificFindingCodesVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/specific-finding-codes-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:SpecificFindingCodesVS |
 
  
 Codes for specific clinical findings relevant to stroke (Afib/Flutter status, MTICI score). 
@@ -49,12 +49,12 @@ This value set contains 2 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "specific-finding-codes-vs",
-  "url" : "http://testSK.org/ValueSet/specific-finding-codes-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-codes-vs",
   "version" : "0.1.0",
   "name" : "SpecificFindingCodesVS",
   "title" : "Specific Stroke Finding Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -62,7 +62,7 @@ This value set contains 2 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

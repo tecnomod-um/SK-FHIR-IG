@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/timing-metric-codes-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:TimingMetricCodesCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:TimingMetricCodesCS |
 
  
 Codes for key process timing metrics in acute stroke care (D2N, D2G). 
@@ -26,12 +26,12 @@ Codes for key process timing metrics in acute stroke care (D2N, D2G).
 {
   "resourceType" : "CodeSystem",
   "id" : "timing-metric-codes-cs",
-  "url" : "http://testSK.org/CodeSystem/timing-metric-codes-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
   "version" : "0.1.0",
   "name" : "TimingMetricCodesCS",
   "title" : "Stroke Timing Metric Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -39,7 +39,7 @@ Codes for key process timing metrics in acute stroke care (D2N, D2G).
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

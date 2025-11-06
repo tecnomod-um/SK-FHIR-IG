@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/admission-source-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/admission-source-vs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:AdmissionSourceValueSet |
 | **Copyright/Legal**: This value set includes SNOMED CT® content. SNOMED CT® is distributed by SNOMED International. | |
 
@@ -53,7 +53,7 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "admission-source-vs",
-  "url" : "http://testSK.org/ValueSet/admission-source-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/admission-source-vs",
   "version" : "0.1.0",
   "name" : "AdmissionSourceValueSet",
   "title" : "Admission Sources ValueSet",
@@ -67,7 +67,7 @@ This value set contains 3 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

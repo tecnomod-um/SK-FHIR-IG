@@ -28,14 +28,14 @@ Profile: [Stroke Circumstance Observation Profile (R5)](StructureDefinition-stro
   "id" : "StrokeCircumstanceObservationExampleWakeUp",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile"
     ]
   },
   "status" : "final",
   "code" : {
     "coding" : [
       {
-        "system" : "http://testSK.org/CodeSystem/stroke-circumstance-codes-cs",
+        "system" : "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs",
         "code" : "wake-up",
         "display" : "Wake-up Stroke"
       }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/discharge-dept-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:DischargeDeptCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:DischargeDeptCS |
 
  
 Code system specifying the type of department or service the patient was discharged or transferred to. 
@@ -26,12 +26,12 @@ Code system specifying the type of department or service the patient was dischar
 {
   "resourceType" : "CodeSystem",
   "id" : "discharge-dept-cs",
-  "url" : "http://testSK.org/CodeSystem/discharge-dept-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs",
   "version" : "0.1.0",
   "name" : "DischargeDeptCS",
   "title" : "Discharge Department/Service Code System",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -39,7 +39,7 @@ Code system specifying the type of department or service the patient was dischar
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

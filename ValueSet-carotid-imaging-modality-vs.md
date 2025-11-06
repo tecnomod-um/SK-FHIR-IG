@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/carotid-imaging-modality-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:CarotidImagingModalityVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/carotid-imaging-modality-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:CarotidImagingModalityVS |
 
  
 Defines codes for different types of carotid artery imaging. 
@@ -49,12 +49,12 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "carotid-imaging-modality-vs",
-  "url" : "http://testSK.org/ValueSet/carotid-imaging-modality-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/carotid-imaging-modality-vs",
   "version" : "0.1.0",
   "name" : "CarotidImagingModalityVS",
   "title" : "Carotid Arteries Imaging Modality ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -62,7 +62,7 @@ This value set contains 3 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

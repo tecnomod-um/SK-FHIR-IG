@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:StrokeProcNotDoneReasonVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:StrokeProcNotDoneReasonVS |
 
  
 ValueSet containing specific codes to indicate why thrombolysis or thrombectomy was not performed. 
@@ -23,7 +23,7 @@ ValueSet containing specific codes to indicate why thrombolysis or thrombectomy 
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs`](CodeSystem-stroke-proc-not-done-reason-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs`](CodeSystem-stroke-proc-not-done-reason-cs.md)version 📦0.1.0
 
  
 
@@ -50,12 +50,12 @@ ValueSet containing specific codes to indicate why thrombolysis or thrombectomy 
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-proc-not-done-reason-vs",
-  "url" : "http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs",
   "version" : "0.1.0",
   "name" : "StrokeProcNotDoneReasonVS",
   "title" : "Stroke Procedure Not Done Reason ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -63,7 +63,7 @@ ValueSet containing specific codes to indicate why thrombolysis or thrombectomy 
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -72,7 +72,7 @@ ValueSet containing specific codes to indicate why thrombolysis or thrombectomy 
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"
       }
     ]
   }

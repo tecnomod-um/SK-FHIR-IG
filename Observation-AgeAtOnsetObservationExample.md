@@ -28,7 +28,7 @@ Profile: [Age at Stroke Onset Observation Profile (R5)](StructureDefinition-age-
   "id" : "AgeAtOnsetObservationExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/age-at-onset-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile"
     ]
   },
   "status" : "final",

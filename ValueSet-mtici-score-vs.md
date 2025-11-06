@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/mtici-score-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/mtici-score-vs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:MTICIScoreValueSet |
 
  
@@ -20,7 +20,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://testSK.org/CodeSystem/mtici-score-cs`](CodeSystem-mtici-score-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/mtici-score-cs`](CodeSystem-mtici-score-cs.md)version 📦0.1.0
 
  
 
@@ -47,7 +47,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "mtici-score-vs",
-  "url" : "http://testSK.org/ValueSet/mtici-score-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/mtici-score-vs",
   "version" : "0.1.0",
   "name" : "MTICIScoreValueSet",
   "title" : "MTICI Score ValueSet",
@@ -61,7 +61,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -70,7 +70,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "compose" : {
     "include" : [
       {
-        "system" : "http://testSK.org/CodeSystem/mtici-score-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/mtici-score-cs"
       }
     ]
   }

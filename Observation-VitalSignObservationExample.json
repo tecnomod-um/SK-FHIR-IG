@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "VitalSignObservationExample",
   "meta" : {
-    "profile" : ["http://testSK.org/StructureDefinition/vital-sign-observation-profile"]
+    "profile" : ["http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"]
   },
   "text" : {
     "status" : "generated",

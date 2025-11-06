@@ -6,36 +6,36 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://alvumu.github.io/ValueSet/mtici-code-vs> a fhir:ValueSet ;
+<https://tecnomod-um.org/ValueSet/mtici-code-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "mtici-code-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mtici-code-vs</b></p><a name=\"mtici-code-vs\"> </a><a name=\"hcmtici-code-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-mtici-code-cs.html\"><code>http://testSK.org/CodeSystem/mtici-code-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mtici-code-vs</b></p><a name=\"mtici-code-vs\"> </a><a name=\"hcmtici-code-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-mtici-code-cs.html\"><code>http://tecnomod-um.org/CodeSystem/mtici-code-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
-     fhir:v "http://testSK.org/ValueSet/mtici-code-vs"^^xsd:anyURI ;
-     fhir:l <http://testSK.org/ValueSet/mtici-code-vs>
+     fhir:v "http://tecnomod-um.org/ValueSet/mtici-code-vs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/ValueSet/mtici-code-vs>
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "MTICICodeVS"] ; # 
   fhir:title [ fhir:v "mTICI Score Codes ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-11-03T16:51:09+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-06T10:00:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "UMU"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "UMU" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://testSK.org/umu" ]
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure."] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [
-         fhir:v "http://testSK.org/CodeSystem/mtici-code-cs"^^xsd:anyURI ;
-         fhir:l <http://testSK.org/CodeSystem/mtici-code-cs>
+         fhir:v "http://tecnomod-um.org/CodeSystem/mtici-code-cs"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/CodeSystem/mtici-code-cs>
        ]
      ] )
   ] . # 

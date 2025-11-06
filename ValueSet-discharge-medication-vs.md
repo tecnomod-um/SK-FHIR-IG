@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/medication-vs | *Version*:0.1.0 |
-| Draft as of 2025-11-03 | *Computable Name*:MedicationVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/medication-vs | *Version*:0.1.0 |
+| Draft as of 2025-11-06 | *Computable Name*:MedicationVS |
 
  
 SNOMED CT codes for drug products or substances. 
@@ -47,13 +47,13 @@ No Expansion for this valueset (not supported by Publication Tooling)
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "medication-vs",
-  "url" : "http://testSK.org/ValueSet/medication-vs",
+  "id" : "discharge-medication-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/medication-vs",
   "version" : "0.1.0",
   "name" : "MedicationVS",
   "title" : "Medications ValueSet",
   "status" : "draft",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -61,7 +61,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -107,7 +107,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
         ]
       },
       {
-        "system" : "http://testSK.org/CodeSystem/medication-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/medication-cs"
       },
       {
         "valueSet" : [

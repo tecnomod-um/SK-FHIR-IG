@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/brain-imaging-type-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:BrainImagingTypeCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:BrainImagingTypeCS |
 
  
 Codes specifying the type of brain imaging performed (e.g., CT, MRI). 
@@ -26,12 +26,12 @@ Codes specifying the type of brain imaging performed (e.g., CT, MRI).
 {
   "resourceType" : "CodeSystem",
   "id" : "brain-imaging-type-cs",
-  "url" : "http://testSK.org/CodeSystem/brain-imaging-type-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
   "version" : "0.1.0",
   "name" : "BrainImagingTypeCS",
   "title" : "Brain Imaging Type Code System",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -39,7 +39,7 @@ Codes specifying the type of brain imaging performed (e.g., CT, MRI).
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

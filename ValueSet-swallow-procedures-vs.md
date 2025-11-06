@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/swallow-procedures-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/swallow-procedures-vs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:SwallowProceduresValueset |
 
  
@@ -52,7 +52,7 @@ This value set contains 5 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "swallow-procedures-vs",
-  "url" : "http://testSK.org/ValueSet/swallow-procedures-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/swallow-procedures-vs",
   "version" : "0.1.0",
   "name" : "SwallowProceduresValueset",
   "title" : "Swallow Procedures ValueSet",
@@ -66,7 +66,7 @@ This value set contains 5 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }
@@ -88,7 +88,7 @@ This value set contains 5 concepts
         ]
       },
       {
-        "system" : "http://testSK.org/CodeSystem/swallow-procedures-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs"
       }
     ]
   }

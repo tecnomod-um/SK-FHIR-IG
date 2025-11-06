@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "AgeAtOnsetObservationExample",
   "meta" : {
-    "profile" : ["http://testSK.org/StructureDefinition/age-at-onset-observation-profile"]
+    "profile" : ["http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile"]
   },
   "text" : {
     "status" : "extensions",

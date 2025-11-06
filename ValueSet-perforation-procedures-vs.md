@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/perforation-procedures-vs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ValueSet/perforation-procedures-vs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:PerforationProceduresValueset |
 
  
@@ -49,7 +49,7 @@ This value set contains 2 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "perforation-procedures-vs",
-  "url" : "http://testSK.org/ValueSet/perforation-procedures-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs",
   "version" : "0.1.0",
   "name" : "PerforationProceduresValueset",
   "title" : "Perforation Procedures ValueSet",
@@ -63,7 +63,7 @@ This value set contains 2 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

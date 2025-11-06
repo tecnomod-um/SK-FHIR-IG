@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/swallow-screen-time-cs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:SwallowScreenTimeCS |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:SwallowScreenTimeCS |
 
  
 Temporal categories relative to stroke onset for swallowing screening. 
@@ -26,13 +26,13 @@ Temporal categories relative to stroke onset for swallowing screening.
 {
   "resourceType" : "CodeSystem",
   "id" : "swallow-screen-time-cs",
-  "url" : "http://testSK.org/CodeSystem/swallow-screen-time-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
   "version" : "0.1.0",
   "name" : "SwallowScreenTimeCS",
   "title" : "Swallowing Screening Timing Category Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -40,7 +40,7 @@ Temporal categories relative to stroke onset for swallowing screening.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

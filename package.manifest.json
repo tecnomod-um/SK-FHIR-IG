@@ -1,6 +1,6 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["5.0.0"],
-  "date" : "20251103165109",
-  "name" : "SKtestIG"
+  "date" : "20251106100048",
+  "name" : "RES-Q-FHIR-IG"
 }

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/ValueSet/functional-score-codes-vs | *Version*:0.1.0 |
-| Active as of 2025-11-03 | *Computable Name*:FunctionalScoreCodesVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/functional-score-codes-vs | *Version*:0.1.0 |
+| Active as of 2025-11-06 | *Computable Name*:FunctionalScoreCodesVS |
 
  
 Codes for key functional scores used in stroke (mRS, NIHSS). 
@@ -49,12 +49,12 @@ This value set contains 2 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "functional-score-codes-vs",
-  "url" : "http://testSK.org/ValueSet/functional-score-codes-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/functional-score-codes-vs",
   "version" : "0.1.0",
   "name" : "FunctionalScoreCodesVS",
   "title" : "Stroke Functional Score Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-03T16:51:09+00:00",
+  "date" : "2025-11-06T10:00:48+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -62,7 +62,7 @@ This value set contains 2 concepts
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

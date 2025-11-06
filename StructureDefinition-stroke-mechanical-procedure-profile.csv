@@ -26,7 +26,7 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Procedure.extension:timingContext","Procedure.extension","timingContext","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/procedure-timing-context-ext]]} {[]}
+"Procedure.extension:timingContext","Procedure.extension","timingContext","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext]]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Procedure.modifierExtension","Procedure.modifierExtension","","extensions
@@ -59,14 +59,14 @@ This element is labeled as a modifier because the status contains codes that mar
 ","Event.status","FiveWs.status","statusCode"
 "Procedure.statusReason","Procedure.statusReason","","Suspended Reason
 Cancelled Reason","",0,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Reason for current status","Captures the reason for the current state of the procedure.","This is generally only used for ""exception"" statuses such as ""not-done"", ""suspended"" or ""aborted"". The reason for performing the event at all is captured in reasonCode, not here.","","","","","","","","",,"required","","http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs","",,,,"Procedure.statusReason",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Reason for current status","Captures the reason for the current state of the procedure.","This is generally only used for ""exception"" statuses such as ""not-done"", ""suspended"" or ""aborted"". The reason for performing the event at all is captured in reasonCode, not here.","","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs","",,,,"Procedure.statusReason",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.statusReason",".reason.Observation.value"
 "Procedure.category","Procedure.category","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","Classification of the procedure","A code that classifies the procedure for searching, sorting and display purposes (e.g. ""Surgical Procedure"").","","","","","","","","","",,"example","A code that classifies a procedure for searching, sorting and display purposes.","http://hl7.org/fhir/ValueSet/procedure-category|5.0.0","",,,,"Procedure.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.class",".outboundRelationship[typeCode=""COMP].target[classCode=""LIST"", moodCode=""EVN""].code","PR1-6"
 "Procedure.code","Procedure.code","","type
 ","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Identification of the procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://testSK.org/ValueSet/perforation-procedures-vs","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Identification of the procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/perforation-procedures-vs","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.what[x]",".code","PR1-3"
 "Procedure.subject","Procedure.subject","","patient
 ","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Group|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|5.0.0]]}

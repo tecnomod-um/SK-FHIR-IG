@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://testSK.org/ValueSet/admission-source-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/admission-source-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AdmissionSourceValueSet",
@@ -10,7 +10,7 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/afib-flutter-status-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/afib-flutter-status-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "AfibFlutterStatusVS",
@@ -19,28 +19,28 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/assessment-context-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/assessment-context-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "AssessmentContextVS",
       "title" : "Assessment Context ValueSet",
       "description" : "ValueSet for assessment context codes (e.g., timing of functional scores).",
-      "systems" : ["http://testSK.org/CodeSystem/assessment-context-cs"]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/assessment-context-cs"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/brain-imaging-modality-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/brain-imaging-modality-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "BrainImagingModalityVS",
       "title" : "Brain Imaging Modality ValueSet",
       "description" : "Defines the SNOMED CT codes for individual brain imaging modalities performed as procedures.",
       "systems" : [
-        "http://testSK.org/CodeSystem/brain-imaging-type-cs",
+        "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
         "http://snomed.info/sct"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/carotid-imaging-modality-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/carotid-imaging-modality-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "CarotidImagingModalityVS",
@@ -49,16 +49,18 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/discharge-dept-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/discharge-dept-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "DischargeDeptVS",
       "title" : "Discharge Department/Service ValueSet",
       "description" : "ValueSet specifying the type of department or service the patient was discharged or transferred to.",
-      "systems" : ["http://testSK.org/CodeSystem/discharge-dept-cs"]
+      "systems" : [
+        "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs"
+      ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/discharge-destination-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DischargeDestinationValueSet",
@@ -67,7 +69,7 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/functional-score-codes-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/functional-score-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "FunctionalScoreCodesVS",
@@ -76,66 +78,68 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "HemorrhagicStrokeBleedingReasonVS",
       "title" : "Hemorrhagic Stroke Bleeding Reason ValueSet",
       "description" : "Specifies the identified cause of a hemorrhagic stroke, typically used with an extension.",
       "systems" : [
-        "http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
+        "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/initial-care-intensity-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/initial-care-intensity-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "InitialCareIntensityVS",
       "title" : "Initial Care Intensity ValueSet",
       "description" : "ValueSet indicating the level of care provided initially.",
-      "systems" : ["http://testSK.org/CodeSystem/initial-care-intensity-cs"]
+      "systems" : [
+        "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"
+      ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/medication-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/medication-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "MedicationVS",
       "title" : "Medications ValueSet",
       "description" : "SNOMED CT codes for drug products or substances.",
       "systems" : [
-        "http://testSK.org/CodeSystem/medication-cs",
+        "http://tecnomod-um.org/CodeSystem/medication-cs",
         "http://snomed.info/sct"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/mrs-score-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/mrs-score-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "MRsScoreVS",
       "title" : "modified Rankin Scale (mRS) Score ValueSet",
       "description" : "ValueSet containing the codes for the modified Rankin Scale (mRS) score.",
-      "systems" : ["http://testSK.org/CodeSystem/mrs-score-cs"]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/mrs-score-cs"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/mtici-code-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/mtici-code-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "MTICICodeVS",
       "title" : "mTICI Score Codes ValueSet",
       "description" : "ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure.",
-      "systems" : ["http://testSK.org/CodeSystem/mtici-code-cs"]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-code-cs"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/mtici-score-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/mtici-score-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "MTICIScoreValueSet",
       "title" : "MTICI Score ValueSet",
       "description" : "ValueSet containing the codes to represent the MTICI score used to assess the degree of reperfusion after a thrombectomy procedure.",
-      "systems" : ["http://testSK.org/CodeSystem/mtici-score-cs"]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/perforation-procedures-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "PerforationProceduresValueset",
@@ -144,16 +148,18 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/procedure-timing-context-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "ProcedureTimingContextVS",
       "title" : "Procedure Timing Context ValueSet",
       "description" : "ValueSet for codes defining the timing phase of a procedure relative to the encounter start.",
-      "systems" : ["http://testSK.org/CodeSystem/procedure-timing-context-cs"]
+      "systems" : [
+        "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"
+      ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/specific-finding-codes-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/specific-finding-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "SpecificFindingCodesVS",
@@ -162,25 +168,27 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-arrival-mode-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeArrivalModeVS",
       "title" : "Stroke Arrival Mode ValueSet",
       "description" : "ValueSet specifying the mode and origin of the patient's arrival.",
-      "systems" : ["http://testSK.org/CodeSystem/stroke-arrival-mode-cs"]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-circumstance-codes-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeCircumstanceCodesVS",
       "title" : "Stroke Circumstance Codes ValueSet",
       "description" : "Codes for findings related to the circumstances of stroke onset (In-hospital, Wake-up).",
-      "systems" : ["http://testSK.org/CodeSystem/stroke-circumstance-codes-cs"]
+      "systems" : [
+        "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs"
+      ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-diagnosis-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeDiagnosisVS",
@@ -189,54 +197,54 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-discharge-destination-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-discharge-destination-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeDischargeDestinationVS",
       "title" : "Stroke Discharge Destination ValueSet",
       "description" : "Defines the possible destinations of the patient upon discharge from the encounter.",
       "systems" : [
-        "http://testSK.org/CodeSystem/stroke-discharge-destination-cs",
+        "http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
         "http://snomed.info/sct"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-etiology-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "StrokeEtiologyVS",
       "title" : "Stroke Etiology ValueSet",
       "description" : "Specifies the determined etiology of an stroke.",
       "systems" : [
-        "http://testSK.org/CodeSystem/stroke-etiology-cs",
-        "http://snomed.info/sct"
+        "http://snomed.info/sct",
+        "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-finding-codes-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeFindingCodesVS",
       "title" : "Specific Stroke Finding Codes ValueSet",
       "description" : "ValueSet for specific coded findings like Afib/Flutter status or mTICI score.",
       "systems" : [
-        "http://testSK.org/CodeSystem/mtici-code-cs",
-        "http://snomed.info/sct"
+        "http://snomed.info/sct",
+        "http://tecnomod-um.org/CodeSystem/mtici-code-cs"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeProcNotDoneReasonVS",
       "title" : "Stroke Procedure Not Done Reason ValueSet",
       "description" : "ValueSet containing specific codes to indicate why thrombolysis or thrombectomy was not performed.",
       "systems" : [
-        "http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs"
+        "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-risk-factor-snomed-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeRiskFactorSNOMEDVS",
@@ -245,7 +253,7 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/stroke-risk-factor-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "StrokeRiskFactorValueSet",
@@ -254,31 +262,31 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/swallow-procedures-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/swallow-procedures-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SwallowProceduresValueset",
       "title" : "Swallow Procedures ValueSet",
       "description" : "ValueSet containing SNOMED CT codes representing a range of procedures used in the evaluation and management of stroke patients.",
       "systems" : [
-        "http://testSK.org/CodeSystem/swallow-procedures-cs",
+        "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
         "http://snomed.info/sct"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/swallowing-screening-timing-category-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "SwallowingScreeningTimingCategoryVS",
       "title" : "Swallowing Screening Timing Category ValueSet",
       "description" : "Temporal categories relative to stroke onset for swallowing screening.",
       "systems" : [
-        "http://testSK.org/CodeSystem/swallow-screen-time-cs",
+        "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
         "http://snomed.info/sct"
       ]
     },
     {
-      "url" : "http://testSK.org/ValueSet/thrombectomy-complication-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complication-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "ThrombectomyComplicationVS",
@@ -287,16 +295,16 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/timing-metric-codes-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/timing-metric-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "TimingMetricCodesVS",
       "title" : "Stroke Timing Metric Codes ValueSet",
       "description" : "ValueSet for key process timing metrics in acute stroke care (D2N, D2G).",
-      "systems" : ["http://testSK.org/CodeSystem/timing-metric-codes-cs"]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/vital-sign-codes-vs",
+      "url" : "http://tecnomod-um.org/ValueSet/vital-sign-codes-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "VitalSignCodesVS",
@@ -305,7 +313,7 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://testSK.org/ValueSet/vs-gender-snomed",
+      "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "GenderSNOMEDVS",

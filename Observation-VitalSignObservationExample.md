@@ -32,7 +32,7 @@ Profile: [Stroke Vital Sign Observation Profile (R5)](StructureDefinition-vital-
   "id" : "VitalSignObservationExample",
   "meta" : {
     "profile" : [
-      "http://testSK.org/StructureDefinition/vital-sign-observation-profile"
+      "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"
     ]
   },
   "status" : "final",

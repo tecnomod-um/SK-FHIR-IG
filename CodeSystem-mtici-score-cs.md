@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://testSK.org/CodeSystem/mtici-score-cs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/mtici-score-cs | *Version*:0.1.0 |
 | Draft as of 2025-03-31 | *Computable Name*:MticiScoreCS |
 
  
@@ -26,7 +26,7 @@ CodeSystem containing the codes to represent the MTICI score.
 {
   "resourceType" : "CodeSystem",
   "id" : "mtici-score-cs",
-  "url" : "http://testSK.org/CodeSystem/mtici-score-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/mtici-score-cs",
   "version" : "0.1.0",
   "name" : "MticiScoreCS",
   "title" : "MTICI Score Code System",
@@ -40,7 +40,7 @@ CodeSystem containing the codes to represent the MTICI score.
       "telecom" : [
         {
           "system" : "url",
-          "value" : "http://testSK.org/umu"
+          "value" : "http://tecnomod-um.org"
         }
       ]
     }

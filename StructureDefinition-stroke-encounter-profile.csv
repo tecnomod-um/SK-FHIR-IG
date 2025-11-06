@@ -27,16 +27,16 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Encounter.extension:isFirstHospital","Encounter.extension","isFirstHospital","","",1,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/first-hospital-ext]]} {[]}
+"Encounter.extension:isFirstHospital","Encounter.extension","isFirstHospital","","",1,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/first-hospital-ext]]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Encounter.extension:initialCareIntensity","Encounter.extension","initialCareIntensity","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/initial-care-intensity-ext]]} {[]}
+"Encounter.extension:initialCareIntensity","Encounter.extension","initialCareIntensity","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext]]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Encounter.extension:requiredPostAcuteCare","Encounter.extension","requiredPostAcuteCare","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/required-post-acute-care-ext]]} {[]}
+"Encounter.extension:requiredPostAcuteCare","Encounter.extension","requiredPostAcuteCare","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext]]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Encounter.extension:dischargeDepartmentService","Encounter.extension","dischargeDepartmentService","","",0,1,"Y","","","Extension {[CanonicalType[http://testSK.org/StructureDefinition/discharge-department-service-ext]]} {[]}
+"Encounter.extension:dischargeDepartmentService","Encounter.extension","dischargeDepartmentService","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext]]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Encounter.modifierExtension","Encounter.modifierExtension","","extensions
@@ -233,7 +233,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","The location/organization from which the patient came before admission","The location/organization from which the patient came before admission.","","","","","","","","","",,,,,"",,,,"Encounter.admission.origin",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".participation[typeCode=ORG].role"
 "Encounter.admission.admitSource","Encounter.admission.admitSource","","","",0,1,"Y","","","CodeableConcept {[]} {[]}
-","From where patient was admitted (physician referral, transfer)","From where patient was admitted (physician referral, transfer).","","","","","","","","","",,"required","","http://testSK.org/ValueSet/stroke-arrival-mode-vs","",,,,"Encounter.admission.admitSource",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","From where patient was admitted (physician referral, transfer)","From where patient was admitted (physician referral, transfer).","","","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs","",,,,"Encounter.admission.admitSource",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".admissionReferralSourceCode","PV1-14"
 "Encounter.admission.reAdmission","Encounter.admission.reAdmission","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Indicates that the patient is being re-admitted","Indicates that this encounter is directly related to a prior admission, often because the conditions addressed in the prior admission were not fully addressed.","","","","","","","","","",,"example","The reason for re-admission of this admission encounter.","http://terminology.hl7.org/ValueSet/v2-0092","",,,,"Encounter.admission.reAdmission",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -242,7 +242,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Location/organization to which the patient is discharged","Location/organization to which the patient is discharged.","","","","","","","","","",,,,,"",,,,"Encounter.admission.destination",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".participation[typeCode=DST]","PV1-37"
 "Encounter.admission.dischargeDisposition","Encounter.admission.dischargeDisposition","","","",1,1,"Y","","","CodeableConcept {[]} {[]}
-","Category or kind of location after discharge","Category or kind of location after discharge.","","","","","","","","","",,"required","","http://testSK.org/ValueSet/stroke-discharge-destination-vs","",,,,"Encounter.admission.dischargeDisposition",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Category or kind of location after discharge","Category or kind of location after discharge.","","","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/stroke-discharge-destination-vs","",,,,"Encounter.admission.dischargeDisposition",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".dischargeDispositionCode","PV1-36"
 "Encounter.location","Encounter.location","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","List of locations where the patient has been","List of locations where  the patient has been during this encounter.","Virtual encounters can be recorded in the Encounter by specifying a location reference to a location of type ""kind"" such as ""client's home"" and an encounter.class = ""virtual"".","","","","","","","","",,,,,"",,,,"Encounter.location",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

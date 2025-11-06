@@ -14,28 +14,28 @@ Alias: FHIR_Extension = http://hl7.org/fhir/StructureDefinition/Extension // Ali
 Alias: FHIR_CodeableConcept = http://hl7.org/fhir/StructureDefinition/CodeableConcept
 
 // URLs for Custom CodeSystems
-Alias: AssessmentContextCS_URL = http://testSK.org/CodeSystem/assessment-context-cs
-Alias: MticiScoreCS_URL = http://testSK.org/CodeSystem/mtici-score-cs
-Alias: MticiCodeCS_URL = http://testSK.org/CodeSystem/mtici-code-cs
-Alias: TimingMetricCodesCS_URL = http://testSK.org/CodeSystem/timing-metric-codes-cs
-Alias: StrokeCircumstanceCodesCS_URL = http://testSK.org/CodeSystem/stroke-circumstance-codes-cs
-Alias: AfibFlutterStatusCS_URL = http://testSK.org/CodeSystem/afib-flutter-status-cs
-Alias: MRsScoreCS_URL = http://testSK.org/CodeSystem/mrs-score-cs
+Alias: AssessmentContextCS_URL = http://tecnomod-um.org/CodeSystem/assessment-context-cs
+Alias: MticiScoreCS_URL = http://tecnomod-um.org/CodeSystem/mtici-score-cs
+Alias: MticiCodeCS_URL = http://tecnomod-um.org/CodeSystem/mtici-code-cs
+Alias: TimingMetricCodesCS_URL = http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs
+Alias: StrokeCircumstanceCodesCS_URL = http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs
+Alias: AfibFlutterStatusCS_URL = http://tecnomod-um.org/CodeSystem/afib-flutter-status-cs
+Alias: MRsScoreCS_URL = http://tecnomod-um.org/CodeSystem/mrs-score-cs
 
 // URLs for ValueSets
-Alias: AfibFlutterStatusVS_URL = http://testSK.org/ValueSet/afib-flutter-status-vs
-Alias: MticiScoreVS_URL = http://testSK.org/ValueSet/mtici-score-vs
-Alias: AssessmentContextVS_URL = http://testSK.org/ValueSet/assessment-context-vs
-Alias: MRsScoreVS_URL = http://testSK.org/ValueSet/mrs-score-vs
-Alias: VitalSignCodesVS_URL = http://testSK.org/ValueSet/vital-sign-codes-vs
-Alias: FunctionalScoreCodesVS_URL = http://testSK.org/ValueSet/functional-score-codes-vs
-Alias: TimingMetricCodesVS_URL = http://testSK.org/ValueSet/timing-metric-codes-vs
-Alias: StrokeCircumstanceCodesVS_URL = http://testSK.org/ValueSet/stroke-circumstance-codes-vs
-Alias: SpecificFindingCodesVS_URL = http://testSK.org/ValueSet/specific-finding-codes-vs
-Alias: StrokeFindingCodesVS_URL = http://testSK.org/ValueSet/stroke-finding-codes-vs
-Alias: MticiCodeVS_URL = http://testSK.org/ValueSet/mtici-code-vs
+Alias: AfibFlutterStatusVS_URL = http://tecnomod-um.org/ValueSet/afib-flutter-status-vs
+Alias: MticiScoreVS_URL = http://tecnomod-um.org/ValueSet/mtici-score-vs
+Alias: AssessmentContextVS_URL = http://tecnomod-um.org/ValueSet/assessment-context-vs
+Alias: MRsScoreVS_URL = http://tecnomod-um.org/ValueSet/mrs-score-vs
+Alias: VitalSignCodesVS_URL = http://tecnomod-um.org/ValueSet/vital-sign-codes-vs
+Alias: FunctionalScoreCodesVS_URL = http://tecnomod-um.org/ValueSet/functional-score-codes-vs
+Alias: TimingMetricCodesVS_URL = http://tecnomod-um.org/ValueSet/timing-metric-codes-vs
+Alias: StrokeCircumstanceCodesVS_URL = http://tecnomod-um.org/ValueSet/stroke-circumstance-codes-vs
+Alias: SpecificFindingCodesVS_URL = http://tecnomod-um.org/ValueSet/specific-finding-codes-vs
+Alias: StrokeFindingCodesVS_URL = http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs
+Alias: MticiCodeVS_URL = http://tecnomod-um.org/ValueSet/mtici-code-vs
 //Extension
-Alias: ObsTimingContextExt_URL = http://testSK.org/StructureDefinition/observation-timing-context-ext
+Alias: ObsTimingContextExt_URL = http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext
 
 
 // ------------------------- Custom CodeSystems & ValueSets (English) -------------
@@ -282,7 +282,7 @@ Profile: BaseStrokeObservation
 Id: base-stroke-observation
 Parent: FHIR_Observation 
 * ^fhirVersion = #5.0.0
-* ^url = "http://testSK.org/StructureDefinition/base-stroke-observation"
+* ^url = "http://tecnomod-um.org/StructureDefinition/base-stroke-observation"
 * ^version = "1.0.0"
 * ^title = "Base Profile for Stroke-Related Observations"
 * ^description = "Constraints for observations recorded in the context of stroke care."
@@ -301,7 +301,7 @@ Parent: FHIR_Observation
 Profile: VitalSignObservationProfile
 Id: vital-sign-observation-profile
 Parent: BaseStrokeObservation
-* ^url = "http://testSK.org/StructureDefinition/vital-sign-observation-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile"
 * ^version = "1.0.0"
 * ^name = "VitalSignObservationProfile"
 * ^title = "Stroke Vital Sign Observation Profile (R5)"
@@ -326,7 +326,7 @@ Profile: FunctionalScoreObservationProfile
 Id: functional-score-observation-profile
 Parent: BaseStrokeObservation
 * ^fhirVersion = #5.0.0
-* ^url = "http://testSK.org/StructureDefinition/functional-score-observation-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile"
 * ^version = "1.1.0" // Incremented version due to change
 * ^name = "FunctionalScoreObservationProfile"
 * ^title = "Stroke Functional Score Observation Profile (R5, Timing Ext)" // Updated title
@@ -352,7 +352,7 @@ Profile: TimingMetricObservationProfile
 Id: timing-metric-observation-profile
 Parent: BaseStrokeObservation
 * ^fhirVersion = #5.0.0
-* ^url = "http://testSK.org/StructureDefinition/timing-metric-observation-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"
 * ^version = "1.0.0"
 * ^name = "TimingMetricObservationProfile"
 * ^title = "Stroke Timing Metric Observation Profile (R5)"
@@ -376,7 +376,7 @@ Profile: StrokeCircumstanceObservationProfile
 Id: stroke-circumstance-observation-profile
 Parent: BaseStrokeObservation
 * ^fhirVersion = #5.0.0
-* ^url = "http://testSK.org/StructureDefinition/stroke-circumstance-observation-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-circumstance-observation-profile"
 * ^version = "1.0.0"
 * ^name = "StrokeCircumstanceObservationProfile"
 * ^title = "Stroke Circumstance Observation Profile (R5)"
@@ -391,7 +391,7 @@ Profile: SpecificFindingObservationProfile
 Id: specific-finding-observation-profile
 Parent: BaseStrokeObservation
 * ^fhirVersion = #5.0.0
-* ^url = "http://testSK.org/StructureDefinition/specific-finding-observation-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
 * ^version = "1.0.0"
 * ^name = "SpecificFindingObservationProfile"
 * ^title = "Specific Stroke Finding Observation Profile (R5)"
@@ -407,7 +407,7 @@ Profile: AgeAtOnsetObservationProfile
 Id: age-at-onset-observation-profile
 Parent: BaseStrokeObservation
 * ^fhirVersion = #5.0.0
-* ^url = "http://testSK.org/StructureDefinition/age-at-onset-observation-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/age-at-onset-observation-profile"
 * ^version = "1.0.0"
 * ^name = "AgeAtOnsetObservationProfile"
 * ^title = "Age at Stroke Onset Observation Profile (R5)"

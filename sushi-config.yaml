@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: SKtestIG
-canonical: http://testSK.org
-name: IGTest
+id: RES-Q-FHIR-IG
+canonical: http://tecnomod-um.org
+name: RES-Q-IG
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
@@ -17,11 +17,11 @@ releaseLabel: "5"
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: UMU
-  url: http://testSK.org/umu
+  url: http://tecnomod-um.org
   # email: test@example.org
   
-url: https://alvumu.github.io
-baseurl: /IGTest-git
+url: https://tecnomod-um.org
+baseurl: /RES-Q-FHIR-IG
 
 
 # The dependencies property corresponds to IG.dependsOn. The key is the

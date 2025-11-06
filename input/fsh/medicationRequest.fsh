@@ -13,7 +13,7 @@ Alias: MedReqAdminLocCS = http://terminology.hl7.org/CodeSystem/medicationreques
 Alias: AbsentOrUnknownVS = https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html
 
 // URLs for Medication ValueSets
-Alias: MedicationVS_URL = http://testSK.org/ValueSet/medication-vs
+Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
 
 // ValueSet: MedicationVS
 // Id: medication-vs
@@ -55,7 +55,7 @@ Id: discharge-medication-cs
 
 ValueSet: DischargeMedicationVS
 Id: discharge-medication-vs
-* ^url = "http://testSK.org/ValueSet/discharge-medication-vs"
+* ^url = "http://tecnomod-um.org/ValueSet/discharge-medication-vs"
 * ^version = "1.0.0"
 * ^name = "DischargeMedicationVS"
 * ^title = "Medications ValueSet"
@@ -68,7 +68,7 @@ Id: discharge-medication-vs
 Profile: DischargeMedicationRequestProfile
 Id: discharge-medication-request-profile
 Parent: FHIR_MedicationRequest
-* ^url = "http://testSK.org/StructureDefinition/discharge-medication-request-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile"
 * ^version = "1.0.0"
 * ^name = "DischargeMedicationRequestProfile"
 * ^title = "Discharge Medication Request Profile"

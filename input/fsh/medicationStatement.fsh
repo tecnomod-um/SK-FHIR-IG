@@ -3,9 +3,9 @@ Alias: SCT = http://snomed.info/sct
 Alias: FHIR = http://hl7.org/fhir
 Alias: UCUM = https://ucum.org/ucum
 // Alias R5 Adherence CodeSystem/ValueSet
-Alias: MedStatementMedsCS_URL = http://testSK.org/CodeSystem/medication-statement-cs
+Alias: MedStatementMedsCS_URL = http://tecnomod-um.org/CodeSystem/medication-statement-cs
 Alias: MedStatementAdherenceVS_URL = http://hl7.org/fhir/ValueSet/medication-statement-adherence
-Alias: MedStatementMedsVS_URL = http://testSK.org/ValueSet/medicationStatement-meds-codes-vs
+Alias: MedStatementMedsVS_URL = http://tecnomod-um.org/ValueSet/medicationStatement-meds-codes-vs
 // FHIR R5 Resource Aliases
 Alias: MedicationStatement = http://hl7.org/fhir/StructureDefinition/MedicationStatement
 Alias: Patient = http://hl7.org/fhir/StructureDefinition/Patient
@@ -57,7 +57,7 @@ Profile: PriorMedicationStatementProfile
 Id: prior-medication-statement-profile
 Parent: MedicationStatement // Base R5 MedicationStatement
 * ^fhirVersion = #5.0.0 // Explicitly state R5 base
-* ^url = "http://testSK.org/StructureDefinition/prior-medication-statement-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile"
 * ^version = "1.0.0"
 * ^name = "PriorMedicationStatementProfile"
 * ^title = "Prior Medication Statement Profile (R5)" // Indicate R5

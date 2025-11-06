@@ -11,7 +11,7 @@ Id: stroke-registry-organization-profile
 Parent: Organization
 Title: "Stroke Registry Organization Profile"
 Description: "Organization profile ensuring an active organization with a registry identifier (system=https://stroke.qualityregistry.org) and a required name, aligned with the build_organization() transformation."
-* ^url = "http://testSK.org/StructureDefinition/stroke-registry-organization-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile"
 * ^name = "StrokeRegistryOrganizationProfile"
 * ^status = #active
 * ^version = "1.0.0"

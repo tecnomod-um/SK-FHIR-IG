@@ -16,26 +16,26 @@ Alias: FHIR_DiagnosticReport = http://hl7.org/fhir/StructureDefinition/Diagnosti
 Alias: FHIR_Condition = http://hl7.org/fhir/StructureDefinition/Condition // For reason target
 
 // URLs for Custom CodeSystems
-Alias: StrokeProcNotDoneReasonCS_URL = http://testSK.org/CodeSystem/stroke-proc-not-done-reason-cs
-Alias: SwallowScreenTimeCS_URL = http://testSK.org/CodeSystem/swallow-screen-time-cs
-Alias: ProcedureTimingContextCS_URL = http://testSK.org/CodeSystem/procedure-timing-context-cs
-Alias: BrainImagingTypeCS_URL = http://testSK.org/CodeSystem/brain-imaging-type-cs
-Alias: SwallowProceduresCS_URL = http://testSK.org/CodeSystem/swallow-procedures-cs
-Alias: ThrombectomyComplicationCS_URL = http://testSK.org/CodeSystem/thrombectomy-complication-cs
+Alias: StrokeProcNotDoneReasonCS_URL = http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs
+Alias: SwallowScreenTimeCS_URL = http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs
+Alias: ProcedureTimingContextCS_URL = http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs
+Alias: BrainImagingTypeCS_URL = http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs
+Alias: SwallowProceduresCS_URL = http://tecnomod-um.org/CodeSystem/swallow-procedures-cs
+Alias: ThrombectomyComplicationCS_URL = http://tecnomod-um.org/CodeSystem/thrombectomy-complication-cs
 // URLs for ValueSets (used in bindings)
-Alias: CarotidImagingModalityVS_URL = http://testSK.org/ValueSet/carotid-imaging-modality-vs
-Alias: BrainImagingModalityVS_URL = http://testSK.org/ValueSet/brain-imaging-modality-vs
-Alias: ThrombectomyComplicationVS_URL = http://testSK.org/ValueSet/thrombectomy-complication-vs
-Alias: StrokeProcNotDoneReasonVS_URL = http://testSK.org/ValueSet/stroke-proc-not-done-reason-vs
-Alias: SwallowingScreeningTimingCategoryVS_URL = http://testSK.org/ValueSet/swallowing-screening-timing-category-vs
-Alias: PerforationProceduresVS_URL = http://testSK.org/ValueSet/perforation-procedures-vs
-Alias: SwallowProceduresVS_URL = http://testSK.org/ValueSet/swallow-procedures-vs
-Alias: ProcedureTimingContextVS_URL = http://testSK.org/ValueSet/procedure-timing-context-vs
+Alias: CarotidImagingModalityVS_URL = http://tecnomod-um.org/ValueSet/carotid-imaging-modality-vs
+Alias: BrainImagingModalityVS_URL = http://tecnomod-um.org/ValueSet/brain-imaging-modality-vs
+Alias: ThrombectomyComplicationVS_URL = http://tecnomod-um.org/ValueSet/thrombectomy-complication-vs
+Alias: StrokeProcNotDoneReasonVS_URL = http://tecnomod-um.org/ValueSet/stroke-proc-not-done-reason-vs
+Alias: SwallowingScreeningTimingCategoryVS_URL = http://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs
+Alias: PerforationProceduresVS_URL = http://tecnomod-um.org/ValueSet/perforation-procedures-vs
+Alias: SwallowProceduresVS_URL = http://tecnomod-um.org/ValueSet/swallow-procedures-vs
+Alias: ProcedureTimingContextVS_URL = http://tecnomod-um.org/ValueSet/procedure-timing-context-vs
 
 // URLs for Custom Extensions
-Alias: ProcPerfElsewhereExt_URL = http://testSK.org/StructureDefinition/procedure-performed-elsewhere-indicator-ext
-Alias: SwallowScreenTimeExt_URL = http://testSK.org/StructureDefinition/swallowing-screening-timing-category-ext
-Alias: ProcTimingContextExt_URL = http://testSK.org/StructureDefinition/procedure-timing-context-ext
+Alias: ProcPerfElsewhereExt_URL = http://tecnomod-um.org/StructureDefinition/procedure-performed-elsewhere-indicator-ext
+Alias: SwallowScreenTimeExt_URL = http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext
+Alias: ProcTimingContextExt_URL = http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext
 
 // ------------------- CodeSystems and ValueSets (R5 Compatible) -------------
 
@@ -267,7 +267,7 @@ Profile: StrokeBrainImagingProcedureProfile
 Id: stroke-brain-imaging-procedure-profile
 Parent: FHIR_Procedure // R5 Procedure Base
 * ^fhirVersion = #5.0.0 // Specify R5
-* ^url = "http://testSK.org/StructureDefinition/stroke-brain-imaging-procedure-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-brain-imaging-procedure-profile"
 * ^version = "1.2.0" // Incremented version for R5 update
 * ^name = "StrokeBrainImagingProcedureProfile"
 * ^title = "Stroke Brain Imaging Procedure Profile (R5)" // Indicate R5
@@ -285,7 +285,7 @@ Profile: StrokeCarotidImagingProcedureProfile
 Id: stroke-carotid-imaging-procedure-profile
 Parent: FHIR_Procedure // R5 Procedure Base
 * ^fhirVersion = #5.0.0 // Specify R5
-* ^url = "http://testSK.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile"
 * ^version = "1.2.0" // Incremented version for R5 update
 * ^name = "StrokeCarotidImagingProcedureProfile"
 * ^title = "Stroke Carotid Imaging Procedure Profile (R5)" // Indicate R5
@@ -303,7 +303,7 @@ Profile: StrokeThrombolysisProcedureProfile
 Id: stroke-mechanical-procedure-profile 
 Parent: FHIR_Procedure // R5 Procedure Base
 * ^fhirVersion = #5.0.0 // Specify R5
-* ^url = "http://testSK.org/StructureDefinition/stroke-mechanical-procedure-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile"
 * ^version = "1.2.0" // Incremented version for R5 update
 * ^name = "StrokeThrombolysisProcedureProfile"
 * ^title = "Stroke Thrombolysis Procedure Profile (R5)" // Indicate R5
@@ -326,7 +326,7 @@ Profile: StrokeSwallowProcedureProfile
 Id: stroke-swallow-procedure-profile
 Parent: FHIR_Procedure // R5 Procedure Base
 * ^fhirVersion = #5.0.0 // Specify R5
-* ^url = "http://testSK.org/StructureDefinition/stroke-swallow-procedure-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
 * ^version = "1.2.0" // Incremented version for R5 update
 * ^name = "StrokeSwallowProcedureProfile"
 * ^title = "Stroke Swallow Procedure Profile (R5)" // Indicate R5

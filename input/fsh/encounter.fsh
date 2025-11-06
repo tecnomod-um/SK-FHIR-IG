@@ -6,21 +6,21 @@ Alias: FHIR_Location = http://hl7.org/fhir/StructureDefinition/Location
 
 
 // URLs for Custom CodeSystems (Defined Below)
-Alias: StrokeArrivalModeCS_URL = http://testSK.org/CodeSystem/stroke-arrival-mode-cs
-Alias: DischargeDeptCS_URL = http://testSK.org/CodeSystem/CodeSystem/discharge-dept-cs
-Alias: InitialCareIntensityCS_URL = http://testSK.org/CodeSystem/initial-care-intensity-cs
-Alias: StrokeDischargeDestinationCS_URL = http://testSK.org/CodeSystem/stroke-discharge-destination-cs
+Alias: StrokeArrivalModeCS_URL = http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs
+Alias: DischargeDeptCS_URL = http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs
+Alias: InitialCareIntensityCS_URL = http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs
+Alias: StrokeDischargeDestinationCS_URL = http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs
 // URLs for Custom ValueSets (Defined Below - used in bindings)
-Alias: StrokeArrivalModeVS_URL = http://testSK.org/ValueSet/stroke-arrival-mode-vs
-Alias: StrokeDischargeDestinationVS_URL = http://testSK.org/ValueSet/stroke-discharge-destination-vs
-Alias: DischargeDeptVS_URL = http://testSK.org/ValueSet/discharge-dept-vs
-Alias: InitialCareIntensityVS_URL = http://testSK.org/ValueSet/initial-care-intensity-vs
+Alias: StrokeArrivalModeVS_URL = http://tecnomod-um.org/ValueSet/stroke-arrival-mode-vs
+Alias: StrokeDischargeDestinationVS_URL = http://tecnomod-um.org/ValueSet/stroke-discharge-destination-vs
+Alias: DischargeDeptVS_URL = http://tecnomod-um.org/ValueSet/discharge-dept-vs
+Alias: InitialCareIntensityVS_URL = http://tecnomod-um.org/ValueSet/initial-care-intensity-vs
 
 // URLs for Custom Extensions (Defined Below)
-Alias: FirstHospitalExt_URL = http://testSK.org/StructureDefinition/first-hospital-ext
-Alias: InitialCareIntensityExt_URL = http://testSK.org/StructureDefinition/initial-care-intensity-ext
-Alias: RequiredPostAcuteCareExt_URL = http://testSK.org/StructureDefinition/required-post-acute-care-ext
-Alias: DischargeDepartmentServiceExt_URL = http://testSK.org/StructureDefinition/discharge-department-service-ext
+Alias: FirstHospitalExt_URL = http://tecnomod-um.org/StructureDefinition/first-hospital-ext
+Alias: InitialCareIntensityExt_URL = http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext
+Alias: RequiredPostAcuteCareExt_URL = http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext
+Alias: DischargeDepartmentServiceExt_URL = http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext
 
 // ------------------------- Custom CodeSystems & ValueSets -------------
 

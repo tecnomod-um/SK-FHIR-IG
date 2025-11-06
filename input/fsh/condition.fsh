@@ -7,21 +7,21 @@ Alias: StrokeRiskUnknVS = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-
 Alias: ClinicalStatusCondCS = http://terminology.hl7.org/CodeSystem/condition-clinical
 
 
-Alias: HemorrhagicStrokeBleedingReasonCS_URL = http://testSK.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs
-Alias: StrokeEtiologyCS_URL = http://testSK.org/CodeSystem/stroke-etiology-cs
-Alias: StrokeDiagnosisVS_URL = http://testSK.org/ValueSet/stroke-diagnosis-vs
-Alias: StrokeRiskFactorSNOMEDVS_URL = http://testSK.org/ValueSet/stroke-risk-factor-snomed-vs
-Alias: StrokeRiskFactorVS_URL = http://testSK.org/ValueSet/stroke-risk-factor-vs
+Alias: HemorrhagicStrokeBleedingReasonCS_URL = http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs
+Alias: StrokeEtiologyCS_URL = http://tecnomod-um.org/CodeSystem/stroke-etiology-cs
+Alias: StrokeDiagnosisVS_URL = http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs
+Alias: StrokeRiskFactorSNOMEDVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs
+Alias: StrokeRiskFactorVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs
 Alias: StrokeRiskFactorUnknVS_URL = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
-Alias: DischargeDestinationVS_URL = http://testSK.org/ValueSet/discharge-destination-vs
-Alias: AdmissionSourceVS_URL = http://testSK.org/ValueSet/admission-source-vs
-Alias: HemorrhagicStrokeBleedingReasonVS_URL = http://testSK.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs
-Alias: StrokeEtiologyVS_URL = http://testSK.org/ValueSet/stroke-etiology-vs
+Alias: DischargeDestinationVS_URL = http://tecnomod-um.org/ValueSet/discharge-destination-vs
+Alias: AdmissionSourceVS_URL = http://tecnomod-um.org/ValueSet/admission-source-vs
+Alias: HemorrhagicStrokeBleedingReasonVS_URL = http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs
+Alias: StrokeEtiologyVS_URL = http://tecnomod-um.org/ValueSet/stroke-etiology-vs
 
-Alias: HemorrhagicStrokeBleedingReasonEXT_URL = http://testSK.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext
-Alias: StrokeStrokeEtiologyEXT_URL = http://testSK.org/StructureDefinition/ischemic-stroke-etiology-ext
-Alias: OnsetDateEXT_URL = http://testSK.org/StructureDefinition/onset-date-ext
-Alias: OnsetTimeEXT_URL = http://testSK.org/StructureDefinition/onset-time-ext
+Alias: HemorrhagicStrokeBleedingReasonEXT_URL = http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext
+Alias: StrokeStrokeEtiologyEXT_URL = http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext
+Alias: OnsetDateEXT_URL = http://tecnomod-um.org/StructureDefinition/onset-date-ext
+Alias: OnsetTimeEXT_URL = http://tecnomod-um.org/StructureDefinition/onset-time-ext
 
 
 // ValueSet for Stroke Diagnosis (with Displays)
@@ -327,7 +327,7 @@ Id: stroke-diagnosis-condition-profile
 Parent: Condition
 Title: "Stroke Diagnosis Condition Profile"
 Description: "Defines a Condition profile constrained to represent the definitive diagnosis of the current stroke event during the indexed encounter. The profile fixes category to encounter-diagnosis, binds code (required) to StrokeDiagnosisVS, and prohibits onset[x] to avoid ambiguity with symptom-onset capture via dedicated extensions. Use this profile for final/confirmed stroke diagnoses recorded at discharge or after diagnostic workup; do not use it for history-of conditions, screening findings, or provisional ‘rule-out’ statements. Optional extensions capture hemorrhagic bleeding reason, ischemic etiology, and structured onset date/time when clinically known."
-* ^url = "http://testSK.org/StructureDefinition/stroke-diagnosis-condition-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
 * ^name = "StrokeDiagnosisConditionProfile"
 * ^status = #active
 * ^version = "1.0.0"
@@ -373,7 +373,7 @@ Id: stroke-risk-factor-condition-profile
 Parent: Condition
 Title: "Stroke Risk Factor Condition Profile"
 Description: "Defines a Condition profile for pre-existing or concurrent conditions that increase stroke risk (e.g., atrial fibrillation/flutter, diabetes, hypertension, coronary disease). The profile fixes category to problem-list-item, binds code (required) to StrokeRiskFactorVS, and supports onset[x] and recordedDate to document chronology and longitudinal tracking. Use this profile to maintain the problem list and to support risk assessment and CDS; do not use it to code the acute stroke event itself."
-* ^url = "http://testSK.org/StructureDefinition/stroke-risk-factor-condition-profile"
+* ^url = "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile"
 * ^name = "StrokeRiskFactorConditionProfile"
 * ^status = #active
 * ^version = "1.0.0"

@@ -17,41 +17,6 @@ Alias: Condition = http://hl7.org/fhir/StructureDefinition/Condition
 
 
 
-CodeSystem: MedicationStatementCS
-Id: medication-statement-cs
-* ^url = MedStatementMedsCS_URL
-* ^version = "1.0.0"
-* ^name = "MedicationStatementCS"
-* ^title = "MedicationStatement CodeSystem"
-* ^description = "Codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use)."
-* #antidiabetic "Any Antidiabetic" "The patient was taking antidiabetic medication prior to hospital admission or before the stroke event"
-* #antiplatelet "Any Antiplatelet" "The patient was taking antiplatelet medication prior to hospital admission or before the stroke event"
-* #aspirin "Aspirin" "The patient was taking aspirin (acetylsalicylic acid) prior to hospital admission or before the stroke event"
-* #clopidogrel "Clopidogrel" "The patient was taking clopidogrel prior to hospital admission or before the stroke event"
-
-
-ValueSet: MedicationStatementMedsCodesVS
-Id: medicationStatement-meds-codes-vs
-* ^url = MedStatementMedsVS_URL
-* ^name = "MedicationStatementMedsCodes" 
-* ^title = "MedicationStatement Therapy/Finding Codes"
-* ^description = "ValueSet containing SNOMED CT codes representing various medication-related procedures and findings (e.g., therapies, administration procedures, findings about use). "
-* ^version = "1.0.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-03-31"
-* ^publisher = "Example Organization"
-* ^contact[0].name = "Example Organization"
-* ^contact[0].telecom[0].system = #email
-* ^contact[0].telecom[0].value = "info@example.org"
-* include SCT#308116003 "Antihypertensive therapy (procedure)"
-* include SCT#182764009 "Anticoagulant therapy (procedure)"
-* include SCT#1237404009 "Uses hormone method of contraception (finding)"
-* include SCT#315053001 "Administration of prophylactic statin (procedure)"
-* include SCT#722045009 "Warfarin therapy (procedure)"
-* include codes from system MedStatementMedsCS_URL
-
-
 // ------------------ Perfil Unificado: Declaración de Medicación Previa (FHIR R5) ---
 Profile: PriorMedicationStatementProfile
 Id: prior-medication-statement-profile
@@ -67,12 +32,14 @@ Parent: MedicationStatement // Base R5 MedicationStatement
 
 // Key fields for prior medication reporting
 * medication 1..1 MS
-* medication from MedStatementMedsVS_URL (required)
+* medication from MedicationVS (required)
 * subject 1..1 MS
 * subject only Reference(Patient)
+* encounter 1..1 MS
+* encounter only Reference(Encounter)
 * reason 0..* MS 
 * reason only CodeableReference(Condition or Observation or DiagnosticReport) // Allowed targets for reason in R5
-
+* status 1..1 MS
 // Adherence field to represent Taking / Not Taking in R5
 * adherence 0..1 MS // Make the adherence block optional but supported
 * adherence.code 1..1 MS // If adherence block is present, code is mandatory
@@ -80,8 +47,10 @@ Parent: MedicationStatement // Base R5 MedicationStatement
 
 Instance: PriorMedicationStatementExample
 InstanceOf: PriorMedicationStatementProfile
-* medication = SCT#722045009 "Warfarin therapy (procedure)"
+* medication = SCT#372756006 "Warfarin (substance)"
 * subject = Reference(PatientExample) // Reference to the patient
 * reason = Reference(StrokeDiagnosisConditionExample)
 * adherence.code = http://hl7.org/fhir/CodeSystem/medication-statement-adherence#taking // Using R5 adherence codes
 * status = #recorded // Status of the prior medication statement
+* encounter = Reference(EncounterExample)
+

@@ -248,7 +248,7 @@ Id: mtici-code-vs
 * ^title = "mTICI Score Codes ValueSet"
 * ^description = "ValueSet containing the codes to represent the mTICI score used to assess the degree of reperfusion after a thrombectomy procedure."
 * ^status = #active
-* include codes from system MticiScoreCS_URL
+* include codes from system MticiCodeCS_URL
 
 ValueSet: StrokeFindingCodesVS
 Id: stroke-finding-codes-vs
@@ -490,7 +490,7 @@ InstanceOf: TimingMetricObservationProfile
 
 Instance: SpecificFindingObservationExampleMTICI
 InstanceOf: SpecificFindingObservationProfile
-* code = SCT#1156911000 "mTICI Score Assessment"
+* code = MTICICodeCS#mTICI "Modified Thrombolysis in Cerebral Infarction"
 * valueCodeableConcept = MticiScoreCS_URL#3 "Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches"
 * subject = Reference(PatientExample)
 * encounter = Reference(StrokeEncounterExample)

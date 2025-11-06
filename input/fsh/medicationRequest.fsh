@@ -13,7 +13,7 @@ Alias: MedReqAdminLocCS = http://terminology.hl7.org/CodeSystem/medicationreques
 Alias: AbsentOrUnknownVS = https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html
 
 // URLs for Medication ValueSets
-Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
+Alias: MedicationVS_URL = http://testSK.org/ValueSet/medication-vs
 
 // ValueSet: MedicationVS
 // Id: medication-vs
@@ -41,21 +41,38 @@ CodeSystem: DischargeMedicationCS
 Id: discharge-medication-cs
 * ^url = MedicationVS_URL
 * ^version = "1.0.0"
-* ^name = "DischargeMedicationCS"
+* ^name = "MedicationVS"
+* ^title = "Medications ValueSet"
+* ^description = "SNOMED CT codes for drug products or substances."
+* ^status = #draft
+* include SCT#372756006 "Warfarin (substance)"
+* include SCT#372586001 "Hypotensive agent (substance)"
+* include SCT#372862008 "Anticoagulant (substance)"
+* include SCT#312263009 "Sex hormone (substance)"
+* include SCT#372912004 "Substance with 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor mechanism of action (substance)"
+* include SCT#387458008 "Aspirin (substance)"
+* include SCT#386952008 "Clopidogrel (substance)"
+* include SCT#372877000 "Heparin (substance)"
+* include codes from system MedicationCS_URL
+* include codes from valueset AbsentOrUnknownVS
+
+
+CodeSystem: MedicationCS
+Id: medication-cs
+* ^url = MedicationCS_URL
+* ^version = "1.0.0"
+* ^name = "MedicationCS"
 * ^title = "Medications CodeSystem"
 * ^description = "Codes for drug products or substances representing the Medications on the patient discharge."
 * ^status = #draft
-* #anticoagulant "Any Anticoagulant" "Any anticoagulant (such as warfarin or a NOAC) was prescribed at discharge"
-* #antiplatelet "Any Antiplatelet" "Any antiplatelet medication (e.g., aspirin, clopidogrel) was prescribed at discharge"
-* #asa "Aspirin" "Aspirin (acetylsalicylic acid) was prescribed at discharge"
-* #clopidogrel "Clopidogrel" "Clopidogrel was prescribed at discharge"
-* #heparin "Heparin" "Heparin (either unfractionated or low-molecular-weight) was prescribed at discharge"
-* #warfarin "Warfarin" "Warfarin, a vitamin K antagonist—was prescribed at discharge"
+* #other-anticoagulant "Other Anticoagulant" "Any anticoagulant medication"
+* #antiplatelet "Any Antiplatelet" "Any antiplatelet medication"
+* #antidiabetic "Any Antidiabetic" "Any antidiabetic medication"
 * #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
 
 ValueSet: DischargeMedicationVS
 Id: discharge-medication-vs
-* ^url = "http://tecnomod-um.org/ValueSet/discharge-medication-vs"
+* ^url = "http://testSK.org/ValueSet/discharge-medication-vs"
 * ^version = "1.0.0"
 * ^name = "DischargeMedicationVS"
 * ^title = "Medications ValueSet"
@@ -84,7 +101,7 @@ Parent: FHIR_MedicationRequest
 * category 1..1 MS 
 
 * medication 1..1 MS
-* medication from DischargeMedicationVS (required)
+* medication from MedicationVS (required)
 * subject 1..1 MS
 * subject only Reference(FHIR_Patient)
 
@@ -99,7 +116,7 @@ InstanceOf: DischargeMedicationRequestProfile
 * id = "discharge-medication-request-001"
 * status = #active
 * category = MedReqAdminLocCS#community
-* medication = DischargeMedicationCS#warfarin
+* medication = SCT#372756006 "Warfarin (substance)"
 * intent = #order // Intent for discharge medication request
 * subject = Reference(PatientExample) // Reference to the patient
 * encounter = Reference(StrokeEncounterExample) // Reference to the stroke encounter

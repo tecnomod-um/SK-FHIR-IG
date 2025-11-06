@@ -13,7 +13,7 @@ Alias: MedReqAdminLocCS = http://terminology.hl7.org/CodeSystem/medicationreques
 Alias: AbsentOrUnknownVS = https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html
 
 // URLs for Medication ValueSets
-Alias: MedicationVS_URL = http://testSK.org/ValueSet/medication-vs
+Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
 
 // ValueSet: MedicationVS
 // Id: medication-vs
@@ -72,7 +72,7 @@ Id: medication-cs
 
 ValueSet: DischargeMedicationVS
 Id: discharge-medication-vs
-* ^url = "http://testSK.org/ValueSet/discharge-medication-vs"
+* ^url = "http://tecnomod-um.org/ValueSet/discharge-medication-vs"
 * ^version = "1.0.0"
 * ^name = "DischargeMedicationVS"
 * ^title = "Medications ValueSet"
@@ -110,6 +110,27 @@ Parent: FHIR_MedicationRequest
 
 * authoredOn 0..1 MS
 
+Instance: PatientExample
+InstanceOf: Patient
+* id = "example-patient"
+
+Instance: StrokeEncounterExample
+InstanceOf: StrokeEncounterProfile
+* status = #completed
+* type = #inpatient "Inpatient Encounter"
+
+* actualPeriod.start = 2025-03-01T08:00:00Z
+* actualPeriod.end   = 2025-03-10T12:00:00Z
+
+
+* subject = Reference(PatientExample)
+
+* admission.admitSource = StrokeArrivalModeCS_URL#ems-home "EMS from Home"
+* admission.dischargeDisposition = SCT#306689006 "Discharge to home (procedure)"
+* extension[isFirstHospital].valueBoolean = true
+* extension[initialCareIntensity].valueCodeableConcept = InitialCareIntensityCS_URL#icu-stroke "ICU / Stroke Unit"
+* extension[requiredPostAcuteCare].valueBoolean = false
+* extension[dischargeDepartmentService].valueCodeableConcept = SCT#309937004 "Neurology department (environment)"
 
 Instance: DischargeMedicationRequest
 InstanceOf: DischargeMedicationRequestProfile

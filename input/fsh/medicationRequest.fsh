@@ -15,27 +15,6 @@ Alias: AbsentOrUnknownVS = https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknow
 // URLs for Medication ValueSets
 Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
 
-// ValueSet: MedicationVS
-// Id: medication-vs
-// * ^url = MedicationVS_URL
-// * ^version = "1.0.0"
-// * ^name = "MedicationVS"
-// * ^title = "Medications ValueSet"
-// * ^description = "SNOMED CT codes for drug products or substances."
-// * ^status = #draft
-// * include SCT#372756006 "Warfarin (substance)"
-// * include SCT#698871007 "Dabigatran (substance)"
-// * include SCT#442031002 "Rivaroxaban (substance)"
-// * include SCT#698090000 "Apixaban (substance)"
-// * include SCT#712778008 "Edoxaban (substance)"
-// * include SCT#372862008 "Anticoagulant (substance)"
-// * include SCT#387458008 "Aspirin (substance)"
-// * include SCT#386952008 "Clopidogrel (substance)"
-// * include SCT#698805004 "Ticagrelor (substance)"
-// * include SCT#443129001 "Prasugrel (substance)"
-// * include SCT#387371005 "Dipyridamole (substance)"
-// * include SCT#771451006 "Platelet aggregation inhibitor (disposition)"
-// * include SCT#372562003 "Enoxaparin (substance)"
 
 CodeSystem: MedicationCS
 Id: medication-cs
@@ -50,8 +29,8 @@ Id: medication-cs
 * #antidiabetic "Any Antidiabetic" "Any antidiabetic medication"
 * #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
 
-CodeSystem: DischargeMedicationCS
-Id: discharge-medication-cs
+Valueset: MedicationVS
+Id: discharge-medication-vs
 * ^url = MedicationVS_URL
 * ^version = "1.0.0"
 * ^name = "MedicationVS"
@@ -100,23 +79,6 @@ Parent: FHIR_MedicationRequest
 
 * authoredOn 0..1 MS
 
-Instance: PatientExample
-InstanceOf: Patient
-* id = "example-patient"
-
-Instance: StrokeEncounterExample
-InstanceOf: StrokeEncounterProfile
-* status = #completed
-* type = #inpatient "Inpatient Encounter"
-* actualPeriod.start = 2025-03-01T08:00:00Z
-* actualPeriod.end   = 2025-03-10T12:00:00Z
-* subject = Reference(PatientExample)
-* admission.admitSource = StrokeArrivalModeCS_URL#ems-home "EMS from Home"
-* admission.dischargeDisposition = SCT#306689006 "Discharge to home (procedure)"
-* extension[isFirstHospital].valueBoolean = true
-* extension[initialCareIntensity].valueCodeableConcept = InitialCareIntensityCS_URL#icu-stroke "ICU / Stroke Unit"
-* extension[requiredPostAcuteCare].valueBoolean = false
-* extension[dischargeDepartmentService].valueCodeableConcept = SCT#309937004 "Neurology department (environment)"
 
 Instance: DischargeMedicationRequest
 InstanceOf: DischargeMedicationRequestProfile

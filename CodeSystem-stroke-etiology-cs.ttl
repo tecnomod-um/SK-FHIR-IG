@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/CodeSystem/stroke-etiology-cs> a fhir:CodeSystem ;
+<http://tecnomod-um.org/CodeSystem/stroke-etiology-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "stroke-etiology-cs"] ; # 
   fhir:text [

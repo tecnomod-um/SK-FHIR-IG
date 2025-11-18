@@ -1,5 +1,12 @@
 [
   {
+    "id" : "RES-Q-FHIR-IG",
+    "type" : "ImplementationGuide",
+    "url" : "http://tecnomod-um.org",
+    "version" : "0.1.0",
+    "name" : "RESQIG"
+  },
+  {
     "id" : "discharge-dept-cs",
     "type" : "CodeSystem",
     "url" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs",
@@ -572,12 +579,5 @@
     "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
     "version" : "0.1.0",
     "name" : "GenderSNOMEDVS"
-  },
-  {
-    "id" : "RES-Q-FHIR-IG",
-    "type" : "ImplementationGuide",
-    "url" : "https://tecnomod-um.org",
-    "version" : "0.1.0",
-    "name" : "RESQIG"
   }
 ]

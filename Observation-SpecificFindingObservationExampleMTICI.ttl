@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/Observation/SpecificFindingObservationExampleMTICI> a fhir:Observation ;
+<http://tecnomod-um.org/Observation/SpecificFindingObservationExampleMTICI> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SpecificFindingObservationExampleMTICI"] ; # 
   fhir:meta [
@@ -31,11 +31,11 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
+     fhir:l <http://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:l <https://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
+     fhir:l <http://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
      fhir:reference [ fhir:v "Encounter/StrokeEncounterExample" ]
   ] ; # 
   fhir:value [

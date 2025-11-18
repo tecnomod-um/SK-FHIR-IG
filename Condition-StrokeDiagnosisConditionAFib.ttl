@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/Condition/StrokeDiagnosisConditionAFib> a fhir:Condition ;
+<http://tecnomod-um.org/Condition/StrokeDiagnosisConditionAFib> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "StrokeDiagnosisConditionAFib"] ; # 
   fhir:meta [
@@ -60,11 +60,11 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
+     fhir:l <http://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:l <https://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
+     fhir:l <http://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
      fhir:reference [ fhir:v "Encounter/StrokeEncounterExample" ]
   ] . # 
 

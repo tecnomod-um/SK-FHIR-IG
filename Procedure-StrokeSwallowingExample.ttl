@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/Procedure/StrokeSwallowingExample> a fhir:Procedure ;
+<http://tecnomod-um.org/Procedure/StrokeSwallowingExample> a fhir:Procedure ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "StrokeSwallowingExample"] ; # 
   fhir:meta [
@@ -66,7 +66,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
+     fhir:l <http://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:occurrence [

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext> a fhir:StructureDefinition ;
+<http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "required-post-acute-care-ext"] ; # 
   fhir:text [
@@ -31,7 +31,7 @@
   fhir:name [ fhir:v "RequiredPostAcuteCareExtension"] ; # 
   fhir:title [ fhir:v "Required Post-Acute Care Extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-18T09:01:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-18T09:36:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "UMU"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "UMU" ] ;

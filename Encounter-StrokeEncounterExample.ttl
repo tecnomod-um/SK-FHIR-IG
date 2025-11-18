@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/Encounter/StrokeEncounterExample> a fhir:Encounter ;
+<http://tecnomod-um.org/Encounter/StrokeEncounterExample> a fhir:Encounter ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "StrokeEncounterExample"] ; # 
   fhir:meta [
@@ -80,7 +80,7 @@
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
+     fhir:l <http://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:actualPeriod [

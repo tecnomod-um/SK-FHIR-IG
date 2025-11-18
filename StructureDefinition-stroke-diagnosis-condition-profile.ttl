@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile> a fhir:StructureDefinition ;
+<http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "stroke-diagnosis-condition-profile"] ; # 
   fhir:text [

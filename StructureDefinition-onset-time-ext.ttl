@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/StructureDefinition/onset-time-ext> a fhir:StructureDefinition ;
+<http://tecnomod-um.org/StructureDefinition/onset-time-ext> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "onset-time-ext"] ; # 
   fhir:text [

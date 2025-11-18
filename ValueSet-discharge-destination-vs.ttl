@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/ValueSet/discharge-destination-vs> a fhir:ValueSet ;
+<http://tecnomod-um.org/ValueSet/discharge-destination-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "discharge-destination-vs"] ; # 
   fhir:text [

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext> a fhir:StructureDefinition ;
+<http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ischemic-stroke-etiology-ext"] ; # 
   fhir:text [

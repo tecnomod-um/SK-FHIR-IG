@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/Organization/ExampleStrokeOrganization> a fhir:Organization ;
+<http://tecnomod-um.org/Organization/ExampleStrokeOrganization> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ExampleStrokeOrganization"] ; # 
   fhir:meta [

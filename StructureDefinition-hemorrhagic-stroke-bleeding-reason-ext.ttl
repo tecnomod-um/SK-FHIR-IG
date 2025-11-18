@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext> a fhir:StructureDefinition ;
+<http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hemorrhagic-stroke-bleeding-reason-ext"] ; # 
   fhir:text [

@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/Patient/PatientAgeGenderSnomedExample> a fhir:Patient ;
+<http://tecnomod-um.org/Patient/PatientAgeGenderSnomedExample> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PatientAgeGenderSnomedExample"] ; # 
   fhir:meta [

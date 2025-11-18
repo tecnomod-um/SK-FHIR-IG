@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/MedicationRequest/discharge-medication-request-001> a fhir:MedicationRequest ;
+<http://tecnomod-um.org/MedicationRequest/discharge-medication-request-001> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "discharge-medication-request-001"] ; # 
   fhir:meta [
@@ -45,11 +45,11 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
+     fhir:l <http://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:l <https://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
+     fhir:l <http://tecnomod-um.org/Encounter/StrokeEncounterExample> ;
      fhir:reference [ fhir:v "Encounter/StrokeEncounterExample" ]
   ] . # 
 

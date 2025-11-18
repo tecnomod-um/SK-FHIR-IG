@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs> a fhir:CodeSystem ;
+<http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hemorrhagic-stroke-bleeding-reason-cs"] ; # 
   fhir:text [

@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-imagi
   "name" : "StrokeCarotidImagingProcedureProfile",
   "title" : "Stroke Carotid Imaging Procedure Profile (R5)",
   "status" : "active",
-  "date" : "2025-11-18T09:01:12+00:00",
+  "date" : "2025-11-18T09:36:46+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

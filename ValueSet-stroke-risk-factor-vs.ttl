@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/ValueSet/stroke-risk-factor-vs> a fhir:ValueSet ;
+<http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "stroke-risk-factor-vs"] ; # 
   fhir:text [

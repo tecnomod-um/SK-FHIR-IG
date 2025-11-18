@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://tecnomod-um.org | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org | *Version*:0.1.0 |
 | Draft as of 2025-11-18 | *Computable Name*:RESQIG |
 
 The [RES-Q Stroke Registry](https://stroke.qualityregistry.org/) mission is to empower hospitals and healthcare providers to monitor, evaluate, and enhance the quality of health care. Today, more than 2,000 hospitals across 89 countries actively contribute data to RES-Q, making it one of the largest international stroke quality registries. The RES-Q platform provides hospitals with interactive dashboards and customizable reports, enabling them to benchmark performance, identify gaps, and implement targeted improvements in clinical practice. Within RES-Q, stroke-related data is systematically collected using a dedicated [data collection form](https://stroke.qualityregistry.org/useful-information/data-collection-form) which ensures consistency in reporting across participating institutions. However, integrating data from external systems into RES-Q can be complex and often requires manual work or bespoke ETL pipelines. This implementation guide addresses that challenge by describing how to model your data using HL7 FHIR, following the RES-Q profiles and value sets. By adopting this standardized approach, registries and hospitals can align their data with RES-Q requirements, reduce integration effort, and benefit from a uniform interface for exchanging information. Ultimately, this not only simplifies participation in RES-Q but also strengthens interoperability with other health information systems.
@@ -39,11 +39,11 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
 {
   "resourceType" : "ImplementationGuide",
   "id" : "RES-Q-FHIR-IG",
-  "url" : "https://tecnomod-um.org",
+  "url" : "http://tecnomod-um.org",
   "version" : "0.1.0",
   "name" : "RESQIG",
   "status" : "draft",
-  "date" : "2025-11-18T09:01:12+00:00",
+  "date" : "2025-11-18T09:36:46+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

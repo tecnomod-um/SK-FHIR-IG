@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://tecnomod-um.org/MedicationStatement/PriorMedicationStatementExample> a fhir:MedicationStatement ;
+<http://tecnomod-um.org/MedicationStatement/PriorMedicationStatementExample> a fhir:MedicationStatement ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PriorMedicationStatementExample"] ; # 
   fhir:meta [
@@ -35,7 +35,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:l <https://tecnomod-um.org/Patient/example-patient> ;
+     fhir:l <http://tecnomod-um.org/Patient/example-patient> ;
      fhir:reference [ fhir:v "Patient/example-patient" ]
   ] ; # 
   fhir:encounter [
@@ -44,7 +44,7 @@
   ] ; # 
   fhir:reason ( [
      fhir:reference [
-       fhir:l <https://tecnomod-um.org/Condition/StrokeDiagnosisConditionExample> ;
+       fhir:l <http://tecnomod-um.org/Condition/StrokeDiagnosisConditionExample> ;
        fhir:reference [ fhir:v "Condition/StrokeDiagnosisConditionExample" ]
      ]
   ] ) ; # 

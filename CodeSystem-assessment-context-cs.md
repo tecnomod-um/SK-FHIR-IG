@@ -32,7 +32,7 @@ Codes defining the context or timing of a clinical assessment, particularly func
   "title" : "Assessment Context Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-18T10:33:59+00:00",
+  "date" : "2025-11-18T10:41:07+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

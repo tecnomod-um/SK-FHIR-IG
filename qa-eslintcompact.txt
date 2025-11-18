@@ -763,7 +763,6 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG.json: line 1, col 44649, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG.json: line 0, col 0, Error - URL Mismatch http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG vs http://tecnomod-um.org (BUSINESSRULE)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationStatement-PriorMedicationStatementExample.json: line 41, col 4, Error - Unable to resolve resource with reference 'EncounterExample' (STRUCTURE)
-/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample.json: line 26, col 16, Error - The property 'value' is invalid (INVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have an effective[x] () (INVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-FunctionalScoreObservationExample.json: line 12, col 8, Info - Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/assessment-context-cs|0.1.0 (BUSINESSRULE)
@@ -884,5 +883,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-thrombectomy-complication-vs.json: line 1, col 1382, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-timing-metric-codes-vs.json: line 1, col 1139, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 27, warn = 130, info = 42
+err = 26, warn = 130, info = 42
 IG Publisher Version: 2.0.26

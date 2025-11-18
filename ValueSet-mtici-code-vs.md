@@ -52,7 +52,7 @@ ValueSet containing the codes to represent the mTICI score used to assess the de
   "name" : "MTICICodeVS",
   "title" : "mTICI Score Codes ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T10:33:59+00:00",
+  "date" : "2025-11-18T10:41:07+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

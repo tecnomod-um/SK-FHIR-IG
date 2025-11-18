@@ -1,7 +1,7 @@
 RESQIG : Validation Results
 =========================================
 
-err = 27, warn = 130, info = 42
+err = 26, warn = 130, info = 42
 $--
 Generated $--. FHIR version $-- for RES-Q-FHIR-IG#$-- (canonical = http://tecnomod-um.org)
  Build Errors : 1 / 707 / 0
@@ -32,7 +32,7 @@ Generated $--. FHIR version $-- for RES-Q-FHIR-IG#$-- (canonical = http://tecnom
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG : 5 / 1 / 16
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationRequest-discharge-medication-request-001 : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationStatement-PriorMedicationStatementExample : 1 / 0 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample : 1 / 2 / 1
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample : 0 / 2 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-FunctionalScoreObservationExample : 0 / 2 / 3
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExample : 0 / 3 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI : 2 / 2 / 3
@@ -283,9 +283,9 @@ WARNING: MedicationStatement-PriorMedicationStatementExample.ttl.html#/html/body
 WARNING: MedicationStatement-PriorMedicationStatementExample.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Observation-AgeAtOnsetObservationExample.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Observation-AgeAtOnsetObservationExample.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-AgeAtOnsetObservationExample.json.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-AgeAtOnsetObservationExample.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Observation-AgeAtOnsetObservationExample.ttl.html#/html/body/div/div/div/p/a at Line 269, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-AgeAtOnsetObservationExample.xml.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-AgeAtOnsetObservationExample.xml.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Observation-FunctionalScoreObservationExample.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Observation-FunctionalScoreObservationExample.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Observation-FunctionalScoreObservationExample.json.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -900,7 +900,6 @@ ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Imp
 == fsh-generated/resources/MedicationStatement-PriorMedicationStatementExample.json ==
 ERROR: MedicationStatement/PriorMedicationStatementExample: MedicationStatement.encounter: Unable to resolve resource with reference 'EncounterExample'
 == fsh-generated/resources/Observation-AgeAtOnsetObservationExample.json ==
-ERROR: Observation/AgeAtOnsetObservationExample: Observation.value.ofType(integer): The property 'value' is invalid
 WARNING: Observation/AgeAtOnsetObservationExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/AgeAtOnsetObservationExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-FunctionalScoreObservationExample.json ==

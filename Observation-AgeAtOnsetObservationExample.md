@@ -16,7 +16,7 @@ Profile: [Age at Stroke Onset Observation Profile (R5)](StructureDefinition-age-
 
 **encounter**: [Encounter: extension = true,ICU / Stroke Unit,false,Neurology; status = completed; type = Inpatient Encounter; actualPeriod = 2025-03-01 08:00:00+0000 --> 2025-03-10 12:00:00+0000](Encounter-StrokeEncounterExample.md)
 
-**value**: 
+**value**: 65
 
 
 
@@ -47,9 +47,7 @@ Profile: [Age at Stroke Onset Observation Profile (R5)](StructureDefinition-age-
   "encounter" : {
     "reference" : "Encounter/StrokeEncounterExample"
   },
-  "_valueInteger" : {
-    "value" : 65
-  }
+  "valueInteger" : 65
 }
 
 ```

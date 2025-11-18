@@ -427,7 +427,7 @@
     "name" : "InitialCareIntensityVS"
   },
   {
-    "id" : "discharge-medication-vs",
+    "id" : "medication-vs",
     "type" : "ValueSet",
     "url" : "http://tecnomod-um.org/ValueSet/medication-vs",
     "version" : "0.1.0",

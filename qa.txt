@@ -1,9 +1,9 @@
 RESQIG : Validation Results
 =========================================
 
-err = 24, warn = 130, info = 42
+err = 21, warn = 130, info = 42
 IG Publisher Version: 2.0.26
-Generated Tue Nov 18 10:45:26 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = http://tecnomod-um.org)
+Generated Tue Nov 18 10:47:57 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = http://tecnomod-um.org)
  Build Errors : 1 / 707 / 0
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 2 / 2
@@ -84,10 +84,10 @@ Generated Tue Nov 18 10:45:26 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-carotid-imaging-modality-vs : 1 / 1 / 2
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-discharge-dept-vs : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-discharge-destination-vs : 0 / 0 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-discharge-medication-vs : 4 / 3 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-functional-score-codes-vs : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-hemorrhagic-stroke-bleeding-reason-vs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-initial-care-intensity-vs : 0 / 1 / 1
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-medication-vs : 1 / 3 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-mrs-score-vs : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-mtici-code-vs : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-mtici-score-vs : 0 / 0 / 1
@@ -659,12 +659,6 @@ WARNING: ValueSet-discharge-destination-vs.html#/html/body/div/div/div/p/a at Li
 WARNING: ValueSet-discharge-destination-vs.json.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-destination-vs.ttl.html#/html/body/div/div/div/p/a at Line 294, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-destination-vs.xml.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-medication-vs-testing.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-medication-vs.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-medication-vs.html#/html/body/div/div/div/p/a at Line 318, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-medication-vs.json.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-medication-vs.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-medication-vs.xml.html#/html/body/div/div/div/p/a at Line 305, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-functional-score-codes-vs-testing.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-functional-score-codes-vs.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-functional-score-codes-vs.html#/html/body/div/div/div/p/a at Line 314, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -683,6 +677,12 @@ WARNING: ValueSet-initial-care-intensity-vs.html#/html/body/div/div/div/p/a at L
 WARNING: ValueSet-initial-care-intensity-vs.json.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-initial-care-intensity-vs.ttl.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-initial-care-intensity-vs.xml.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-vs-testing.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-vs.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-vs.html#/html/body/div/div/div/p/a at Line 318, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-vs.json.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-vs.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-vs.xml.html#/html/body/div/div/div/p/a at Line 305, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-mrs-score-vs-testing.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-mrs-score-vs.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-mrs-score-vs.html#/html/body/div/div/div/p/a at Line 314, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -803,7 +803,7 @@ WARNING: ValueSet-vs-gender-snomed.html#/html/body/div/div/div/p/a at Line 314, 
 WARNING: ValueSet-vs-gender-snomed.json.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-vs-gender-snomed.ttl.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-vs-gender-snomed.xml.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 1153, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 1152, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: codesystems.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: conformance.html#/html/body/div/div/div/p/a at Line 274, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: downloads.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -1041,19 +1041,16 @@ WARNING: ValueSet/carotid-imaging-modality-vs: ValueSet: Published value sets SH
 == fsh-generated/resources/ValueSet-discharge-dept-vs.json ==
 WARNING: ValueSet/discharge-dept-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-discharge-destination-vs.json ==
-== fsh-generated/resources/ValueSet-discharge-medication-vs.json ==
-ERROR: ValueSet.where(url = 'http://tecnomod-um.org/ValueSet/medication-vs'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-discharge-medication-vs.json - the canonical URL (http://tecnomod-um.org/ValueSet/discharge-medication-vs) does not match the URL (http://tecnomod-um.org/ValueSet/medication-vs). Use the special-url parameter if you really mean for it not to match
-ERROR: ValueSet.url: Resource id/url mismatch: discharge-medication-vs/http://tecnomod-um.org/ValueSet/medication-vs
-WARNING: ValueSet/discharge-medication-vs: ValueSet.compose.include[2].valueSet[0]: A definition could not be found for Canonical URL 'https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html'
-WARNING: ValueSet/discharge-medication-vs: ValueSet.compose.include[2].valueSet[0]: The value set import https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html could not be found so cannot be checked
-WARNING: ValueSet/discharge-medication-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'discharge-medication-vs'): Unable to find included value set 'https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html'
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-discharge-medication-vs: URL Mismatch http://tecnomod-um.org/ValueSet/discharge-medication-vs vs http://tecnomod-um.org/ValueSet/medication-vs
 == fsh-generated/resources/ValueSet-functional-score-codes-vs.json ==
 WARNING: ValueSet/functional-score-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-hemorrhagic-stroke-bleeding-reason-vs.json ==
 == fsh-generated/resources/ValueSet-initial-care-intensity-vs.json ==
 WARNING: ValueSet/initial-care-intensity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-medication-vs.json ==
+WARNING: ValueSet/medication-vs: ValueSet.compose.include[2].valueSet[0]: A definition could not be found for Canonical URL 'https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html'
+WARNING: ValueSet/medication-vs: ValueSet.compose.include[2].valueSet[0]: The value set import https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html could not be found so cannot be checked
+WARNING: ValueSet/medication-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet.where(id = 'medication-vs'): Unable to find included value set 'https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html'
 == fsh-generated/resources/ValueSet-mrs-score-vs.json ==
 WARNING: ValueSet/mrs-score-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-mtici-code-vs.json ==

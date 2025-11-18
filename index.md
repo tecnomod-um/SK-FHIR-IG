@@ -43,7 +43,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
   "version" : "0.1.0",
   "name" : "RESQIG",
   "status" : "draft",
-  "date" : "2025-11-18T10:43:22+00:00",
+  "date" : "2025-11-18T10:45:59+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -530,7 +530,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
           }
         ],
         "reference" : {
-          "reference" : "ValueSet/discharge-medication-vs"
+          "reference" : "ValueSet/medication-vs"
         },
         "name" : "Medications ValueSet",
         "description" : "SNOMED CT codes for drug products or substances.",

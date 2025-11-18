@@ -16,7 +16,7 @@ Codes for drug products or substances representing the Medications on the patien
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [MedicationVS](ValueSet-discharge-medication-vs.md)
+* [MedicationVS](ValueSet-medication-vs.md)
 
 
 
@@ -31,7 +31,7 @@ Codes for drug products or substances representing the Medications on the patien
   "name" : "MedicationCS",
   "title" : "Medications CodeSystem",
   "status" : "draft",
-  "date" : "2025-11-18T10:43:22+00:00",
+  "date" : "2025-11-18T10:45:59+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

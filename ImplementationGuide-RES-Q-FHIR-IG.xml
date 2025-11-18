@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="RESQIG"/>
   <status value="draft"/>
-  <date value="2025-11-18T10:43:22+00:00"/>
+  <date value="2025-11-18T10:45:59+00:00"/>
   <publisher value="UMU"/>
   <contact>
     <name value="UMU"/>
@@ -377,7 +377,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/discharge-medication-vs"/>
+        <reference value="ValueSet/medication-vs"/>
       </reference>
       <name value="Medications ValueSet"/>
       <description value="SNOMED CT codes for drug products or substances."/>

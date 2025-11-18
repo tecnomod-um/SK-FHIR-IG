@@ -307,7 +307,7 @@
       "description" : "Codes for drug products or substances representing the Medications on the patient discharge.",
       "uses" : {
       },
-      "ValueSet-discharge-medication-vs.html" : "Medications ValueSet"
+      "ValueSet-medication-vs.html" : "Medications ValueSet"
     },
     {
       "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
@@ -762,8 +762,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy",
-      "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
+      "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes",
+      "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",

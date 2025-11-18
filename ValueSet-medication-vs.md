@@ -47,13 +47,13 @@ No Expansion for this valueset (not supported by Publication Tooling)
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "discharge-medication-vs",
+  "id" : "medication-vs",
   "url" : "http://tecnomod-um.org/ValueSet/medication-vs",
   "version" : "0.1.0",
   "name" : "MedicationVS",
   "title" : "Medications ValueSet",
   "status" : "draft",
-  "date" : "2025-11-18T10:43:22+00:00",
+  "date" : "2025-11-18T10:45:59+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

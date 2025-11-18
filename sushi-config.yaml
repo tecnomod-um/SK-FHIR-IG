@@ -20,7 +20,7 @@ publisher:
   url: http://tecnomod-um.org
   # email: test@example.org
   
-url: https://tecnomod-um.org
+url: http://tecnomod-um.org
 baseurl: /RES-Q-FHIR-IG
 
 
@@ -433,3 +433,4 @@ instanceOptions:
   # if InstanceOf references a profile:
   #
   # setId: always # always | standalone-only
+

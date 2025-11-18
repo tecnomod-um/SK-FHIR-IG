@@ -49,7 +49,7 @@ Description: "SNOMED CT concepts representing final stroke-related diagnoses int
 
 // ValueSet for Stroke Risk Factors (with Displays)
 ValueSet: StrokeRiskFactorVS
-Id: stroke-risk-factor-snomed-vs
+Id: stroke-risk-factor-vs
 Title: "Stroke Risk Factor ValueSet"
 Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."
 * ^url = StrokeRiskFactorVS_URL

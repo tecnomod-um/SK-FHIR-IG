@@ -377,7 +377,7 @@ Description: "Defines a Condition profile for pre-existing or concurrent conditi
 * subject only Reference(Patient)
 
 * code 1..1 MS
-* code from StrokeRiskFactorVS (required)
+* code from StrokeRiskFactorVS_URL (required)
 
 * onset[x] MS
 * recordedDate MS

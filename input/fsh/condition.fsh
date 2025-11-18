@@ -10,7 +10,6 @@ Alias: ClinicalStatusCondCS = http://terminology.hl7.org/CodeSystem/condition-cl
 Alias: HemorrhagicStrokeBleedingReasonCS_URL = http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs
 Alias: StrokeEtiologyCS_URL = http://tecnomod-um.org/CodeSystem/stroke-etiology-cs
 Alias: StrokeDiagnosisVS_URL = http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs
-Alias: StrokeRiskFactorSNOMEDVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs
 Alias: StrokeRiskFactorVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs
 Alias: StrokeRiskFactorUnknVS_URL = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
 Alias: DischargeDestinationVS_URL = http://tecnomod-um.org/ValueSet/discharge-destination-vs

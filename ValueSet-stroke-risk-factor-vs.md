@@ -50,7 +50,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "stroke-risk-factor-snomed-vs",
+  "id" : "stroke-risk-factor-vs",
   "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs",
   "version" : "0.1.0",
   "name" : "StrokeRiskFactorValueSet",

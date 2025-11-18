@@ -64,7 +64,7 @@
 * [Stroke Etiology ValueSet](ValueSet-stroke-etiology-vs.md)
 * [Specific Stroke Finding Codes ValueSet](ValueSet-stroke-finding-codes-vs.md)
 * [Stroke Procedure Not Done Reason ValueSet](ValueSet-stroke-proc-not-done-reason-vs.md)
-* [Stroke Risk Factor ValueSet](ValueSet-stroke-risk-factor-snomed-vs.md)
+* [Stroke Risk Factor ValueSet](ValueSet-stroke-risk-factor-vs.md)
 * [Swallow Procedures ValueSet](ValueSet-swallow-procedures-vs.md)
 * [Swallowing Screening Timing Category ValueSet](ValueSet-swallowing-screening-timing-category-vs.md)
 * [Thrombectomy Complication ValueSet](ValueSet-thrombectomy-complication-vs.md)

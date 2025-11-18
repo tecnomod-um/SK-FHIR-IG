@@ -31,7 +31,7 @@ Codes for drug products or substances representing the Medications on the patien
   "name" : "MedicationCS",
   "title" : "Medications CodeSystem",
   "status" : "draft",
-  "date" : "2025-11-18T10:58:35+00:00",
+  "date" : "2025-11-18T11:10:00+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

@@ -52,7 +52,7 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
   "name" : "ProcedureTimingContextVS",
   "title" : "Procedure Timing Context ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T10:58:35+00:00",
+  "date" : "2025-11-18T11:10:00+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

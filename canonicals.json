@@ -527,13 +527,6 @@
   {
     "id" : "stroke-risk-factor-snomed-vs",
     "type" : "ValueSet",
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs",
-    "version" : "0.1.0",
-    "name" : "StrokeRiskFactorSNOMEDVS"
-  },
-  {
-    "id" : "stroke-risk-factor-vs",
-    "type" : "ValueSet",
     "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs",
     "version" : "0.1.0",
     "name" : "StrokeRiskFactorValueSet"

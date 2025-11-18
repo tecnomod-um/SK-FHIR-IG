@@ -81,8 +81,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Stroke Etiology ValueSet](ValueSet-stroke-etiology-vs.md) | Specifies the determined etiology of an stroke. |
 | [Stroke Functional Score Codes ValueSet](ValueSet-functional-score-codes-vs.md) | Codes for key functional scores used in stroke (mRS, NIHSS). |
 | [Stroke Procedure Not Done Reason ValueSet](ValueSet-stroke-proc-not-done-reason-vs.md) | ValueSet containing specific codes to indicate why thrombolysis or thrombectomy was not performed. |
-| [Stroke Risk Factor ValueSet](ValueSet-stroke-risk-factor-snomed-vs.md) | Defines the SNOMED CT codes for conditions or risk factors relevant to stroke. |
-| [Stroke Risk Factor ValueSet](ValueSet-stroke-risk-factor-vs.md) | Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status. |
+| [Stroke Risk Factor ValueSet](ValueSet-stroke-risk-factor-snomed-vs.md) | Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status. |
 | [Stroke Timing Metric Codes ValueSet](ValueSet-timing-metric-codes-vs.md) | ValueSet for key process timing metrics in acute stroke care (D2N, D2G). |
 | [Stroke Vital Sign Codes ValueSet](ValueSet-vital-sign-codes-vs.md) | Codes for key vital signs relevant to stroke assessment (Systolic, Diastolic BP). |
 | [Swallow Procedures ValueSet](ValueSet-swallow-procedures-vs.md) | ValueSet containing SNOMED CT codes representing a range of procedures used in the evaluation and management of stroke patients. |

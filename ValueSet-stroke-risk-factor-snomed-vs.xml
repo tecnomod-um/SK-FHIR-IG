@@ -3,11 +3,11 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="stroke-risk-factor-snomed-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet stroke-risk-factor-snomed-vs</b></p><a name="stroke-risk-factor-snomed-vs"> </a><a name="hcstroke-risk-factor-snomed-vs"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/5370000">5370000</a></td><td>Atrial flutter (disorder)</td></tr><tr><td><a href="http://snomed.info/id/49436004">49436004</a></td><td>Atrial fibrillation (disorder)</td></tr><tr><td><a href="http://snomed.info/id/22298006">22298006</a></td><td>Myocardial infarction (disorder)</td></tr><tr><td><a href="http://snomed.info/id/53741008">53741008</a></td><td>Coronary arteriosclerosis (disorder)</td></tr><tr><td><a href="http://snomed.info/id/73211009">73211009</a></td><td>Diabetes mellitus (disorder)</td></tr><tr><td><a href="http://snomed.info/id/55822004">55822004</a></td><td>Hyperlipidemia (disorder)</td></tr><tr><td><a href="http://snomed.info/id/38341003">38341003</a></td><td>Hypertensive disorder, systemic arterial (disorder)</td></tr><tr><td><a href="http://snomed.info/id/230706003">230706003</a></td><td>Hemorrhagic cerebral infarction (disorder)</td></tr><tr><td><a href="http://snomed.info/id/266257000">266257000</a></td><td>Transient ischemic attack (disorder)</td></tr><tr><td><a href="http://snomed.info/id/422504002">422504002</a></td><td>Ischemic stroke (disorder)</td></tr><tr><td><a href="http://snomed.info/id/230690007">230690007</a></td><td>Cerebrovascular accident (disorder)</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet stroke-risk-factor-snomed-vs</b></p><a name="stroke-risk-factor-snomed-vs"> </a><a name="hcstroke-risk-factor-snomed-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/5370000">5370000</a></td><td>Atrial flutter (disorder)</td></tr><tr><td><a href="http://snomed.info/id/49436004">49436004</a></td><td>Atrial fibrillation (disorder)</td></tr><tr><td><a href="http://snomed.info/id/22298006">22298006</a></td><td>Myocardial infarction (disorder)</td></tr><tr><td><a href="http://snomed.info/id/53741008">53741008</a></td><td>Coronary arteriosclerosis (disorder)</td></tr><tr><td><a href="http://snomed.info/id/73211009">73211009</a></td><td>Diabetes mellitus (disorder)</td></tr><tr><td><a href="http://snomed.info/id/55822004">55822004</a></td><td>Hyperlipidemia (disorder)</td></tr><tr><td><a href="http://snomed.info/id/38341003">38341003</a></td><td>Hypertensive disorder, systemic arterial (disorder)</td></tr><tr><td><a href="http://snomed.info/id/230706003">230706003</a></td><td>Hemorrhagic cerebral infarction (disorder)</td></tr><tr><td><a href="http://snomed.info/id/266257000">266257000</a></td><td>Transient ischemic attack (disorder)</td></tr><tr><td><a href="http://snomed.info/id/422504002">422504002</a></td><td>Ischemic stroke (disorder)</td></tr><tr><td><a href="http://snomed.info/id/230690007">230690007</a></td><td>Cerebrovascular accident (disorder)</td></tr></table></li><li>Import all the codes that are contained in http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips</li></ul></div>
   </text>
-  <url value="http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs"/>
+  <url value="http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs"/>
   <version value="0.1.0"/>
-  <name value="StrokeRiskFactorSNOMEDVS"/>
+  <name value="StrokeRiskFactorValueSet"/>
   <title value="Stroke Risk Factor ValueSet"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -20,7 +20,7 @@
       <value value="http://tecnomod-um.org"/>
     </telecom>
   </contact>
-  <description value="Defines the SNOMED CT codes for conditions or risk factors relevant to stroke."/>
+  <description value="Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."/>
   <immutable value="false"/>
   <purpose value="To provide a standardized set of SNOMED CT concepts representing stroke-related risk factors for coding and validation."/>
   <copyright value="This value set includes SNOMED CT® content. SNOMED CT® is distributed by SNOMED International."/>
@@ -71,6 +71,9 @@
         <code value="230690007"/>
         <display value="Cerebrovascular accident (disorder)"/>
       </concept>
+    </include>
+    <include>
+      <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips"/>
     </include>
   </compose>
 </ValueSet>

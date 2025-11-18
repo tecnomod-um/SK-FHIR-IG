@@ -34,7 +34,6 @@ The **ValueSets** implemented in this implementation guide are listed below.
 * [ValueSet-stroke-finding-codes-vs.html](ValueSet-stroke-finding-codes-vs.md)
 * [ValueSet-stroke-proc-not-done-reason-vs.html](ValueSet-stroke-proc-not-done-reason-vs.md)
 * [ValueSet-stroke-risk-factor-snomed-vs.html](ValueSet-stroke-risk-factor-snomed-vs.md)
-* [ValueSet-stroke-risk-factor-vs.html](ValueSet-stroke-risk-factor-vs.md)
 * [ValueSet-swallow-procedures-vs.html](ValueSet-swallow-procedures-vs.md)
 * [ValueSet-swallowing-screening-timing-category-vs.html](ValueSet-swallowing-screening-timing-category-vs.md)
 * [ValueSet-thrombectomy-complication-vs.html](ValueSet-thrombectomy-complication-vs.md)

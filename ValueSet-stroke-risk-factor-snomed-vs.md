@@ -8,19 +8,19 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs | *Version*:0.1.0 |
-| Active as of 2025-10-07 | *Computable Name*:StrokeRiskFactorSNOMEDVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs | *Version*:0.1.0 |
+| Active as of 2025-10-07 | *Computable Name*:StrokeRiskFactorValueSet |
 | **Copyright/Legal**: This value set includes SNOMED CT® content. SNOMED CT® is distributed by SNOMED International. | |
 
  
-Defines the SNOMED CT codes for conditions or risk factors relevant to stroke. 
+Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status. 
 
  
 To provide a standardized set of SNOMED CT concepts representing stroke-related risk factors for coding and validation. 
 
  **References** 
 
-* Included into [StrokeRiskFactorValueSet](ValueSet-stroke-risk-factor-vs.md)
+* [Stroke Risk Factor Condition Profile](StructureDefinition-stroke-risk-factor-condition-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -28,9 +28,7 @@ To provide a standardized set of SNOMED CT concepts representing stroke-related 
 
 ### Expansion
 
-Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
-
-This value set contains 11 concepts
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 
@@ -53,9 +51,9 @@ This value set contains 11 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-risk-factor-snomed-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs",
   "version" : "0.1.0",
-  "name" : "StrokeRiskFactorSNOMEDVS",
+  "name" : "StrokeRiskFactorValueSet",
   "title" : "Stroke Risk Factor ValueSet",
   "status" : "active",
   "experimental" : false,
@@ -72,7 +70,7 @@ This value set contains 11 concepts
       ]
     }
   ],
-  "description" : "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke.",
+  "description" : "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status.",
   "immutable" : false,
   "purpose" : "To provide a standardized set of SNOMED CT concepts representing stroke-related risk factors for coding and validation.",
   "copyright" : "This value set includes SNOMED CT® content. SNOMED CT® is distributed by SNOMED International.",
@@ -125,6 +123,11 @@ This value set contains 11 concepts
             "code" : "230690007",
             "display" : "Cerebrovascular accident (disorder)"
           }
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips"
         ]
       }
     ]

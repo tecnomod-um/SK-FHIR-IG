@@ -242,15 +242,6 @@
       ]
     },
     {
-      "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "StrokeRiskFactorSNOMEDVS",
-      "title" : "Stroke Risk Factor ValueSet",
-      "description" : "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke.",
-      "systems" : ["http://snomed.info/sct"]
-    },
-    {
       "url" : "http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs",
       "version" : "0.1.0",
       "status" : "active",

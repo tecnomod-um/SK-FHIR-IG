@@ -43,7 +43,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
   "version" : "0.1.0",
   "name" : "RESQIG",
   "status" : "draft",
-  "date" : "2025-11-18T09:43:16+00:00",
+  "date" : "2025-11-18T10:05:08+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -1168,20 +1168,6 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
         ],
         "reference" : {
           "reference" : "ValueSet/stroke-risk-factor-snomed-vs"
-        },
-        "name" : "Stroke Risk Factor ValueSet",
-        "description" : "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke.",
-        "isExample" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/stroke-risk-factor-vs"
         },
         "name" : "Stroke Risk Factor ValueSet",
         "description" : "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status.",

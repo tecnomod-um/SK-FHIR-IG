@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/discharge-dept-cs | *Version*:0.1.0 |
 | Active as of 2025-11-18 | *Computable Name*:DischargeDeptCS |
 
  
@@ -26,12 +26,12 @@ Code system specifying the type of department or service the patient was dischar
 {
   "resourceType" : "CodeSystem",
   "id" : "discharge-dept-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
   "version" : "0.1.0",
   "name" : "DischargeDeptCS",
   "title" : "Discharge Department/Service Code System",
   "status" : "active",
-  "date" : "2025-11-18T09:36:46+00:00",
+  "date" : "2025-11-18T09:43:16+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

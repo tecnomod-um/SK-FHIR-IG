@@ -3,14 +3,14 @@
   "id" : "discharge-dept-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet discharge-dept-vs</b></p><a name=\"discharge-dept-vs\"> </a><a name=\"hcdischarge-dept-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-discharge-dept-cs.html\"><code>http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet discharge-dept-vs</b></p><a name=\"discharge-dept-vs\"> </a><a name=\"hcdischarge-dept-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-discharge-dept-cs.html\"><code>http://tecnomod-um.org/CodeSystem/discharge-dept-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
   },
   "url" : "http://tecnomod-um.org/ValueSet/discharge-dept-vs",
   "version" : "0.1.0",
   "name" : "DischargeDeptVS",
   "title" : "Discharge Department/Service ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T09:36:46+00:00",
+  "date" : "2025-11-18T09:43:16+00:00",
   "publisher" : "UMU",
   "contact" : [{
     "name" : "UMU",
@@ -22,7 +22,7 @@
   "description" : "ValueSet specifying the type of department or service the patient was discharged or transferred to.",
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs"
+      "system" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs"
     }]
   }
 }

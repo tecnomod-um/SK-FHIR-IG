@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-base-stroke-observat
   "name" : "BaseStrokeObservation",
   "title" : "Base Profile for Stroke-Related Observations",
   "status" : "active",
-  "date" : "2025-11-18T09:36:46+00:00",
+  "date" : "2025-11-18T09:43:16+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

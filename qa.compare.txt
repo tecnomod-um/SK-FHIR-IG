@@ -1,13 +1,13 @@
 RESQIG : Validation Results
 =========================================
 
-err = 27, warn = 130, info = 42
+err = 25, warn = 130, info = 42
 $--
 Generated $--. FHIR version $-- for RES-Q-FHIR-IG#$-- (canonical = http://tecnomod-um.org)
  Build Errors : 1 / 713 / 0
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 2 / 2
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs : 2 / 2 / 2
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs : 0 / 2 / 2
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-initial-care-intensity-cs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-medication-cs : 0 / 2 / 2
@@ -150,7 +150,7 @@ WARNING: CodeSystem-discharge-dept-cs.change.history.html#/html/body/div/div/div
 WARNING: CodeSystem-discharge-dept-cs.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-discharge-dept-cs.json.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-discharge-dept-cs.ttl.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: CodeSystem-discharge-dept-cs.xml.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-dept-cs.xml.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-hemorrhagic-stroke-bleeding-reason-cs-testing.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -653,7 +653,7 @@ WARNING: ValueSet-discharge-dept-vs.change.history.html#/html/body/div/div/div/p
 WARNING: ValueSet-discharge-dept-vs.html#/html/body/div/div/div/p/a at Line 314, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-dept-vs.json.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-dept-vs.ttl.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-discharge-dept-vs.xml.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-discharge-dept-vs.xml.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-destination-vs-testing.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-destination-vs.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-discharge-destination-vs.html#/html/body/div/div/div/p/a at Line 322, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -831,11 +831,9 @@ INFORMATION: CodeSystem/brain-imaging-type-cs: CodeSystem: CodeSystems SHOULD ha
 WARNING: CodeSystem/brain-imaging-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/brain-imaging-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-discharge-dept-cs.json ==
-ERROR: CodeSystem.where(url = 'http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs.json - the canonical URL (http://tecnomod-um.org/CodeSystem/discharge-dept-cs) does not match the URL (http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem/discharge-dept-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/discharge-dept-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/discharge-dept-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-discharge-dept-cs: URL Mismatch http://tecnomod-um.org/CodeSystem/discharge-dept-cs vs http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs
 == fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.json ==
 == fsh-generated/resources/CodeSystem-initial-care-intensity-cs.json ==
 == fsh-generated/resources/CodeSystem-medication-cs.json ==

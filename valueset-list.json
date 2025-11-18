@@ -55,9 +55,7 @@
       "name" : "DischargeDeptVS",
       "title" : "Discharge Department/Service ValueSet",
       "description" : "ValueSet specifying the type of department or service the patient was discharged or transferred to.",
-      "systems" : [
-        "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs"
-      ]
+      "systems" : ["http://tecnomod-um.org/CodeSystem/discharge-dept-cs"]
     },
     {
       "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",

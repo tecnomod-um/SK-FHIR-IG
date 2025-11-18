@@ -20,7 +20,7 @@ ValueSet specifying the type of department or service the patient was discharged
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs`](CodeSystem-discharge-dept-cs.md)version 📦0.1.0
+* Include all codes defined in [`http://tecnomod-um.org/CodeSystem/discharge-dept-cs`](CodeSystem-discharge-dept-cs.md)version 📦0.1.0
 
  
 
@@ -52,7 +52,7 @@ ValueSet specifying the type of department or service the patient was discharged
   "name" : "DischargeDeptVS",
   "title" : "Discharge Department/Service ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T09:36:46+00:00",
+  "date" : "2025-11-18T09:43:16+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -69,7 +69,7 @@ ValueSet specifying the type of department or service the patient was discharged
   "compose" : {
     "include" : [
       {
-        "system" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs"
+        "system" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs"
       }
     ]
   }

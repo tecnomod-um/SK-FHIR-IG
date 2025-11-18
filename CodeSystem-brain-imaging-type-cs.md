@@ -31,7 +31,7 @@ Codes specifying the type of brain imaging performed (e.g., CT, MRI).
   "name" : "BrainImagingTypeCS",
   "title" : "Brain Imaging Type Code System",
   "status" : "active",
-  "date" : "2025-11-18T09:36:46+00:00",
+  "date" : "2025-11-18T09:43:16+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

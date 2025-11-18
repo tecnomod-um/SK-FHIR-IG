@@ -7,13 +7,6 @@
     "name" : "RESQIG"
   },
   {
-    "id" : "discharge-dept-cs",
-    "type" : "CodeSystem",
-    "url" : "http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs",
-    "version" : "0.1.0",
-    "name" : "DischargeDeptCS"
-  },
-  {
     "id" : "assessment-context-cs",
     "type" : "CodeSystem",
     "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
@@ -26,6 +19,13 @@
     "url" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
     "version" : "0.1.0",
     "name" : "BrainImagingTypeCS"
+  },
+  {
+    "id" : "discharge-dept-cs",
+    "type" : "CodeSystem",
+    "url" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+    "version" : "0.1.0",
+    "name" : "DischargeDeptCS"
   },
   {
     "id" : "hemorrhagic-stroke-bleeding-reason-cs",

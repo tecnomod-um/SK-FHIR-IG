@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-age-at-onset-observa
   "name" : "AgeAtOnsetObservationProfile",
   "title" : "Age at Stroke Onset Observation Profile (R5)",
   "status" : "draft",
-  "date" : "2025-11-18T11:44:59+00:00",
+  "date" : "2025-11-18T11:54:03+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

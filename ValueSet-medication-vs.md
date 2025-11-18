@@ -25,7 +25,12 @@ SNOMED CT codes for drug products or substances.
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+Expansion from tx.fhir.org based on:
+
+* SNOMED CT International edition 01-Feb 2025
+* [codesystem Medications CodeSystem v0.1.0 (CodeSystem)](CodeSystem-medication-cs.md)
+
+This value set contains 12 concepts
 
 -------
 
@@ -53,7 +58,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "MedicationVS",
   "title" : "Medications ValueSet",
   "status" : "draft",
-  "date" : "2025-11-18T11:44:59+00:00",
+  "date" : "2025-11-18T11:54:03+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -108,11 +113,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
       },
       {
         "system" : "http://tecnomod-um.org/CodeSystem/medication-cs"
-      },
-      {
-        "valueSet" : [
-          "https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html"
-        ]
       }
     ]
   }

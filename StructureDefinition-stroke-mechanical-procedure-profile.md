@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
   "name" : "StrokeThrombolysisProcedureProfile",
   "title" : "Stroke Thrombolysis Procedure Profile (R5)",
   "status" : "active",
-  "date" : "2025-11-18T11:44:59+00:00",
+  "date" : "2025-11-18T11:54:03+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

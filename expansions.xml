@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="e5098c1c-31ae-4a36-825f-b163fbca3277"/>
+  <id value="ef0ea33c-2b38-44d8-bbca-1d251235d654"/>
   <meta>
-    <lastUpdated value="2025-11-18T11:44:59.162+00:00"/>
+    <lastUpdated value="2025-11-18T11:54:03.676+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -110,8 +110,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:590844bb-3e50-40fd-a4a2-4d3937b81811"/>
-          <timestamp value="2025-11-18T11:46:20+00:00"/>
+          <identifier value="urn:uuid:a2c29b6a-5c16-4fed-afcb-a54ee108faa4"/>
+          <timestamp value="2025-11-18T11:54:58+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -257,10 +257,10 @@
         <name value="AfibFlutterStatusVS"/>
         <title value="Atrial Fibrillation or Flutter Status ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:47546ed4-9cda-4980-8b28-059e8a5e6b3e"/>
-          <timestamp value="2025-11-18T11:46:21+00:00"/>
+          <identifier value="urn:uuid:0fccfd41-c79c-4031-9d67-e65c7b30b64a"/>
+          <timestamp value="2025-11-18T11:54:58+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -427,10 +427,10 @@
         <name value="AssessmentContextVS"/>
         <title value="Assessment Context ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a57d54bf-8950-49ab-9eb1-aba281f6db7e"/>
-          <timestamp value="2025-11-18T11:46:21+00:00"/>
+          <identifier value="urn:uuid:82b5c2f4-bcbe-4028-822c-1100d0558024"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -652,10 +652,10 @@
         <name value="BrainImagingModalityVS"/>
         <title value="Brain Imaging Modality ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c55aa059-456a-4192-bbd8-86ac5f52bbc3"/>
-          <timestamp value="2025-11-18T11:46:21+00:00"/>
+          <identifier value="urn:uuid:879fb9a4-764d-4a72-ad68-aceca46d683f"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -820,10 +820,10 @@
         <name value="CarotidImagingModalityVS"/>
         <title value="Carotid Arteries Imaging Modality ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:526ec10d-fa12-4f76-b615-550e52cd6d95"/>
-          <timestamp value="2025-11-18T11:46:21+00:00"/>
+          <identifier value="urn:uuid:04b965be-1d2a-4030-af6a-087b4d891263"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -990,10 +990,10 @@
         <name value="DischargeDeptVS"/>
         <title value="Discharge Department/Service ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d7c9c933-eae1-4fc7-983f-b24ea6463280"/>
-          <timestamp value="2025-11-18T11:46:22+00:00"/>
+          <identifier value="urn:uuid:5a3baf68-19b2-409b-8d1d-66c6f30d3c0c"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1184,8 +1184,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:dd76595d-6803-4ed3-ad14-56522564316a"/>
-          <timestamp value="2025-11-18T11:46:22+00:00"/>
+          <identifier value="urn:uuid:b75abca0-035d-40e1-8911-d3a67292d60f"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1321,10 +1321,10 @@
         <name value="FunctionalScoreCodesVS"/>
         <title value="Stroke Functional Score Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e031e0e2-c746-4e90-b8a9-7c9502d1e921"/>
-          <timestamp value="2025-11-18T11:46:13+00:00"/>
+          <identifier value="urn:uuid:84e28a39-d29d-4887-89ae-bd9ccfe59387"/>
+          <timestamp value="2025-11-18T11:54:53+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1470,8 +1470,8 @@
         <date value="2025-09-08"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d537b9f4-45ac-4069-a2fe-b70b1e6dada5"/>
-          <timestamp value="2025-11-18T11:46:23+00:00"/>
+          <identifier value="urn:uuid:e431673f-073e-41d8-bab6-92fa89479366"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1614,10 +1614,10 @@
         <name value="InitialCareIntensityVS"/>
         <title value="Initial Care Intensity ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fb5e821e-8b2e-4739-80a3-c37d9cbb876e"/>
-          <timestamp value="2025-11-18T11:46:23+00:00"/>
+          <identifier value="urn:uuid:85c9da4e-e936-434a-bad8-08d260acc135"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1658,6 +1658,395 @@
             <system value="http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"/>
             <code value="icu-stroke"/>
             <display value="ICU / Stroke Unit"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://tecnomod-um.org/ValueSet/medication-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>SNOMED CT International edition 01-Feb 2025
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-medication-cs.html">codesystem Medications CodeSystem v0.1.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://tecnomod-um.org/CodeSystem/medication-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 12 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-372756006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/372756006">372756006</a>
+                </td>
+                <td>Warfarin (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;372756006&quot;, &quot;display&quot;: &quot;Warfarin (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;372756006&quot;&gt;&lt;display value=&quot;Warfarin (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-372586001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/372586001">372586001</a>
+                </td>
+                <td>Hypotensive agent (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;372586001&quot;, &quot;display&quot;: &quot;Hypotensive agent (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;372586001&quot;&gt;&lt;display value=&quot;Hypotensive agent (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-372862008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/372862008">372862008</a>
+                </td>
+                <td>Anticoagulant (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;372862008&quot;, &quot;display&quot;: &quot;Anticoagulant (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;372862008&quot;&gt;&lt;display value=&quot;Anticoagulant (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-312263009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/312263009">312263009</a>
+                </td>
+                <td>Sex hormone (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;312263009&quot;, &quot;display&quot;: &quot;Sex hormone (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;312263009&quot;&gt;&lt;display value=&quot;Sex hormone (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-372912004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/372912004">372912004</a>
+                </td>
+                <td>HMG-CoA reductase inhibitor</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;372912004&quot;, &quot;display&quot;: &quot;HMG-CoA reductase inhibitor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;372912004&quot;&gt;&lt;display value=&quot;HMG-CoA reductase inhibitor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-387458008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/387458008">387458008</a>
+                </td>
+                <td>Aspirin (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;387458008&quot;, &quot;display&quot;: &quot;Aspirin (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;387458008&quot;&gt;&lt;display value=&quot;Aspirin (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-386952008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/386952008">386952008</a>
+                </td>
+                <td>Clopidogrel (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;386952008&quot;, &quot;display&quot;: &quot;Clopidogrel (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;386952008&quot;&gt;&lt;display value=&quot;Clopidogrel (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-372877000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/372877000">372877000</a>
+                </td>
+                <td>Heparin (substance)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;372877000&quot;, &quot;display&quot;: &quot;Heparin (substance)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;372877000&quot;&gt;&lt;display value=&quot;Heparin (substance)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-other-anticoagulant"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-medication-cs.html#medication-cs-other-anticoagulant">other-anticoagulant</a>
+                </td>
+                <td>Other Anticoagulant</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other-anticoagulant&quot;, &quot;display&quot;: &quot;Other Anticoagulant&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other-anticoagulant&quot;&gt;&lt;display value=&quot;Other Anticoagulant&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-antiplatelet"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-medication-cs.html#medication-cs-antiplatelet">antiplatelet</a>
+                </td>
+                <td>Any Antiplatelet</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;antiplatelet&quot;, &quot;display&quot;: &quot;Any Antiplatelet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;antiplatelet&quot;&gt;&lt;display value=&quot;Any Antiplatelet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-antidiabetic"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-medication-cs.html#medication-cs-antidiabetic">antidiabetic</a>
+                </td>
+                <td>Any Antidiabetic</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;antidiabetic&quot;, &quot;display&quot;: &quot;Any Antidiabetic&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;antidiabetic&quot;&gt;&lt;display value=&quot;Any Antidiabetic&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-other"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-medication-cs.html#medication-cs-other">other</a>
+                </td>
+                <td>Other Medication</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other Medication&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other Medication&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://tecnomod-um.org/ValueSet/medication-vs"/>
+        <version value="0.1.0"/>
+        <name value="MedicationVS"/>
+        <title value="Medications ValueSet"/>
+        <status value="draft"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:c6d54f21-9777-43c5-8d81-917ba73dd380"/>
+          <timestamp value="2025-11-18T11:54:59+00:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://tecnomod-um.org/CodeSystem/medication-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="372756006"/>
+            <display value="Warfarin (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="372586001"/>
+            <display value="Hypotensive agent (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="372862008"/>
+            <display value="Anticoagulant (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="312263009"/>
+            <display value="Sex hormone (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="372912004"/>
+            <display value="HMG-CoA reductase inhibitor"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="387458008"/>
+            <display value="Aspirin (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386952008"/>
+            <display value="Clopidogrel (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="372877000"/>
+            <display value="Heparin (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
+            <code value="other-anticoagulant"/>
+            <display value="Other Anticoagulant"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
+            <code value="antiplatelet"/>
+            <display value="Any Antiplatelet"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
+            <code value="antidiabetic"/>
+            <display value="Any Antidiabetic"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
+            <code value="other"/>
+            <display value="Other Medication"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1844,10 +2233,10 @@
         <name value="MRsScoreVS"/>
         <title value="modified Rankin Scale (mRS) Score ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b1bdccdd-a50c-4360-bccc-615ca586e528"/>
-          <timestamp value="2025-11-18T11:46:13+00:00"/>
+          <identifier value="urn:uuid:28864257-21f6-412b-bfa4-841eb4347f7c"/>
+          <timestamp value="2025-11-18T11:54:53+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -1974,10 +2363,10 @@
         <name value="MTICICodeVS"/>
         <title value="mTICI Score Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:52e85781-7751-46be-ae10-0c458c63e36a"/>
-          <timestamp value="2025-11-18T11:46:23+00:00"/>
+          <identifier value="urn:uuid:85b254b7-330a-4426-825b-2d238bd86c52"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2186,8 +2575,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:1f8f0347-a766-4fc0-8477-6d03541df052"/>
-          <timestamp value="2025-11-18T11:46:23+00:00"/>
+          <identifier value="urn:uuid:23b9a222-a689-4591-8cea-6cad9d7f43c4"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -2327,8 +2716,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:a4f61693-cc7b-41f7-85cf-8df0d5d55a8b"/>
-          <timestamp value="2025-11-18T11:46:23+00:00"/>
+          <identifier value="urn:uuid:e0165632-9516-4d9f-9b1d-726c2d7b8571"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2470,10 +2859,10 @@
         <name value="ProcedureTimingContextVS"/>
         <title value="Procedure Timing Context ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:bfe37fd6-5863-4578-91cc-ee3b56f62ffa"/>
-          <timestamp value="2025-11-18T11:46:24+00:00"/>
+          <identifier value="urn:uuid:39f7b916-b707-4020-83f8-801bed7d1a9b"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2599,10 +2988,10 @@
         <name value="SpecificFindingCodesVS"/>
         <title value="Specific Stroke Finding Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fe3a6f17-9853-49da-8ec1-f8a5538d63d2"/>
-          <timestamp value="2025-11-18T11:46:24+00:00"/>
+          <identifier value="urn:uuid:bbb9f522-4682-41c2-bc42-a4ade5de497f"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2804,10 +3193,10 @@
         <name value="StrokeArrivalModeVS"/>
         <title value="Stroke Arrival Mode ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:55af9ffd-bf2b-4724-9dc8-ec733de2dce5"/>
-          <timestamp value="2025-11-18T11:46:24+00:00"/>
+          <identifier value="urn:uuid:a167e7f8-83e5-45d0-8d85-66c8452cff14"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -2949,10 +3338,10 @@
         <name value="StrokeCircumstanceCodesVS"/>
         <title value="Stroke Circumstance Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f8d2a8ba-a568-4998-9de4-0c587573a5e7"/>
-          <timestamp value="2025-11-18T11:46:16+00:00"/>
+          <identifier value="urn:uuid:b64beeaf-2325-4997-b510-29ce08fa9285"/>
+          <timestamp value="2025-11-18T11:54:55+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -3133,8 +3522,8 @@
         <date value="2025-10-07"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:cb22dc50-fb33-4946-8aea-a6f6452b70d4"/>
-          <timestamp value="2025-11-18T11:46:17+00:00"/>
+          <identifier value="urn:uuid:f1a59113-2cbd-4a1c-8d36-e68e341785ce"/>
+          <timestamp value="2025-11-18T11:54:55+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3341,10 +3730,10 @@
         <name value="StrokeDischargeDestinationVS"/>
         <title value="Stroke Discharge Destination ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:921fa696-cf52-4d8e-9e68-2ea41f5e8717"/>
-          <timestamp value="2025-11-18T11:46:24+00:00"/>
+          <identifier value="urn:uuid:6573b71e-582d-4248-b658-f950067ef751"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3563,8 +3952,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e6e37204-d076-4eba-9306-49a4a98e84c2"/>
-          <timestamp value="2025-11-18T11:46:24+00:00"/>
+          <identifier value="urn:uuid:aaa4efab-0392-49ec-858d-c3e181afc59e"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3751,10 +4140,10 @@
         <name value="StrokeFindingCodesVS"/>
         <title value="Specific Stroke Finding Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:75de282b-fd34-4095-826f-3b5e4e3e849a"/>
-          <timestamp value="2025-11-18T11:46:15+00:00"/>
+          <identifier value="urn:uuid:e6788a79-210d-46e6-a980-a384191b5c48"/>
+          <timestamp value="2025-11-18T11:54:54+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4177,10 +4566,10 @@
         <name value="StrokeProcNotDoneReasonVS"/>
         <title value="Stroke Procedure Not Done Reason ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0284d790-6047-4fc5-bc4f-89039c74e2db"/>
-          <timestamp value="2025-11-18T11:46:25+00:00"/>
+          <identifier value="urn:uuid:adea2d2d-8e4d-42f4-846e-91adcd24a3bf"/>
+          <timestamp value="2025-11-18T11:55:00+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -4555,8 +4944,8 @@
         <date value="2025-10-07"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:52e73df3-b4c6-4b44-a8dc-42b5f9976e47"/>
-          <timestamp value="2025-11-18T11:46:18+00:00"/>
+          <identifier value="urn:uuid:cd9d5b0c-9472-4492-a262-7f1833b47690"/>
+          <timestamp value="2025-11-18T11:54:57+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -4796,8 +5185,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:6d557b99-81ad-4575-a759-689accee8833"/>
-          <timestamp value="2025-11-18T11:46:25+00:00"/>
+          <identifier value="urn:uuid:3f0a98ed-16e8-471f-aceb-d3ee7c6b4ac6"/>
+          <timestamp value="2025-11-18T11:55:01+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -4968,10 +5357,10 @@
         <name value="SwallowingScreeningTimingCategoryVS"/>
         <title value="Swallowing Screening Timing Category ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:50b3c2f4-6714-484b-b9c8-461b325f6847"/>
-          <timestamp value="2025-11-18T11:46:25+00:00"/>
+          <identifier value="urn:uuid:6ecdaab6-32e0-47d6-ac6f-30cf9ec480ce"/>
+          <timestamp value="2025-11-18T11:55:01+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -5089,10 +5478,10 @@
         <name value="ThrombectomyComplicationVS"/>
         <title value="Thrombectomy Complication ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:cb1d496c-59b4-4bf8-b186-06a5c808e595"/>
-          <timestamp value="2025-11-18T11:46:26+00:00"/>
+          <identifier value="urn:uuid:bbd73751-485b-4dda-a538-11708111cefe"/>
+          <timestamp value="2025-11-18T11:55:01+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -5209,10 +5598,10 @@
         <name value="TimingMetricCodesVS"/>
         <title value="Stroke Timing Metric Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:182dcf3a-545d-4b1b-8492-77f5e5030641"/>
-          <timestamp value="2025-11-18T11:46:19+00:00"/>
+          <identifier value="urn:uuid:51f73861-3f2e-4f31-bf69-1f8e8ca7da82"/>
+          <timestamp value="2025-11-18T11:54:57+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -5330,10 +5719,10 @@
         <title value="Stroke Vital Sign Codes ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2594fb0d-859a-48e6-8a94-d37b6dfa19e9"/>
-          <timestamp value="2025-11-18T11:46:26+00:00"/>
+          <identifier value="urn:uuid:1f2d462b-1923-41cb-b680-ec6e9b7150a1"/>
+          <timestamp value="2025-11-18T11:55:01+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -5475,10 +5864,10 @@
         <title value="Gender (SNOMED CT)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-18T11:44:59+00:00"/>
+        <date value="2025-11-18T11:54:03+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:29abd4f5-c0bf-4a5b-b359-941f0a5b5bcf"/>
-          <timestamp value="2025-11-18T11:46:27+00:00"/>
+          <identifier value="urn:uuid:166abb57-32b0-4686-9bf8-162921a8f83a"/>
+          <timestamp value="2025-11-18T11:55:01+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

@@ -773,8 +773,6 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have an effective[x] () (INVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json: line 10, col 4, Info - Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/mtici-code-cs|0.1.0 (BUSINESSRULE)
-/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json: line 10, col 4, Error - Wrong Display Name 'Modified Thrombolysis in Cerebral Infarction' for http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI. Valid display is 'mTICI' (for the language(s) 'en-US') (INVALID)
-/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json: line 10, col 4, Error - None of the codings provided are in the value set 'Specific Stroke Finding Codes ValueSet' (http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs|0.1.0), and a coding from this value set is required) (codes = http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI) (CODEINVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json: line 19, col 4, Info - Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/mtici-score-cs|0.1.0 (BUSINESSRULE)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have an effective[x] () (INVALID)
@@ -883,5 +881,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-thrombectomy-complication-vs.json: line 1, col 1382, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-timing-metric-codes-vs.json: line 1, col 1139, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 26, warn = 130, info = 42
+err = 24, warn = 130, info = 42
 IG Publisher Version: 2.0.26

@@ -10,7 +10,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
 
 **status**: Final
 
-**code**: Modified Thrombolysis in Cerebral Infarction
+**code**: mTICI
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown](Patient-example-patient.md)
 
@@ -37,7 +37,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
       {
         "system" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
         "code" : "mTICI",
-        "display" : "Modified Thrombolysis in Cerebral Infarction"
+        "display" : "mTICI"
       }
     ]
   },

@@ -1,9 +1,9 @@
 RESQIG : Validation Results
 =========================================
 
-err = 26, warn = 130, info = 42
-IG Publisher Version: 2.0.26 Out of date - current version is null
-Generated Tue Nov 18 10:43:13 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = http://tecnomod-um.org)
+err = 24, warn = 130, info = 42
+IG Publisher Version: 2.0.26
+Generated Tue Nov 18 10:45:26 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = http://tecnomod-um.org)
  Build Errors : 1 / 707 / 0
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 2 / 2
@@ -35,7 +35,7 @@ Generated Tue Nov 18 10:43:13 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample : 0 / 2 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-FunctionalScoreObservationExample : 0 / 2 / 3
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExample : 0 / 3 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI : 2 / 2 / 3
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI : 0 / 2 / 3
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-StrokeCircumstanceObservationExampleWakeUp : 1 / 2 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-TimingMetricObservationExample : 0 / 3 / 2
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-VitalSignObservationExample : 0 / 4 / 3
@@ -913,8 +913,6 @@ WARNING: Observation/SpecificFindingObservationExample: Observation: Best Practi
 WARNING: Observation/SpecificFindingObservationExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json ==
 INFORMATION: Observation/SpecificFindingObservationExampleMTICI: Observation.code: Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/mtici-code-cs|0.1.0
-ERROR: Observation/SpecificFindingObservationExampleMTICI: Observation.code.coding[0].display: Wrong Display Name 'Modified Thrombolysis in Cerebral Infarction' for http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI. Valid display is 'mTICI' (for the language(s) 'en-US')
-ERROR: Observation/SpecificFindingObservationExampleMTICI: Observation.code: None of the codings provided are in the value set 'Specific Stroke Finding Codes ValueSet' (http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs|0.1.0), and a coding from this value set is required) (codes = http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI)
 INFORMATION: Observation/SpecificFindingObservationExampleMTICI: Observation.value.ofType(CodeableConcept): Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/mtici-score-cs|0.1.0
 WARNING: Observation/SpecificFindingObservationExampleMTICI: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/SpecificFindingObservationExampleMTICI: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()

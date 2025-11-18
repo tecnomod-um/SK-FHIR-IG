@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 683, errors = 26, warn = 130, info = 42-->
+<!-- broken links = 683, errors = 24, warn = 130, info = 42-->
 <head>
   <title>RESQIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,9 +47,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RESQIG</h1>
- <p>Generated Tue Nov 18 10:43:13 UTC 2025, FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = <a href="http://tecnomod-um.org">http://tecnomod-um.org</a> (<a href="http://tecnomod-um.org/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Tue Nov 18 10:45:26 UTC 2025, FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = <a href="http://tecnomod-um.org">http://tecnomod-um.org</a> (<a href="http://tecnomod-um.org/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v2.0.26. The latest official release version is unknown <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.26</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = RES-Q-FHIR-IG, Canonical = http://tecnomod-um.org</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Language Info:</td><td>This IG has no language information</td></tr>
@@ -186,7 +186,7 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 26, warn = 130, info = 42, broken links = 683, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 24, warn = 130, info = 42, broken links = 683, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -285,8 +285,8 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_RES-Q-FHIR-IG_RES-Q-FHIR-IG_fsh-generated_resources_Observation-SpecificFindingObservationExample"><b>/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExample</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_RES-Q-FHIR-IG_RES-Q-FHIR-IG_fsh-generated_resources_Observation-SpecificFindingObservationExampleMTICI"><b>/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>2</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_RES-Q-FHIR-IG_RES-Q-FHIR-IG_fsh-generated_resources_Observation-SpecificFindingObservationExampleMTICI"><b>/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_home_runner_work_RES-Q-FHIR-IG_RES-Q-FHIR-IG_fsh-generated_resources_Observation-StrokeCircumstanceObservationExampleWakeUp"><b>/home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-StrokeCircumstanceObservationExampleWakeUp</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -3136,12 +3136,6 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    <tr style="background-color: #ffffe6">
      <td><b>Observation.code (l10/c4)</b></td><td><b>information</b></td><td><b>Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/mtici-code-cs|0.1.0</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_EXPERIMENTAL</span></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l10&#8203;/c4)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Modified Thrombolysis in Cerebral Infarction' for http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI. Valid display is 'mTICI' (for the language(s) 'en-US')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.code (l10/c4)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'Specific Stroke Finding Codes ValueSet' (http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs|0.1.0), and a coding from this value set is required) (codes = http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span></td>
-   </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.value&#8203;.ofType(CodeableConcept) (l19&#8203;/c4)</b></td><td><b>information</b></td><td><b>Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/mtici-score-cs|0.1.0</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_EXPERIMENTAL</span></td>
    </tr>
@@ -4305,14 +4299,6 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
 </table>
 <hr/>
-<a name="Display_Name_for__should_be_one_of__instead_of"> </a>
-<h2>Display_Name_for__should_be_one_of__instead_of</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-SpecificFindingObservationExampleMTICI.html">fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json</a></td><td><b>Wrong Display Name 'Modified Thrombolysis in Cerebral Infarction' for http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI. Valid display is 'mTICI' (for the language(s) 'en-US')</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="MSG_EXPERIMENTAL"> </a>
 <h2>MSG_EXPERIMENTAL</h2>
  <table class="grid">
@@ -4576,9 +4562,6 @@ hl7.fhir.uv.extensions.r5#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Condition-StrokeRiskFactorConditionExample.html">fsh-generated/resources/Condition-StrokeRiskFactorConditionExample.json</a></td><td><b>None of the codings provided are in the value set 'Stroke Risk Factor ValueSet' (http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#422504002)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-SpecificFindingObservationExampleMTICI.html">fsh-generated/resources/Observation-SpecificFindingObservationExampleMTICI.json</a></td><td><b>None of the codings provided are in the value set 'Specific Stroke Finding Codes ValueSet' (http://tecnomod-um.org/ValueSet/stroke-finding-codes-vs|0.1.0), and a coding from this value set is required) (codes = http://tecnomod-um.org/CodeSystem/mtici-code-cs#mTICI)</b></td>
    </tr>
 </table>
 <hr/>

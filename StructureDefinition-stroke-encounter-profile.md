@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
   "name" : "StrokeEncounterProfile",
   "title" : "Stroke Encounter Profile",
   "status" : "active",
-  "date" : "2025-11-18T10:41:07+00:00",
+  "date" : "2025-11-18T10:43:22+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

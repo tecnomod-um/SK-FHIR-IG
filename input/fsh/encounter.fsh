@@ -217,4 +217,5 @@ InstanceOf: StrokeEncounterProfile
 * extension[isFirstHospital].valueBoolean = true
 * extension[initialCareIntensity].valueCodeableConcept = InitialCareIntensityCS_URL#icu-stroke "ICU / Stroke Unit"
 * extension[requiredPostAcuteCare].valueBoolean = false
-* extension[dischargeDepartmentService].valueCodeableConcept = SCT#309937004 "Neurology department (environment)"
+* extension[dischargeDepartmentService].valueCodeableConcept = DischargeDeptCS_URL#neurology "Neurology"
+

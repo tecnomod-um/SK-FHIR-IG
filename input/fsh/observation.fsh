@@ -444,7 +444,7 @@ Expression: "code.coding.where($this.system = 'http://snomed.info/sct' and $this
 
 Instance: AgeAtOnsetObservationExample
 InstanceOf: AgeAtOnsetObservationProfile
-* valueInteger.value = 65
+* valueInteger = 65
 * subject = Reference(PatientExample)
 * encounter = Reference(StrokeEncounterExample)
 

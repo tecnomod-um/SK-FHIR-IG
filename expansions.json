@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d3c82a4d-1e0a-45fa-9a61-8ee2b87dad75",
+  "id" : "085b7a48-5cc9-419c-8aba-ec78d489962d",
   "meta" : {
-    "lastUpdated" : "2025-11-18T10:45:59.300+00:00"
+    "lastUpdated" : "2025-11-18T10:58:35.954+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,8 +22,8 @@
       "date" : "2025-03-31",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:25c4cb71-8b92-4260-9e1c-ce6abba977ea",
-        "timestamp" : "2025-11-18T10:47:03+00:00",
+        "identifier" : "urn:uuid:aec46329-c89f-4b66-b5b8-62bd4f3f1285",
+        "timestamp" : "2025-11-18T10:59:47+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -81,10 +81,10 @@
       "name" : "AfibFlutterStatusVS",
       "title" : "Atrial Fibrillation or Flutter Status ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:da44283d-b4c6-4c5a-9310-30ce3a3a3a83",
-        "timestamp" : "2025-11-18T10:47:03+00:00",
+        "identifier" : "urn:uuid:fbe5f517-525f-4b15-a512-326149a890c5",
+        "timestamp" : "2025-11-18T10:59:47+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -142,10 +142,10 @@
       "name" : "AssessmentContextVS",
       "title" : "Assessment Context ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:63894976-c28c-425e-b6ec-e2027a7d03f2",
-        "timestamp" : "2025-11-18T10:47:04+00:00",
+        "identifier" : "urn:uuid:f389885c-8806-402a-8737-19e809cb8b34",
+        "timestamp" : "2025-11-18T10:59:48+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -208,10 +208,10 @@
       "name" : "BrainImagingModalityVS",
       "title" : "Brain Imaging Modality ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a2d03d51-21ee-491b-aff1-e97e86f42ca5",
-        "timestamp" : "2025-11-18T10:47:04+00:00",
+        "identifier" : "urn:uuid:16bfaa19-2535-4619-8fa3-72597825e4f8",
+        "timestamp" : "2025-11-18T10:59:48+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -288,10 +288,10 @@
       "name" : "CarotidImagingModalityVS",
       "title" : "Carotid Arteries Imaging Modality ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bdccad57-3328-455a-bd39-0484bd0e53e0",
-        "timestamp" : "2025-11-18T10:47:04+00:00",
+        "identifier" : "urn:uuid:5ca27b4e-f882-4082-8c06-7af3efa3f9f9",
+        "timestamp" : "2025-11-18T10:59:48+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -349,10 +349,10 @@
       "name" : "DischargeDeptVS",
       "title" : "Discharge Department/Service ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a994dfcb-b4c9-473d-af1a-58c108aefc30",
-        "timestamp" : "2025-11-18T10:47:04+00:00",
+        "identifier" : "urn:uuid:0d6e56e5-889c-4df8-ae4d-0a812939acdd",
+        "timestamp" : "2025-11-18T10:59:48+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -415,8 +415,8 @@
       "date" : "2025-03-31",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:2b850570-5ad4-412d-8a9c-c77fa25d1132",
-        "timestamp" : "2025-11-18T10:47:04+00:00",
+        "identifier" : "urn:uuid:bebe6231-b452-4a07-bd73-0ba5e4cc566a",
+        "timestamp" : "2025-11-18T10:59:48+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -484,10 +484,10 @@
       "name" : "FunctionalScoreCodesVS",
       "title" : "Stroke Functional Score Codes ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:752f1150-d791-4bde-ad76-bbf12de14d19",
-        "timestamp" : "2025-11-18T10:46:57+00:00",
+        "identifier" : "urn:uuid:334bcb51-05b7-41a4-bac8-9574a40683b6",
+        "timestamp" : "2025-11-18T10:59:40+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -544,8 +544,8 @@
       "date" : "2025-09-08",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:1e10ec29-3817-490e-b874-b7911ce3073a",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:dd33dbf0-1dc3-48bd-95fc-16e605055ac0",
+        "timestamp" : "2025-11-18T10:59:49+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -599,10 +599,10 @@
       "name" : "InitialCareIntensityVS",
       "title" : "Initial Care Intensity ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:de7d3c9b-ce05-4e09-8f6d-313e61fc83b0",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:ed861f9f-f09a-4143-af4b-857cdd842014",
+        "timestamp" : "2025-11-18T10:59:49+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -660,10 +660,10 @@
       "name" : "MRsScoreVS",
       "title" : "modified Rankin Scale (mRS) Score ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:905a0de8-02e3-4472-b6d1-169102bdc75a",
-        "timestamp" : "2025-11-18T10:46:57+00:00",
+        "identifier" : "urn:uuid:19c4d5a3-8c0b-49f7-8ebe-48bc0fd42ffa",
+        "timestamp" : "2025-11-18T10:59:40+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -741,10 +741,10 @@
       "name" : "MTICICodeVS",
       "title" : "mTICI Score Codes ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:526d31fe-9a32-48f8-a24c-b11b7274e73a",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:3d8448cf-2d18-4ce8-a148-debe1c17c9e1",
+        "timestamp" : "2025-11-18T10:59:49+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -795,8 +795,8 @@
       "experimental" : true,
       "date" : "2025-03-31",
       "expansion" : {
-        "identifier" : "urn:uuid:ef3b7ad7-be6b-45ff-a1e8-70cf5122c182",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:7a4db4ed-5267-4041-9617-9a9191e821ae",
+        "timestamp" : "2025-11-18T10:59:49+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -868,8 +868,8 @@
       "experimental" : true,
       "date" : "2025-03-31",
       "expansion" : {
-        "identifier" : "urn:uuid:4274bc14-4e76-4dd1-bbd9-7fcaa9b2fed2",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:11504ea2-fe32-41df-8ff4-a29b125d041b",
+        "timestamp" : "2025-11-18T10:59:49+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -922,10 +922,10 @@
       "name" : "ProcedureTimingContextVS",
       "title" : "Procedure Timing Context ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ac96d0ad-4c5c-43b8-9cdb-fa5d23ed3470",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:3b9b838f-ca32-49b4-9d2d-6659e9090b59",
+        "timestamp" : "2025-11-18T10:59:50+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -983,10 +983,10 @@
       "name" : "SpecificFindingCodesVS",
       "title" : "Specific Stroke Finding Codes ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9d67b70b-d317-4575-bc6a-7f97eb3dc1a8",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:043dbaa5-c7e4-4dbf-98ef-f8853be84262",
+        "timestamp" : "2025-11-18T10:59:50+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1039,10 +1039,10 @@
       "name" : "StrokeArrivalModeVS",
       "title" : "Stroke Arrival Mode ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fd7ffa7b-3426-4899-b3f0-f3846fc37610",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:73f8520b-1b05-4728-96fe-0109c0725cc7",
+        "timestamp" : "2025-11-18T10:59:50+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1115,10 +1115,10 @@
       "name" : "StrokeCircumstanceCodesVS",
       "title" : "Stroke Circumstance Codes ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:31ef04db-97c3-4c9a-a5f9-7f4cb8c5c4ec",
-        "timestamp" : "2025-11-18T10:47:00+00:00",
+        "identifier" : "urn:uuid:1843e227-32a1-48ee-9d59-1322de657862",
+        "timestamp" : "2025-11-18T10:59:43+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1171,8 +1171,8 @@
       "date" : "2025-10-07",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d940d662-52c7-4973-9b78-96de680a9705",
-        "timestamp" : "2025-11-18T10:47:00+00:00",
+        "identifier" : "urn:uuid:4f3132b3-d1cd-42d5-a006-562702e07db1",
+        "timestamp" : "2025-11-18T10:59:44+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1240,10 +1240,10 @@
       "name" : "StrokeDischargeDestinationVS",
       "title" : "Stroke Discharge Destination ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:84976cd5-9078-457c-8657-0084c49f7238",
-        "timestamp" : "2025-11-18T10:47:05+00:00",
+        "identifier" : "urn:uuid:4879f418-441c-4122-944a-2707bf27503e",
+        "timestamp" : "2025-11-18T10:59:50+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1323,8 +1323,8 @@
       "date" : "2025-03-31",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:ebacaea4-e788-4f81-bb3a-46f761024afb",
-        "timestamp" : "2025-11-18T10:47:06+00:00",
+        "identifier" : "urn:uuid:fcc6792b-95e2-47aa-8d2a-675392f34bcd",
+        "timestamp" : "2025-11-18T10:59:50+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1400,10 +1400,10 @@
       "name" : "StrokeFindingCodesVS",
       "title" : "Specific Stroke Finding Codes ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:707f4fc3-0953-4642-b671-aa6a27baac00",
-        "timestamp" : "2025-11-18T10:46:59+00:00",
+        "identifier" : "urn:uuid:aa360054-d473-4f5a-ba19-c6d3869ba7f5",
+        "timestamp" : "2025-11-18T10:59:42+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1477,10 +1477,10 @@
       "name" : "StrokeProcNotDoneReasonVS",
       "title" : "Stroke Procedure Not Done Reason ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:51b5377d-c6db-4055-8a0b-017f5cd297bd",
-        "timestamp" : "2025-11-18T10:47:06+00:00",
+        "identifier" : "urn:uuid:4245e28c-ed8b-4715-91fe-2a00503761e9",
+        "timestamp" : "2025-11-18T10:59:50+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -1606,8 +1606,8 @@
       "experimental" : true,
       "date" : "2025-03-31",
       "expansion" : {
-        "identifier" : "urn:uuid:0fa4b8ef-d8c7-4da3-a3e2-8cf9af395b22",
-        "timestamp" : "2025-11-18T10:47:06+00:00",
+        "identifier" : "urn:uuid:3dcfe86d-f9c3-46e1-93a0-4bb20bc5dbec",
+        "timestamp" : "2025-11-18T10:59:51+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1679,10 +1679,10 @@
       "name" : "SwallowingScreeningTimingCategoryVS",
       "title" : "Swallowing Screening Timing Category ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:aa7b8b0c-12f0-45fd-a92b-abdb59954965",
-        "timestamp" : "2025-11-18T10:47:06+00:00",
+        "identifier" : "urn:uuid:865c7f92-bd7b-4a27-a559-38484d1c822e",
+        "timestamp" : "2025-11-18T10:59:51+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1752,10 +1752,10 @@
       "name" : "ThrombectomyComplicationVS",
       "title" : "Thrombectomy Complication ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ced1d707-9022-45c6-b5d8-edd827ab5a90",
-        "timestamp" : "2025-11-18T10:47:07+00:00",
+        "identifier" : "urn:uuid:7f4c963c-2620-4931-83cd-44f42ba02eb9",
+        "timestamp" : "2025-11-18T10:59:51+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -1803,10 +1803,10 @@
       "name" : "TimingMetricCodesVS",
       "title" : "Stroke Timing Metric Codes ValueSet",
       "status" : "active",
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b945450a-d58d-4e9a-ae0e-1c1c07bb38da",
-        "timestamp" : "2025-11-18T10:47:02+00:00",
+        "identifier" : "urn:uuid:0db52f61-49ef-491c-bc3e-610d70decf5b",
+        "timestamp" : "2025-11-18T10:59:46+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1856,10 +1856,10 @@
       "title" : "Stroke Vital Sign Codes ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d1d214eb-4735-44ea-a57b-9fcaef867c6b",
-        "timestamp" : "2025-11-18T10:47:07+00:00",
+        "identifier" : "urn:uuid:6eebd007-009e-474d-887e-c968c23b2820",
+        "timestamp" : "2025-11-18T10:59:52+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1913,10 +1913,10 @@
       "title" : "Gender (SNOMED CT)",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-11-18T10:45:59+00:00",
+      "date" : "2025-11-18T10:58:35+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:628af4b0-80a2-47a4-8f31-08c9ac1d30ca",
-        "timestamp" : "2025-11-18T10:47:07+00:00",
+        "identifier" : "urn:uuid:471392dd-24e1-4a15-b486-aa5bc1f969ed",
+        "timestamp" : "2025-11-18T10:59:52+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

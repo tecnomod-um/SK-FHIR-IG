@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="2094470c-fab4-44c3-a5fd-0104570f92ce"/>
+  <id value="5dcdf2fe-7c25-4e81-bc5a-5a42d93c7de3"/>
   <meta>
-    <lastUpdated value="2025-11-18T11:10:00.404+00:00"/>
+    <lastUpdated value="2025-11-18T11:17:36.127+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -110,8 +110,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3ba126fb-bc1e-4ced-9914-978af9be466c"/>
-          <timestamp value="2025-11-18T11:14:02+00:00"/>
+          <identifier value="urn:uuid:d14f45a5-18d3-45f9-a94f-510f18da65ba"/>
+          <timestamp value="2025-11-18T11:18:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -257,10 +257,10 @@
         <name value="AfibFlutterStatusVS"/>
         <title value="Atrial Fibrillation or Flutter Status ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6330a518-0f55-4731-99c4-b71bff3ce0f2"/>
-          <timestamp value="2025-11-18T11:14:02+00:00"/>
+          <identifier value="urn:uuid:e8cdce19-8133-4e35-a4b6-76b44b7421a5"/>
+          <timestamp value="2025-11-18T11:18:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -427,10 +427,10 @@
         <name value="AssessmentContextVS"/>
         <title value="Assessment Context ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d8909613-aa97-40de-9a6d-b06356419ea3"/>
-          <timestamp value="2025-11-18T11:14:03+00:00"/>
+          <identifier value="urn:uuid:79ed0643-36a7-4acb-9a6b-467f9e00bd38"/>
+          <timestamp value="2025-11-18T11:18:33+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -652,10 +652,10 @@
         <name value="BrainImagingModalityVS"/>
         <title value="Brain Imaging Modality ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3a4dcf3f-9169-4796-8207-bdc3e41ad401"/>
-          <timestamp value="2025-11-18T11:14:03+00:00"/>
+          <identifier value="urn:uuid:fdc6f6a6-524e-418a-814c-4662708c81ee"/>
+          <timestamp value="2025-11-18T11:18:33+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -820,10 +820,10 @@
         <name value="CarotidImagingModalityVS"/>
         <title value="Carotid Arteries Imaging Modality ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5ff433db-7b0d-4c50-ad93-f0058ca1bfe3"/>
-          <timestamp value="2025-11-18T11:14:03+00:00"/>
+          <identifier value="urn:uuid:de1f0fe5-3d2e-4f17-8370-143be9d7bc66"/>
+          <timestamp value="2025-11-18T11:18:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -990,10 +990,10 @@
         <name value="DischargeDeptVS"/>
         <title value="Discharge Department/Service ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c3cddf70-d167-43af-8fec-1aa18afe614a"/>
-          <timestamp value="2025-11-18T11:14:03+00:00"/>
+          <identifier value="urn:uuid:97f0907f-1a38-44b0-a6d3-a1cb963fcee0"/>
+          <timestamp value="2025-11-18T11:18:33+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1184,8 +1184,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c45e9632-bf9b-4474-a6e9-524a376e79ac"/>
-          <timestamp value="2025-11-18T11:14:03+00:00"/>
+          <identifier value="urn:uuid:9ac4c4d7-e8eb-4954-ba83-ce748ed818e2"/>
+          <timestamp value="2025-11-18T11:18:33+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1321,10 +1321,10 @@
         <name value="FunctionalScoreCodesVS"/>
         <title value="Stroke Functional Score Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ecad9d66-10be-4820-8958-a2a4bcd07118"/>
-          <timestamp value="2025-11-18T11:13:21+00:00"/>
+          <identifier value="urn:uuid:12a72232-521c-4990-851c-d4f635cfb96e"/>
+          <timestamp value="2025-11-18T11:18:26+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1470,8 +1470,8 @@
         <date value="2025-09-08"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:52defe87-c479-49cd-978c-5c8505745f10"/>
-          <timestamp value="2025-11-18T11:14:04+00:00"/>
+          <identifier value="urn:uuid:32a881e3-27ed-4be0-9842-563dde7484aa"/>
+          <timestamp value="2025-11-18T11:18:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1614,10 +1614,10 @@
         <name value="InitialCareIntensityVS"/>
         <title value="Initial Care Intensity ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b61d9b5c-f518-44b4-8e84-bd9b4be265e9"/>
-          <timestamp value="2025-11-18T11:14:04+00:00"/>
+          <identifier value="urn:uuid:7358c95e-82ac-4b90-bec1-4d9ef93aadad"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1844,10 +1844,10 @@
         <name value="MRsScoreVS"/>
         <title value="modified Rankin Scale (mRS) Score ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:42638b6c-6369-4828-95e6-bd917cdd73ec"/>
-          <timestamp value="2025-11-18T11:13:41+00:00"/>
+          <identifier value="urn:uuid:9b94db20-4bb7-4ce4-8610-4f146207f4ae"/>
+          <timestamp value="2025-11-18T11:18:26+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -1974,10 +1974,10 @@
         <name value="MTICICodeVS"/>
         <title value="mTICI Score Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a571217d-f018-4d5b-864a-bf88fe36c62b"/>
-          <timestamp value="2025-11-18T11:14:04+00:00"/>
+          <identifier value="urn:uuid:b4de9982-c013-4cfb-99c1-1351b18027d3"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2186,8 +2186,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:8b14658b-bc7b-4bfa-8b29-b8d81352f42c"/>
-          <timestamp value="2025-11-18T11:14:04+00:00"/>
+          <identifier value="urn:uuid:c04d8a5a-412c-43fd-a739-2920c2454d42"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -2327,8 +2327,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:3155646c-4002-4d95-a22e-f998ceea7479"/>
-          <timestamp value="2025-11-18T11:14:04+00:00"/>
+          <identifier value="urn:uuid:bb7396e6-32b6-4cee-8ba1-2eb59ef6c965"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2470,10 +2470,10 @@
         <name value="ProcedureTimingContextVS"/>
         <title value="Procedure Timing Context ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f0e8278b-cd1c-4433-9732-5918e5af52ff"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:1acdd302-5e70-4483-99c6-0a3f52be85c7"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2599,10 +2599,10 @@
         <name value="SpecificFindingCodesVS"/>
         <title value="Specific Stroke Finding Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7cee77af-2b20-4745-8876-5757d181ff41"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:0edab67c-0dac-4669-8378-29b4fe1239dc"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2804,10 +2804,10 @@
         <name value="StrokeArrivalModeVS"/>
         <title value="Stroke Arrival Mode ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9fefd0c1-fd33-48d8-b501-c4509b065cb0"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:f8e5fd31-b041-4305-8a60-8ef7ceccf015"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -2949,10 +2949,10 @@
         <name value="StrokeCircumstanceCodesVS"/>
         <title value="Stroke Circumstance Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:107de7d6-5a28-4137-86c5-3f9892f9d648"/>
-          <timestamp value="2025-11-18T11:13:59+00:00"/>
+          <identifier value="urn:uuid:4c4e38f1-c4b3-4afd-8072-7474143b3cc8"/>
+          <timestamp value="2025-11-18T11:18:29+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -3133,8 +3133,8 @@
         <date value="2025-10-07"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:15ccc315-c5b9-4a97-b024-a117eb8d0513"/>
-          <timestamp value="2025-11-18T11:13:59+00:00"/>
+          <identifier value="urn:uuid:99d518bd-7ff2-4381-97a1-b77ecc0af461"/>
+          <timestamp value="2025-11-18T11:18:29+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3341,10 +3341,10 @@
         <name value="StrokeDischargeDestinationVS"/>
         <title value="Stroke Discharge Destination ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d42b8f83-8ade-4ccd-acf3-9914387cda97"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:61464c49-f45d-4922-95b5-f3b411b723cf"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3563,8 +3563,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:59d47b16-b272-4574-aa3d-abe4563149b8"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:ec01bdb0-359d-438d-b2ce-55321cf2e335"/>
+          <timestamp value="2025-11-18T11:18:34+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3751,10 +3751,10 @@
         <name value="StrokeFindingCodesVS"/>
         <title value="Specific Stroke Finding Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3506117a-a7d6-4af3-bfbb-0371d1a718c1"/>
-          <timestamp value="2025-11-18T11:13:43+00:00"/>
+          <identifier value="urn:uuid:4a2fcf87-b7fd-4260-8a4f-f0107ed5b134"/>
+          <timestamp value="2025-11-18T11:18:28+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4177,10 +4177,10 @@
         <name value="StrokeProcNotDoneReasonVS"/>
         <title value="Stroke Procedure Not Done Reason ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0025befb-19b1-4f9d-997b-748a026175e0"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:38b282af-7385-4fbe-b4eb-b0a0567078be"/>
+          <timestamp value="2025-11-18T11:18:35+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -4286,6 +4286,357 @@
             <system value="http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"/>
             <code value="no-angiography"/>
             <display value="Angiography Not Performed"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-5370000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/5370000">5370000</a>
+                </td>
+                <td>Atrial flutter</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;5370000&quot;, &quot;display&quot;: &quot;Atrial flutter&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;5370000&quot;&gt;&lt;display value=&quot;Atrial flutter&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-49436004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/49436004">49436004</a>
+                </td>
+                <td>Atrial fibrillation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;49436004&quot;, &quot;display&quot;: &quot;Atrial fibrillation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;49436004&quot;&gt;&lt;display value=&quot;Atrial fibrillation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-22298006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/22298006">22298006</a>
+                </td>
+                <td>Myocardial infarction</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;22298006&quot;, &quot;display&quot;: &quot;Myocardial infarction&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;22298006&quot;&gt;&lt;display value=&quot;Myocardial infarction&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-53741008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/53741008">53741008</a>
+                </td>
+                <td>Coronary arteriosclerosis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;53741008&quot;, &quot;display&quot;: &quot;Coronary arteriosclerosis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;53741008&quot;&gt;&lt;display value=&quot;Coronary arteriosclerosis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-73211009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/73211009">73211009</a>
+                </td>
+                <td>Diabetes mellitus</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;73211009&quot;, &quot;display&quot;: &quot;Diabetes mellitus&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;73211009&quot;&gt;&lt;display value=&quot;Diabetes mellitus&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-55822004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/55822004">55822004</a>
+                </td>
+                <td>Hyperlipidemia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;55822004&quot;, &quot;display&quot;: &quot;Hyperlipidemia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;55822004&quot;&gt;&lt;display value=&quot;Hyperlipidemia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-38341003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/38341003">38341003</a>
+                </td>
+                <td>High blood pressure</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;38341003&quot;, &quot;display&quot;: &quot;High blood pressure&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;38341003&quot;&gt;&lt;display value=&quot;High blood pressure&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-230706003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/230706003">230706003</a>
+                </td>
+                <td>Hemorrhagic cerebral infarction</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230706003&quot;, &quot;display&quot;: &quot;Hemorrhagic cerebral infarction&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;230706003&quot;&gt;&lt;display value=&quot;Hemorrhagic cerebral infarction&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-266257000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/266257000">266257000</a>
+                </td>
+                <td>Temporary cerebral vascular dysfunction</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;266257000&quot;, &quot;display&quot;: &quot;Temporary cerebral vascular dysfunction&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;266257000&quot;&gt;&lt;display value=&quot;Temporary cerebral vascular dysfunction&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-422504002"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/422504002">422504002</a>
+                </td>
+                <td>Ischemic stroke (disorder)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;422504002&quot;, &quot;display&quot;: &quot;Ischemic stroke (disorder)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;422504002&quot;&gt;&lt;display value=&quot;Ischemic stroke (disorder)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-230690007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/230690007">230690007</a>
+                </td>
+                <td>CVA - Cerebrovascular accident</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230690007&quot;, &quot;display&quot;: &quot;CVA - Cerebrovascular accident&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;230690007&quot;&gt;&lt;display value=&quot;CVA - Cerebrovascular accident&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs"/>
+        <version value="0.1.0"/>
+        <name value="StrokeRiskFactorValueSet"/>
+        <title value="Stroke Risk Factor ValueSet"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-10-07"/>
+        <immutable value="false"/>
+        <expansion>
+          <identifier value="urn:uuid:b9665c54-ec0a-4042-975f-21e9983980f2"/>
+          <timestamp value="2025-11-18T11:18:31+00:00"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5370000"/>
+            <display value="Atrial flutter"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="49436004"/>
+            <display value="Atrial fibrillation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="22298006"/>
+            <display value="Myocardial infarction"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="53741008"/>
+            <display value="Coronary arteriosclerosis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="73211009"/>
+            <display value="Diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="55822004"/>
+            <display value="Hyperlipidemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="38341003"/>
+            <display value="High blood pressure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="230706003"/>
+            <display value="Hemorrhagic cerebral infarction"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="266257000"/>
+            <display value="Temporary cerebral vascular dysfunction"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="422504002"/>
+            <display value="Ischemic stroke (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="230690007"/>
+            <display value="CVA - Cerebrovascular accident"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -4445,8 +4796,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:9ecf09f2-d25d-4d6a-a2c7-5c1339b52dab"/>
-          <timestamp value="2025-11-18T11:14:05+00:00"/>
+          <identifier value="urn:uuid:2af51c25-906a-4ded-be30-faecc8b855b4"/>
+          <timestamp value="2025-11-18T11:18:35+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -4617,10 +4968,10 @@
         <name value="SwallowingScreeningTimingCategoryVS"/>
         <title value="Swallowing Screening Timing Category ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b993183f-cf48-46b5-a3f4-9e968933aad5"/>
-          <timestamp value="2025-11-18T11:14:06+00:00"/>
+          <identifier value="urn:uuid:9cab054a-7348-4e7e-97fb-a1e9fe24699e"/>
+          <timestamp value="2025-11-18T11:18:35+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4738,10 +5089,10 @@
         <name value="ThrombectomyComplicationVS"/>
         <title value="Thrombectomy Complication ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d4efc821-83bc-48e5-a49d-3eed68659ddc"/>
-          <timestamp value="2025-11-18T11:14:06+00:00"/>
+          <identifier value="urn:uuid:845b400f-1179-447b-91b6-459fa0ac2663"/>
+          <timestamp value="2025-11-18T11:18:35+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -4858,10 +5209,10 @@
         <name value="TimingMetricCodesVS"/>
         <title value="Stroke Timing Metric Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e60f7538-c848-49af-bc4b-cf884d4cf2a0"/>
-          <timestamp value="2025-11-18T11:14:02+00:00"/>
+          <identifier value="urn:uuid:cb6dd062-3114-4cfd-9124-902cccbe42dd"/>
+          <timestamp value="2025-11-18T11:18:32+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -4979,10 +5330,10 @@
         <title value="Stroke Vital Sign Codes ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2e368426-e1f6-43bb-9d0e-c4918bb5fe6d"/>
-          <timestamp value="2025-11-18T11:14:06+00:00"/>
+          <identifier value="urn:uuid:3e17220b-0599-4ce7-b728-97134d20c2e2"/>
+          <timestamp value="2025-11-18T11:18:35+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -5124,10 +5475,10 @@
         <title value="Gender (SNOMED CT)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-18T11:10:00+00:00"/>
+        <date value="2025-11-18T11:17:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:54875536-520c-49b9-94fd-11f28509bc44"/>
-          <timestamp value="2025-11-18T11:14:07+00:00"/>
+          <identifier value="urn:uuid:c5737ffd-469c-4e74-9043-d47285ad4e0a"/>
+          <timestamp value="2025-11-18T11:18:36+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

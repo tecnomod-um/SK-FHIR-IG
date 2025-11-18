@@ -54,7 +54,7 @@ This value set contains 3 concepts
   "name" : "CarotidImagingModalityVS",
   "title" : "Carotid Arteries Imaging Modality ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T11:10:00+00:00",
+  "date" : "2025-11-18T11:17:36+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

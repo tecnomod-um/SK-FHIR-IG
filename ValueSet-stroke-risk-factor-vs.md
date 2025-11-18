@@ -28,7 +28,9 @@ To provide a standardized set of SNOMED CT concepts representing stroke-related 
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
+
+This value set contains 11 concepts
 
 -------
 
@@ -123,11 +125,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "code" : "230690007",
             "display" : "Cerebrovascular accident (disorder)"
           }
-        ]
-      },
-      {
-        "valueSet" : [
-          "http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips"
         ]
       }
     ]

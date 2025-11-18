@@ -14,7 +14,7 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
 
 **Required Post-Acute Care Extension**: false
 
-**Discharge Department/Service Extension**: Neurology department (environment)
+**Discharge Department/Service Extension**: Neurology
 
 **status**: Completed
 
@@ -70,9 +70,9 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "http://snomed.info/sct",
-            "code" : "309937004",
-            "display" : "Neurology department (environment)"
+            "system" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+            "code" : "neurology",
+            "display" : "Neurology"
           }
         ]
       }

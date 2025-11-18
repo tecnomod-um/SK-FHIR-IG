@@ -43,7 +43,7 @@ This work has been made as part of the [RES-Q+ project](https://www.resqplus.eu)
   "version" : "0.1.0",
   "name" : "RESQIG",
   "status" : "draft",
-  "date" : "2025-11-18T10:22:08+00:00",
+  "date" : "2025-11-18T10:33:59+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

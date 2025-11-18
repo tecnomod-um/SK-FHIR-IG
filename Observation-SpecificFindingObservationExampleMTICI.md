@@ -14,7 +14,7 @@ Profile: [Specific Stroke Finding Observation Profile (R5)](StructureDefinition-
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown](Patient-example-patient.md)
 
-**encounter**: [Encounter: extension = true,ICU / Stroke Unit,false,Neurology department (environment); status = completed; type = Inpatient Encounter; actualPeriod = 2025-03-01 08:00:00+0000 --> 2025-03-10 12:00:00+0000](Encounter-StrokeEncounterExample.md)
+**encounter**: [Encounter: extension = true,ICU / Stroke Unit,false,Neurology; status = completed; type = Inpatient Encounter; actualPeriod = 2025-03-01 08:00:00+0000 --> 2025-03-10 12:00:00+0000](Encounter-StrokeEncounterExample.md)
 
 **value**: Grade 3: Complete antegrade reperfusion of the previously occluded target artery ischemic territory, with absence of visualized occlusion in all distal branches
 

@@ -18,7 +18,7 @@ Profile: [Stroke Risk Factor Condition Profile](StructureDefinition-stroke-risk-
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown](Patient-example-patient.md)
 
-**encounter**: [Encounter: extension = true,ICU / Stroke Unit,false,Neurology department (environment); status = completed; type = Inpatient Encounter; actualPeriod = 2025-03-01 08:00:00+0000 --> 2025-03-10 12:00:00+0000](Encounter-StrokeEncounterExample.md)
+**encounter**: [Encounter: extension = true,ICU / Stroke Unit,false,Neurology; status = completed; type = Inpatient Encounter; actualPeriod = 2025-03-01 08:00:00+0000 --> 2025-03-10 12:00:00+0000](Encounter-StrokeEncounterExample.md)
 
 
 

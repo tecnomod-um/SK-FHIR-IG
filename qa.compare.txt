@@ -1,7 +1,7 @@
 RESQIG : Validation Results
 =========================================
 
-err = 28, warn = 130, info = 42
+err = 27, warn = 130, info = 42
 $--
 Generated $--. FHIR version $-- for RES-Q-FHIR-IG#$-- (canonical = http://tecnomod-um.org)
  Build Errors : 1 / 707 / 0
@@ -28,7 +28,7 @@ Generated $--. FHIR version $-- for RES-Q-FHIR-IG#$-- (canonical = http://tecnom
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Condition-StrokeDiagnosisConditionAFlutter : 2 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Condition-StrokeDiagnosisConditionExample : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Condition-StrokeRiskFactorConditionExample : 2 / 0 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Encounter-StrokeEncounterExample : 1 / 1 / 3
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Encounter-StrokeEncounterExample : 0 / 1 / 3
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG : 5 / 1 / 16
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationRequest-discharge-medication-request-001 : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationStatement-PriorMedicationStatementExample : 1 / 0 / 1
@@ -269,7 +269,7 @@ WARNING: Condition-StrokeRiskFactorConditionExample.xml.html#/html/body/div/div/
 WARNING: Encounter-StrokeEncounterExample.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Encounter-StrokeEncounterExample.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Encounter-StrokeEncounterExample.json.html#/html/body/div/div/div/p/a at Line 307, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Encounter-StrokeEncounterExample.ttl.html#/html/body/div/div/div/p/a at Line 318, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-StrokeEncounterExample.ttl.html#/html/body/div/div/div/p/a at Line 317, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: Encounter-StrokeEncounterExample.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: MedicationRequest-discharge-medication-request-001.change.history.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: MedicationRequest-discharge-medication-request-001.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -872,7 +872,6 @@ ERROR: Condition/StrokeRiskFactorConditionExample: Condition.code: A definition 
 ERROR: Condition/StrokeRiskFactorConditionExample: Condition.code: None of the codings provided are in the value set 'Stroke Risk Factor ValueSet' (http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#422504002)
 == fsh-generated/resources/Encounter-StrokeEncounterExample.json ==
 INFORMATION: Encounter/StrokeEncounterExample: Encounter.extension[1].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs|0.1.0
-ERROR: Encounter/StrokeEncounterExample: Encounter.extension[3].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Discharge Department/Service ValueSet' (http://tecnomod-um.org/ValueSet/discharge-dept-vs|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#309937004)
 WARNING: Encounter/StrokeEncounterExample: Encounter.type[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: Encounter/StrokeEncounterExample: Encounter.admission.admitSource: Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs|0.1.0
 == fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG.json ==

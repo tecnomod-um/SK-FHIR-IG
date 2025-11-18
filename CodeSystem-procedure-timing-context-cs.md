@@ -32,7 +32,7 @@ Codes defining the timing phase of a procedure relative to the encounter start (
   "title" : "Procedure Timing Context Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-18T10:22:08+00:00",
+  "date" : "2025-11-18T10:33:59+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

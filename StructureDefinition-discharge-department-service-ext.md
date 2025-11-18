@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-06 | *Computable Name*:DischargeDepartmentServiceExtension |
+| Draft as of 2025-11-18 | *Computable Name*:DischargeDepartmentServiceExtension |
 
 Specifies the type of department or service the patient was discharged or transferred to.
 
@@ -55,7 +55,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
   "name" : "DischargeDepartmentServiceExtension",
   "title" : "Discharge Department/Service Extension",
   "status" : "draft",
-  "date" : "2025-11-06T10:00:48+00:00",
+  "date" : "2025-11-18T09:01:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

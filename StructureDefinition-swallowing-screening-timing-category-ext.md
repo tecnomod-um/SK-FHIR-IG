@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/swallowing-screening-timing-category-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-06 | *Computable Name*:SwallowingScreeningTimingCategoryExt |
+| Draft as of 2025-11-18 | *Computable Name*:SwallowingScreeningTimingCategoryExt |
 
 Temporal category relative to stroke onset in which the swallowing screening was performed.
 
@@ -55,7 +55,7 @@ Other representations of profile: [CSV](StructureDefinition-swallowing-screening
   "name" : "SwallowingScreeningTimingCategoryExt",
   "title" : "Swallowing Screening Timing Category",
   "status" : "draft",
-  "date" : "2025-11-06T10:00:48+00:00",
+  "date" : "2025-11-18T09:01:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

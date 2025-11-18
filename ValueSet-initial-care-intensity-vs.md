@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/initial-care-intensity-vs | *Version*:0.1.0 |
-| Active as of 2025-11-06 | *Computable Name*:InitialCareIntensityVS |
+| Active as of 2025-11-18 | *Computable Name*:InitialCareIntensityVS |
 
  
 ValueSet indicating the level of care provided initially. 
@@ -52,7 +52,7 @@ ValueSet indicating the level of care provided initially.
   "name" : "InitialCareIntensityVS",
   "title" : "Initial Care Intensity ValueSet",
   "status" : "active",
-  "date" : "2025-11-06T10:00:48+00:00",
+  "date" : "2025-11-18T09:01:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

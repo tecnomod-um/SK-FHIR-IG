@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-06 | *Computable Name*:FunctionalScoreObservationProfile |
+| Draft as of 2025-11-18 | *Computable Name*:FunctionalScoreObservationProfile |
 
  
 Profile for recording functional scores (mRS, NIHSS), using an extension for timing context. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
   "name" : "FunctionalScoreObservationProfile",
   "title" : "Stroke Functional Score Observation Profile (R5, Timing Ext)",
   "status" : "draft",
-  "date" : "2025-11-06T10:00:48+00:00",
+  "date" : "2025-11-18T09:01:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

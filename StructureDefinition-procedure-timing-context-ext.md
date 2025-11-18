@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-06 | *Computable Name*:ProcedureTimingContextExtension |
+| Draft as of 2025-11-18 | *Computable Name*:ProcedureTimingContextExtension |
 
 Specifies the timing phase (e.g., acute, post-acute) in which the procedure was performed relative to the start of the encounter.
 
@@ -55,7 +55,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
   "name" : "ProcedureTimingContextExtension",
   "title" : "Procedure Timing Context Extension",
   "status" : "draft",
-  "date" : "2025-11-06T10:00:48+00:00",
+  "date" : "2025-11-18T09:01:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

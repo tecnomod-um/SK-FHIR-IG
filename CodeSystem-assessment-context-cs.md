@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/assessment-context-cs | *Version*:0.1.0 |
-| Active as of 2025-11-06 | *Computable Name*:AssessmentContextCS |
+| Active as of 2025-11-18 | *Computable Name*:AssessmentContextCS |
 
  
 Codes defining the context or timing of a clinical assessment, particularly functional scores. 
@@ -32,7 +32,7 @@ Codes defining the context or timing of a clinical assessment, particularly func
   "title" : "Assessment Context Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-06T10:00:48+00:00",
+  "date" : "2025-11-18T09:01:12+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

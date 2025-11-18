@@ -30,7 +30,7 @@ Id: medication-cs
 * #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
 
 ValueSet: MedicationVS
-Id: discharge-medication-vs
+Id: medication-vs
 * ^url = MedicationVS_URL
 * ^version = "1.0.0"
 * ^name = "MedicationVS"

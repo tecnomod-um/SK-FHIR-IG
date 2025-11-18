@@ -3,7 +3,6 @@ Alias: SCT = http://snomed.info/sct
 Alias: FHIR = http://hl7.org/fhir
 Alias: CondCat = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: CondVerStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status
-Alias: StrokeRiskUnknVS = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
 Alias: ClinicalStatusCondCS = http://terminology.hl7.org/CodeSystem/condition-clinical
 
 
@@ -11,7 +10,6 @@ Alias: HemorrhagicStrokeBleedingReasonCS_URL = http://tecnomod-um.org/CodeSystem
 Alias: StrokeEtiologyCS_URL = http://tecnomod-um.org/CodeSystem/stroke-etiology-cs
 Alias: StrokeDiagnosisVS_URL = http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs
 Alias: StrokeRiskFactorVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs
-Alias: StrokeRiskFactorUnknVS_URL = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
 Alias: DischargeDestinationVS_URL = http://tecnomod-um.org/ValueSet/discharge-destination-vs
 Alias: AdmissionSourceVS_URL = http://tecnomod-um.org/ValueSet/admission-source-vs
 Alias: HemorrhagicStrokeBleedingReasonVS_URL = http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs
@@ -76,7 +74,7 @@ Description: "Defines the SNOMED CT codes for conditions or risk factors relevan
 * SCT#266257000 "Transient ischemic attack (disorder)"
 * SCT#422504002 "Ischemic stroke (disorder)"
 * SCT#230690007 "Cerebrovascular accident (disorder)"
-* include codes from valueset StrokeRiskFactorUnknVS_URL
+
 
 ValueSet: DischargeDestinationVS
 Id: discharge-destination-vs

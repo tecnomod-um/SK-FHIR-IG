@@ -49,12 +49,12 @@ Description: "SNOMED CT concepts representing final stroke-related diagnoses int
 * include SCT#95455008 "Thrombosis of cerebral veins (disorder)"
 
 // ValueSet for Stroke Risk Factors (with Displays)
-ValueSet: StrokeRiskFactorSNOMEDVS
+ValueSet: StrokeRiskFactorVS
 Id: stroke-risk-factor-snomed-vs
 Title: "Stroke Risk Factor ValueSet"
-Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke."
-* ^url = StrokeRiskFactorSNOMEDVS_URL
-* ^name = "StrokeRiskFactorSNOMEDVS"
+Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."
+* ^url = StrokeRiskFactorVS_URL
+* ^name = "StrokeRiskFactorValueSet"
 * ^status = #active
 * ^version = "1.0.0"
 * ^date = "2025-10-07"
@@ -77,29 +77,7 @@ Description: "Defines the SNOMED CT codes for conditions or risk factors relevan
 * SCT#266257000 "Transient ischemic attack (disorder)"
 * SCT#422504002 "Ischemic stroke (disorder)"
 * SCT#230690007 "Cerebrovascular accident (disorder)"
-
-
-
-ValueSet: StrokeRiskFactorVS
-Id: stroke-risk-factor-vs
-Title: "Stroke Risk Factor ValueSet"
-Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."
-* ^url = StrokeRiskFactorVS_URL
-* ^name = "StrokeRiskFactorValueSet"
-* ^status = #active
-* ^version = "1.0.0"
-* ^date = "2025-10-07"
-* ^experimental = false
-* ^publisher = "Tecnomod"
-* ^contact[0].telecom[0].system = #email
-* ^contact[0].telecom[0].value = "alvaro.riquelmet@um.es"
-* ^jurisdiction = urn:iso:std:iso:3166#ES "Spain"
-* ^purpose = "To aggregate core stroke risk factors and unknown/absent problem concepts for comprehensive capture and validation."
-* ^copyright = "This value set includes SNOMED CT® content and may include HL7 IPS value set content. SNOMED CT® is distributed by SNOMED International."
-* ^immutable = false
-* include codes from valueset StrokeRiskFactorSNOMEDVS_URL
 * include codes from valueset StrokeRiskFactorUnknVS_URL
-
 
 ValueSet: DischargeDestinationVS
 Id: discharge-destination-vs

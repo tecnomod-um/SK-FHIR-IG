@@ -1,19 +1,19 @@
 {
-  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG",
   "name" : "RESQIG",
   "title" : null,
   "description" : "",
   "status" : "draft",
   "package-id" : "RES-Q-FHIR-IG",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 19 Nov, 2025 08:51:11 +0000",
-  "dateISO8601" : "2025-11-19T08:51:11+00:00",
-  "errs" : 16,
+  "date" : "Wed, 19 Nov, 2025 08:58:25 +0000",
+  "dateISO8601" : "2025-11-19T08:58:25+00:00",
+  "errs" : 4,
   "warnings" : 125,
   "hints" : 42,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "5.0.0",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2761988904
+  "maxMemory" : 1887916824
 }

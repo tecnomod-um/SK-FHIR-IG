@@ -32,7 +32,7 @@ Codes indicating the possible destinations of the patient upon discharge from th
   "title" : "Stroke Discharge Destination Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-19T08:51:11+00:00",
+  "date" : "2025-11-19T08:58:25+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

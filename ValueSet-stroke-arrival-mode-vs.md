@@ -52,7 +52,7 @@ ValueSet specifying the mode and origin of the patient's arrival.
   "name" : "StrokeArrivalModeVS",
   "title" : "Stroke Arrival Mode ValueSet",
   "status" : "active",
-  "date" : "2025-11-19T08:51:11+00:00",
+  "date" : "2025-11-19T08:58:25+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

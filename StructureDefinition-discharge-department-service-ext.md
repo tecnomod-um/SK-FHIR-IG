@@ -55,7 +55,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
   "name" : "DischargeDepartmentServiceExtension",
   "title" : "Discharge Department/Service Extension",
   "status" : "draft",
-  "date" : "2025-11-19T08:51:11+00:00",
+  "date" : "2025-11-19T08:58:25+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

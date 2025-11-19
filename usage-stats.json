@@ -4,20 +4,6 @@
   "fhirVersion": "5.0.0",
   "extensions": [
     {
-      "url": "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext",
-      "title": "Gender (SNOMED CT)",
-      "types": [
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext",
-      "title": "Patient Age (integer)",
-      "types": [
-        "integer"
-      ]
-    },
-    {
       "url": "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext",
       "title": "Discharge Department/Service Extension",
       "types": [
@@ -29,6 +15,13 @@
       "title": "First Hospital Extension",
       "types": [
         "boolean"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+      "title": "Gender (SNOMED CT)",
+      "types": [
+        "CodeableConcept"
       ]
     },
     {
@@ -74,6 +67,13 @@
       ]
     },
     {
+      "url": "http://tecnomod-um.org/StructureDefinition/patient-age-ext",
+      "title": "Patient Age (integer)",
+      "types": [
+        "integer"
+      ]
+    },
+    {
       "url": "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
       "title": "Procedure Timing Context Extension",
       "types": [
@@ -96,18 +96,6 @@
     }
   ],
   "profiles": {
-    "Patient": [
-      {
-        "url": "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile",
-        "title": "Patient with SNOMED Gender and Age (extensions)"
-      }
-    ],
-    "Encounter": [
-      {
-        "url": "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile",
-        "title": "Stroke Encounter Profile"
-      }
-    ],
     "Observation": [
       {
         "url": "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile",
@@ -122,6 +110,12 @@
       {
         "url": "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
         "title": "Discharge Medication Request Profile"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile",
+        "title": "Patient with SNOMED Gender and Age (extensions)"
       }
     ],
     "MedicationStatement": [
@@ -140,6 +134,12 @@
       {
         "url": "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile",
         "title": "Stroke Risk Factor Condition Profile"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+        "title": "Stroke Encounter Profile"
       }
     ],
     "Organization": [
@@ -186,17 +186,14 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext": [
-      "Patient"
-    ],
-    "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext": [
-      "Patient"
-    ],
     "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext": [
       "Encounter"
     ],
     "http://tecnomod-um.org/StructureDefinition/first-hospital-ext": [
       "Encounter"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext": [
+      "Patient"
     ],
     "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
       "Condition"
@@ -215,6 +212,9 @@
     ],
     "http://tecnomod-um.org/StructureDefinition/onset-time-ext": [
       "Condition"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/patient-age-ext": [
+      "Patient"
     ],
     "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext": [
       "Procedure"

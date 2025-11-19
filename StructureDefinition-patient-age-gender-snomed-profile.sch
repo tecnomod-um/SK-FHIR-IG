@@ -12,9 +12,9 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext']) &gt;= 1">extension with URL = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/patient-age-ext']) &gt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/patient-age-ext': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/patient-age-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/patient-age-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/gender-snomed-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/gender-snomed-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:gender) &lt;= 0">gender: maximum cardinality of 'gender' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>

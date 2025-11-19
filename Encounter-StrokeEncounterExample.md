@@ -41,7 +41,7 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
   "id" : "StrokeEncounterExample",
   "meta" : {
     "profile" : [
-      "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile"
+      "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"
     ]
   },
   "extension" : [

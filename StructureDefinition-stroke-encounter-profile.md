@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:StrokeEncounterProfile |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile | *Version*:0.1.0 |
+| Active as of 2025-11-19 | *Computable Name*:StrokeEncounterProfile |
 
  
 Profile for an Encounter resource representing a patient's hospital admission and stay for a stroke event, including key administrative and workflow details. 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-encounter-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile",
   "version" : "0.1.0",
   "name" : "StrokeEncounterProfile",
   "title" : "Stroke Encounter Profile",
   "status" : "active",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

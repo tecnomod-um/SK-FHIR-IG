@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/mrs-score-cs | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:MRsScoreCS |
+| Active as of 2025-11-19 | *Computable Name*:MRsScoreCS |
 
  
 Codes representing the modified Rankin Scale (mRS) score for functional outcome. 
@@ -32,7 +32,7 @@ Codes representing the modified Rankin Scale (mRS) score for functional outcome.
   "title" : "modified Rankin Scale (mRS) Score Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

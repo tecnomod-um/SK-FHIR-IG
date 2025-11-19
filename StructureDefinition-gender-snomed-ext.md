@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/gender-snomed-ext | *Version*:0.1.0 |
-| Draft as of 2025-11-18 | *Computable Name*:GenderSNOMED |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext | *Version*:0.1.0 |
+| Draft as of 2025-11-19 | *Computable Name*:GenderSNOMED |
 
 Patient gender represented with SNOMED CT codes.
 
@@ -50,12 +50,12 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext",
   "version" : "0.1.0",
   "name" : "GenderSNOMED",
   "title" : "Gender (SNOMED CT)",
   "status" : "draft",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -104,7 +104,7 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext"
+        "fixedUri" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext"
       },
       {
         "id" : "Extension.value[x]",
@@ -117,7 +117,7 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed"
+          "valueSet" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed"
         }
       }
     ]

@@ -1,4 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed,0.1.0,active,,GenderSNOMEDVS,Gender (SNOMED CT),"Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender.",,"SCT"
 http://tecnomod-um.org/ValueSet/admission-source-vs,0.1.0,draft,,AdmissionSourceValueSet,Admission Sources ValueSet,"Defines the modes of transport or pathways by which the patient arrived.",,"SCT"
 http://tecnomod-um.org/ValueSet/afib-flutter-status-vs,0.1.0,active,,AfibFlutterStatusVS,Atrial Fibrillation or Flutter Status ValueSet,"ValueSet for the status of Atrial Fibrillation or Flutter assessment.",,"SCT"
 http://tecnomod-um.org/ValueSet/assessment-context-vs,0.1.0,active,,AssessmentContextVS,Assessment Context ValueSet,"ValueSet for assessment context codes (e.g., timing of functional scores).",,"Internal"
@@ -29,4 +30,3 @@ http://tecnomod-um.org/ValueSet/swallowing-screening-timing-category-vs,0.1.0,ac
 http://tecnomod-um.org/ValueSet/thrombectomy-complication-vs,0.1.0,active,,ThrombectomyComplicationVS,Thrombectomy Complication ValueSet,"Defines the specific complications of thrombectomy to record.",,"SCT"
 http://tecnomod-um.org/ValueSet/timing-metric-codes-vs,0.1.0,active,,TimingMetricCodesVS,Stroke Timing Metric Codes ValueSet,"ValueSet for key process timing metrics in acute stroke care (D2N, D2G).",,"Internal"
 http://tecnomod-um.org/ValueSet/vital-sign-codes-vs,0.1.0,active,,VitalSignCodesVS,Stroke Vital Sign Codes ValueSet,"Codes for key vital signs relevant to stroke assessment (Systolic, Diastolic BP).",,"SCT"
-http://tecnomod-um.org/ValueSet/vs-gender-snomed,0.1.0,active,,GenderSNOMEDVS,Gender (SNOMED CT),"Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender.",,"SCT"

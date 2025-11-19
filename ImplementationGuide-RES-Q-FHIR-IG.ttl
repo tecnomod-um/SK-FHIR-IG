@@ -11,16 +11,16 @@
   fhir:id [ fhir:v "RES-Q-FHIR-IG"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide RES-Q-FHIR-IG</b></p><a name=\"RES-Q-FHIR-IG\"> </a><a name=\"hcRES-Q-FHIR-IG\"> </a><h2>RESQIG</h2><p>The official URL for this implementation guide is: </p><pre>http://tecnomod-um.org</pre></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide RES-Q-FHIR-IG</b></p><a name=\"RES-Q-FHIR-IG\"> </a><a name=\"hcRES-Q-FHIR-IG\"> </a><h2>RESQIG</h2><p>The official URL for this implementation guide is: </p><pre>http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG</pre></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
-     fhir:v "http://tecnomod-um.org"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org>
+     fhir:v "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG>
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "RESQIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-18T11:54:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-19T08:51:11+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "UMU"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "UMU" ] ;
@@ -831,8 +831,8 @@
        fhir:name [ fhir:v "PatientAgeGenderSnomedExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile>
+         fhir:v "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -1742,8 +1742,8 @@
        fhir:name [ fhir:v "StrokeEncounterExample" ] ;
        fhir:isExample [ fhir:v true ] ;
        fhir:profile ( [
-         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile>
+         fhir:v "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile>
        ] )
      ] [
        fhir:extension ( [
@@ -2135,33 +2135,6 @@
            fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
            fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
          ] ;
-         fhir:code [ fhir:v "broken-links" ]
-       ] ;
-       fhir:value [ fhir:v "warning" ]
-     ] [
-       fhir:code [
-         fhir:system [
-           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
-         ] ;
-         fhir:code [ fhir:v "check-urls" ]
-       ] ;
-       fhir:value [ fhir:v "true" ]
-     ] [
-       fhir:code [
-         fhir:system [
-           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
-         ] ;
-         fhir:code [ fhir:v "excludettl" ]
-       ] ;
-       fhir:value [ fhir:v "true" ]
-     ] [
-       fhir:code [
-         fhir:system [
-           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
-         ] ;
          fhir:code [ fhir:v "autoload-resources" ]
        ] ;
        fhir:value [ fhir:v "true" ]
@@ -2362,7 +2335,7 @@
          ] ;
          fhir:code [ fhir:v "path-history" ]
        ] ;
-       fhir:value [ fhir:v "history.html" ]
+       fhir:value [ fhir:v "http://tecnomod-um.org/history.html" ]
      ] [
        fhir:code [
          fhir:system [

@@ -12,8 +12,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.109"],
       "uses" : {
       },
-      "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile (R5)",
       "StructureDefinition-stroke-brain-imaging-procedure-profile.html" : "Stroke Brain Imaging Procedure Profile (R5)",
+      "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile (R5)",
       "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Thrombolysis Procedure Profile (R5)",
       "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallow Procedure Profile (R5)"
     },
@@ -32,6 +32,18 @@
       "uses" : {
       },
       "StructureDefinition-prior-medication-statement-profile.html" : "Prior Medication Statement Profile (R5)"
+    },
+    {
+      "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenderSNOMEDVS",
+      "title" : "Gender (SNOMED CT)",
+      "description" : "Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-gender-snomed-ext.html" : "Gender (SNOMED CT)"
     },
     {
       "url" : "http://tecnomod-um.org/ValueSet/admission-source-vs",
@@ -161,8 +173,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-discharge-medication-request-profile.html" : "Discharge Medication Request Profile",
-      "StructureDefinition-prior-medication-statement-profile.html" : "Prior Medication Statement Profile (R5)"
+      "StructureDefinition-prior-medication-statement-profile.html" : "Prior Medication Statement Profile (R5)",
+      "StructureDefinition-discharge-medication-request-profile.html" : "Discharge Medication Request Profile"
     },
     {
       "url" : "http://tecnomod-um.org/ValueSet/mrs-score-vs",
@@ -330,8 +342,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile (R5)",
       "StructureDefinition-stroke-brain-imaging-procedure-profile.html" : "Stroke Brain Imaging Procedure Profile (R5)",
+      "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile (R5)",
       "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Thrombolysis Procedure Profile (R5)",
       "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallow Procedure Profile (R5)"
     },
@@ -409,18 +421,6 @@
       "uses" : {
       },
       "StructureDefinition-vital-sign-observation-profile.html" : "Stroke Vital Sign Observation Profile (R5)"
-    },
-    {
-      "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "GenderSNOMEDVS",
-      "title" : "Gender (SNOMED CT)",
-      "description" : "Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender.",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-gender-snomed-ext.html" : "Gender (SNOMED CT)"
     }
   ]
 }

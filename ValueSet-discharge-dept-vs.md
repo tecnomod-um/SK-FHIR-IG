@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/discharge-dept-vs | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:DischargeDeptVS |
+| Active as of 2025-11-19 | *Computable Name*:DischargeDeptVS |
 
  
 ValueSet specifying the type of department or service the patient was discharged or transferred to. 
@@ -52,7 +52,7 @@ ValueSet specifying the type of department or service the patient was discharged
   "name" : "DischargeDeptVS",
   "title" : "Discharge Department/Service ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

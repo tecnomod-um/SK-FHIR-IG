@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile | *Version*:0.1.0 |
-| Draft as of 2025-11-18 | *Computable Name*:PatientAgeGenderSNOMEDProfile |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile | *Version*:0.1.0 |
+| Draft as of 2025-11-19 | *Computable Name*:PatientAgeGenderSNOMEDProfile |
 
  
 Profile that adds an integer age extension and a SNOMED-based gender extension. 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
 {
   "resourceType" : "StructureDefinition",
   "id" : "patient-age-gender-snomed-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile",
   "version" : "0.1.0",
   "name" : "PatientAgeGenderSNOMEDProfile",
   "title" : "Patient with SNOMED Gender and Age (extensions)",
   "status" : "draft",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -123,7 +123,9 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://tecnomod-um.org/StructureDefinition/patient-age-ext"]
+            "profile" : [
+              "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext"
+            ]
           }
         ],
         "mustSupport" : true
@@ -138,7 +140,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-gender-s
           {
             "code" : "Extension",
             "profile" : [
-              "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext"
+              "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext"
             ]
           }
         ],

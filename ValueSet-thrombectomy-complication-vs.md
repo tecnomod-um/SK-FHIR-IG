@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/thrombectomy-complication-vs | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:ThrombectomyComplicationVS |
+| Active as of 2025-11-19 | *Computable Name*:ThrombectomyComplicationVS |
 
  
 Defines the specific complications of thrombectomy to record. 
@@ -54,7 +54,7 @@ This value set contains 1 concepts
   "name" : "ThrombectomyComplicationVS",
   "title" : "Thrombectomy Complication ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

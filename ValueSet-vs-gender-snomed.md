@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/vs-gender-snomed | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:GenderSNOMEDVS |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed | *Version*:0.1.0 |
+| Active as of 2025-11-19 | *Computable Name*:GenderSNOMEDVS |
 
  
 Value set to represent patient gender using SNOMED CT codes, analogous to AdministrativeGender. 
@@ -49,13 +49,13 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "vs-gender-snomed",
-  "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed",
   "version" : "0.1.0",
   "name" : "GenderSNOMEDVS",
   "title" : "Gender (SNOMED CT)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

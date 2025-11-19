@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/procedure-timing-context-vs | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:ProcedureTimingContextVS |
+| Active as of 2025-11-19 | *Computable Name*:ProcedureTimingContextVS |
 
  
 ValueSet for codes defining the timing phase of a procedure relative to the encounter start. 
@@ -52,7 +52,7 @@ ValueSet for codes defining the timing phase of a procedure relative to the enco
   "name" : "ProcedureTimingContextVS",
   "title" : "Procedure Timing Context ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

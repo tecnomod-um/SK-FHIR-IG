@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/assessment-context-vs | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:AssessmentContextVS |
+| Active as of 2025-11-19 | *Computable Name*:AssessmentContextVS |
 
  
 ValueSet for assessment context codes (e.g., timing of functional scores). 
@@ -52,7 +52,7 @@ ValueSet for assessment context codes (e.g., timing of functional scores).
   "name" : "AssessmentContextVS",
   "title" : "Assessment Context ValueSet",
   "status" : "active",
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

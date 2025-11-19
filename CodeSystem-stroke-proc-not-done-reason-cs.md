@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs | *Version*:0.1.0 |
-| Active as of 2025-11-18 | *Computable Name*:StrokeProcNotDoneReasonCS |
+| Active as of 2025-11-19 | *Computable Name*:StrokeProcNotDoneReasonCS |
 
  
 Codes specifying the reason principal for not performing a key stroke procedure (Thrombolysis, Thrombectomy). 
@@ -32,7 +32,7 @@ Codes specifying the reason principal for not performing a key stroke procedure 
   "title" : "Stroke Procedure Not Done Reason Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-18T11:54:03+00:00",
+  "date" : "2025-11-19T08:51:11+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

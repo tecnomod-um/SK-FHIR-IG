@@ -32,7 +32,7 @@ Codes representing the modified Rankin Scale (mRS) score for functional outcome.
   "title" : "modified Rankin Scale (mRS) Score Code System",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-19T09:26:24+00:00",
+  "date" : "2025-11-19T10:08:33+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

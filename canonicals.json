@@ -135,44 +135,9 @@
   {
     "id" : "RES-Q-FHIR-IG",
     "type" : "ImplementationGuide",
-    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG",
+    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG",
     "version" : "0.1.0",
     "name" : "RESQIG"
-  },
-  {
-    "id" : "gender-snomed-ext",
-    "type" : "StructureDefinition",
-    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext",
-    "version" : "0.1.0",
-    "name" : "GenderSNOMED"
-  },
-  {
-    "id" : "patient-age-ext",
-    "type" : "StructureDefinition",
-    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext",
-    "version" : "0.1.0",
-    "name" : "PatientAge"
-  },
-  {
-    "id" : "patient-age-gender-snomed-profile",
-    "type" : "StructureDefinition",
-    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile",
-    "version" : "0.1.0",
-    "name" : "PatientAgeGenderSNOMEDProfile"
-  },
-  {
-    "id" : "stroke-encounter-profile",
-    "type" : "StructureDefinition",
-    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile",
-    "version" : "0.1.0",
-    "name" : "StrokeEncounterProfile"
-  },
-  {
-    "id" : "vs-gender-snomed",
-    "type" : "ValueSet",
-    "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed",
-    "version" : "0.1.0",
-    "name" : "GenderSNOMEDVS"
   },
   {
     "id" : "age-at-onset-observation-profile",
@@ -217,6 +182,13 @@
     "name" : "FunctionalScoreObservationProfile"
   },
   {
+    "id" : "gender-snomed-ext",
+    "type" : "StructureDefinition",
+    "url" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+    "version" : "0.1.0",
+    "name" : "GenderSNOMED"
+  },
+  {
     "id" : "hemorrhagic-stroke-bleeding-reason-ext",
     "type" : "StructureDefinition",
     "url" : "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
@@ -257,6 +229,20 @@
     "url" : "http://tecnomod-um.org/StructureDefinition/onset-time-ext",
     "version" : "0.1.0",
     "name" : "OnsetTimeExt"
+  },
+  {
+    "id" : "patient-age-ext",
+    "type" : "StructureDefinition",
+    "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-ext",
+    "version" : "0.1.0",
+    "name" : "PatientAge"
+  },
+  {
+    "id" : "patient-age-gender-snomed-profile",
+    "type" : "StructureDefinition",
+    "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile",
+    "version" : "0.1.0",
+    "name" : "PatientAgeGenderSNOMEDProfile"
   },
   {
     "id" : "prior-medication-statement-profile",
@@ -313,6 +299,13 @@
     "url" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile",
     "version" : "0.1.0",
     "name" : "StrokeDiagnosisConditionProfile"
+  },
+  {
+    "id" : "stroke-encounter-profile",
+    "type" : "StructureDefinition",
+    "url" : "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+    "version" : "0.1.0",
+    "name" : "StrokeEncounterProfile"
   },
   {
     "id" : "stroke-mechanical-procedure-profile",
@@ -572,5 +565,12 @@
     "url" : "http://tecnomod-um.org/ValueSet/vital-sign-codes-vs",
     "version" : "0.1.0",
     "name" : "VitalSignCodesVS"
+  },
+  {
+    "id" : "vs-gender-snomed",
+    "type" : "ValueSet",
+    "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
+    "version" : "0.1.0",
+    "name" : "GenderSNOMEDVS"
   }
 ]

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="09d1e61d-ece8-495a-95d2-f73eede7f73b"/>
+  <id value="1d3f8af6-b599-4617-a96f-b4cdb92c5f9d"/>
   <meta>
-    <lastUpdated value="2025-11-19T09:26:24.198+00:00"/>
+    <lastUpdated value="2025-11-19T10:08:33.005+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -110,8 +110,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9ccda7f1-e8f8-44da-ab47-6472eee69f94"/>
-          <timestamp value="2025-11-19T09:27:19+00:00"/>
+          <identifier value="urn:uuid:70481806-53bb-44b9-ab22-5d2407202337"/>
+          <timestamp value="2025-11-19T10:09:30+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -257,10 +257,10 @@
         <name value="AfibFlutterStatusVS"/>
         <title value="Atrial Fibrillation or Flutter Status ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7bc15406-e289-422c-b4c7-fa620c058ac0"/>
-          <timestamp value="2025-11-19T09:27:19+00:00"/>
+          <identifier value="urn:uuid:f6d58c6e-e40a-4853-9a1a-116d8432c67b"/>
+          <timestamp value="2025-11-19T10:09:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -427,10 +427,10 @@
         <name value="AssessmentContextVS"/>
         <title value="Assessment Context ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ea92855c-e28a-4e7f-8ece-02d64a925610"/>
-          <timestamp value="2025-11-19T09:27:19+00:00"/>
+          <identifier value="urn:uuid:5ae2b066-0151-48da-9afe-556d2de55619"/>
+          <timestamp value="2025-11-19T10:09:31+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -652,10 +652,10 @@
         <name value="BrainImagingModalityVS"/>
         <title value="Brain Imaging Modality ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b78d9f62-e75e-4e29-91ab-82b0f9086a68"/>
-          <timestamp value="2025-11-19T09:27:19+00:00"/>
+          <identifier value="urn:uuid:4c57a6ec-e538-416b-a16c-fbbf5782f1bb"/>
+          <timestamp value="2025-11-19T10:09:31+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -820,10 +820,10 @@
         <name value="CarotidImagingModalityVS"/>
         <title value="Carotid Arteries Imaging Modality ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0b884c1c-a575-4c2d-b23a-1c7aef169027"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:27f78c52-e94b-4328-baeb-2318cdd3860b"/>
+          <timestamp value="2025-11-19T10:09:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -990,10 +990,10 @@
         <name value="DischargeDeptVS"/>
         <title value="Discharge Department/Service ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:75da03fb-4aac-43f8-85cc-826e09e0b82a"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:8777c785-fc0c-4ca5-b12b-0e911c2e3fd8"/>
+          <timestamp value="2025-11-19T10:09:31+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1184,8 +1184,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1067d6be-3913-4bd8-8dda-797911348880"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:ac0ba5df-e5b5-4fa4-9b21-1fac6977f47b"/>
+          <timestamp value="2025-11-19T10:09:31+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1321,10 +1321,10 @@
         <name value="FunctionalScoreCodesVS"/>
         <title value="Stroke Functional Score Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:de8ccb9f-895c-45c7-a9f4-7a823f01cfa3"/>
-          <timestamp value="2025-11-19T09:27:13+00:00"/>
+          <identifier value="urn:uuid:3caf538b-94e5-42fc-885e-21f1da721d6f"/>
+          <timestamp value="2025-11-19T10:09:25+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1470,8 +1470,8 @@
         <date value="2025-09-08"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:02e4d361-0019-453b-b31c-2756b11ee775"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:162a35fc-9940-456c-a69a-2dde77376106"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1614,10 +1614,10 @@
         <name value="InitialCareIntensityVS"/>
         <title value="Initial Care Intensity ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1dd08799-4597-4e2c-87d3-6b1ff8bc1ec8"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:05b428f1-acf4-4ece-9ae6-8ac76eda69aa"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1954,10 +1954,10 @@
         <name value="MedicationVS"/>
         <title value="Medications ValueSet"/>
         <status value="draft"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:93a31193-c3ba-4463-8bd3-bd801fbd661c"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:da0ba8b9-6598-44a3-8251-9c54357f5e54"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -2233,10 +2233,10 @@
         <name value="MRsScoreVS"/>
         <title value="modified Rankin Scale (mRS) Score ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0950dcb9-8387-4a0a-bf99-eec1b90e0faa"/>
-          <timestamp value="2025-11-19T09:27:13+00:00"/>
+          <identifier value="urn:uuid:9025ab4b-105b-4a40-9be3-0daa8a45c3a1"/>
+          <timestamp value="2025-11-19T10:09:25+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -2363,10 +2363,10 @@
         <name value="MTICICodeVS"/>
         <title value="mTICI Score Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b99a9e0d-0609-4053-9443-4a32745abe63"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:509de8f0-f574-4d6c-9096-e0ec69a411de"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2575,8 +2575,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:8ad86c77-42eb-4fe3-9158-a481148b83cc"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:72c10632-04cd-4b90-91df-657b74793739"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -2716,8 +2716,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:c45b34a0-a15e-4382-974f-6d332e8eff31"/>
-          <timestamp value="2025-11-19T09:27:20+00:00"/>
+          <identifier value="urn:uuid:31854d05-2a05-4a8d-8df5-eabc01e9dbb2"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2859,10 +2859,10 @@
         <name value="ProcedureTimingContextVS"/>
         <title value="Procedure Timing Context ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:515befbc-3759-473f-a662-0ab932d77637"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:9fd57d19-d523-4902-b7af-b491dfb995c5"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2988,10 +2988,10 @@
         <name value="SpecificFindingCodesVS"/>
         <title value="Specific Stroke Finding Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:29a71e96-8fcc-4d37-be13-83a31a45df62"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:8f89e691-513c-4904-bc41-ff93fe831607"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -3193,10 +3193,10 @@
         <name value="StrokeArrivalModeVS"/>
         <title value="Stroke Arrival Mode ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:809cb76f-0629-4110-bfed-3b5c6d4e6887"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:9ed5bdaa-e885-4f1c-8652-9bb397a4e7f0"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -3338,10 +3338,10 @@
         <name value="StrokeCircumstanceCodesVS"/>
         <title value="Stroke Circumstance Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6ce3ddfc-b927-462a-8b9f-28aeb2b6bf72"/>
-          <timestamp value="2025-11-19T09:27:16+00:00"/>
+          <identifier value="urn:uuid:5287cb7c-2305-4f3a-bbec-66e60bce218d"/>
+          <timestamp value="2025-11-19T10:09:28+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -3522,8 +3522,8 @@
         <date value="2025-10-07"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ac006898-4eb2-4978-a7ac-e02d69eda0e8"/>
-          <timestamp value="2025-11-19T09:27:16+00:00"/>
+          <identifier value="urn:uuid:4522a873-4639-4ad2-9f2c-44e82c2225b5"/>
+          <timestamp value="2025-11-19T10:09:28+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3730,10 +3730,10 @@
         <name value="StrokeDischargeDestinationVS"/>
         <title value="Stroke Discharge Destination ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5051fef9-824a-430a-b51a-1bb0f38b2059"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:16a3fda7-0be3-4260-9977-de46207ed134"/>
+          <timestamp value="2025-11-19T10:09:32+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -3952,8 +3952,8 @@
         <date value="2025-03-31"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:dfe998fc-0d82-4d67-a953-c4e67b52ca00"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:2f6a8ce6-421e-42b9-9ea1-5dd12d067881"/>
+          <timestamp value="2025-11-19T10:09:33+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -4140,10 +4140,10 @@
         <name value="StrokeFindingCodesVS"/>
         <title value="Specific Stroke Finding Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d12c5087-a47b-45d7-ae4f-1a84b27c4acd"/>
-          <timestamp value="2025-11-19T09:27:15+00:00"/>
+          <identifier value="urn:uuid:ce11efb0-3368-46d9-b600-e9915756579d"/>
+          <timestamp value="2025-11-19T10:09:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4566,10 +4566,10 @@
         <name value="StrokeProcNotDoneReasonVS"/>
         <title value="Stroke Procedure Not Done Reason ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:268a318e-6244-4f7b-9391-c5c23e6052f8"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:d2877372-f3f8-4fe7-a909-cf7dcbfca8af"/>
+          <timestamp value="2025-11-19T10:09:33+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -4944,8 +4944,8 @@
         <date value="2025-10-07"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8f248f53-0542-4f48-8dff-104a7b99ebdd"/>
-          <timestamp value="2025-11-19T09:27:17+00:00"/>
+          <identifier value="urn:uuid:c86376cd-b8c9-45b2-b14b-03861e41a5e2"/>
+          <timestamp value="2025-11-19T10:09:29+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -5185,8 +5185,8 @@
         <experimental value="true"/>
         <date value="2025-03-31"/>
         <expansion>
-          <identifier value="urn:uuid:85c91d9a-d5a9-4caa-a9c1-3f1364769e48"/>
-          <timestamp value="2025-11-19T09:27:21+00:00"/>
+          <identifier value="urn:uuid:c895fc7f-6df3-4ac0-a84f-f36bdce5b140"/>
+          <timestamp value="2025-11-19T10:09:33+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -5357,10 +5357,10 @@
         <name value="SwallowingScreeningTimingCategoryVS"/>
         <title value="Swallowing Screening Timing Category ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d63f6f21-5b78-4365-b829-9a259ee58fa1"/>
-          <timestamp value="2025-11-19T09:27:22+00:00"/>
+          <identifier value="urn:uuid:fe58a5f5-7fc2-4fd7-9a43-2ae8eb0b4eca"/>
+          <timestamp value="2025-11-19T10:09:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -5478,10 +5478,10 @@
         <name value="ThrombectomyComplicationVS"/>
         <title value="Thrombectomy Complication ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:96faecc6-7341-42ed-953f-8ce8abfad1d2"/>
-          <timestamp value="2025-11-19T09:27:22+00:00"/>
+          <identifier value="urn:uuid:0a0a69fc-af86-4ebd-8738-cfe6cba32eef"/>
+          <timestamp value="2025-11-19T10:09:33+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -5598,10 +5598,10 @@
         <name value="TimingMetricCodesVS"/>
         <title value="Stroke Timing Metric Codes ValueSet"/>
         <status value="active"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2362db35-8b16-4859-aaf2-3e3eacb345bc"/>
-          <timestamp value="2025-11-19T09:27:18+00:00"/>
+          <identifier value="urn:uuid:2ca33fa4-08a7-44c6-a9fe-5c3c900c9d1a"/>
+          <timestamp value="2025-11-19T10:09:30+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -5719,10 +5719,10 @@
         <title value="Stroke Vital Sign Codes ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c52ea456-6670-44a4-aa7b-ddeb287e7bc9"/>
-          <timestamp value="2025-11-19T09:27:22+00:00"/>
+          <identifier value="urn:uuid:4d02db57-f3f0-4a29-88e2-7519e9932600"/>
+          <timestamp value="2025-11-19T10:09:34+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -5764,7 +5764,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed"/>
+    <fullUrl value="http://tecnomod-um.org/ValueSet/vs-gender-snomed"/>
     <resource>
       <ValueSet>
         <text>
@@ -5858,16 +5858,16 @@
             </table>
           </div>
         </text>
-        <url value="http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed"/>
+        <url value="http://tecnomod-um.org/ValueSet/vs-gender-snomed"/>
         <version value="0.1.0"/>
         <name value="GenderSNOMEDVS"/>
         <title value="Gender (SNOMED CT)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-19T09:26:24+00:00"/>
+        <date value="2025-11-19T10:08:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8a49d120-de68-4642-854d-09a2ae891d61"/>
-          <timestamp value="2025-11-19T09:27:22+00:00"/>
+          <identifier value="urn:uuid:eb212902-a6cf-488b-bbdb-b83f35db0e35"/>
+          <timestamp value="2025-11-19T10:09:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

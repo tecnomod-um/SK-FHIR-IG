@@ -27,16 +27,16 @@ Anonymous Patient (no stated gender), DoB Unknown
   "id" : "PatientAgeGenderSnomedExample",
   "meta" : {
     "profile" : [
-      "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile"
+      "http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile"
     ]
   },
   "extension" : [
     {
-      "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-ext",
       "valueInteger" : 45
     },
     {
-      "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext",
+      "url" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
       "valueCodeableConcept" : {
         "coding" : [
           {

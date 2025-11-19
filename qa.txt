@@ -1,9 +1,9 @@
 RESQIG : Validation Results
 =========================================
 
-err = 16, warn = 125, info = 42
+err = 4, warn = 125, info = 42
 IG Publisher Version: 2.0.26
-Generated Wed Nov 19 09:27:55 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = http://tecnomod-um.org)
+Generated Wed Nov 19 10:10:06 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1.0 (canonical = http://tecnomod-um.org)
  Build Errors : 1 / 706 / 0
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 2 / 2
@@ -29,7 +29,7 @@ Generated Wed Nov 19 09:27:55 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Condition-StrokeDiagnosisConditionExample : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Condition-StrokeRiskFactorConditionExample : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Encounter-StrokeEncounterExample : 0 / 1 / 3
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG : 2 / 0 / 16
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG : 0 / 0 / 16
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationRequest-discharge-medication-request-001 : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/MedicationStatement-PriorMedicationStatementExample : 1 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/Observation-AgeAtOnsetObservationExample : 0 / 2 / 1
@@ -52,15 +52,15 @@ Generated Wed Nov 19 09:27:55 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-discharge-medication-request-profile : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-first-hospital-ext : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-functional-score-observation-profile : 0 / 3 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-gender-snomed-ext : 2 / 0 / 1
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-gender-snomed-ext : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext : 0 / 3 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-initial-care-intensity-ext : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-ischemic-stroke-etiology-ext : 0 / 3 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-observation-timing-context-ext : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-onset-date-ext : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-onset-time-ext : 0 / 1 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-ext : 2 / 0 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-gender-snomed-profile : 2 / 0 / 1
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-ext : 0 / 0 / 1
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-gender-snomed-profile : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-prior-medication-statement-profile : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-procedure-timing-context-ext : 0 / 0 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-required-post-acute-care-ext : 0 / 0 / 1
@@ -69,7 +69,7 @@ Generated Wed Nov 19 09:27:55 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-carotid-imaging-procedure-profile : 0 / 2 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-circumstance-observation-profile : 0 / 2 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-diagnosis-condition-profile : 0 / 1 / 2
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-encounter-profile : 2 / 4 / 2
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-encounter-profile : 0 / 4 / 2
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-mechanical-procedure-profile : 0 / 4 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-registry-organization-profile : 0 / 2 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-risk-factor-condition-profile : 0 / 1 / 2
@@ -107,7 +107,7 @@ Generated Wed Nov 19 09:27:55 UTC 2025. FHIR version 5.0.0 for RES-Q-FHIR-IG#0.1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-thrombectomy-complication-vs : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-timing-metric-codes-vs : 0 / 1 / 1
  /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-vital-sign-codes-vs : 0 / 0 / 1
- /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-vs-gender-snomed : 2 / 0 / 1
+ /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-vs-gender-snomed : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
@@ -409,7 +409,7 @@ WARNING: StructureDefinition-gender-snomed-ext.html#/html/body/div/div/div/p/a a
 WARNING: StructureDefinition-gender-snomed-ext.profile.history.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-gender-snomed-ext.profile.json.html#/html/body/div/div/div/p/a at Line 561, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-gender-snomed-ext.profile.ttl.html#/html/body/div/div/div/p/a at Line 535, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-gender-snomed-ext.profile.xml.html#/html/body/div/div/div/p/a at Line 516, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-gender-snomed-ext.profile.xml.html#/html/body/div/div/div/p/a at Line 513, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext-definitions.html#/html/body/div/div/div/p/a at Line 333, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext-mappings.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext-testing.html#/html/body/div/div/div/p/a at Line 274, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -465,7 +465,7 @@ WARNING: StructureDefinition-patient-age-ext.html#/html/body/div/div/div/p/a at 
 WARNING: StructureDefinition-patient-age-ext.profile.history.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-patient-age-ext.profile.json.html#/html/body/div/div/div/p/a at Line 554, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-patient-age-ext.profile.ttl.html#/html/body/div/div/div/p/a at Line 526, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-patient-age-ext.profile.xml.html#/html/body/div/div/div/p/a at Line 507, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-patient-age-ext.profile.xml.html#/html/body/div/div/div/p/a at Line 506, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-patient-age-gender-snomed-profile-definitions.html#/html/body/div/div/div/p/a at Line 606, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-patient-age-gender-snomed-profile-examples.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: StructureDefinition-patient-age-gender-snomed-profile-mappings.html#/html/body/div/div/div/p/a at Line 906, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -801,7 +801,7 @@ WARNING: ValueSet-vs-gender-snomed.change.history.html#/html/body/div/div/div/p/
 WARNING: ValueSet-vs-gender-snomed.html#/html/body/div/div/div/p/a at Line 320, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-vs-gender-snomed.json.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-vs-gender-snomed.ttl.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
-WARNING: ValueSet-vs-gender-snomed.xml.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-vs-gender-snomed.xml.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 1152, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: codesystems.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
 WARNING: conformance.html#/html/body/div/div/div/p/a at Line 274, column 28: The link 'http://tecnomod-um.org' for "UMU" is a canonical link and is therefore unsafe with regard to versions
@@ -868,7 +868,6 @@ INFORMATION: Encounter/StrokeEncounterExample: Encounter.extension[1].value.ofTy
 WARNING: Encounter/StrokeEncounterExample: Encounter.type[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: Encounter/StrokeEncounterExample: Encounter.admission.admitSource: Reference to experimental CodeSystem http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs|0.1.0
 == fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG.json ==
-ERROR: ImplementationGuide.where(url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG.json - the canonical URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG) does not match the URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG). Use the special-url parameter if you really mean for it not to match
 INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.parameter[4].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.parameter[5].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
@@ -884,7 +883,6 @@ INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.p
 INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/RES-Q-FHIR-IG: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ImplementationGuide-RES-Q-FHIR-IG: URL Mismatch http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG vs http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ImplementationGuide/RES-Q-FHIR-IG
 == fsh-generated/resources/MedicationRequest-discharge-medication-request-001.json ==
 == fsh-generated/resources/MedicationStatement-PriorMedicationStatementExample.json ==
 ERROR: MedicationStatement/PriorMedicationStatementExample: MedicationStatement.encounter: Unable to resolve resource with reference 'EncounterExample'
@@ -951,8 +949,6 @@ WARNING: StructureDefinition/functional-score-observation-profile: StructureDefi
 WARNING: StructureDefinition/functional-score-observation-profile: StructureDefinition.snapshot.element[49].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/functional-score-observation-profile: StructureDefinition.snapshot: The slice 'valueQuantity' on path 'Observation.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 == fsh-generated/resources/StructureDefinition-gender-snomed-ext.json ==
-ERROR: StructureDefinition.where(url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-gender-snomed-ext.json - the canonical URL (http://tecnomod-um.org/StructureDefinition/gender-snomed-ext) does not match the URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext). Use the special-url parameter if you really mean for it not to match
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-gender-snomed-ext: URL Mismatch http://tecnomod-um.org/StructureDefinition/gender-snomed-ext vs http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/gender-snomed-ext
 == fsh-generated/resources/StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.json ==
 WARNING: StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext: StructureDefinition.differential.element[3].binding: The definition for the element 'Extension.value[x]' binds to the value set 'http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext: StructureDefinition.snapshot.element[4].binding: The definition for the element 'Extension.value[x]' binds to the value set 'http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs' which is experimental, but this structure is not labeled as experimental
@@ -968,11 +964,7 @@ WARNING: StructureDefinition.where(url = 'http://tecnomod-um.org/StructureDefini
 == fsh-generated/resources/StructureDefinition-onset-time-ext.json ==
 WARNING: StructureDefinition.where(url = 'http://tecnomod-um.org/StructureDefinition/onset-time-ext'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-patient-age-ext.json ==
-ERROR: StructureDefinition.where(url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-ext.json - the canonical URL (http://tecnomod-um.org/StructureDefinition/patient-age-ext) does not match the URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext). Use the special-url parameter if you really mean for it not to match
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-ext: URL Mismatch http://tecnomod-um.org/StructureDefinition/patient-age-ext vs http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext
 == fsh-generated/resources/StructureDefinition-patient-age-gender-snomed-profile.json ==
-ERROR: StructureDefinition.where(url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-gender-snomed-profile.json - the canonical URL (http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile) does not match the URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile). Use the special-url parameter if you really mean for it not to match
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-patient-age-gender-snomed-profile: URL Mismatch http://tecnomod-um.org/StructureDefinition/patient-age-gender-snomed-profile vs http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-gender-snomed-profile
 == fsh-generated/resources/StructureDefinition-prior-medication-statement-profile.json ==
 == fsh-generated/resources/StructureDefinition-procedure-timing-context-ext.json ==
 == fsh-generated/resources/StructureDefinition-required-post-acute-care-ext.json ==
@@ -992,13 +984,11 @@ WARNING: StructureDefinition/stroke-circumstance-observation-profile: StructureD
 INFORMATION: StructureDefinition/stroke-diagnosis-condition-profile: StructureDefinition.snapshot.element[16].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 WARNING: StructureDefinition/stroke-diagnosis-condition-profile: StructureDefinition.snapshot.element[29].binding: The definition for the element 'Condition.participant.function' binds to the value set 'http://hl7.org/fhir/ValueSet/participation-role-type|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-stroke-encounter-profile.json ==
-ERROR: StructureDefinition.where(url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-encounter-profile.json - the canonical URL (http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile) does not match the URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile). Use the special-url parameter if you really mean for it not to match
 WARNING: StructureDefinition/stroke-encounter-profile: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: StructureDefinition/stroke-encounter-profile: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: StructureDefinition/stroke-encounter-profile: StructureDefinition.snapshot.element[14].binding: The definition for the element 'Encounter.status' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-status|5.0.0' which is experimental, but this structure is not labeled as experimental
 INFORMATION: StructureDefinition/stroke-encounter-profile: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 WARNING: StructureDefinition/stroke-encounter-profile: StructureDefinition.snapshot.element[48].binding: The definition for the element 'Encounter.reason.value' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-reason|5.0.0' which is experimental, but this structure is not labeled as experimental
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/StructureDefinition-stroke-encounter-profile: URL Mismatch http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile vs http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile
 == fsh-generated/resources/StructureDefinition-stroke-mechanical-procedure-profile.json ==
 WARNING: StructureDefinition/stroke-mechanical-procedure-profile: StructureDefinition.differential.element[3].binding: The definition for the element 'Procedure.status' binds to the value set 'http://hl7.org/fhir/ValueSet/event-status' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/stroke-mechanical-procedure-profile: StructureDefinition.differential.element[5].binding: The definition for the element 'Procedure.code' binds to the value set 'http://tecnomod-um.org/ValueSet/perforation-procedures-vs' which is experimental, but this structure is not labeled as experimental
@@ -1077,5 +1067,3 @@ WARNING: ValueSet/thrombectomy-complication-vs: ValueSet: Published value sets S
 WARNING: ValueSet/timing-metric-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-vital-sign-codes-vs.json ==
 == fsh-generated/resources/ValueSet-vs-gender-snomed.json ==
-ERROR: ValueSet.where(url = 'http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed'): Conformance resource /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-vs-gender-snomed.json - the canonical URL (http://tecnomod-um.org/ValueSet/vs-gender-snomed) does not match the URL (http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed). Use the special-url parameter if you really mean for it not to match
-ERROR: /home/runner/work/RES-Q-FHIR-IG/RES-Q-FHIR-IG/fsh-generated/resources/ValueSet-vs-gender-snomed: URL Mismatch http://tecnomod-um.org/ValueSet/vs-gender-snomed vs http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed

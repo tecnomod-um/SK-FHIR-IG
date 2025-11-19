@@ -10,7 +10,6 @@ Alias: FHIR_Organization = http://hl7.org/fhir/StructureDefinition/Organization
 Alias: FHIR_Device = http://hl7.org/fhir/StructureDefinition/Device
 Alias: FHIR_CodeableConcept = http://hl7.org/fhir/StructureDefinition/CodeableConcept
 Alias: MedReqAdminLocCS = http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location 
-Alias: AbsentOrUnknownVS = https://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-medications-uv-ips.html
 
 // URLs for Medication ValueSets
 Alias: MedicationVS_URL = http://tecnomod-um.org/ValueSet/medication-vs
@@ -30,7 +29,7 @@ Id: medication-cs
 * #other "Other Medication" "A medication other than those specifically listed was prescribed at discharge"
 
 ValueSet: MedicationVS
-Id: discharge-medication-vs
+Id: medication-vs
 * ^url = MedicationVS_URL
 * ^version = "1.0.0"
 * ^name = "MedicationVS"
@@ -46,7 +45,6 @@ Id: discharge-medication-vs
 * include SCT#386952008 "Clopidogrel (substance)"
 * include SCT#372877000 "Heparin (substance)"
 * include codes from system MedicationCS_URL
-* include codes from valueset AbsentOrUnknownVS
 
 
 // ------------------ Profile: Discharge Medication Request (Updated) -----------------------

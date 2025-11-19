@@ -7,7 +7,7 @@ Alias: FHIR_Location = http://hl7.org/fhir/StructureDefinition/Location
 
 // URLs for Custom CodeSystems (Defined Below)
 Alias: StrokeArrivalModeCS_URL = http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs
-Alias: DischargeDeptCS_URL = http://tecnomod-um.org/CodeSystem/CodeSystem/discharge-dept-cs
+Alias: DischargeDeptCS_URL = http://tecnomod-um.org/CodeSystem/discharge-dept-cs
 Alias: InitialCareIntensityCS_URL = http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs
 Alias: StrokeDischargeDestinationCS_URL = http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs
 // URLs for Custom ValueSets (Defined Below - used in bindings)
@@ -217,4 +217,5 @@ InstanceOf: StrokeEncounterProfile
 * extension[isFirstHospital].valueBoolean = true
 * extension[initialCareIntensity].valueCodeableConcept = InitialCareIntensityCS_URL#icu-stroke "ICU / Stroke Unit"
 * extension[requiredPostAcuteCare].valueBoolean = false
-* extension[dischargeDepartmentService].valueCodeableConcept = SCT#309937004 "Neurology department (environment)"
+* extension[dischargeDepartmentService].valueCodeableConcept = DischargeDeptCS_URL#neurology "Neurology"
+

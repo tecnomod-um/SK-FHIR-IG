@@ -3,16 +3,13 @@ Alias: SCT = http://snomed.info/sct
 Alias: FHIR = http://hl7.org/fhir
 Alias: CondCat = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: CondVerStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status
-Alias: StrokeRiskUnknVS = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
 Alias: ClinicalStatusCondCS = http://terminology.hl7.org/CodeSystem/condition-clinical
 
 
 Alias: HemorrhagicStrokeBleedingReasonCS_URL = http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs
 Alias: StrokeEtiologyCS_URL = http://tecnomod-um.org/CodeSystem/stroke-etiology-cs
 Alias: StrokeDiagnosisVS_URL = http://tecnomod-um.org/ValueSet/stroke-diagnosis-vs
-Alias: StrokeRiskFactorSNOMEDVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-snomed-vs
 Alias: StrokeRiskFactorVS_URL = http://tecnomod-um.org/ValueSet/stroke-risk-factor-vs
-Alias: StrokeRiskFactorUnknVS_URL = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
 Alias: DischargeDestinationVS_URL = http://tecnomod-um.org/ValueSet/discharge-destination-vs
 Alias: AdmissionSourceVS_URL = http://tecnomod-um.org/ValueSet/admission-source-vs
 Alias: HemorrhagicStrokeBleedingReasonVS_URL = http://tecnomod-um.org/ValueSet/hemorrhagic-stroke-bleeding-reason-vs
@@ -49,12 +46,12 @@ Description: "SNOMED CT concepts representing final stroke-related diagnoses int
 * include SCT#95455008 "Thrombosis of cerebral veins (disorder)"
 
 // ValueSet for Stroke Risk Factors (with Displays)
-ValueSet: StrokeRiskFactorSNOMEDVS
-Id: stroke-risk-factor-snomed-vs
+ValueSet: StrokeRiskFactorVS
+Id: stroke-risk-factor-vs
 Title: "Stroke Risk Factor ValueSet"
-Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke."
-* ^url = StrokeRiskFactorSNOMEDVS_URL
-* ^name = "StrokeRiskFactorSNOMEDVS"
+Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."
+* ^url = StrokeRiskFactorVS_URL
+* ^name = "StrokeRiskFactorValueSet"
 * ^status = #active
 * ^version = "1.0.0"
 * ^date = "2025-10-07"
@@ -77,28 +74,6 @@ Description: "Defines the SNOMED CT codes for conditions or risk factors relevan
 * SCT#266257000 "Transient ischemic attack (disorder)"
 * SCT#422504002 "Ischemic stroke (disorder)"
 * SCT#230690007 "Cerebrovascular accident (disorder)"
-
-
-
-ValueSet: StrokeRiskFactorVS
-Id: stroke-risk-factor-vs
-Title: "Stroke Risk Factor ValueSet"
-Description: "Defines the SNOMED CT codes for conditions or risk factors relevant to stroke, including an option for unknown status."
-* ^url = StrokeRiskFactorVS_URL
-* ^name = "StrokeRiskFactorValueSet"
-* ^status = #active
-* ^version = "1.0.0"
-* ^date = "2025-10-07"
-* ^experimental = false
-* ^publisher = "Tecnomod"
-* ^contact[0].telecom[0].system = #email
-* ^contact[0].telecom[0].value = "alvaro.riquelmet@um.es"
-* ^jurisdiction = urn:iso:std:iso:3166#ES "Spain"
-* ^purpose = "To aggregate core stroke risk factors and unknown/absent problem concepts for comprehensive capture and validation."
-* ^copyright = "This value set includes SNOMED CT® content and may include HL7 IPS value set content. SNOMED CT® is distributed by SNOMED International."
-* ^immutable = false
-* include codes from valueset StrokeRiskFactorSNOMEDVS_URL
-* include codes from valueset StrokeRiskFactorUnknVS_URL
 
 
 ValueSet: DischargeDestinationVS
@@ -399,7 +374,7 @@ Description: "Defines a Condition profile for pre-existing or concurrent conditi
 * subject only Reference(Patient)
 
 * code 1..1 MS
-* code from StrokeRiskFactorVS (required)
+* code from StrokeRiskFactorVS_URL (required)
 
 * onset[x] MS
 * recordedDate MS

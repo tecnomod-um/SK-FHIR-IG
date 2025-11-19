@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/vs-gender-snomed | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed | *Version*:0.1.0 |
 | Active as of 2025-11-19 | *Computable Name*:GenderSNOMEDVS |
 
  
@@ -49,13 +49,13 @@ This value set contains 3 concepts
 {
   "resourceType" : "ValueSet",
   "id" : "vs-gender-snomed",
-  "url" : "http://tecnomod-um.org/ValueSet/vs-gender-snomed",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/ValueSet/vs-gender-snomed",
   "version" : "0.1.0",
   "name" : "GenderSNOMEDVS",
   "title" : "Gender (SNOMED CT)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-19T08:58:25+00:00",
+  "date" : "2025-11-19T09:26:24+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

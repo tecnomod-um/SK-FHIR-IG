@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile | *Version*:0.1.0 |
 | Active as of 2025-11-19 | *Computable Name*:StrokeEncounterProfile |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-encounter-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/stroke-encounter-profile",
   "version" : "0.1.0",
   "name" : "StrokeEncounterProfile",
   "title" : "Stroke Encounter Profile",
   "status" : "active",
-  "date" : "2025-11-19T08:58:25+00:00",
+  "date" : "2025-11-19T09:26:24+00:00",
   "publisher" : "UMU",
   "contact" : [
     {

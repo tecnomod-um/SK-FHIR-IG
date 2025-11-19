@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/patient-age-ext | *Version*:0.1.0 |
+| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext | *Version*:0.1.0 |
 | Draft as of 2025-11-19 | *Computable Name*:PatientAge |
 
 Patient age in years represented as an integer.
@@ -48,12 +48,12 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-ext.csv)
       "valueCode" : "can-bind"
     }
   ],
-  "url" : "http://tecnomod-um.org/StructureDefinition/patient-age-ext",
+  "url" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext",
   "version" : "0.1.0",
   "name" : "PatientAge",
   "title" : "Patient Age (integer)",
   "status" : "draft",
-  "date" : "2025-11-19T08:58:25+00:00",
+  "date" : "2025-11-19T09:26:24+00:00",
   "publisher" : "UMU",
   "contact" : [
     {
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-age-ext.csv)
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://tecnomod-um.org/StructureDefinition/patient-age-ext"
+        "fixedUri" : "http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG/StructureDefinition/patient-age-ext"
       },
       {
         "id" : "Extension.value[x]",

@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: RES-Q-FHIR-IG
-canonical: http://tecnomod-um.org
+canonical: http://tecnomod-um.org/ImplementationGuide/RES-Q-FHIR-IG
 name: RES-Q-IG
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
@@ -20,9 +20,6 @@ publisher:
   url: http://tecnomod-um.org
   # email: test@example.org
   
-url: https://tecnomod-um.org
-baseurl: /RES-Q-FHIR-IG
-
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -249,9 +246,9 @@ pages:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 parameters:
-  broken-links: warning
-  check-urls: true  
-  excludettl: true
+  #broken-links: warning
+  #check-urls: true  
+  #excludettl: true
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
